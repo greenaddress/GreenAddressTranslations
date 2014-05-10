@@ -1,1317 +1,357 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "Project-Id-Version: greenaddress-wallet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-31 23:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Michael Bogdan <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-04-09 13:40+0000\n"
+"PO-Revision-Date: 2014-04-30 08:36-0400\n"
+"Last-Translator: GreenAddress <info@greenaddress.it>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.net\n"
+
+#: gaservices/tx_sender/docs/gait_domain.py:255
+#, python-format
+msgid "%s() (built-in function)"
+msgstr "%s() (built-in function)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:256
+#: gaservices/tx_sender/docs/gait_domain.py:313
+#: gaservices/tx_sender/docs/gait_domain.py:325
+#: gaservices/tx_sender/docs/gait_domain.py:338
+#, python-format
+msgid "%s() (in module %s)"
+msgstr "%s() (in module %s)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:259
+#, python-format
+msgid "%s (built-in variable)"
+msgstr "%s (built-in variable)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:260
+#: gaservices/tx_sender/docs/gait_domain.py:351
+#, python-format
+msgid "%s (in module %s)"
+msgstr "%s (in module %s)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:276
+#, python-format
+msgid "%s (built-in class)"
+msgstr "%s (built-in class)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:277
+#, python-format
+msgid "%s (class in %s)"
+msgstr "%s (class in %s)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:317
+#, python-format
+msgid "%s() (%s.%s method)"
+msgstr "%s() (%s.%s method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:319
+#, python-format
+msgid "%s() (%s method)"
+msgstr "%s() (%s method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:329
+#, python-format
+msgid "%s() (%s.%s static method)"
+msgstr "%s() (%s.%s static method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:332
+#, python-format
+msgid "%s() (%s static method)"
+msgstr "%s() (%s static method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:342
+#, python-format
+msgid "%s() (%s.%s class method)"
+msgstr "%s() (%s.%s class method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:345
+#, python-format
+msgid "%s() (%s class method)"
+msgstr "%s() (%s class method)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:355
+#, python-format
+msgid "%s (%s.%s attribute)"
+msgstr "%s (%s.%s attribute)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:357
+#, python-format
+msgid "%s (%s attribute)"
+msgstr "%s (%s attribute)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:436
+#, python-format
+msgid "%s (module)"
+msgstr "%s (module)"
+
+#: gaservices/tx_sender/docs/gait_domain.py:540
+msgid "Deprecated"
+msgstr "Deprecated"
+
+#: gaservices/tx_sender/docs/gait_domain.py:698
+msgid " (deprecated)"
+msgstr " (deprecated)"
+
+#: gaservices/tx_sender/docs/gait_autodoc.py:535
+#, python-format
+msgid "alias of :class:`%s`"
+msgstr "alias of :class:`%s`"
 
 #: utils/rate_limiter.py:40
 msgid "Request rate limit exceeded"
 msgstr "Anfragenratenlimit überschritten"
 
-#: templates/wallet/wallet.html:6 templates/website/index.html:116
-msgid "Wallet"
-msgstr "Brieftasche"
+#: templates/website/pay.html:6
+msgid "Send funds"
+msgstr "Guthaben senden"
 
-#: templates/wallet/nav.html:4 templates/wallet/partials/wallet_info.html:4
-msgid "Balance"
-msgstr "Guthaben"
+#: templates/website/pay.html:9
+msgid "Please send"
+msgstr "Bitte senden Sie"
 
-#: templates/wallet/nav.html:5
-#: templates/wallet/partials/wallet_transactions.html:4
-msgid "Transactions"
-msgstr "Transaktionen"
-
-#: templates/wallet/nav.html:6 templates/wallet/partials/wallet_send.html:4
-#: templates/wallet/partials/wallet_send.html:74
-msgid "Send Money"
-msgstr "Geld senden"
-
-#: templates/wallet/nav.html:7 templates/wallet/partials/wallet_receive.html:4
-msgid "Receive Money"
-msgstr "Geld empfangen"
-
-#: templates/wallet/nav.html:8
-#: templates/wallet/partials/wallet_address_book.html:4
-msgid "Address Book"
-msgstr "Addressenbuch"
-
-#: templates/wallet/nav.html:9
-#: templates/wallet/partials/wallet_settings.html:4
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: templates/wallet/nav.html:10
-msgid "Update now"
-msgstr "Jetzt aktualisieren"
-
-#: templates/wallet/nav.html:11
-#: templates/wallet/partials/wallet_modal_logout_other_session.html:10
-#: templates/wallet/partials/wallet_modal_logout.html:11
-msgid "Logout"
-msgstr "Logout"
-
-#: templates/wallet/nav.html:16 templates/website/faq.html:5
-#: templates/base/base.html:106
+#: templates/website/faq.html:5 templates/wallet/nav.html:16
+#: templates/base/base.html:107
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/wallet/nav.html:16 templates/website/support.html:5
-#: templates/base/base.html:107
-msgid "Support"
-msgstr "Hilfe"
+#: templates/website/faq.html:11
+msgid "Frequently Asked Questions"
+msgstr "Häufige Fragen"
 
-#: templates/wallet/nav.html:18
-msgid "Last login"
-msgstr "Letzter Login"
+#: templates/website/faq.html:13
+msgid "Can I migrate easily from another wallet (like blockchain.info)?  Can I sweep private keys funds into my wallet?"
+msgstr "Kann ich einfach von anderen Diensten (wie blockchain.info) wechseln? Kann ich Guthaben auf privaten Schlüsseln in meine Brieftasche übertragen?"
 
-#: templates/wallet/nav.html:21
-msgid "country"
-msgstr "Land"
+#: templates/website/faq.html:14
+msgid "Yes and yes, you can, just have a look in the Receive Money tab, put your private key in the right field and client side the funds will be swept into your wallet. Voilà!"
+msgstr "Ja und Ja, Sie können! Gehen Sie einfach auf den Reiter 'Geld empfangen', geben Sie ihren privaten Schlüssel in das richtige Feld ein, und das Guthaben wird in Ihre Brieftasche übertragen. Voilá!"
 
-#: templates/wallet/nav.html:22
-msgid "unknown country"
-msgstr "unbekanntes Land"
+#: templates/website/faq.html:16
+msgid "Can I try your service?  Do you have a testnet/UAT version?"
+msgstr "Kann ich Ihren Dienst ausprobieren? Haben Sie eine Testnet/UAT-Version?"
 
-#: templates/wallet/partials/signup_4_2factor.html:7
-#: templates/wallet/partials/signup_1_init.html:13
-#: templates/wallet/partials/signup_2_pin.html:7
-#: templates/wallet/partials/signup_3_oauth.html:7
-msgid "Step"
-msgstr "Schritt"
+#: templates/website/faq.html:17
+msgid "Yes and yes, you can try our testnet version on "
+msgstr "Ja und ja. Sie können unsere Testnet-Version ausprobieren unter "
 
-#: templates/wallet/partials/signup_4_2factor.html:7
-#: templates/wallet/partials/signup_1_init.html:13
-#: templates/wallet/partials/signup_2_pin.html:7
-#: templates/wallet/partials/signup_3_oauth.html:7
-msgid "of"
-msgstr "von"
+#: templates/website/faq.html:17
+msgid " and you can find a testnet faucet on "
+msgstr " und Sie können einen Testnet-Faucet finden unter "
 
-#: templates/wallet/partials/signup_4_2factor.html:14
-msgid "Don't compromise on security"
-msgstr "Machen Sie keine Kompromisse bezüglich Sicherheit"
+#: templates/website/faq.html:18
+msgid " Don't forget to send the testnet coins back to the faucet when you are done!"
+msgstr " Vergessen Sie nicht das Testnet-Guthaben zurück an den Faucet zu schicken, wenn Sie fertig sind!"
 
-#: templates/wallet/partials/signup_4_2factor.html:14
-msgid "Set up two factor authentication"
-msgstr "Richten Sie Zwei-Faktor-Authentifikation ein"
+#: templates/website/faq.html:21
+msgid "Do you support other platforms than a web page?"
+msgstr "Unterstützen Sie andere Plattformen als die Webseite?"
 
-#: templates/wallet/partials/signup_4_2factor.html:17
-msgid ""
-"We strongly suggest you to set up two factor authentication, this will make "
-"your wallet much more secure and will let you some additional features such "
-"as Spending Limits and Delayed Payments."
-msgstr ""
-"Wir empfehlen dringen dass Sie Zwei-Faktor-Authentifikation einrichten, dies "
-"wird Ihre Brieftasche viel sicherer machen und wird zusätzliche Funktionen "
-"frei schalten wie Ausgabegrenzen und verzögerte Zahlungen."
+#: templates/website/faq.html:22
+msgid "Yes! You can download an Android app"
+msgstr "Ja! Sie können eine Android-App herunterladen"
 
-#: templates/wallet/partials/signup_4_2factor.html:18
-msgid ""
-"If you set it up to issue a transaction you will not only need to login to "
-"your wallet but also confirm it with a code sent to you via email, SMS or "
-"google authenticator as per your choice."
-msgstr ""
-"Wenn sie diese einrichten müssen Sie, um eine Transaktion zu vollziehen, "
-"sich nicht nur anmelden sondern jene mit einem Code bestätigen, der an Sie "
-"gesendet wird per Email, SMS oder Google Authenticator, wie Sie es wünschen."
+#: templates/website/faq.html:22
+msgid "from the Google Play store"
+msgstr "vom Google Play Store"
 
-#: templates/wallet/partials/signup_4_2factor.html:23
-msgid "Take me to my wallet!"
-msgstr "Zu meiner Brieftasche!"
+#: templates/website/faq.html:22
+msgid "and a Chrome packaged app"
+msgstr "und eine Chrome App"
 
-#: templates/wallet/partials/wallet_settings.html:7
-msgid "Change language to"
-msgstr "Sprache ändern in"
+#: templates/website/faq.html:22
+msgid "from the Chrome Web Store"
+msgstr "aus dem Chrome Web Store"
 
-#: templates/wallet/partials/wallet_settings.html:24
-msgid "Currency"
-msgstr "Währung"
+#: templates/website/faq.html:22
+msgid "Both apps are open source and you can "
+msgstr "Both apps are open source and you can "
 
-#: templates/wallet/partials/wallet_settings.html:25
-msgid "Select your currency and pricing source."
-msgstr "Wählen Sie Ihre Währung und Preisquelle"
+#: templates/website/faq.html:22
+msgid "see the source code of each on GitHub"
+msgstr "see the source code of each on GitHub"
 
-#: templates/wallet/partials/wallet_settings.html:30
-msgid "Pricing source to use"
-msgstr "Preisangabe von"
+#: templates/website/faq.html:22
+msgid "It also uses <a href=\"http://electrum.org\">Electrum</a> servers for additional transaction verification, so it should be safe to use even if our servers are compromised."
+msgstr "It also uses <a href=\"http://electrum.org\">Electrum</a> servers for additional transaction verification, so it should be safe to use even if our servers are compromised."
 
-#: templates/wallet/partials/wallet_settings.html:41
-msgid "Show amounts in"
-msgstr "Zeige Guthaben in"
+#: templates/website/faq.html:25
+msgid "But what happens if your service goes away? Will I lose my coins?"
+msgstr "Was passiert wenn Ihr Dienst nicht mehr verfügbar ist? Werde ich mein Guthaben verlieren?"
 
-#: templates/wallet/partials/wallet_settings.html:50
+#: templates/website/faq.html:27
+msgid "GreenAddress.it signs each transaction with its own key in addition to client-side signing by user's keys, and funds are stored in 2-of-2 multisignature outputs requiring both signatures to spend. The drawback of it is that you cannot control your funds without GreenAddress.it's signature, so you are right to worry that you can lose your coins."
+msgstr "GreenAddress.it signiert jede Transaktion mit unserem eigenen Schlüssel zusätzlich zur Signatur mit den Schlüsseln der Nutzer, und alle Guthaben sind in 2-von-2 Multisignaturausgängen gesichert, so dass beide Signaturen notwendig sind um das Guthaben auszugeben. Der Nachteil davon ist dass Sie Ihr Guthaben nicht ohne die Signatur von GreenAddress.it benutzen können, so dass Sie richtigerweise befürchten Ihr Guthaben verlieren zu können."
+
+#: templates/website/faq.html:29
+msgid "But! We have solved this issue by providing nLockTime transactions which essentially make deposits 'expire' after some time, which allows redeeming them without our intervention after this pre-set period of time. It is enabled by default when you have email notifications and two factor enabled."
+msgstr "Aber! Wir haben dieses Problem gelöst indem wir nLockTime-Transaktionen zur Verfügung stellen, welche Ihre Einlagen 'ablaufen' lassen, so dass Ihnen diese auch ohne unseren Teilnahme nach einer im Voraus festgelegten Zeit wieder zur Verfügung stehen. Dies ist automatisch eingestellt, wenn Sie Emailbenachrichtigungen und Zwei-Faktor-Authentifizierung aktiviert haben."
+
+#: templates/website/faq.html:31
+msgid "This allows you to keep your ease of mind even in case GreenAddress.it disappears with its keys."
+msgstr "So können Sie Ruhe bewahren, auch wenn GreenAddress.it mit allen Schlüsseln verschwindet."
+
+#: templates/website/faq.html:33
+msgid "It also means that every time the funds expire the user has to re-transfer them. This can be automated on login and notified in advance via email or manually done."
+msgstr "Dies bedeutet aber auch dass jedes abgelaufene Guthaben erneut transferiert werden muss. Dieser Vorgang kann bei Login automatisiert und vorher per Email angekündigt, oder manuell erledigt werden."
+
 #: templates/website/faq.html:35
+msgid "For redeeming the funds after expiration, you can use a tool we've developed specifically for this purpose - see "
+msgstr "Um das Guthaben nach Ablauf zu erhalten können Sie ein Werkzeug verwenden das wir speziell für diesen Zweck entworfen haben - siehe "
+
+#: templates/website/faq.html:35
+#: templates/wallet/partials/wallet_settings.html:50
 msgid "and"
 msgstr "und"
 
-#: templates/wallet/partials/wallet_settings.html:63
-msgid "Notifications"
-msgstr "Benachrichtigungen"
+#: templates/website/faq.html:35
+msgid "its project on GitHub"
+msgstr "dessen Projektseite auf GitHub"
 
-#: templates/wallet/partials/wallet_settings.html:64
-msgid ""
-"Notifications allow for improved security when configured for outgoing and "
-"for most up to date information when configured for incoming"
-msgstr ""
-"Benachrichtigungen bieten höhere Sicherheit wenn eingerichtet für ausgehende "
-"und für aktuellste Informationen wenn eingerichtet für eingehende"
+#: templates/website/faq.html:35
+msgid "It's open source!"
+msgstr "Es ist freie Software!"
 
-#: templates/wallet/partials/wallet_settings.html:70
-msgid "Send incoming transaction notification by"
-msgstr "Sende Benachrichtigungen über eingehende Transaktionen via"
+#: templates/website/faq.html:38
+msgid "How is your wallet better than the others out there?"
+msgstr "Warum ist Ihr Dienst besser als andere Angebote?"
 
-#: templates/wallet/partials/wallet_settings.html:76
-#: templates/wallet/partials/wallet_settings.html:96
-msgid "email"
-msgstr "Email"
+#: templates/website/faq.html:40
+msgid "For a simple high level comparison with a couple of web wallets please see "
+msgstr "Einen einfachen Vergleich mit ein paar anderen Webdiensten sehen Sie auf "
 
-#: templates/wallet/partials/wallet_settings.html:83
-#: templates/wallet/partials/wallet_settings.html:103
-#: templates/wallet/partials/wallet_settings.html:194
-msgid "SMS"
-msgstr "SMS"
+#: templates/website/faq.html:40
+msgid "this"
+msgstr "dieser"
 
-#: templates/wallet/partials/wallet_settings.html:90
-msgid "Send outgoing transaction notification by"
-msgstr "Sende Benachrichtigungen über ausgehende Transaktionen via"
+#: templates/website/faq.html:40
+msgid "table"
+msgstr "Tabelle"
 
-#: templates/wallet/partials/wallet_settings.html:109
-#: templates/wallet/partials/wallet_settings.html:463
-msgid "NOTE"
-msgstr "BEACHTE"
+#: templates/website/faq.html:41
+msgid "We offer all the advantages of a web wallet:"
+msgstr "Wir bieten alle Vorteile eines Webdienstes"
 
-#: templates/wallet/partials/wallet_settings.html:109
-msgid ""
-"You need to have email Two Factor Authentication enabled for this feature to "
-"work."
-msgstr ""
-"Sie müssen Email Zwei-Faktor-Authentifizierungen aktiviert haben für diese "
-"Funktion."
+#: templates/website/faq.html:43
+msgid "Ubiquitously available"
+msgstr "Überall verfügbar"
 
-#: templates/wallet/partials/wallet_settings.html:117
+#: templates/website/faq.html:44
+msgid "Social/email/SMS integration"
+msgstr "Soziale/Email/SMS Integration"
+
 #: templates/website/faq.html:45
+#: templates/wallet/partials/wallet_settings.html:117
 msgid "Two factor authentication"
 msgstr "Zwei-Faktor-Authentifikation"
 
-#: templates/wallet/partials/wallet_settings.html:118
-msgid "Set any or all two factor: you can choose which one when needed!"
-msgstr ""
-"Richten Sie eine oder alle Zwei-Faktor-Authentifikationen ein: Sie können "
-"wählen nach Bedarf!"
+#: templates/website/faq.html:46
+msgid "Transaction limits/restrictions"
+msgstr "Transaktionslimits und -einschränkungen"
 
-#: templates/wallet/partials/wallet_settings.html:126
-#, fuzzy
-msgid "Email"
-msgstr "Email"
+#: templates/website/faq.html:47
+msgid "Green address instant transaction confirmation"
+msgstr "Green address sofortige Transaktionsbestätigung"
 
-#: templates/wallet/partials/wallet_settings.html:130
-#: templates/wallet/partials/wallet_2fa.html:74
-msgid "Your email address"
-msgstr "Ihre Emailadresse"
+#: templates/website/faq.html:49
+msgid "And the advantages of a local software wallet like "
+msgstr "Und die Vorteile einer lokal ausgeführten Software wie "
 
-#: templates/wallet/partials/wallet_settings.html:135
-#: templates/wallet/partials/wallet_2fa.html:79
-msgid "Please enter your email"
-msgstr "Bitte geben Sie Ihre Emailadresse ein"
+#: templates/website/faq.html:51
+msgid "Mnemonic seed backup once and forget"
+msgstr "Einmalig notwendiges mnemonisches Backup, danach nie wieder"
 
-#: templates/wallet/partials/wallet_settings.html:137
-#: templates/wallet/partials/wallet_settings.html:154
-#: templates/wallet/partials/wallet_settings.html:181
-#: templates/wallet/partials/wallet_settings.html:205
-#: templates/wallet/partials/wallet_settings.html:221
-#: templates/wallet/partials/wallet_settings.html:245
-#: templates/wallet/partials/wallet_settings.html:261
-#: templates/wallet/partials/wallet_2fa.html:55
-#: templates/wallet/partials/wallet_2fa.html:81
-#: templates/wallet/partials/wallet_2fa.html:102
-#: templates/wallet/partials/wallet_2fa.html:124
-#: templates/wallet/partials/wallet_2fa.html:144
-#: templates/wallet/partials/wallet_2fa.html:166
-#: templates/wallet/partials/wallet_2fa.html:186
-msgid "Enable"
-msgstr "Aktivieren"
+#: templates/website/faq.html:52
+msgid "Your private keys are never stored on our servers, not even encrypted"
+msgstr "Ihre privaten Schlüssel sind nie auf unseren Servern gespeichert, nicht einmal in verschlüsselter Form"
 
-#: templates/wallet/partials/wallet_settings.html:144
-#, fuzzy
-msgid ""
-"You need to provide one code from your email to set up the two factor "
-"authentication.<br>                    Please open your email and provide "
-"the code."
-msgstr ""
-"Sie müssen einen Code von Ihrer Email eingeben um die Zwei-Faktor-"
-"Authentifizierung zu aktivieren<br>Bitte öffnen Sie Ihre Email und geben Sie "
-"den Code ein."
+#: templates/website/faq.html:53
+msgid "No lost time synchronizing the client with the full Bitcoin blockchain"
+msgstr "Keine verschwendete Zeit um ihre Brieftasche mit der vollen Bitcoin-Blockchain zu synchronisieren"
 
-#: templates/wallet/partials/wallet_settings.html:147
-#: templates/wallet/partials/wallet_2fa.html:95
-msgid "Email code"
-msgstr "Email Code"
+#: templates/website/faq.html:55
+msgid "Simply put, we offer the best web wallet available: We include more features and security safeguards than the competition with a simple interface through your browser or phone."
+msgstr "Einfach gesprochen bieten wir den besten Webdienst an: Wir haben mehr Funktionen und Sicherheitsmerkmale als die Konkurrenz zusammen mit einem einfachen Interface in ihrem Browser oder Smartphone."
 
-#: templates/wallet/partials/wallet_settings.html:152
-#: templates/wallet/partials/wallet_settings.html:179
-#: templates/wallet/partials/wallet_settings.html:219
-#: templates/wallet/partials/wallet_settings.html:259
-#: templates/wallet/partials/wallet_2fa.html:53
-#: templates/wallet/partials/wallet_2fa.html:100
-#: templates/wallet/partials/wallet_2fa.html:142
-#: templates/wallet/partials/wallet_2fa.html:184
-msgid "Please enter received code"
-msgstr "Bitte geben Sie den erhaltenen Code ein"
+#: templates/website/faq.html:58
+msgid "Where are my Bitcoin keys stored?"
+msgstr "Wo sind meine Bitcoin-Schlüssel gespeichert?"
 
-#: templates/wallet/partials/wallet_settings.html:154
-#: templates/wallet/partials/wallet_settings.html:181
-#: templates/wallet/partials/wallet_settings.html:221
-#: templates/wallet/partials/wallet_settings.html:261
-#: templates/wallet/partials/wallet_modal_custom_login.html:25
-#: templates/wallet/partials/wallet_modal_logout_other_session.html:9
-#: templates/wallet/partials/wallet_2fa.html:102
-#: templates/wallet/partials/wallet_2fa.html:144
-#: templates/wallet/partials/wallet_2fa.html:186
-#: templates/wallet/partials/wallet_modal_2fa.html:32
-#: templates/wallet/partials/wallet_modal_pin.html:22
-#: templates/wallet/partials/wallet_modal_logout.html:10
-#: templates/wallet/partials/signuplogin/redeem_password_modal.html:23
-msgid "Cancel"
-msgstr "Abbrechen"
+#: templates/website/faq.html:59
+msgid "Your keys are not stored. They are derived from your mnemonic passphrase and never sent to the server."
+msgstr "Ihre Schlüssel sind nicht gespeichert. Sie sind von ihrer mnemonischen Passphrase abgeleitet und niemals an den Server gesendet."
 
-#: templates/wallet/partials/wallet_settings.html:167
-#, fuzzy
-msgid "Google Authenticator"
-msgstr "Aktiviere Google Authenticator"
+#: templates/website/faq.html:61
+msgid "How does the PIN work?"
+msgstr "Wie funktioniert die PIN?"
 
-#: templates/wallet/partials/wallet_settings.html:170
-#, fuzzy
-msgid ""
-"You need to provide one Google Authenticator code to set up the two factor "
-"authentication.<br>                    Please scan the QR code below, and "
-"provide the code."
-msgstr ""
-"Sie müssen einen Code bereit stellen um die Zwei-Faktor-Authentifikation "
-"einzurichten.<br>                Bitte prüfen Sie Ihre Telefon und geben Sie "
-"den Code ein."
+#: templates/website/faq.html:62
+msgid "A random password (256 AES) is created and used to encrypt your mnemonics and store them on your device in encrypted form. The random password is sent server side and destroyed on the client. When during login the user provides the right PIN a mechanism will ask the server for the password which is used to decrypt the mnemnonic passphrase stored on your device and get you in your wallet. If the PIN is provided wrong for 3 times in a row the password is then deleted from our servers."
+msgstr "Ein zufälliges Passwort (256 AES) wird erstellt und benutzt um Ihre Passphrase zu verschlüsseln und in dieser Form auf Ihrem Gerät zu speichern. Das zufällige Passwort wird dann an den Server geschickt und auf Nutzerseite vernichtet. Wenn der Nutzer beim Login die korrekte PIN angibt wird ein Mechanismus den Server nach dem Passwort fragen, was dann verwendet wird um die Passphrase auf Ihrem Gerät zu entschlüsseln und Ihnen Zugriff auf Ihre Brieftasche zu gewähren. Wenn die PIN drei mal in Folge falsch eingegeben wird löschen wir das Passwort von unseren Servern."
 
-#: templates/wallet/partials/wallet_settings.html:173
-#: templates/wallet/partials/signup_1_init.html:36
-#: templates/wallet/partials/wallet_receive.html:39
-#: templates/wallet/partials/wallet_receive.html:59
-#: templates/wallet/partials/wallet_2fa.html:33
-#: templates/wallet/partials/signuplogin/header_pay.html:12
-msgid "Show QR Code"
-msgstr "Zeige QR Code"
+#: templates/website/faq.html:65
+msgid "When are you going to offer feature XYZ? I would like to access my wallet in my language, can you add it?"
+msgstr "Wann bieten sie die neue Funktion XYZ? I möchte Zugriff auf meine Brieftasche in meiner Sprache haben, wann bieten Sie das an?"
 
-#: templates/wallet/partials/wallet_settings.html:174
-msgid "Code"
-msgstr ""
+#: templates/website/faq.html:67
+msgid "We are constantly looking for feedback from our users, if you want to provide some feedback or get involved feel free to PM on reddit (greenaddress) or send us an email at "
+msgstr "Wir suchen stets Rückmeldungen von unseren Nutzern. Wenn Sie mit uns in Kontakt treten oder mitmachen wollen, schreiben Sie uns einfach eine PM auf Reddit (greenaddress) oder eine Email unter "
 
-#: templates/wallet/partials/wallet_settings.html:198
-#: templates/wallet/partials/wallet_settings.html:238
-#: templates/wallet/partials/wallet_2fa.html:118
-#: templates/wallet/partials/wallet_2fa.html:160
-msgid "Your phone number"
-msgstr "Ihre Telefonnummer"
+#: templates/website/faq.html:68
+msgid "We have many features and language support for many languages in the pipeline, please check with us if you want to be kept up to date with development and please be patient :)"
+msgstr "Wir haben viele Funktionen und Sprachen in Entwicklung, bitte melden Sie sich wenn sie auf dem aktuellen Stand der Entwicklung bleiben möchten. Und haben Sie ein wenig Geduld :)"
 
-#: templates/wallet/partials/wallet_settings.html:203
-#: templates/wallet/partials/wallet_settings.html:243
-#: templates/wallet/partials/wallet_2fa.html:122
-#: templates/wallet/partials/wallet_2fa.html:164
-msgid "+NN... Please enter your phone"
-msgstr "+NN... Bitte geben Sie Ihre Telefonnummer ein"
+#: templates/website/faq.html:70
+msgid "Do you have a donate button for linking to users payment URLs?"
+msgstr "Haben Sie einen Spendenbutton um zur Bezahlungs-URL von Nutzern zu verlinken?"
 
-#: templates/wallet/partials/wallet_settings.html:211
-#, fuzzy
-msgid ""
-"You need to provide one SMS code to set up the two factor authentication."
-"<br>                    Please check your phone and provide the code."
-msgstr ""
-"Sie müssen einen SMS Code eingeben um die Zwei-Faktor-Authentifizierung "
-"einzurichten.<br>                Bitte prüfen Sie Ihr Handy und geben Sie "
-"den Code ein."
+#: templates/website/faq.html:72
+msgid "Sure have a look below (let us know if you have created one!)."
+msgstr "Sicher, sehen Sie unten (lassen Sie uns wissen falls Sie selbst einen erstellen!)."
 
-#: templates/wallet/partials/wallet_settings.html:214
-#: templates/wallet/partials/wallet_2fa.html:137
-msgid "SMS code"
-msgstr "SMS Code"
+#: templates/website/faq.html:76
+msgid "What exactly is an 'instant greenaddress transaction'?"
+msgstr "Was genau ist eine 'sofortige greenaddress Transaktion'?"
 
-#: templates/wallet/partials/wallet_settings.html:234
-#: templates/wallet/partials/wallet_2fa.html:13
-msgid "Phone"
-msgstr "Telefon"
+#: templates/website/faq.html:77
+msgid "From the Bitcoin "
+msgstr "Von der Bitcoin "
 
-#: templates/wallet/partials/wallet_settings.html:251
-#, fuzzy
-msgid ""
-"You need to provide one phone code to set up the two factor authentication."
-"<br>                    Please check your phone and provide the code."
-msgstr ""
-"Sie müssen einen Code bereit stellen um die Zwei-Faktor-Authentifikation "
-"einzurichten.<br>                Bitte prüfen Sie Ihre Telefon und geben Sie "
-"den Code ein."
+#: templates/website/faq.html:78
+msgid "Your transactions are protected by both your signature and by a signature we apply when we get your permission via two factor. With this protection, comes the fact that people receiving Bitcoin from you can trust the funds instantly as we provide a 'special' signature to your transaction when you require instant confirmation."
+msgstr "Ihre Transaktionen sind sowohl durch Ihre Signatur als auch unsere geschützt, wenn wir Ihre Genehmigung durch Zwei-Faktor-Authentifizierung erhalten. Dadurch können Empfänger Ihres Guthabens diesem sofort vertrauen, da wir eine 'besondere' Signatur zu Ihrer Transaktion hinzufügen wenn Sie sofortige Bestätigung benötigen."
 
-#: templates/wallet/partials/wallet_settings.html:254
-#: templates/wallet/partials/wallet_2fa.html:179
-msgid "Phone code"
-msgstr "Telefon Code"
+#: templates/website/faq.html:81
+msgid "What about cookies?"
+msgstr "Was ist mit Cookies?"
 
-#: templates/wallet/partials/wallet_settings.html:273
-msgid "Spending limits"
-msgstr "Ausgabegrenzen"
+#: templates/website/faq.html:83
+msgid "To enable GreenAddress.it to recognize your device and to provide features to you, we use cookies. Cookies are unique identifiers that we transfer to your device to enable our services to recognize your device and to provide features such as providing you with protection from Cross-site request forgery and display the site in the language you have selected or to not show you the EU cookie compliance info banner."
+msgstr "Um GreenAddress.it zu ermöglichen Ihre Geräte wieder zu erkennen und Ihnen Funktionen zur Verfügung zu stellen benutzen wir Cookies. Cookies sind einzigartige Identifikatoren, welche uns erlauben Ihre Geräte zu erkennen und Ihnen etwa Schutz vor Cross-Site-Request-Fälschungen zu geben, die Seite in Ihrer bevorzugten Sprache anzuzeigen, oder Ihnen nicht immer das Banner über das Einhalten der EU Cookie Direktive anzuzeigen."
 
-#: templates/wallet/partials/wallet_settings.html:274
-msgid ""
-"Set some limits for which you won't be asked for two factor for super "
-"userfriendly payments."
-msgstr ""
-"Setzen Sie Grenzen unter denen sie nicht nach Zwei-Faktor-Authentifikation "
-"gefragt werden für super-nutzerfreundliche Zahlungen."
+#: templates/website/faq.html:88
+msgid "Yes! You can see our <a href=\"http://api.greenaddress.it/\">API documentation at GitHub Pages</a>. The documentation is in very early stages and may be not up to date, and the API is by no means stable."
+msgstr "Yes! You can see our <a href=\"http://api.greenaddress.it/\">API documentation at GitHub Pages</a>. The documentation is in very early stages and may be not up to date, and the API is by no means stable."
 
-#: templates/wallet/partials/wallet_settings.html:282
-#: templates/wallet/partials/wallet_settings.html:322
-msgid "Enable delayed payments"
-msgstr "Aktiviere verzögerte Zahlungen"
-
-#: templates/wallet/partials/wallet_settings.html:283
-#: templates/wallet/partials/wallet_settings.html:323
-#: templates/wallet/partials/wallet_settings.html:423
-#: templates/wallet/partials/signup_3_oauth.html:25
-#: templates/wallet/partials/signuplogin/base.html:47
-msgid "Coming soon"
-msgstr "Kommt bald"
-
-#: templates/wallet/partials/wallet_settings.html:291
-#: templates/wallet/partials/wallet_settings.html:297
-#: templates/wallet/partials/wallet_settings.html:303
-#: templates/wallet/partials/wallet_settings.html:331
-#: templates/wallet/partials/wallet_send.html:38
-#: templates/wallet/partials/wallet_receive.html:12
-#: templates/wallet/partials/wallet_modal_tx_details.html:22
-#: templates/wallet/partials/wallet_modal_tx_details.html:34
-msgid "Amount"
-msgstr "Betrag"
-
-#: templates/wallet/partials/wallet_settings.html:313
-msgid "Delayed payments"
-msgstr "Verzögerte Zahlungen"
-
-#: templates/wallet/partials/wallet_settings.html:314
-msgid ""
-"Delay transaction for super ease of mind: works best in conjuction with "
-"outgoing notifications."
-msgstr ""
-"Verzögere Transaktionen für zusätzliche Geistesruhe: Funktioniert am besten "
-"zusammen mit Benachrichtigungen über ausgehende Transaktionen."
-
-#: templates/wallet/partials/wallet_settings.html:329
-msgid "Delay payments of"
-msgstr "Verzögere Bezahlung über"
-
-#: templates/wallet/partials/wallet_settings.html:347
-#: templates/website/index.html:48 templates/website/index.html:49
-msgid "Quick login"
-msgstr "Schneller Login"
-
-#: templates/wallet/partials/wallet_settings.html:348
-msgid "Enable a simple PIN to quickly access your wallet from this device."
-msgstr ""
-"Erlaube eine einfache PIN um schnell auf Ihre Brieftasche von diesem Gerät "
-"zuzugreifen."
-
-#: templates/wallet/partials/wallet_settings.html:356
-msgid "Enable quick login on this device"
-msgstr "Erlaube schnelles Anmelden von diesem Gerät"
-
-#: templates/wallet/partials/wallet_settings.html:360
-msgid "Change PIN number"
-msgstr "Ändere PIN Nummer"
-
-#: templates/wallet/partials/wallet_settings.html:361
-msgid "Set PIN number"
-msgstr "Setze PIN Nummer"
-
-#: templates/wallet/partials/wallet_settings.html:363
-msgid "Four digit number"
-msgstr "Vierstellige Zahl"
-
-#: templates/wallet/partials/wallet_settings.html:365
-#: templates/wallet/partials/wallet_settings.html:379
-msgid "Confirm"
-msgstr "Bestätige"
-
-#: templates/wallet/partials/wallet_settings.html:369
-msgid "Disable quick login on all devices"
-msgstr "Deaktiviere schnelles Anmelden auf allen Geräten"
-
-#: templates/wallet/partials/wallet_settings.html:373
-msgid "set PIN to"
-msgstr "setze PIN als"
-
-#: templates/wallet/partials/wallet_settings.html:375
-#: templates/wallet/partials/signup_2_pin.html:18
-#: templates/wallet/partials/signuplogin/base.html:16
-msgid "PIN number"
-msgstr "PIN Nummer"
-
-#: templates/wallet/partials/wallet_settings.html:378
-msgid "Remove"
-msgstr "Entferne"
-
-#: templates/wallet/partials/wallet_settings.html:390
-msgid "Link your own third party accounts"
-msgstr "Verbinde deine eigenen Kontos von anderen Diensten"
-
-#: templates/wallet/partials/wallet_settings.html:391
-msgid ""
-"Allow social payments and watch-only login to your wallet via your own third "
-"party accounts."
-msgstr ""
-"Erlaube soziale Zahlungen und Nur-Schauen-Anmeldungen auf Ihre Brieftasche "
-"über Ihre Kontos bei anderen Diensten."
-
-#: templates/wallet/partials/wallet_settings.html:411
-#: templates/wallet/partials/signup_3_oauth.html:23
-#: templates/wallet/partials/signuplogin/base.html:45
-msgid "Custom Login"
-msgstr "Manuelles Anmelden"
-
-#: templates/wallet/partials/wallet_settings.html:417
-msgid "Username"
-msgstr "Nutzername"
-
-#: templates/wallet/partials/wallet_settings.html:418
-msgid "Password"
-msgstr "Passwort"
-
-#: templates/wallet/partials/wallet_settings.html:435
-#: templates/wallet/partials/wallet_settings.html:439
-msgid "Show mnemonic"
-msgstr "Zeige Mnemonikum"
-
-#: templates/wallet/partials/wallet_settings.html:436
-msgid ""
-"Display your mnemonic for account recovery or cloning on another device."
-msgstr ""
-"Zeige Ihr Mnemonikum zur Kontowiederherstellung oder zum Klonen auf anderen "
-"Geräten."
-
-#: templates/wallet/partials/wallet_settings.html:441
-#: templates/wallet/partials/signup_1_init.html:38
-msgid "Write to NFC tag"
-msgstr "Schreibe in NFC Tag"
-
-#: templates/wallet/partials/wallet_settings.html:448
-#: templates/wallet/partials/wallet_modal_expiring_soon.html:9
-msgid "nLockTime"
-msgstr "nLockTime"
-
-#: templates/wallet/partials/wallet_settings.html:449
-msgid ""
-"nLockTime transactions allow you to redeem your deposited funds without "
-"GreenAddress.it's signature after pre-defined number of blocks"
-msgstr ""
-"nLockTime-Transaktionen erlauben es Ihnen Ihre Einlagen wieder zu erhalten "
-"nach einer im Voraus fest gelegten Anzahl von Blocks auch ohne GreenAddress."
-"it's Signatur"
-
-#: templates/wallet/partials/wallet_settings.html:455
-msgid "Allow redeeming funds without GreenAddress.it signature after"
-msgstr "Erlaube Guthaben einzulösen ohne der Signatur von GreenAddress.it nach"
-
-#: templates/wallet/partials/wallet_settings.html:457
-msgid "blocks"
-msgstr "Blöcken"
-
-#: templates/wallet/partials/wallet_settings.html:463
-msgid ""
-"Both outgoing and incoming transaction notifications must be enabled for "
-"this feature to work."
-msgstr ""
-"Benachrichtungen sowohl für ausgehende als auch eingehende Transaktionen "
-"müssen aktiviert sein für diese Funktion."
-
-#: templates/wallet/partials/wallet_settings.html:466
-msgid "Show outputs expiring soon"
-msgstr "Zeige bald ablaufende Ausgaben"
-
-#: templates/wallet/partials/wallet_modal_expiring_soon.html:2
-msgid "Outputs expiring soon"
-msgstr "Bald ablaufende Ausgaben"
-
-#: templates/wallet/partials/wallet_modal_expiring_soon.html:7
-msgid "No active nLockTime transactions found"
-msgstr "Keine aktiven nLockTime-Transaktionen gefunden"
-
-#: templates/wallet/partials/wallet_modal_expiring_soon.html:9
-msgid "Transaction hash, output number"
-msgstr "Transaktionshash, Ausgabennummer"
-
-#: templates/wallet/partials/wallet_modal_expiring_soon.html:20
-#: templates/wallet/partials/wallet_modal_my_addresses.html:16
-#: templates/wallet/partials/wallet_modal_url_qr.html:6
-#: templates/wallet/partials/wallet_modal_redeposit.html:14
-#: templates/wallet/partials/wallet_modal_mnemonic.html:10
-#: templates/wallet/partials/signup_qr_modal.html:7
-#: templates/wallet/partials/signup_nfc_modal.html:16
-#: templates/wallet/partials/wallet_modal_tx_details.html:48
-#: templates/wallet/partials/wallet_modal_gauth_qr.html:8
-msgid "Close"
-msgstr "Schließen"
-
-#: templates/wallet/partials/browser_unsupported.html:6
-#: templates/wallet/partials/browser_unsupported.html:10
-msgid "We are sorry, but your browser is not supported."
-msgstr "Es tut uns leid, aber Ihr Browser ist nicht unterstützt."
-
-#: templates/wallet/partials/browser_unsupported.html:11
-msgid "Please try a modern browser like Chrome, Firefox or our Android app!"
-msgstr ""
-"Bitte versuchen Sie einen modernen Browser wie Chrome, Firefox oder unsere "
-"Android App!"
-
-#: templates/wallet/partials/wallet_modal_custom_login.html:4
-msgid "Please provide username and password."
-msgstr "Bitte geben Sie Nutzernamen und Passwort an."
-
-#: templates/wallet/partials/wallet_modal_custom_login.html:8
-msgid "Enter your username"
-msgstr "Geben Sie den Nutzernamen ein"
-
-#: templates/wallet/partials/wallet_modal_custom_login.html:14
-msgid "Enter your password"
-msgstr "Geben Sie das Passwort ein"
-
-#: templates/wallet/partials/wallet_modal_custom_login.html:26
-#: templates/wallet/partials/wallet_modal_2fa.html:31
-msgid "OK"
-msgstr "OK"
-
-#: templates/wallet/partials/wallet_modal_fb_message.html:4
-msgid "Please send the Facebook message."
-msgstr "Bitte sende die Facebook-Nachricht."
-
-#: templates/wallet/partials/wallet_modal_fb_message.html:6
-msgid "Send"
-msgstr "Sende"
-
-#: templates/wallet/partials/wallet_modal_fb_message.html:11
-msgid "Cancel - revert transaction"
-msgstr "Abbruch - kehre Transaktion um"
-
-#: templates/wallet/partials/wallet_modal_fb_message.html:12
-msgid "I have sent the message"
-msgstr "Ich habe die Nachricht versandt"
-
-#: templates/wallet/partials/wallet_modal_my_addresses.html:3
-msgid "No addresses found"
-msgstr "Keine Addressen gefunden"
-
-#: templates/wallet/partials/wallet_modal_my_addresses.html:5
-#: templates/wallet/partials/wallet_address_book.html:22
-#: templates/wallet/partials/wallet_receive.html:44
-#: templates/wallet/partials/wallet_modal_tx_details.html:22
-#: templates/wallet/partials/wallet_modal_tx_details.html:34
-msgid "Address"
-msgstr "Addresse"
-
-#: templates/wallet/partials/wallet_modal_my_addresses.html:5
-msgid "number of transactions"
-msgstr "anzahl der Transaktionen"
-
-#: templates/wallet/partials/wallet_modal_logout_other_session.html:4
-msgid "You are already logged in. Do you want to log out the other session?"
-msgstr ""
-"Sie sind bereits angemeldet. Wollen Sie sich aus der anderen Sitzung "
-"abmelden?"
-
-#: templates/wallet/partials/wallet_send.html:12
-#: templates/wallet/partials/wallet_send.html:68
-msgid "Recipient"
-msgstr "Empfänger"
-
-#: templates/wallet/partials/wallet_send.html:18
-msgid "Enter recipient's bitcoin address, email or  Facebook account name"
-msgstr ""
-"Geben Sie die Bitcoin-Adresse, Email-Adresse oder den Facebook-Account-Namen "
-"vom Empfänger ein"
-
-#: templates/wallet/partials/wallet_send.html:22
-#: templates/wallet/partials/wallet_send.html:97
-#: templates/wallet/partials/signuplogin/base.html:26
-msgid "Scan QR"
-msgstr "Scan QR"
-
-#: templates/wallet/partials/wallet_send.html:29
-msgid "Encryption passphrase"
-msgstr "Verschlüsselungs-Passphrase"
-
-#: templates/wallet/partials/wallet_send.html:59
-#: templates/wallet/partials/wallet_modal_tx_details.html:13
-msgid "Fee"
-msgstr "Gebühr"
-
-#: templates/wallet/partials/wallet_send.html:59
-msgid "will be paid by"
-msgstr "wird bezahlt von"
-
-#: templates/wallet/partials/wallet_send.html:64
-msgid "Me"
-msgstr "mir"
-
-#: templates/wallet/partials/wallet_send.html:88
-msgid "calculating"
-msgstr "berechne"
-
-#: templates/wallet/partials/wallet_address_book.html:12
-msgid "Add new entry"
-msgstr "Füge neuen Eintrag hinzu"
-
-#: templates/wallet/partials/wallet_address_book.html:21
-msgid "Name"
-msgstr "Name"
-
-#: templates/wallet/partials/wallet_address_book.html:29
-#: templates/wallet/partials/wallet_transactions_table.html:16
-msgid "Export to CSV"
-msgstr "Exportiere als CSV"
-
-#: templates/wallet/partials/wallet_address_book.html:49
-msgid "Your address book is empty"
-msgstr "Ihr Addressbuch ist leer"
-
-#: templates/wallet/partials/wallet_transactions.html:12
-msgid "Last 10 items"
-msgstr "Letzte 10 Einträge"
-
-#: templates/wallet/partials/wallet_transactions.html:13
-msgid "Last month"
-msgstr "Letzter Monat"
-
-#: templates/wallet/partials/wallet_transactions.html:14
-msgid "Last 3 months"
-msgstr "Letzte drei Monate"
-
-#: templates/wallet/partials/wallet_transactions.html:15
-msgid "All"
-msgstr "Alle"
-
-#: templates/wallet/partials/wallet_modal_redeposit.html:2
-msgid ""
-"You have some expired deposits. Unless you re-deposit or redeem them, no "
-"transactions will be allowed"
-msgstr ""
-"Sie haben einige abgelaufene Einlagen. Bis Sie diese nicht erneut einlegen "
-"oder sie abheben sind keine Transaktionen erlaubt"
-
-#: templates/wallet/partials/wallet_modal_redeposit.html:5
-msgid "Redeposit as single transaction (cheaper)"
-msgstr "Erneut einlegen als einzelne Transaktion (günstiger)"
-
-#: templates/wallet/partials/wallet_modal_redeposit.html:6
-#: templates/wallet/partials/wallet_modal_redeposit.html:9
-msgid "estimated fee"
-msgstr "geschätzte Gebühr"
-
-#: templates/wallet/partials/wallet_modal_redeposit.html:8
-msgid "Redeposit as one transaction per output (better privacy)"
-msgstr ""
-"Erneut einlegen als eine Transaktion pro Ausgabe (bessere Privatsphäre)"
-
-#: templates/wallet/partials/wallet_modal_redeposit.html:10
-msgid "transactions"
-msgstr "Transaktionen"
-
-#: templates/wallet/partials/wallet_modal_mnemonic.html:2
-#: templates/wallet/partials/signup_qr_modal.html:2
-msgid "The QR code containing passphrase to access your wallet is:"
-msgstr "Der QR mit dem Passwort um auf Ihre Brieftasche zuzugreifen ist:"
-
-#: templates/wallet/partials/wallet_modal_mnemonic.html:4
-#: templates/wallet/partials/signup_qr_modal.html:4
-msgid "Remember to store it in a safe place!"
-msgstr "Denken Sie daran es in einem sicheren Platz aufzubewahren!"
-
-#: templates/wallet/partials/wallet_modal_mnemonic.html:6
-#: templates/wallet/partials/signup_1_init.html:24
-msgid "Your mnemonic passphrase"
-msgstr "Ihre mnemonische Passphrase"
-
-#: templates/wallet/partials/concurrent_login.html:6
-msgid "You were logged out."
-msgstr "Sie sind abgemeldet."
-
-#: templates/wallet/partials/concurrent_login.html:10
-msgid ""
-"          You have logged in elsewhere.<br>          <small>If it was not "
-"you, please contact <strong>immediately</strong> <a href=\"/support/"
-"\">support</a>.</small>        "
-msgstr ""
-"          Sie sind anderswo angemeldet.<br>          <small>Falls das nicht "
-"Sie waren, kontaktieren Sie <strong>sofort</strong> <a href=\"/support/"
-"\">support</a>.</small>"
-
-#: templates/wallet/partials/concurrent_login.html:16
-msgid "Go back to login"
-msgstr "Zurück zur Anmeldung"
-
-#: templates/wallet/partials/signup_1_init.html:7
-msgid "Already got an account?"
-msgstr "Sie haben bereits ein Konto?"
-
-#: templates/wallet/partials/signup_1_init.html:9
-#: templates/wallet/partials/signup_1_init.html:11
-#: templates/wallet/partials/signuplogin/base.html:54
-msgid "Login to your Wallet"
-msgstr "Anmelden für Ihre Brieftasche"
-
-#: templates/wallet/partials/signup_1_init.html:20
-msgid "You are now the proud owner of a bitcoin wallet"
-msgstr "Sie sind nun der stolze Besitzer einer Bitcoin-Brieftasche"
-
-#: templates/wallet/partials/signup_1_init.html:21
-msgid ""
-"Please finish this 4-step account setup to fully secure it against intruders"
-msgstr ""
-"Bitte führen Sie diese Einrichtung in vier Schritten aus, um Ihr Konto "
-"vollständig gegen fremden Zugriff zu schützen"
-
-#: templates/wallet/partials/signup_1_init.html:26
-#, fuzzy
-msgid "Generating mnemonic, please wait..."
-msgstr "Generiere Mnemonikum..."
-
-#: templates/wallet/partials/signup_1_init.html:28
-msgid ""
-"Please write down these words and store them in a safe place as they can't "
-"be recovered."
-msgstr ""
-"Bitte schreiben Sie diese Worte auf und bewahren Sie die an einem sicheren "
-"Ort auf da sie nicht wiederhergestellt werden können."
-
-#: templates/wallet/partials/signup_1_init.html:28
-msgid ""
-"We do not store the above information anywhere, we can't help you recover it!"
-msgstr ""
-"Wir speichern die obige Information nirgendwo, wir können Ihnen nicht helfen "
-"sie wieder herzustellen!"
-
-#: templates/wallet/partials/signup_1_init.html:33
-msgid ""
-"I confirm that my passphrase is saved &amp; secured and I agree with the "
-msgstr ""
-"Ich bestätige, dass meine passphrase gespeichert und gesichert ist und ich "
-"akzeptiere die "
-
-#: templates/wallet/partials/signup_1_init.html:33
 #: templates/website/tos.html:5
+#: templates/wallet/partials/signup_1_init.html:33
 msgid "Terms of Service"
-msgstr "Allgemeine Geschäftsbedingungen"
-
-#: templates/wallet/partials/signup_1_init.html:40
-msgid "Print passphrase"
-msgstr "Drucke Passphrase"
-
-#: templates/wallet/partials/signup_1_init.html:42
-#: templates/wallet/partials/signup_1_init.html:43
-msgid "Continue"
-msgstr "Weiter"
-
-#: templates/wallet/partials/signup_1_init.html:48
-msgid "Error: "
-msgstr ""
-
-#: templates/wallet/partials/signup_1_init.html:48
-#, fuzzy
-msgid " Click to try again"
-msgstr "Fehler, versuche erneut"
-
-#: templates/wallet/partials/signup_1_init.html:60
-msgid "The passphrase to access your wallet is:"
-msgstr "Die Passphrase für den Zugriff auf Ihre Brieftasche ist:"
-
-#: templates/wallet/partials/signup_1_init.html:63
-msgid "Store this page in a safe place"
-msgstr "Lagern Sie diese Seite an einem sicheren Ort"
-
-#: templates/wallet/partials/signup_nfc_modal.html:2
-msgid "There was a problem writing to the NFC tag:"
-msgstr "Es gab ein Problem beim schreiben auf den NFC-Tag:"
-
-#: templates/wallet/partials/signup_nfc_modal.html:5
-msgid "Initialising NFC tags listener..."
-msgstr "Initialisiere NFC Tags Listener..."
-
-#: templates/wallet/partials/signup_nfc_modal.html:8
-msgid "Please hold your tag(s) close to the device to write your wallet!"
-msgstr ""
-"Bitte halten Sie Ihr(e) Tag(s) nahe am Gerät um Ihre Brieftasche zu "
-"schreiben!"
-
-#: templates/wallet/partials/signup_nfc_modal.html:9
-msgid "Tags written:"
-msgstr "Tags geschrieben:"
-
-#: templates/wallet/partials/signup_nfc_modal.html:10
-msgid "Tags formatted:"
-msgstr "Tags formatiert:"
-
-#: templates/wallet/partials/signup_nfc_modal.html:13
-msgid ""
-"Your NFC is not enable or not available. If available, please enable it in "
-"settings"
-msgstr ""
-"Ihr NFC ist nicht aktiviert oder verfügbar. Wenn verfügbar, aktivieren Sie "
-"es bitte in Einstellungen"
-
-#: templates/wallet/partials/wallet_receive.html:32
-msgid "Bitcoin URI"
-msgstr "Bitcoin URI"
-
-#: templates/wallet/partials/wallet_receive.html:38
-msgid "Show URI and address"
-msgstr ""
-
-#: templates/wallet/partials/wallet_receive.html:53
-msgid "Permanent Payment URL"
-msgstr "Permanente Bezahlungs-URL"
-
-#: templates/wallet/partials/wallet_receive.html:66
-msgid "Private key in WIF format"
-msgstr "Privater Schlüssel in WIF-Format"
-
-#: templates/wallet/partials/wallet_receive.html:69
-msgid "Enter a private key to sweep here"
-msgstr "Geben Sie einen privaten Schlüssel zum Leeren hier ein"
-
-#: templates/wallet/partials/wallet_receive.html:72
-msgid "Sweep"
-msgstr "Leeren"
-
-#: templates/wallet/partials/wallet_receive.html:79
-msgid "Show previously generated addresses"
-msgstr "Zeige bereits generierte Adressen"
-
-#: templates/wallet/partials/signup_2_pin.html:14
-msgid "Fast and secure access to your Wallet"
-msgstr "Schneller und sicherer Zugriff auf Ihre Brieftasche"
-
-#: templates/wallet/partials/signup_2_pin.html:14
-msgid "To have a secure but quick access from this device set your PIN"
-msgstr ""
-"Um einen sicheren aber schnellen Zugriff von diesem Gerät aus zu haben, "
-"stellen Sie Ihre PIN ein"
-
-#: templates/wallet/partials/signup_2_pin.html:22
-msgid "Four digits number"
-msgstr "Viertstellige Zahl"
-
-#: templates/wallet/partials/signup_2_pin.html:29
-msgid ""
-"Access by PIN allows a quick login while keeping security to a high "
-"standard.                    The PIN secures a random AES 256 bit password "
-"which we will delete if 3 PIN attempts                    fail, forcing you "
-"to provide your full mnemonics once again. Easy, convenient and secure, so "
-"let's use it!"
-msgstr ""
-"Zugriff über PIN ermöglicht ein schnelles Anmelden bei hoher Sicherheit. Die "
-"PIN sichert ein zufälliges AES 256 Bit Passwort welches wir nach drei "
-"fehlgeschlagenen Eingabeversuchen löschen, so dass Sie gezwungen sind das "
-"volle Mnemonikum erneut einzugeben. Einfach, bequem und sicher, also "
-"benutzen wir es!"
-
-#: templates/wallet/partials/signup_2_pin.html:37
-#: templates/wallet/partials/signup_3_oauth.html:38
-msgid "Generating your wallet keys, please wait"
-msgstr "Erzeuge Ihre Brieftaschenschlüssel, bitte warten."
-
-#: templates/wallet/partials/signup_2_pin.html:40
-#: templates/wallet/partials/signup_3_oauth.html:41
-msgid "Please wait, logging in..."
-msgstr "Bitte warten, melde an..."
-
-#: templates/wallet/partials/signup_2_pin.html:43
-#: templates/wallet/partials/signup_3_oauth.html:44
-msgid "Take me to my wallet and skip all this!"
-msgstr "Überspringe das ganze und auf zu meiner Brieftasche!"
-
-#: templates/wallet/partials/signup_2_pin.html:46
-msgid "PIN set, ready for step 3"
-msgstr "PIN eingerichtet, bereit für Schritt 3"
-
-#: templates/wallet/partials/signup_2_pin.html:47
-msgid "Setting PIN..."
-msgstr "Setze PIN..."
-
-#: templates/wallet/partials/signup_2_pin.html:50
-msgid "Skip PIN setup and continue"
-msgstr "Überspringe PIN-Einrichtung und gehe weiter"
-
-#: templates/wallet/partials/wallet_2fa.html:19
-msgid "Google Authenticator is enabled."
-msgstr "Google Authentikator ist eingerichtet"
-
-#: templates/wallet/partials/wallet_2fa.html:24
-msgid "Install app"
-msgstr "Installiere App"
-
-#: templates/wallet/partials/wallet_2fa.html:26
-msgid "Install the app on your device. For Android at "
-msgstr "Installieren Sie die App auf Ihrem Gerät. Für Android auf "
-
-#: templates/wallet/partials/wallet_2fa.html:26
-msgid " while for iOS at "
-msgstr " für iOS auf "
-
-#: templates/wallet/partials/wallet_2fa.html:30
-msgid "Add account"
-msgstr "Konto hinzufügen"
-
-#: templates/wallet/partials/wallet_2fa.html:32
-msgid ""
-"Add an account to the Google Authenticator App and scan the QR code or "
-"manually enter exact code."
-msgstr ""
-"Fügen Sie ein Konto zur Google Authenticator App hinzu und scannen Sie den "
-"QR code oder geben Sie den genauen Code manuell ein."
-
-#: templates/wallet/partials/wallet_2fa.html:37
-msgid "Confirm code"
-msgstr "Code bestätigen"
-
-#: templates/wallet/partials/wallet_2fa.html:39
-msgid ""
-"Google Authenticator will now show a number which in order to complete the "
-"two factor setup you need to enter below."
-msgstr ""
-"Google Authenticator zeigt nun eine Zahl an, die Sie unten eingeben müssen "
-"um die Zwei-Faktor-Authentifikation zu vervollständigen."
-
-#: templates/wallet/partials/wallet_2fa.html:48
-msgid "Authenticator code"
-msgstr "Authenticator Code"
-
-#: templates/wallet/partials/wallet_2fa.html:68
-msgid "Email two factor authentication is enabled."
-msgstr "Zwei-Faktor-Authentifizierung über Email ist aktiviert."
-
-#: templates/wallet/partials/wallet_2fa.html:90
-msgid ""
-"You need to provide one code from your email to set up the two factor "
-"authentication.<br>                Please open your email and provide the "
-"code."
-msgstr ""
-"Sie müssen einen Code von Ihrer Email eingeben um die Zwei-Faktor-"
-"Authentifizierung zu aktivieren<br>Bitte öffnen Sie Ihre Email und geben Sie "
-"den Code ein."
-
-#: templates/wallet/partials/wallet_2fa.html:113
-msgid "SMS two factor authentication is enabled."
-msgstr "SMS Zwei-Faktor-Authentifizierung ist aktiviert."
-
-#: templates/wallet/partials/wallet_2fa.html:132
-msgid ""
-"You need to provide one SMS code to set up the two factor authentication."
-"<br>                Please check your phone and provide the code."
-msgstr ""
-"Sie müssen einen SMS Code eingeben um die Zwei-Faktor-Authentifizierung "
-"einzurichten.<br>                Bitte prüfen Sie Ihr Handy und geben Sie "
-"den Code ein."
-
-#: templates/wallet/partials/wallet_2fa.html:155
-msgid "Phone call two factor authentication is enabled."
-msgstr "Anruf Zwei-Faktor-Authentifizierung ist aktiviert."
-
-#: templates/wallet/partials/wallet_2fa.html:174
-msgid ""
-"You need to provide one code to set up the two factor authentication."
-"<br>                Please check your phone and provide the code."
-msgstr ""
-"Sie müssen einen Code bereit stellen um die Zwei-Faktor-Authentifikation "
-"einzurichten.<br>                Bitte prüfen Sie Ihre Telefon und geben Sie "
-"den Code ein."
-
-#: templates/wallet/partials/wallet_transactions_table.html:6
-msgid "Date"
-msgstr "Datum"
-
-#: templates/wallet/partials/wallet_transactions_table.html:7
-msgid "Description"
-msgstr "Beschreibung"
-
-#: templates/wallet/partials/wallet_transactions_table.html:29
-msgid "unconfirmed"
-msgstr "unbestätigt"
-
-#: templates/wallet/partials/wallet_transactions_table.html:30
-msgid "confirmations"
-msgstr "Bestätigungen"
-
-#: templates/wallet/partials/wallet_transactions_table.html:33
-msgid "take funds back"
-msgstr "nehme Guthaben zurück"
-
-#: templates/wallet/partials/wallet_transactions_table.html:47
-msgid "No transactions found..."
-msgstr "Keine Transaktionen gefunden..."
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:2
-msgid "Transaction details"
-msgstr "Transaktionsdetails"
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:7
-msgid "Timestamp"
-msgstr "Zeitstempel"
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:10
-msgid "Hash"
-msgstr "Hash"
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:19
-msgid "Inputs"
-msgstr "Eingaben"
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:31
-msgid "Outputs"
-msgstr "Ausgaben"
-
-#: templates/wallet/partials/wallet_modal_tx_details.html:38
-msgid "request nLockTime"
-msgstr "beauftrage nLockTime"
-
-#: templates/wallet/partials/wallet_modal_2fa.html:6
-msgid "You must provide 2 factor authentication code to perform this action"
-msgstr "Sie brauchen Zwei-Faktor-Authentifikation um dies zu tun."
-
-#: templates/wallet/partials/wallet_modal_2fa.html:9
-msgid "Please select authentication method"
-msgstr "Bitte wählen Sie eine Authentifikationsmethode"
-
-#: templates/wallet/partials/wallet_modal_2fa.html:15
-#, fuzzy
-msgid "Please enter your "
-msgstr "Bitte geben Sie Ihre Emailadresse ein"
-
-#: templates/wallet/partials/wallet_modal_2fa.html:15
-msgid " authentication code which we have just sent to you."
-msgstr ""
-
-#: templates/wallet/partials/wallet_modal_2fa.html:18
-#, fuzzy
-msgid "Please enter the "
-msgstr "Bitte geben Sie ihn hier ein"
-
-#: templates/wallet/partials/wallet_modal_2fa.html:18
-#, fuzzy
-msgid " code"
-msgstr "SMS Code"
-
-#: templates/wallet/partials/wallet_modal_pin.html:4
-msgid ""
-"You can create a 4-digit personal identification number used to retrieve the "
-"password encrypting the mnemonic passphrase."
-msgstr ""
-"Sie können eine vierstellige persönliche Identifikationsnummer erstellen um "
-"das Passwort wiederherzustellen, mit dem die mnemonische Passphrase "
-"verschlüsselt wurde."
-
-#: templates/wallet/partials/wallet_modal_pin.html:8
-msgid "Enter your PIN"
-msgstr "Geben Sie Ihre PIN ein"
-
-#: templates/wallet/partials/wallet_modal_pin.html:14
-msgid "PIN must be a 4-digit number"
-msgstr "PIN muss eine vierstellige Zahl sein"
-
-#: templates/wallet/partials/wallet_modal_pin.html:23
-msgid "Confirm PIN number"
-msgstr "Bestätige PIN Nummer"
-
-#: templates/wallet/partials/wallet_modal_logout.html:5
-msgid "Do you want to log out?"
-msgstr "Haben Sie sich abmelden wollen?"
-
-#: templates/wallet/partials/wallet_info.html:14
-#: templates/wallet/partials/wallet_info.html:27
-msgid "Year"
-msgstr "Jahr"
-
-#: templates/wallet/partials/wallet_info.html:15
-#: templates/wallet/partials/wallet_info.html:28
-msgid "Month"
-msgstr "Monat"
-
-#: templates/wallet/partials/wallet_info.html:16
-#: templates/wallet/partials/wallet_info.html:29
-msgid "Week"
-msgstr "Woche"
-
-#: templates/wallet/partials/wallet_info.html:38
-msgid "Your last transactions"
-msgstr "Ihre letzten Transaktionen"
-
-#: templates/wallet/partials/wallet_modal_gauth_qr.html:2
-msgid "The QR code for Google Authenticator access to your wallet is:"
-msgstr "Der QR Code für Google Authenticator Zugriff auf Ihre Brieftasche ist:"
-
-#: templates/wallet/partials/wallet_modal_gauth_qr.html:4
-msgid "You can also copy the code manually:"
-msgstr "Sie können den Code auch manuell Kopieren:"
-
-#: templates/wallet/partials/signup_3_oauth.html:14
-msgid "Pay or get paid by social networks"
-msgstr "Bezahle oder werde bezahlt in Sozialnetzwerken"
-
-#: templates/wallet/partials/signup_3_oauth.html:14
-msgid "Grant access to your wallet in watch-only mode"
-msgstr "Genehmige Zugriff auf deine Brieftasche im Nur-Schauen-Modus"
-
-#: templates/wallet/partials/signup_3_oauth.html:29
-msgid ""
-"If you like you can access your Wallet in Watch-Only mode via simple login. "
-"When you login in this way you access a completely separate \"area\" of your "
-"wallet, in no way it can be compromised and payments cannot be made"
-msgstr ""
-"Wenn Sie wollen können Sie auf Ihre Brieftasche im Nur-Schauen-Modus "
-"zugreifen über einfaches Anmelden. Wenn Sie sich so anmelden können Sie auf "
-"einen komplett separaten \"Bereich\" Ihrer Brieftasche zugreifen, der auf "
-"keinerlei Weise kompromittiert werden kann und keine Bezahlungen können "
-"durchgeführt werden"
-
-#: templates/wallet/partials/signup_3_oauth.html:32
-msgid ""
-"Plus use your email or your Facebook name to receive payments! No more long "
-"and complicated addresses to remember and communicate. That means that you "
-"can easily login in 'watch-only mode' safely from any wi-fi, on the go or "
-"even at Starbucks!"
-msgstr ""
-"Weiter können Sie Ihre Emailadresse oder Ihren Facebooknamen benutzen um "
-"Zahlungen zu erhalten! Keine langen und komplizierten Adressen mehr zum "
-"Erinnern und Kommunizieren. Das heißt Sie können sich einfach und sicher im "
-"'Nur-Schauen-Modus' anmelden, über WLAN, unterwegs oder bei Starbucks!"
-
-#: templates/wallet/partials/signup_3_oauth.html:47
-msgid "Done, take me to step 4"
-msgstr "Fertig, auf zu Schritt 4"
-
-#: templates/wallet/partials/signup_3_oauth.html:48
-msgid "Processing..."
-msgstr "Bearbeite..."
-
-#: templates/wallet/partials/signuplogin/header_wallet.html:1
-msgid "Welcome to GreenAddress.it!"
-msgstr "Willkommen bei GreenAddress.it!"
-
-#: templates/wallet/partials/signuplogin/header_wallet.html:1
-msgid "Please log in to use your Wallet"
-msgstr "Bitte loggen Sie sich ein um Ihre Brieftasche zu benutzen"
-
-#: templates/wallet/partials/signuplogin/header_redeem.html:2
-#: templates/website/redeem.html:9
-msgid "You've received"
-msgstr "Sie haben erhalten"
-
-#: templates/wallet/partials/signuplogin/header_redeem.html:5
-msgid ""
-"If you do not have a GreenAddress.it wallet, please create one to reedem the "
-"payment"
-msgstr ""
-
-#: templates/wallet/partials/signuplogin/header_redeem.html:5
-#: templates/website/index.html:30 templates/website/index.html:41
-msgid "Create your Wallet"
-msgstr "Erstellen Sie Ihre Brieftasche"
-
-#: templates/wallet/partials/signuplogin/header_redeem.html:6
-msgid ""
-"Otherwise, if you are a GreeenAddress.it user please login using form below"
-msgstr ""
-
-#: templates/wallet/partials/signuplogin/base.html:6
-msgid "Haven't got an account yet?"
-msgstr "Sie haben noch kein Konto?"
-
-#: templates/wallet/partials/signuplogin/base.html:6
-msgid "Create new Wallet"
-msgstr "Neue Brieftasche erstellen"
-
-#: templates/wallet/partials/signuplogin/base.html:11
-msgid "Log in for full Wallet access"
-msgstr "Anmelden für vollen Zugriff auf die Brieftasche"
-
-#: templates/wallet/partials/signuplogin/base.html:19
-msgid "or"
-msgstr "oder"
-
-#: templates/wallet/partials/signuplogin/base.html:24
-#: templates/wallet/partials/signuplogin/base.html:30
-msgid "Mnemonic passphrase"
-msgstr "Mnemomische Passphrase"
-
-#: templates/wallet/partials/signuplogin/base.html:32
-msgid "Invalid mnemonic"
-msgstr "Ungültiges Mnemonikum"
-
-#: templates/wallet/partials/signuplogin/base.html:38
-msgid "Log in to Watch-Only mode"
-msgstr "Melden Sie sich an im Nur-Schauen-Modus"
-
-#: templates/wallet/partials/signuplogin/base.html:55
-msgid "Processing"
-msgstr "Bearbeite"
-
-#: templates/wallet/partials/signuplogin/base.html:56
-msgid "Error, try again"
-msgstr "Fehler, versuche erneut"
-
-#: templates/wallet/partials/signuplogin/redeem_password_modal.html:4
-msgid "Please provide the password received from sender."
-msgstr "Bitte geben Sie das Passwort ein, das Sie vom Sender erhalten haben."
-
-#: templates/wallet/partials/signuplogin/redeem_password_modal.html:8
-msgid "Enter the password"
-msgstr "Geben Sie das Passwort ein"
-
-#: templates/wallet/partials/signuplogin/redeem_password_modal.html:15
-msgid "Please wait, decrypting..."
-msgstr "Bitte warten Sie, entschlüsselt..."
-
-#: templates/wallet/partials/signuplogin/redeem_password_modal.html:24
-msgid "Redeem the payment"
-msgstr "Bezahlung einlösen"
-
-#: templates/wallet/partials/signuplogin/header_pay.html:1
-msgid "You're about to send "
-msgstr "Sie versenden "
-
-#: templates/wallet/partials/signuplogin/header_pay.html:4
-msgid ""
-"Please log in, create a new Wallet, or click below to show a bitcoin: URI:"
-msgstr ""
-"Bitte loggen Sie sich ein, erstellen Sie eine neue Brieftasche oder klicken "
-"Sie unten um eine Bitcoin-URI zu zeigen:"
-
-#: templates/wallet/partials/signuplogin/header_pay.html:6
-msgid "Please log in, create a new Wallet, or use the URI below:"
-msgstr ""
-"Bitte loggen Sie sich ein, erstellen Sie eine neue Brieftasche oder nutzen "
-"Sie die URI unten:"
-
-#: templates/wallet/partials/signuplogin/header_pay.html:11
-msgid "Show"
-msgstr "Zeige"
+msgstr "Allgemeinen Geschäftsbedingungen"
 
 #: templates/website/index.html:5
 msgid "Home Page"
 msgstr "Startseite"
+
+#: templates/website/index.html:30 templates/website/index.html:41
+#: templates/wallet/partials/signuplogin/header_redeem.html:5
+msgid "Create your Wallet"
+msgstr "Erstellen Sie Ihre Brieftasche"
 
 #: templates/website/index.html:41
 msgid "The safer "
@@ -1335,107 +375,49 @@ msgid "Improved security"
 msgstr "Verbesserte Sicherheit"
 
 #: templates/website/index.html:45
-msgid ""
-"Protect your bitcoins with both your key and ours, set spending limits, rate "
-"limited transactions and always be the only one in control"
-msgstr ""
-" Schützen Sie Ihre Bitcoins sowohl mit Ihrem Schlüssel als auch mit unserem, "
-"setzen Sie Ausgabegrenzen, Häufigkeitsgrenzen und dabei alles unter Ihrer "
-"Kontrolle"
+msgid "Protect your bitcoins with both your key and ours, set spending limits, rate limited transactions and always be the only one in control"
+msgstr "Schützen Sie Ihre Bitcoins sowohl mit Ihrem Schlüssel als auch mit unserem, setzen Sie Ausgabegrenzen, Häufigkeitsgrenzen, alles stets unter Ihrer Kontrolle"
+
+#: templates/website/index.html:48 templates/website/index.html:49
+#: templates/wallet/partials/wallet_settings.html:347
+msgid "Quick login"
+msgstr "Schneller Login"
 
 #: templates/website/index.html:50
-msgid ""
-"You can easily login in 'watch-only mode' via Facebook/Twitter/custom login "
-"with no compromise on security and privacy"
-msgstr ""
-"Sie können sich einfach im 'Nurbetrachten-Modus' über Facebook/Twitter/"
-"Manuell ohne Kompromisse bezüglich Sicherheit und Privatsphäre"
+msgid "You can easily login in 'watch-only mode' via Facebook/Twitter/custom login with no compromise on security and privacy"
+msgstr "Sie können sich einfach im 'Nur-Schauen-Modus' über Facebook/Twitter/Manuell ohne Kompromisse bezüglich Sicherheit und Privatsphäre anmelden"
 
 #: templates/website/index.html:53 templates/website/index.html:54
 msgid "Send money easily"
 msgstr "Einfach Geld senden"
 
 #: templates/website/index.html:55
-msgid ""
-"Send money to a friend on Facebook, a follower on Twitter or to a "
-"colleague's email or mobile number"
-msgstr ""
-"Senden Sie Geld an einen Freund auf Facebook, einem Folger auf Twitter oder "
-"an die Emailadresse oder Mobiltelephonnummer von einem Kollegen"
+msgid "Send money to a friend on Facebook, a follower on Twitter or to a colleague's email or mobile number"
+msgstr "Senden Sie Geld an einen Freund auf Facebook, einem Twitter-Followers oder an die Emailadresse oder Mobiltelefonnummer eines Kollegen"
 
 #: templates/website/index.html:62
 msgid "Scroll to read more"
 msgstr "Scrollen Sie um mehr zu lesen"
 
 #: templates/website/index.html:74
-msgid ""
-"        <p><b>Bitcoin is the currency of the future</b></p>        <p>We "
-"don't make you choose between security and convenience. And we don't "
-"compromise your <strong>privacy</strong>.</p>        <p>Our <strong>per-"
-"transaction</strong> two factor authentication, multi-signature and "
-"deterministic wallet allow you unprecedented control over your transactions."
-"</p>        <p>And, we <strong>never</strong> store your private keys, not "
-"even encrypted. At the same time we make it trivial to view and transfer "
-"your funds.</p>        <p>Take control of your future now, at GreenAddress."
-"it.</p>        "
-msgstr ""
-"        <p><b>Bitcoin ist die Währung der Zukunft</b></p>        <p>Wir "
-"zwingen Sie nicht zwischen Sicherheit und Bequemlichkeit zu wählen. Und wir "
-"kompromittieren nicht Ihre <strong>Privatsphäre</strong>.</p>        "
-"<p>Unsere Zwei-Faktor-Authentifikation <strong>pro transaction</strong>, "
-"Mehrwegsignaturen und deterministische Addressen erlauben Ihnen noch nie da "
-"gewesene Kontrolle über Ihre Transaktionen.</p>        <p>Und wir speichern "
-"Ihre privaten Schlüssel <strong>niemals</strong>, nicht einmal "
-"verschlüsselt. Dabei machen wir es trivial Ihr Guthaben einzusehen und zu "
-"transferieren </p>        <p>Nehmen Sie Ihre Zukunft in Ihre Hand, hier bei "
-"GreenAddress.it.</p>        "
+msgid "        <p><b>Bitcoin is the currency of the future</b></p>        <p>We don't make you choose between security and convenience. And we don't compromise your <strong>privacy</strong>.</p>        <p>Our <strong>per-transaction</strong> two factor authentication, multi-signature and deterministic wallet allow you unprecedented control over your transactions.</p>        <p>And, we <strong>never</strong> store your private keys, not even encrypted. At the same time we make it trivial to view and transfer your funds.</p>        <p>Take control of your future now, at GreenAddress.it.</p>        "
+msgstr "        <p><b>Bitcoin ist die Währung der Zukunft</b></p>        <p>Wir zwingen Sie nicht zwischen Sicherheit und Bequemlichkeit zu wählen. Und wir kompromittieren nicht Ihre <strong>Privatsphäre</strong>.</p>        <p>Unsere Zwei-Faktor-Authentifikation <strong>pro transaction</strong>, Mehrwegsignaturen und deterministische Adressen erlauben Ihnen noch nie da gewesene Kontrolle über Ihre Transaktionen.</p>        <p>Und wir speichern Ihre privaten Schlüssel <strong>niemals</strong>, nicht einmal verschlüsselt. Dabei machen wir es trivial Ihr Guthaben einzusehen und zu transferieren </p>        <p>Nehmen Sie Ihre Zukunft in Ihre Hand, hier bei GreenAddress.it.</p>        "
 
 #: templates/website/index.html:87
-msgid ""
-"        <p><b>Better privacy with your funds and safer login with watch-"
-"only</b></p>        <p>Safely check your <strong>balance</strong> and "
-"<strong>transactions</strong> from public Wi-Fi, Starbucks and on the go.</"
-"p>        <p>With our unique <strong>watch-only</strong> mode you can "
-"quickly check your balance or receive funds without full access to your "
-"wallet.</p>        <p>Your <strong>keys</strong> are not loaded so no "
-"transaction are possible and settings can't be modified</p>        "
-msgstr ""
-"        <p><b>Bessere Privatsphäre mit Ihrem Guthaben und sichereres "
-"Anmelden mit Nur-Schauen</b></p><p>Prüfen Sie Ihr <strong>Guthaben</strong> "
-"und Ihre <strong>Transaktionen</strong> sicher in öffentlichen WLANs, "
-"Starbucks oder unterwegs.</p><p>Mit unserem einzigartigen <strong>Nur-"
-"Schauen</strong>-Modus können Sie Ihr Guthaben schnell kontrollieren oder "
-"Guthaben empfangen ohne vollen Zugriff auf Ihre Brieftasche.</p><p>Ihre "
-"<strong>Schlüssel</strong> sind nicht geladen so dass keine Transaktionen "
-"möglich sind und keine Einstellungen geändert werden können</p>"
+msgid "        <p><b>Better privacy with your funds and safer login with watch-only</b></p>        <p>Safely check your <strong>balance</strong> and <strong>transactions</strong> from public Wi-Fi, Starbucks and on the go.</p>        <p>With our unique <strong>watch-only</strong> mode you can quickly check your balance or receive funds without full access to your wallet.</p>        <p>Your <strong>keys</strong> are not loaded so no transaction are possible and settings can't be modified</p>        "
+msgstr "        <p><b>Bessere Privatsphäre mit Ihrem Guthaben und sichereres Anmelden mit Nur-Schauen</b></p><p>Prüfen Sie Ihr <strong>Guthaben</strong> und Ihre <strong>Transaktionen</strong> sicher in öffentlichen WLANs, Starbucks oder unterwegs.</p><p>Mit unserem einzigartigen <strong>Nur-Schauen</strong>-Modus können Sie Ihr Guthaben schnell kontrollieren oder Guthaben empfangen ohne vollen Zugriff auf Ihre Brieftasche.</p><p>Ihre <strong>Schlüssel</strong> sind nicht geladen, so dass keine Transaktionen möglich sind und keine Einstellungen geändert werden können</p>        "
 
 #: templates/website/index.html:99
-msgid ""
-"        <p><b>More features that allow convenient and secure access to your "
-"wallet</b></p>        <p>Enable <strong>quick</strong> PIN login to your "
-"wallet from any of your devices without having to use your passphrase</"
-"p>        <p>Should our system be taken down or disappear, sleep "
-"<strong>safe</strong> with our automatic presigned transaction (nLockTime) "
-"allowing you to simply wait for your selected expiry to get your funds!</"
-"p>        <p>All transfers to your wallet (including change) will use a "
-"newly generated address each time making it harder for people you transact "
-"with to read your past and future transactions</p>        "
-msgstr ""
-"        <p><b>Weitere Funktionen, die bequemen und sicheren Zugriff auf Ihre "
-"Brieftasche erlauben</b></p><p>Erlaube <strong>schnelle</strong> PIN "
-"Anmeldung zu Ihrer Brieftasche von allen Ihren Geräte ohne Ihre Passphrase "
-"benutzen zu müssen</p><p>Sollte unser System abgeschaltet werden oder "
-"verschwinden können Sie <strong>sicher</strong> schlafen mit unserer "
-"automatisch im voraus signierten Transaktion (nLockTime), so dass Sie "
-"einfach auf Ihr selbst fest gelegtes Ablaufdatum warten können um Ihr "
-"Guthaben zu erhalten!</p><p>Alle Transfers auf Ihre Brieftasche "
-"(einschließlich Wechselgeld) benutzen eine jedes mal neu generierte Adresse, "
-"so dass es für Leute mit denen Sie in Kontakt sind schwerer ist Ihre "
-"vergangenen und zukünftigen Transaktionen zu lesen.</p>"
+msgid "        <p><b>More features that allow convenient and secure access to your wallet</b></p>        <p>Enable <strong>quick</strong> PIN login to your wallet from any of your devices without having to use your passphrase</p>        <p>Should our system be taken down or disappear, sleep <strong>safe</strong> with our automatic presigned transaction (nLockTime) allowing you to simply wait for your selected expiry to get your funds!</p>        <p>All transfers to your wallet (including change) will use a newly generated address each time making it harder for people you transact with to read your past and future transactions</p>        "
+msgstr "        <p><b>Weitere Funktionen, die bequemen und sicheren Zugriff auf Ihre Brieftasche erlauben</b></p><p>Aktivieren Sie <strong>schnelle</strong> PIN-Anmeldung zu Ihrer Brieftasche von allen Ihren Geräte ohne Ihre Passphrase benutzen zu müssen</p><p>Sollte unser System abgeschaltet oder nicht erreichbar sein, können Sie <strong>sicher</strong> schlafen mit unserer automatisch im voraus signierten Transaktion (nLockTime), so dass Sie einfach auf Ihr selbst fest gelegtes Ablaufdatum warten können um Ihr Guthaben zu erhalten!</p><p>Alle Transfers auf Ihre Brieftasche (einschließlich Wechselgeld) benutzen eine jedes mal neu generierte Adresse, so dass es für Transaktionspartner schwerer ist Ihre vergangenen und zukünftigen Transaktionen zu lesen.</p>        "
+
+#: templates/website/index.html:116 templates/wallet/wallet.html:6
+msgid "Wallet"
+msgstr "Brieftasche"
 
 #: templates/website/index.html:117 templates/website/index.html:164
 msgid "You are in control"
-msgstr "Sie haben das Wort"
+msgstr "Sie haben die Kontrolle"
 
 #: templates/website/index.html:118 templates/website/index.html:170
 msgid "Instant confirmation"
@@ -1450,481 +432,1164 @@ msgid "Improved privacy"
 msgstr "Verbesserte Privatsphäre"
 
 #: templates/website/index.html:197
-msgid ""
-"          1) Hot wallets can be emptied and cold wallets may have delays, "
-"bugs or be lost<br>          2) If the service is compromised brute force "
-"attacks may be tried on your encrypted wallet, requires strong password."
-"<br>          3) Access to user wallets requires that both the user and the "
-"service are compromised at the same time which reduces risks.          "
-msgstr ""
-"          1) Heiße Brieftaschen können geleert werden und kalte Brieftaschen "
-"können Verzögerungen haben, fehlerhaft sein oder verloren gehen<br>          "
-"2) Wenn der Dienst kompromittiert ist können Brute Force Angriffe auf Ihre "
-"verschlüsselte Brieftasche ausgeübt werden, benötigt starkes Passwort."
-"<br>          3) Zugriff auf Brieftaschen der Nutzer erfordert dass sowohl "
-"der Nutzer als auch der Dienst gleichzeitig kompromittiert sind was Risiken "
-"mindert."
+msgid "          1) Hot wallets can be emptied and cold wallets may have delays, bugs or be lost<br>          2) If the service is compromised brute force attacks may be tried on your encrypted wallet, requires strong password.<br>          3) Access to user wallets requires that both the user and the service are compromised at the same time which reduces risks.          "
+msgstr "          1) \"Heiße\" Brieftaschen können geleert werden und kalte Brieftaschen können Verzögerungen haben, fehlerhaft sein oder verloren gehen<br>          2) Wenn der Dienst kompromittiert ist können Brute Force Angriffe auf Ihre verschlüsselte Brieftasche ausgeübt werden, was ein starkes Passwort erfordert.<br>          3) Zugriff auf Brieftaschen der Nutzer erfordert dass sowohl der Nutzer als auch der Dienst gleichzeitig kompromittiert sind, was Risiken mindert.          "
 
 #: templates/website/index.html:210
 msgid "Under the hood"
 msgstr "Unter der Haube"
 
 #: templates/website/index.html:217
-msgid ""
-"<b>We use  hierarchical deterministic wallets</b><br>(or BIP0032 HD Wallet) "
-"which means we use new addresses for each incoming transaction (including "
-"change), which, together with coinjoin (coming soon) allows you to maintain "
-"your privacy at the highest standard."
-msgstr ""
-"<b>Wir benutzen hierarchische deterministische Brieftaschen</b><br>(oder "
-"BIP0032 HD Brieftaschen) was heißt dass wir neue Adressen für jede "
-"eingehende Transaktion (einschließlich Wechselgeld) verwenden, was, zusammen "
-"mit CoinJoin (kommt bald) erlaubt Ihre Privatsphäre bestens zu bewahren."
+msgid "<b>We use  hierarchical deterministic wallets</b><br>(or BIP0032 HD Wallet) which means we use new addresses for each incoming transaction (including change), which, together with coinjoin (coming soon) allows you to maintain your privacy at the highest standard."
+msgstr "<b>Wir benutzen hierarchische deterministische Brieftaschen</b><br>(oder BIP0032 HD Brieftaschen) was heißt dass wir neue Adressen für jede eingehende Transaktion (einschließlich Wechselgeld) verwenden, was zusammen mit CoinJoin (kommt bald) erlaubt Ihre Privatsphäre bestens zu bewahren."
 
 #: templates/website/index.html:223
-msgid ""
-"<b>Quickly check your balance</b><br>You can use a number of third party "
-"services (like Facebook) to quickly check if you have received a transaction "
-"or to check your balance without exposing your wallet, indeed quite "
-"convenient when in a hurry and/or on a third party computer"
-msgstr ""
-"<b>Prüfen Sie schnell Ihr Guthaben</b><br>Sie können einige andere Dienste "
-"(wie Facebook) nutzen um schnell zu prüfen ob Sie eine Transaktion erhalten "
-"haben oder um Ihr Guthaben einzusehen ohne Ihre Brieftasche zu gefährden. "
-"Recht angenehm wenn Sie in Eile sind oder an einem fremden Computer"
+msgid "<b>Quickly check your balance</b><br>You can use a number of third party services (like Facebook) to quickly check if you have received a transaction or to check your balance without exposing your wallet, indeed quite convenient when in a hurry and/or on a third party computer"
+msgstr "<b>Prüfen Sie schnell Ihr Guthaben</b><br>Sie können andere Dienste (wie Facebook) nutzen um schnell zu prüfen ob Sie eine Transaktion erhalten haben oder um Ihr Guthaben einzusehen, ohne Ihre Brieftasche zu gefährden. Praktisch wenn Sie in Eile sind oder an einem fremden Computer"
 
 #: templates/website/index.html:231
-msgid ""
-"<b>We provide presigned transactions</b><br>In order to provide limits and "
-"two factor your funds are secured with both your key and ours. For ease of "
-"mind, presigned transaction are enabled (uses nlocktime) which means that "
-"each time your wallet has updates we will forward to you a presigned "
-"transaction unlocking the funds at a date in the future of your choice."
-msgstr ""
-"<b>Wir bieten im voraus signierte Transaktionen</b><br>Um Grenzen und Zwei-"
-"Faktor-Authentifizierung anzubieten ist Ihr Guthaben sowohl mit Ihrem als "
-"auch mit unserem Schlüssel gesichert. Damit Sie die Ruhe bwahren können, "
-"sind im voraus signierte Transaktion (mit nLockTime) erlaubt was heißt dass "
-"jedes mal wenn Ihre Brieftasche aktualisiert wird wir Ihnen eine im Voraus "
-"signierte Transaktionen senden, die das Guthaben entsperrt zu einem "
-"zukünftigen Zeitpunkt Ihrer Wahl."
+msgid "<b>We provide presigned transactions</b><br>In order to provide limits and two factor your funds are secured with both your key and ours. For ease of mind, presigned transaction are enabled (uses nlocktime) which means that each time your wallet has updates we will forward to you a presigned transaction unlocking the funds at a date in the future of your choice."
+msgstr "<b>Wir bieten im voraus signierte Transaktionen</b><br>Um Grenzen und Zwei-Faktor-Authentifizierung anzubieten ist Ihr Guthaben sowohl mit Ihrem als auch mit unserem Schlüssel gesichert. Für Ihre Geistesruhe sind im voraus signierte Transaktion (mit nLockTime) erlaubt. Bei jeder Aktualisierung Ihrer Brieftasche bekommen Sie dann von uns eine im Voraus signierte Transaktion, die das Guthaben zu einem zukünftigen Zeitpunkt Ihrer Wahl freigibt."
 
 #: templates/website/index.html:237
-msgid ""
-"<b>We use P2SH to make this all easy</b><br>P2SH allows people you interact "
-"with to handle transactions to and from GreenAddress.it's wallets "
-"transparently."
-msgstr ""
-"<b>Wir benutzen P2SH um all das einfach zu machen</b><br>P2SH erlaubt es "
-"Leuten mit denen Sie in Kontakt sind Transaktion zu und von Brieftaschen bei "
-"GreenAddress.it transparent zu handhaben."
+msgid "<b>We use P2SH to make this all easy</b><br>P2SH allows people you interact with to handle transactions to and from GreenAddress.it's wallets transparently."
+msgstr "<b>Wir benutzen P2SH um all das einfach zu machen</b><br>P2SH erlaubt es Leuten mit denen Sie in Kontakt sind Transaktion von und zu Brieftaschen bei GreenAddress.it transparent zu handhaben."
 
 #: templates/website/index.html:245
-msgid ""
-"<b>We offer our second signature</b><br>Which allows us to offer and enforce "
-"2 factor authenticated payments and daily, weekly and monthly limits, rate "
-"limiting your transactions per hour, day,  week and month and make your "
-"payment instant by providing a double spend checks with GreenAddress.it!"
-msgstr ""
-"<b>Wir bieten unsere zweite Signatur</b><br>Welche es uns erlaubt durch Zwei-"
-"Faktor-Authentifizierung bestätigte Zahlungen anzubieten und durchzusetzen "
-"mit täglichen, wöchentlichen und monatlichen Transaktionsgrenzen, "
-"Häufigkeitsbegrenzungen pro Stunde, Tag, Woche und Monat, so wie sofortige "
-"Bezahlungen über Kontrolle von doppelten Ausgaben durch GreenAddress.it!"
+msgid "<b>We offer our second signature</b><br>Which allows us to offer and enforce 2 factor authenticated payments and daily, weekly and monthly limits, rate limiting your transactions per hour, day,  week and month and make your payment instant by providing a double spend checks with GreenAddress.it!"
+msgstr "<b>Wir bieten unsere zweite Signatur</b><br>Dies erlaubt uns durch Zwei-Faktor-Authentifizierung bestätigte Zahlungen anzubieten und überprüfen, mit täglichen, wöchentlichen und monatlichen Transaktionsgrenzen, Häufigkeitsbegrenzungen pro Stunde, Tag, Woche und Monat, sowie sofortigen Zahlungen dank Gegenprüfung durch GreenAddress.it!"
 
 #: templates/website/index.html:251
-msgid ""
-"<b>Send money to anyone via SMS, Twitter, Facebook, etc</b><br>If the user "
-"has an account at GreenAddress.it they will be immediately notified of the "
-"transfer which will be instantly added to their balance. If they don’t have "
-"an account they will receive a notification with a link to redeem the funds "
-"requiring a password (BIP0038) of your choice that you will be asked to "
-"notify them of via a second channel. The funds will always be in your "
-"control while not yet redeemed."
-msgstr ""
-"<b>Senden Sie Geld an jeden via SMS, Twitter, Facebook, etc</b><br>Wenn der "
-"Nutzer ein Konto bei GreenAddress.it hat wird er sofort über den Transfer "
-"benachrichtigt, der sofort dem Konto gut geschrieben wird. Falls er kein "
-"Konto hat werden sie eine Nachricht erhalten mit einem Link um das Guthaben "
-"einzulösen gegen ein Passwort Ihrer Wahl (BIP0038), das wir Sie bitten über "
-"einen zweiten Kanal bereit zu stellen. Das Guthaben bleibt in Ihrer Hand bis "
-"es eingelöst wird."
+msgid "<b>Send money to anyone via SMS, Twitter, Facebook, etc</b><br>If the user has an account at GreenAddress.it they will be immediately notified of the transfer which will be instantly added to their balance. If they don’t have an account they will receive a notification with a link to redeem the funds requiring a password (BIP0038) of your choice that you will be asked to notify them of via a second channel. The funds will always be in your control while not yet redeemed."
+msgstr "<b>Senden Sie Geld an jeden via SMS, Twitter, Facebook, etc</b><br>Wer bereits ein Konto bei GreenAddress.it hat, bekommt das Guthaben sofort gutgeschrieben und wird darüber benachrichtigt. Wer noch kein Konto hat erhält einen Link um das Guthaben mit einem Passwort Ihrer Wahl einzulösen, welches Sie persönlich übermitteln. Das Guthaben bleibt in Ihrer Hand, bis es eingelöst wird."
 
-#: templates/website/redeem.html:6
-msgid "Redeem funds"
-msgstr "Guthaben einlösen"
+#: templates/website/about.html:5 templates/website/about.html:11
+#: templates/base/base.html:135
+msgid "About us"
+msgstr "About us"
 
-#: templates/website/pay.html:6
-msgid "Send funds"
-msgstr "Sende Guthaben"
+#: templates/website/about.html:25 templates/website/support.html:33
+msgid "Check us out on"
+msgstr "Sie finden uns auch auf"
 
-#: templates/website/pay.html:9
-msgid "Please send"
-msgstr "Bitte senden"
+#: templates/website/about.html:41
+msgid "Founder"
+msgstr "Founder"
+
+#: templates/website/about.html:49
+msgid "Full Stack Developer"
+msgstr "Full Stack Developer"
+
+#: templates/website/about.html:56 templates/website/about.html:63
+msgid "Advisor"
+msgstr "Advisor"
+
+#: templates/website/support.html:5 templates/wallet/nav.html:16
+#: templates/base/base.html:108
+msgid "Support"
+msgstr "Hilfe"
 
 #: templates/website/support.html:21
 msgid "For any issue, you can email us at"
-msgstr "Bei egal welchem Problem können Sie uns eine Email schreiben an"
+msgstr "Bei Problemen erreichen Sie uns via Email an"
 
 #: templates/website/support.html:23
 msgid "Or call us on"
-msgstr "Oder uns anrufen unter"
+msgstr "Oder rufen Sie uns an unter"
 
 #: templates/website/support.html:25
 msgid "Nine to five (GMT + 1:00) Monday to Friday."
 msgstr "Von Neun bis Fünf (GMT + 1:00) Montag bis Freitag"
 
 #: templates/website/support.html:26
-msgid ""
-"Please leave a message if in out of hours or if we are unable to take your "
-"call."
-msgstr ""
-"Bitte hinterlassen Sie eine Nachricht falls Sie außerhalb der "
-"Geschäftszeiten anrufen oder wir sonst nicht in der Lage sind Ihren Anruf zu "
-"beantworten."
+msgid "Please leave a message if in out of hours or if we are unable to take your call."
+msgstr "Bitte hinterlassen Sie eine Nachricht falls Sie außerhalb der Geschäftszeiten anrufen, da wir sonst nicht in der Lage sind Ihren Anruf zu beantworten."
 
-#: templates/website/support.html:33
-msgid "Check us out on"
-msgstr "Finden Sie uns auf"
+#: templates/website/redeem.html:6
+msgid "Redeem funds"
+msgstr "Guthaben einlösen"
 
-#: templates/website/faq.html:11
-msgid "Frequently Asked Questions"
-msgstr "Häufige Fragen"
+#: templates/website/redeem.html:9
+#: templates/wallet/partials/signuplogin/header_redeem.html:2
+msgid "You've received"
+msgstr "Sie haben erhalten"
 
-#: templates/website/faq.html:13
-msgid ""
-"Can I migrate easily from another wallet (like blockchain.info)?  Can I "
-"sweep private keys funds into my wallet?"
-msgstr ""
-"Kann ich einfach von anderen Diensten (wie blockchain.info) wechseln? Kann "
-"ich Guthaben auf privaten Schlüsseln in meine Brieftasche übertragen?"
+#: templates/wallet/nav.html:4 templates/wallet/partials/wallet_info.html:4
+msgid "Balance"
+msgstr "Guthaben"
 
-#: templates/website/faq.html:14
-msgid ""
-"Yes and yes, you can, just have a look in the Receive Money tab, put your "
-"private key in the right field and client side the funds will be swept into "
-"your wallet. Voilà!"
-msgstr ""
-"Ja und Ja, Sie können! Gehen Sie einfach auf den Reiter 'Geld empfangen', "
-"fügen Sie ihren privaten Schlüssel in das richtige Feld und das Guthaben "
-"wird in Ihre Brieftasche übertragen. Voilá!"
+#: templates/wallet/nav.html:5
+#: templates/wallet/partials/wallet_transactions.html:4
+msgid "Transactions"
+msgstr "Transaktionen"
 
-#: templates/website/faq.html:16
-msgid "Can I try your service?  Do you have a testnet/UAT version?"
-msgstr ""
-"Kann ich Ihren Dienst ausprobieren? Haben Sie eine Testnet/UAT-Version?"
+#: templates/wallet/nav.html:6 templates/wallet/partials/wallet_send.html:4
+#: templates/wallet/partials/wallet_send.html:81
+msgid "Send Money"
+msgstr "Geld senden"
 
-#: templates/website/faq.html:17
-msgid "Yes and yes, you can try our testnet version on "
-msgstr "Ja und ja. Sie können unsere Testnet-Version ausprobieren unter "
+#: templates/wallet/nav.html:7 templates/wallet/partials/wallet_receive.html:4
+msgid "Receive Money"
+msgstr "Geld empfangen"
 
-#: templates/website/faq.html:17
-msgid " and you can find a testnet faucet on "
-msgstr " und Sie können einen Testnet-Hahn finden unter "
+#: templates/wallet/nav.html:8
+#: templates/wallet/partials/wallet_address_book.html:4
+msgid "Address Book"
+msgstr "Adressbuch"
 
-#: templates/website/faq.html:18
-msgid ""
-" Don't forget to send the testnet coins back to the faucet when you are done!"
-msgstr ""
-" Vergessen Sie nicht das Testnet-Guthaben zurück an den Hahn zu schicken, "
-"wenn Sie fertig sind!"
+#: templates/wallet/nav.html:9
+#: templates/wallet/partials/wallet_settings.html:4
+msgid "Settings"
+msgstr "Einstellungen"
 
-#: templates/website/faq.html:21
-msgid "Do you support other platforms than a web page?"
-msgstr "Unterstützen Sie andere Plattformen als die Webseite?"
+#: templates/wallet/nav.html:10
+msgid "Update now"
+msgstr "Jetzt aktualisieren"
 
-#: templates/website/faq.html:22
-msgid "Yes! You can download an Android app"
-msgstr "Ja! Sie können eine Android-App runter laden"
+#: templates/wallet/nav.html:11
+#: templates/wallet/partials/wallet_modal_logout_other_session.html:10
+#: templates/wallet/partials/wallet_modal_logout.html:11
+msgid "Logout"
+msgstr "Abmelden"
 
-#: templates/website/faq.html:22
-msgid "from the Google Play store"
-msgstr "vom Google Play Store"
+#: templates/wallet/nav.html:18
+msgid "Last login"
+msgstr "Letzter Login"
 
-#: templates/website/faq.html:22
-msgid "and a Chrome packaged app"
-msgstr "und eine Chrome App"
+#: templates/wallet/nav.html:21
+msgid "country"
+msgstr "Land"
 
-#: templates/website/faq.html:22
-msgid "from the Chrome Web Store"
-msgstr "vom Chrome Web Store"
+#: templates/wallet/nav.html:22
+msgid "unknown country"
+msgstr "unbekanntes Land"
 
-#: templates/website/faq.html:22
-msgid "The Chrome app is open source and you can "
-msgstr "Die Chrome App ist freie Software und Sie können"
+#: templates/wallet/partials/concurrent_login.html:6
+msgid "You were logged out."
+msgstr "Sie wurden abgemeldet."
 
-#: templates/website/faq.html:22
-msgid "see its source code on GitHub"
-msgstr "ihren Quelltext auf GitHub einsehen"
+#: templates/wallet/partials/concurrent_login.html:10
+msgid "          You have logged in elsewhere.<br>          <small>If it was not you, please contact <strong>immediately</strong> <a href=\"/support/\">support</a>.</small>        "
+msgstr "          Sie sind anderswo angemeldet.<br>          <small>Falls das nicht Sie waren, kontaktieren Sie <strong>sofort</strong> <a href=\"/support/\">Support</a>.</small>        "
 
-#: templates/website/faq.html:22
-msgid ""
-"It also uses <a href=\"http://electrum.org\">Electrum</a> servers for "
-"additional transaction verification, so it should be safe to use even if our "
-"servers are compromised. We plan to also open source and implement such "
-"security features in the Android app soon!"
-msgstr ""
-"Sie verwendet <a href=\"http://electrum.org\">Electrum</a>-Server für "
-"zusätzliche Transaktionsbestätigung, so dass der Gebrauch auch dann sicher "
-"ist, wenn unsere Server kompromittiert sind. Wir haben Pläne solche "
-"Sicherheitsmerkmale bald auch für die Android App als freie Software zu "
-"entwickeln."
+#: templates/wallet/partials/concurrent_login.html:16
+msgid "Go back to login"
+msgstr "Zurück zur Anmeldung"
 
-#: templates/website/faq.html:25
-msgid "But what happens if your service goes away? Will I lose my coins?"
-msgstr ""
-"Was passiert wenn Ihr Dienst nicht mehr verfügbar ist? Werde ich mein "
-"Guthaben verlieren?"
+#: templates/wallet/partials/wallet_modal_logout_other_session.html:4
+msgid "You are already logged in. Do you want to log out the other session?"
+msgstr "Sie sind bereits angemeldet. Wollen Sie sich aus der anderen Sitzung abmelden?"
 
-#: templates/website/faq.html:27
-msgid ""
-"GreenAddress.it signs each transaction with its own key in addition to "
-"client-side signing by user's keys, and funds are stored in 2-of-2 "
-"multisignature outputs requiring both signatures to spend. The drawback of "
-"it is that you cannot control your funds without GreenAddress.it's "
-"signature, so you are right to worry that you can lose your coins."
-msgstr ""
-"GreenAddress.it signiert jede Transaktion mit ihrem eigenen Schlüssel "
-"zusätzlich zur klientseitigen Signatur mit den Schlüsseln der Nutzer und "
-"alle Guthaben sind in 2-von-2 Multisignaturausgaben gesichert, so dass beide "
-"Signaturen notwendig sind um das Guthaben auszugeben. Der Nachteil davon ist "
-"dass Sie Ihr Guthaben nicht ohne der Signatur von GreenAddress.it benutzen "
-"können, so dass Sie richtigerweise befürchten Ihr Guthaben verlieren zu "
-"können."
+#: templates/wallet/partials/wallet_modal_logout_other_session.html:9
+#: templates/wallet/partials/wallet_modal_2fa.html:32
+#: templates/wallet/partials/wallet_2fa.html:102
+#: templates/wallet/partials/wallet_2fa.html:144
+#: templates/wallet/partials/wallet_2fa.html:186
+#: templates/wallet/partials/wallet_modal_logout.html:10
+#: templates/wallet/partials/wallet_modal_custom_login.html:25
+#: templates/wallet/partials/wallet_modal_pin.html:22
+#: templates/wallet/partials/wallet_send.html:25
+#: templates/wallet/partials/wallet_settings.html:154
+#: templates/wallet/partials/wallet_settings.html:181
+#: templates/wallet/partials/wallet_settings.html:221
+#: templates/wallet/partials/wallet_settings.html:261
+#: templates/wallet/partials/wallet_receive.html:76
+#: templates/wallet/partials/signuplogin/redeem_password_modal.html:23
+#: templates/wallet/partials/signuplogin/base.html:29
+msgid "Cancel"
+msgstr "Abbrechen"
 
-#: templates/website/faq.html:29
-msgid ""
-"But! We have solved this issue by providing nLockTime transactions which "
-"essentially make deposits 'expire' after some time, which allows redeeming "
-"them without our intervention after this pre-set period of time. It is "
-"enabled by default when you have email notifications and two factor enabled."
-msgstr ""
-"Aber! Wir haben dieses Problem gelöst indem wir nLockTime-Transaktionen zur "
-"Verfügung stellen, die im Grunde genommen Einlagen 'ablaufen' lassen nach "
-"eine Zeit, so dass diese Ihnen wieder zur Verfügung stehen ohne unserem "
-"Zugriff nach einer im Voraus festgelegten Zeit. Dies ist automatisch "
-"eingestellt, wenn Sie Emailbenachrichtigungen und Zwei-Faktor-"
-"Authentifizierung aktiviert haben."
+#: templates/wallet/partials/wallet_modal_tx_details.html:2
+msgid "Transaction details"
+msgstr "Transaktionsdetails"
 
-#: templates/website/faq.html:31
-msgid ""
-"This allows you to keep your ease of mind even in case GreenAddress.it "
-"disappears with its keys."
-msgstr ""
-"Sie können so Ihre Ruhe bewahren auch wenn GreenAddress.it mit allen "
-"Schlüsseln verschwindet."
+#: templates/wallet/partials/wallet_modal_tx_details.html:7
+msgid "Timestamp"
+msgstr "Zeitstempel"
 
-#: templates/website/faq.html:33
-msgid ""
-"It also means that every time the funds expire the user has to re-transfer "
-"them. This can be automated on login and notified in advance via email or "
-"manually done."
-msgstr ""
-"Dies bedeutet aber auch dass jedes mal wenn die Guthaben ablaufen der Nutzer "
-"dieser erneut transferieren muss. Dieser Prozess kann bei Login "
-"automatisiert und eine Benachrichtigung im Voraus erstellt werden oder "
-"manuel erledigt."
+#: templates/wallet/partials/wallet_modal_tx_details.html:10
+msgid "Hash"
+msgstr "Hash"
 
-#: templates/website/faq.html:35
-msgid ""
-"For redeeming the funds after expiration, you can use a tool we've developed "
-"specifically for this purpose - see "
-msgstr ""
-"Um das Guthaben nach Ablauf wieder zu erhalten können Sie ein Werkzeug "
-"verwenden das wir speziell für diesen Zweck entworfen haben - siehe "
+#: templates/wallet/partials/wallet_modal_tx_details.html:13
+#: templates/wallet/partials/wallet_send.html:66
+msgid "Fee"
+msgstr "Gebühr"
 
-#: templates/website/faq.html:35
-msgid "its project on GitHub"
-msgstr "dessen Projektseite auf GitHub"
+#: templates/wallet/partials/wallet_modal_tx_details.html:19
+msgid "Inputs"
+msgstr "Eingänge"
 
-#: templates/website/faq.html:35
-msgid "It's open source!"
-msgstr "Es ist freie Software!"
+#: templates/wallet/partials/wallet_modal_tx_details.html:22
+#: templates/wallet/partials/wallet_modal_tx_details.html:34
+#: templates/wallet/partials/wallet_modal_my_addresses.html:5
+#: templates/wallet/partials/wallet_address_book.html:22
+#: templates/wallet/partials/wallet_receive.html:44
+msgid "Address"
+msgstr "Adresse"
 
-#: templates/website/faq.html:38
-msgid "How is your wallet better than the others out there?"
-msgstr "Warum ist Ihr Dienst besser als die anderen Angebote?"
+#: templates/wallet/partials/wallet_modal_tx_details.html:22
+#: templates/wallet/partials/wallet_modal_tx_details.html:34
+#: templates/wallet/partials/wallet_send.html:45
+#: templates/wallet/partials/wallet_settings.html:291
+#: templates/wallet/partials/wallet_settings.html:297
+#: templates/wallet/partials/wallet_settings.html:303
+#: templates/wallet/partials/wallet_settings.html:331
+#: templates/wallet/partials/wallet_receive.html:12
+msgid "Amount"
+msgstr "Betrag"
 
-#: templates/website/faq.html:40
-msgid ""
-"For a simple high level comparison with a couple of web wallets please see "
-msgstr ""
-"Für einen einfachen Vergleich mit ein paar anderen Webdiensten siehe bitte "
+#: templates/wallet/partials/wallet_modal_tx_details.html:31
+msgid "Outputs"
+msgstr "Ausgänge"
 
-#: templates/website/faq.html:40
-msgid "this"
-msgstr "diese"
+#: templates/wallet/partials/wallet_modal_tx_details.html:38
+msgid "request nLockTime"
+msgstr "nLockTime abfragen"
 
-#: templates/website/faq.html:40
-msgid "table"
-msgstr "Tabelle"
+#: templates/wallet/partials/wallet_modal_tx_details.html:48
+#: templates/wallet/partials/wallet_modal_mnemonic.html:10
+#: templates/wallet/partials/wallet_modal_my_addresses.html:16
+#: templates/wallet/partials/wallet_modal_redeposit.html:14
+#: templates/wallet/partials/signup_qr_modal.html:7
+#: templates/wallet/partials/signup_nfc_modal.html:16
+#: templates/wallet/partials/wallet_modal_gauth_qr.html:8
+#: templates/wallet/partials/wallet_modal_url_qr.html:6
+#: templates/wallet/partials/wallet_modal_expiring_soon.html:20
+msgid "Close"
+msgstr "Schließen"
 
-#: templates/website/faq.html:41
-msgid "We offer all the advantages of a web wallet:"
-msgstr "Wir bieten alle Vorteile eines Webdienstes"
+#: templates/wallet/partials/wallet_modal_mnemonic.html:2
+#: templates/wallet/partials/signup_qr_modal.html:2
+msgid "The QR code containing passphrase to access your wallet is:"
+msgstr "Der QR-Code mit dem Passwort um auf Ihre Brieftasche zuzugreifen ist:"
 
-#: templates/website/faq.html:43
-msgid "Ubiquitously available"
-msgstr "Überall verfügbar"
+#: templates/wallet/partials/wallet_modal_mnemonic.html:4
+#: templates/wallet/partials/signup_qr_modal.html:4
+msgid "Remember to store it in a safe place!"
+msgstr "Denken Sie daran es an einem sicheren Platz aufzubewahren!"
 
-#: templates/website/faq.html:44
-msgid "Social/email/SMS integration"
-msgstr "Soziale/Email/SMS Integration"
+#: templates/wallet/partials/wallet_modal_mnemonic.html:6
+#: templates/wallet/partials/signup_1_init.html:24
+msgid "Your mnemonic passphrase"
+msgstr "Ihre mnemonische Passphrase"
 
-#: templates/website/faq.html:46
-msgid "Transaction limits/restrictions"
-msgstr "Transaktionslimits und -einschränkungen"
+#: templates/wallet/partials/wallet_modal_2fa.html:6
+msgid "You must provide 2 factor authentication code to perform this action"
+msgstr "Sie benötigen Zwei-Faktor-Authentifikation für diese Aktion"
 
-#: templates/website/faq.html:47
-msgid "Green address instant transaction confirmation"
-msgstr "Green address sofortige Transaktionsbestätigung"
+#: templates/wallet/partials/wallet_modal_2fa.html:9
+msgid "Please select authentication method"
+msgstr "Bitte wählen Sie eine Authentifizierungsmethode"
 
-#: templates/website/faq.html:49
-msgid "And the advantages of a local software wallet like "
-msgstr "Und die Vorteile einer lokal ausgeführten Software wie "
+#: templates/wallet/partials/wallet_modal_2fa.html:15
+msgid "Please enter your "
+msgstr "Bitte geben Sie Ihre Emailadresse ein"
 
-#: templates/website/faq.html:51
-msgid "Mnemonic seed backup once and forget"
-msgstr "Einmalige mnemonische Saatsicherung und dann nie wieder"
+#: templates/wallet/partials/wallet_modal_2fa.html:15
+msgid " authentication code which we have just sent to you."
+msgstr " Authentifizierungs-Code den wir Ihnen soeben geschickt haben."
 
-#: templates/website/faq.html:52
-msgid "Your private keys are never stored on our servers, not even encrypted"
-msgstr ""
-"Ihre privaten Schlüssel sind nie auf unseren Servern gespeichert, nicht "
-"einmal in verschlüsselter Form"
+#: templates/wallet/partials/wallet_modal_2fa.html:18
+msgid "Please enter the "
+msgstr "Bitte geben Sie ihn hier ein"
 
-#: templates/website/faq.html:53
-msgid "No lost time synchronizing the client with the full Bitcoin blockchain"
-msgstr ""
-"Keine Zeit verschwendet um den Kleinten mit der vollen Bitcoin-Blockchain zu "
-"synchronisieren"
+#: templates/wallet/partials/wallet_modal_2fa.html:18
+msgid " code"
+msgstr "SMS Code"
 
-#: templates/website/faq.html:55
-msgid ""
-"Simply put, we offer the best web wallet available: We include more features "
-"and security safeguards than the competition with a simple interface through "
-"your browser or phone."
-msgstr ""
-"Einfach gesprochen bieten wir den besten Webdienst an: Wir haben mehr "
-"Funktionen und Sicherheitsmerkmale als die Konkurrenz zusammen mit einem "
-"einfachen Interface in ihrem Browser oder auf Ihrem Handy."
+#: templates/wallet/partials/wallet_modal_2fa.html:31
+#: templates/wallet/partials/wallet_modal_custom_login.html:26
+msgid "OK"
+msgstr "OK"
 
-#: templates/website/faq.html:58
-msgid "Where are my Bitcoin keys stored?"
-msgstr "Wo sind meine Bitcoin-Schlüssel gespeichert?"
+#: templates/wallet/partials/wallet_transactions.html:12
+msgid "Last 10 items"
+msgstr "Letzte 10 Einträge"
 
-#: templates/website/faq.html:59
-msgid ""
-"Your keys are not stored. They are derived from your mnemonic passphrase and "
-"never sent to the server."
-msgstr ""
-"Ihre Schlüssel sind nicht gespeichert. Sie sind von ihrer mnemonischen "
-"Passphrase abgeleitet und niemals an den Server gesendet."
+#: templates/wallet/partials/wallet_transactions.html:13
+msgid "Last month"
+msgstr "Letzter Monat"
 
-#: templates/website/faq.html:61
-msgid "How does the PIN work?"
-msgstr "Wie funktioniert die PIN?"
+#: templates/wallet/partials/wallet_transactions.html:14
+msgid "Last 3 months"
+msgstr "Letzte drei Monate"
 
-#: templates/website/faq.html:62
-msgid ""
-"A random password (256 AES) is created and used to encrypt your mnemonics "
-"and store them on your device in encrypted form. The random password is sent "
-"server side and destroyed on the client. When during login the user provides "
-"the right PIN a mechanism will ask the server for the password which is used "
-"to decrypt the mnemnonic passphrase stored on your device and get you in "
-"your wallet. If the PIN is provided wrong for 3 times in a row the password "
-"is then deleted from our servers."
-msgstr ""
-"Ein zufälliges Passwort (256 AES) ist erstellt und benutzt um Ihre "
-"Passphrase zu verschlüsseln und in dieser Form auf Ihrem Gerät zu speichern. "
-"Das zufällige Passwort wird dann an den Server geschickt und auf Klientseite "
-"vernichtet. Wenn der Nutzer beim Login die korrekte PIN angibt wird ein "
-"mechanismus den Server nach dem Passwort fragen, was dann verwendet wird um "
-"die Passphrase auf Ihrem Gerät zu entschlüsseln und Ihnen Zugriff auf Ihre "
-"Brieftasche zu gewähren. Wenn die PIN drei mal in Folge falsch eingegeben "
-"wird löschen wir das Passwort von unseren Servern."
+#: templates/wallet/partials/wallet_transactions.html:15
+msgid "All"
+msgstr "Alle"
 
-#: templates/website/faq.html:65
-msgid ""
-"When are you going to offer feature XYZ? I would like to access my wallet in "
-"my language, can you add it?"
-msgstr ""
-"Wann bieten sie die neue Funktion XYZ? I möchte Zugriff auf meine "
-"Brieftasche in meiner Sprache haben, wann bieten Sie das an?"
+#: templates/wallet/partials/browser_unsupported.html:6
+#: templates/wallet/partials/browser_unsupported.html:10
+msgid "We are sorry, but your browser is not supported."
+msgstr "Es tut uns leid, aber Ihr Browser wird nicht unterstützt."
 
-#: templates/website/faq.html:67
-msgid ""
-"We are constantly looking for feedback from our users, if you want to "
-"provide some feedback or get involved feel free to PM on reddit "
-"(greenaddress) or send us an email at "
-msgstr ""
-"Wir möchten immer Rückmeldungen von unseren Nutzern haben. Wenn Sie mit uns "
-"in Kontakt treten möchten oder mit machen, schreiben Sie einfach eine PM auf "
-"Reddit (greenaddress) oder uns eine Email unter "
+#: templates/wallet/partials/browser_unsupported.html:11
+msgid "Please try a modern browser like Chrome, Firefox or our Android app!"
+msgstr "Bitte versuchen Sie einen modernen Browser wie Chrome, Firefox oder unsere Android App!"
 
-#: templates/website/faq.html:68
-msgid ""
-"We have many features and language support for many languages in the "
-"pipeline, please check with us if you want to be kept up to date with "
-"development and please be patient :)"
-msgstr ""
-"Wir haben viele Funktionen und Sprachen in Entwicklung, bitte melden Sie "
-"sich wenn sie auf dem Aktuellen Stand der Entwicklung bleiben möchten und "
-"gedulden Sie sich bitte :)"
+#: templates/wallet/partials/wallet_modal_my_addresses.html:3
+msgid "No addresses found"
+msgstr "Keine Addressen gefunden"
 
-#: templates/website/faq.html:70
-msgid "Do you have a donate button for linking to users payment URLs?"
-msgstr ""
-"Haben Sie einen Spendenbutton um Nutzern eine Bezahlungs-URL zu zeigen?"
+#: templates/wallet/partials/wallet_modal_my_addresses.html:5
+msgid "number of transactions"
+msgstr "Anzahl der Transaktionen"
 
-#: templates/website/faq.html:72
-msgid "Sure have a look below (let us know if you have created one!)."
-msgstr ""
-"Sicher, sehen Sie unten (lassen Sie uns wissen falls Sie selbst einen "
-"erstellen!)."
+#: templates/wallet/partials/wallet_modal_redeposit.html:2
+msgid "You have some expired deposits. Unless you re-deposit or redeem them, no transactions will be allowed"
+msgstr "Sie haben einige abgelaufene Einlagen. Bis Sie diese nicht erneut einlegen oder abheben, sind keine Transaktionen erlaubt"
 
-#: templates/website/faq.html:76
-msgid "What exactly is an 'instant greenaddress transaction'?"
-msgstr "Was genau ist eine 'instantane greenaddress Transation'?"
+#: templates/wallet/partials/wallet_modal_redeposit.html:5
+msgid "Redeposit as single transaction (cheaper)"
+msgstr "Erneut einlegen als einzelne Transaktion (günstiger)"
 
-#: templates/website/faq.html:77
-msgid "From the Bitcoin "
-msgstr "Von der Bitcoin "
+#: templates/wallet/partials/wallet_modal_redeposit.html:6
+#: templates/wallet/partials/wallet_modal_redeposit.html:9
+msgid "estimated fee"
+msgstr "geschätzte Gebühr"
 
-#: templates/website/faq.html:78
-msgid ""
-"Your transactions are protected by both your signature and by a signature we "
-"apply when we get your permission via two factor. With this protection, "
-"comes the fact that people receiving Bitcoin from you can trust the funds "
-"instantly as we provide a 'special' signature to your transaction when you "
-"require instant confirmation."
-msgstr ""
-"Ihre Transaktionen sind sowohl durch Ihre Signatur als auch durch eine "
-"Signatur die wir erstellen, wenn wir Ihre Genehmigung durch Zwei-Faktor-"
-"Authentifizierung erhalten, geschützt. Dadurch können Empfänger Ihres "
-"Guthabens diesem sofort vertrauen können, da wir eine 'besondere' Signatur "
-"zu Ihrer Transaktion hinzufügen wenn Sie sofortige Bestätigung anfordern."
+#: templates/wallet/partials/wallet_modal_redeposit.html:8
+msgid "Redeposit as one transaction per output (better privacy)"
+msgstr "Erneut einlegen mit einer Transaktion pro Ausgang (bessere Privatsphäre)"
 
-#: templates/website/faq.html:81
-msgid "What about cookies?"
-msgstr "Was ist mit Cookies?"
+#: templates/wallet/partials/wallet_modal_redeposit.html:10
+msgid "transactions"
+msgstr "Transaktionen"
 
-#: templates/website/faq.html:83
-msgid ""
-"To enable GreenAddress.it to recognize your device and to provide features "
-"to you, we use cookies. Cookies are unique identifiers that we transfer to "
-"your device to enable our services to recognize your device and to provide "
-"features such as providing you with protection from Cross-site request "
-"forgery and display the site in the language you have selected or to not "
-"show you the EU cookie compliance info banner."
-msgstr ""
-"Um GreenAddress.it zu ermöglichen Ihre Geräte wieder zu erkennen und Ihnen "
-"Funktionen zur verfügung zu stellen benutzen wir Cookies. Cookies sind "
-"einzigartige Identifikatoren, die wir auf Ihre Gerät transferieren um "
-"unseren Dienstleistungen zu ermöglichen diese Geräte zu erkennen und Ihnen "
-"etwa Schutz vor Cross-Site-Request-Fälschungen zu geben oder die Seite in "
-"der Sprache anzuzeigen, die Sie bevorzugen, oder Ihnen das Banner über das "
-"Einhalten der EU Cookie Direktive anzuzeigen."
+#: templates/wallet/partials/wallet_info.html:14
+#: templates/wallet/partials/wallet_info.html:27
+msgid "Year"
+msgstr "Jahr"
+
+#: templates/wallet/partials/wallet_info.html:15
+#: templates/wallet/partials/wallet_info.html:28
+msgid "Month"
+msgstr "Monat"
+
+#: templates/wallet/partials/wallet_info.html:16
+#: templates/wallet/partials/wallet_info.html:29
+msgid "Week"
+msgstr "Woche"
+
+#: templates/wallet/partials/wallet_info.html:38
+msgid "Your last transactions"
+msgstr "Ihre letzten Transaktionen"
+
+#: templates/wallet/partials/wallet_address_book.html:12
+msgid "Add new entry"
+msgstr "Neuen Eintrag hinzufügen"
+
+#: templates/wallet/partials/wallet_address_book.html:21
+msgid "Name"
+msgstr "Name"
+
+#: templates/wallet/partials/wallet_address_book.html:29
+#: templates/wallet/partials/wallet_transactions_table.html:16
+msgid "Export to CSV"
+msgstr "CSV exportieren"
+
+#: templates/wallet/partials/wallet_address_book.html:49
+msgid "Your address book is empty"
+msgstr "Ihr Adressbuch ist leer"
+
+#: templates/wallet/partials/signup_1_init.html:7
+msgid "Already got an account?"
+msgstr "Sie haben bereits ein Konto?"
+
+#: templates/wallet/partials/signup_1_init.html:9
+#: templates/wallet/partials/signup_1_init.html:11
+#: templates/wallet/partials/signuplogin/base.html:59
+msgid "Login to your Wallet"
+msgstr "In Ihre Brieftasche einloggen"
+
+#: templates/wallet/partials/signup_1_init.html:13
+#: templates/wallet/partials/signup_4_2factor.html:7
+#: templates/wallet/partials/signup_3_oauth.html:7
+#: templates/wallet/partials/signup_2_pin.html:7
+msgid "Step"
+msgstr "Schritt"
+
+#: templates/wallet/partials/signup_1_init.html:13
+#: templates/wallet/partials/signup_4_2factor.html:7
+#: templates/wallet/partials/signup_3_oauth.html:7
+#: templates/wallet/partials/signup_2_pin.html:7
+msgid "of"
+msgstr "von"
+
+#: templates/wallet/partials/signup_1_init.html:20
+msgid "You are now the proud owner of a bitcoin wallet"
+msgstr "Sie sind nun stolzer Besitzer einer Bitcoin-Brieftasche"
+
+#: templates/wallet/partials/signup_1_init.html:21
+msgid "Please finish this 4-step account setup to fully secure it against intruders"
+msgstr "Bitte führen Sie diese Einrichtung in vier Schritten aus, um Ihr Konto vollständig gegen fremden Zugriff zu schützen"
+
+#: templates/wallet/partials/signup_1_init.html:26
+msgid "Generating mnemonic, please wait..."
+msgstr "Erzeuge Mnemonikum..."
+
+#: templates/wallet/partials/signup_1_init.html:28
+msgid "Please write down these words and store them in a safe place as they can't be recovered."
+msgstr "Bitte schreiben Sie diese Worte auf und bewahren Sie diese an einem sicheren Ort auf, da sie nicht wiederhergestellt werden können."
+
+#: templates/wallet/partials/signup_1_init.html:28
+msgid "We do not store the above information anywhere, we can't help you recover it!"
+msgstr "Wir speichern die obige Information nirgendwo, wir können Ihnen nicht helfen sie wiederherzustellen!"
+
+#: templates/wallet/partials/signup_1_init.html:33
+msgid "I confirm that my passphrase is saved &amp; secured and I agree with the "
+msgstr "Ich bestätige, dass meine Passphrase gespeichert und gesichert ist, und akzeptiere die "
+
+#: templates/wallet/partials/signup_1_init.html:36
+#: templates/wallet/partials/wallet_2fa.html:33
+#: templates/wallet/partials/wallet_settings.html:173
+#: templates/wallet/partials/wallet_receive.html:39
+#: templates/wallet/partials/wallet_receive.html:59
+#: templates/wallet/partials/signuplogin/header_pay.html:12
+msgid "Show QR Code"
+msgstr "Zeige QR-Code"
+
+#: templates/wallet/partials/signup_1_init.html:38
+#: templates/wallet/partials/wallet_settings.html:453
+msgid "Write to NFC tag"
+msgstr "Schreibe in NFC Tag"
+
+#: templates/wallet/partials/signup_1_init.html:40
+msgid "Print passphrase"
+msgstr "Passphrase ausdrucken"
+
+#: templates/wallet/partials/signup_1_init.html:42
+#: templates/wallet/partials/signup_1_init.html:43
+msgid "Continue"
+msgstr "Weiter"
+
+#: templates/wallet/partials/signup_1_init.html:48
+msgid "Error: "
+msgstr "Fehler: "
+
+#: templates/wallet/partials/signup_1_init.html:48
+msgid " Click to try again"
+msgstr " Hier klicken, um es erneut zu versuchen"
+
+#: templates/wallet/partials/signup_1_init.html:60
+msgid "The passphrase to access your wallet is:"
+msgstr "Die Passphrase für den Zugriff auf Ihre Brieftasche lautet:"
+
+#: templates/wallet/partials/signup_1_init.html:63
+msgid "Store this page in a safe place"
+msgstr "Bewahren Sie diese Seite an einem sicheren Ort auf"
+
+#: templates/wallet/partials/wallet_2fa.html:13
+#: templates/wallet/partials/wallet_settings.html:234
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/wallet/partials/wallet_2fa.html:19
+msgid "Google Authenticator is enabled."
+msgstr "Google Authenticator ist aktiviert."
+
+#: templates/wallet/partials/wallet_2fa.html:24
+msgid "Install app"
+msgstr "App installieren"
+
+#: templates/wallet/partials/wallet_2fa.html:26
+msgid "Install the app on your device. For Android at "
+msgstr "Installieren Sie die App auf Ihrem Gerät. Für Android auf "
+
+#: templates/wallet/partials/wallet_2fa.html:26
+msgid " while for iOS at "
+msgstr " für iOS auf "
+
+#: templates/wallet/partials/wallet_2fa.html:30
+msgid "Add account"
+msgstr "Konto hinzufügen"
+
+#: templates/wallet/partials/wallet_2fa.html:32
+msgid "Add an account to the Google Authenticator App and scan the QR code or manually enter exact code."
+msgstr "Fügen Sie ein Konto zur Google Authenticator App hinzu und scannen Sie den QR-Code oder geben Sie den Code manuell ein."
+
+#: templates/wallet/partials/wallet_2fa.html:37
+msgid "Confirm code"
+msgstr "Code bestätigen"
+
+#: templates/wallet/partials/wallet_2fa.html:39
+msgid "Google Authenticator will now show a number which in order to complete the two factor setup you need to enter below."
+msgstr "Google Authenticator zeigt nun eine Zahl an. Geben Sie diese unten ein, um die Zwei-Faktor-Authentifikation zu vervollständigen."
+
+#: templates/wallet/partials/wallet_2fa.html:48
+msgid "Authenticator code"
+msgstr "Authenticator-Code"
+
+#: templates/wallet/partials/wallet_2fa.html:53
+#: templates/wallet/partials/wallet_2fa.html:100
+#: templates/wallet/partials/wallet_2fa.html:142
+#: templates/wallet/partials/wallet_2fa.html:184
+#: templates/wallet/partials/wallet_settings.html:152
+#: templates/wallet/partials/wallet_settings.html:179
+#: templates/wallet/partials/wallet_settings.html:219
+#: templates/wallet/partials/wallet_settings.html:259
+msgid "Please enter received code"
+msgstr "Bitte geben Sie den erhaltenen Code ein"
+
+#: templates/wallet/partials/wallet_2fa.html:55
+#: templates/wallet/partials/wallet_2fa.html:81
+#: templates/wallet/partials/wallet_2fa.html:102
+#: templates/wallet/partials/wallet_2fa.html:124
+#: templates/wallet/partials/wallet_2fa.html:144
+#: templates/wallet/partials/wallet_2fa.html:166
+#: templates/wallet/partials/wallet_2fa.html:186
+#: templates/wallet/partials/wallet_settings.html:137
+#: templates/wallet/partials/wallet_settings.html:154
+#: templates/wallet/partials/wallet_settings.html:181
+#: templates/wallet/partials/wallet_settings.html:205
+#: templates/wallet/partials/wallet_settings.html:221
+#: templates/wallet/partials/wallet_settings.html:245
+#: templates/wallet/partials/wallet_settings.html:261
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: templates/wallet/partials/wallet_2fa.html:68
+msgid "Email two factor authentication is enabled."
+msgstr "Zwei-Faktor-Authentifizierung über Email ist aktiviert."
+
+#: templates/wallet/partials/wallet_2fa.html:74
+#: templates/wallet/partials/wallet_settings.html:130
+msgid "Your email address"
+msgstr "Ihre Emailadresse"
+
+#: templates/wallet/partials/wallet_2fa.html:79
+#: templates/wallet/partials/wallet_settings.html:135
+msgid "Please enter your email"
+msgstr "Bitte geben Sie Ihre Emailadresse ein"
+
+#: templates/wallet/partials/wallet_2fa.html:90
+msgid "You need to provide one code from your email to set up the two factor authentication.<br>                Please open your email and provide the code."
+msgstr "Sie müssen einen Code aus Ihrer Email eingeben um die Zwei-Faktor-Authentifizierung zu aktivieren<br>Bitte öffnen Sie Ihre Email und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_2fa.html:95
+#: templates/wallet/partials/wallet_settings.html:147
+msgid "Email code"
+msgstr "Email Code"
+
+#: templates/wallet/partials/wallet_2fa.html:113
+msgid "SMS two factor authentication is enabled."
+msgstr "SMS Zwei-Faktor-Authentifizierung ist aktiviert."
+
+#: templates/wallet/partials/wallet_2fa.html:118
+#: templates/wallet/partials/wallet_2fa.html:160
+#: templates/wallet/partials/wallet_settings.html:198
+#: templates/wallet/partials/wallet_settings.html:238
+msgid "Your phone number"
+msgstr "Ihre Telefonnummer"
+
+#: templates/wallet/partials/wallet_2fa.html:122
+#: templates/wallet/partials/wallet_2fa.html:164
+#: templates/wallet/partials/wallet_settings.html:203
+#: templates/wallet/partials/wallet_settings.html:243
+msgid "+NN... Please enter your phone"
+msgstr "+NN... Bitte geben Sie Ihre Telefonnummer ein"
+
+#: templates/wallet/partials/wallet_2fa.html:132
+msgid "You need to provide one SMS code to set up the two factor authentication.<br>                Please check your phone and provide the code."
+msgstr "Sie müssen einen SMS Code eingeben um die Zwei-Faktor-Authentifizierung einzurichten.<br>Bitte prüfen Sie Ihr Telefon und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_2fa.html:137
+#: templates/wallet/partials/wallet_settings.html:214
+msgid "SMS code"
+msgstr "SMS-Code"
+
+#: templates/wallet/partials/wallet_2fa.html:155
+msgid "Phone call two factor authentication is enabled."
+msgstr "Anruf Zwei-Faktor-Authentifizierung ist aktiviert."
+
+#: templates/wallet/partials/wallet_2fa.html:174
+msgid "You need to provide one code to set up the two factor authentication.<br>                Please check your phone and provide the code."
+msgstr "Sie müssen einen Code angeben um die Zwei-Faktor-Authentifikation einzurichten.<br>               Bitte prüfen Sie Ihr Telefon und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_2fa.html:179
+#: templates/wallet/partials/wallet_settings.html:254
+msgid "Phone code"
+msgstr "Telefon-Code"
+
+#: templates/wallet/partials/wallet_transactions_table.html:6
+msgid "Date"
+msgstr "Datum"
+
+#: templates/wallet/partials/wallet_transactions_table.html:7
+msgid "Description"
+msgstr "Beschreibung"
+
+#: templates/wallet/partials/wallet_transactions_table.html:29
+msgid "unconfirmed"
+msgstr "unbestätigt"
+
+#: templates/wallet/partials/wallet_transactions_table.html:30
+msgid "confirmations"
+msgstr "Bestätigungen"
+
+#: templates/wallet/partials/wallet_transactions_table.html:33
+msgid "take funds back"
+msgstr "Guthaben zurücknehmen"
+
+#: templates/wallet/partials/wallet_transactions_table.html:47
+msgid "No transactions found..."
+msgstr "Keine Transaktionen gefunden..."
+
+#: templates/wallet/partials/signup_4_2factor.html:14
+msgid "Don't compromise on security"
+msgstr "Machen Sie keine Kompromisse bezüglich der Sicherheit"
+
+#: templates/wallet/partials/signup_4_2factor.html:14
+msgid "Set up two factor authentication"
+msgstr "Zwei-Faktor-Authentifikation einrichten"
+
+#: templates/wallet/partials/signup_4_2factor.html:17
+msgid "We strongly suggest you to set up two factor authentication, this will make your wallet much more secure and will let you some additional features such as Spending Limits and Delayed Payments."
+msgstr "Wir empfehlen dringend, Zwei-Faktor-Authentifikation einzurichten! Dies erhöht die Sicherheit und ermöglicht weitere Funktionen wie Ausgabegrenzen und verzögerte Zahlungen."
+
+#: templates/wallet/partials/signup_4_2factor.html:18
+msgid "If you set it up to issue a transaction you will not only need to login to your wallet but also confirm it with a code sent to you via email, SMS or google authenticator as per your choice."
+msgstr "Wenn sie es einrichten, erfordert das Senden einer Transaktion neben Ihrem Login noch einen Bestätigungscode, den Sie je nach Wahl per Email, SMS oder Google Authenticator erhalten."
+
+#: templates/wallet/partials/signup_4_2factor.html:23
+msgid "Take me to my wallet!"
+msgstr "Zu meiner Brieftasche!"
+
+#: templates/wallet/partials/signup_3_oauth.html:14
+msgid "Pay or get paid by social networks"
+msgstr "Bezahlen oder bezahlt werden in Sozialen Netzwerken"
+
+#: templates/wallet/partials/signup_3_oauth.html:14
+msgid "Grant access to your wallet in watch-only mode"
+msgstr "Zugriff auf Ihre Brieftasche im Nur-Schauen-Modus erlauben"
+
+#: templates/wallet/partials/signup_3_oauth.html:23
+#: templates/wallet/partials/wallet_settings.html:411
+#: templates/wallet/partials/signuplogin/base.html:50
+msgid "Custom Login"
+msgstr "Manuelles Anmelden"
+
+#: templates/wallet/partials/signup_3_oauth.html:25
+#: templates/wallet/partials/wallet_settings.html:283
+#: templates/wallet/partials/wallet_settings.html:323
+#: templates/wallet/partials/wallet_settings.html:423
+#: templates/wallet/partials/signuplogin/base.html:52
+msgid "Coming soon"
+msgstr "Kommt bald"
+
+#: templates/wallet/partials/signup_3_oauth.html:29
+msgid "If you like you can access your Wallet in Watch-Only mode via simple login. When you login in this way you access a completely separate \"area\" of your wallet, in no way it can be compromised and payments cannot be made"
+msgstr "Wenn Sie wollen können Sie auf Ihre Brieftasche über einfaches Anmelden im Nur-Schauen-Modus zugreifen. Wenn Sie sich so anmelden können Sie auf einen komplett separaten \"Bereich\" Ihrer Brieftasche zugreifen, der auf keinerlei Weise kompromittiert werden kann und in dem keine Zahlungen durchgeführt werden können"
+
+#: templates/wallet/partials/signup_3_oauth.html:32
+msgid "Plus use your email or your Facebook name to receive payments! No more long and complicated addresses to remember and communicate. That means that you can easily login in 'watch-only mode' safely from any wi-fi, on the go or even at Starbucks!"
+msgstr "Zudem können Sie Ihre Emailadresse oder Ihren Facebooknamen benutzen um Zahlungen zu erhalten! Keine langen und komplizierten Adressen mehr zu merken und kommunizieren. Das heißt Sie können sich einfach und sicher im 'Nur-Schauen-Modus' anmelden, über WLAN, unterwegs oder bei Starbucks!"
+
+#: templates/wallet/partials/signup_3_oauth.html:38
+#: templates/wallet/partials/signup_2_pin.html:37
+msgid "Generating your wallet keys, please wait"
+msgstr "Erzeuge Ihre Brieftaschenschlüssel, bitte warten."
+
+#: templates/wallet/partials/signup_3_oauth.html:41
+#: templates/wallet/partials/signup_2_pin.html:40
+msgid "Please wait, logging in..."
+msgstr "Bitte warten, melde an..."
+
+#: templates/wallet/partials/signup_3_oauth.html:44
+#: templates/wallet/partials/signup_2_pin.html:43
+msgid "Take me to my wallet and skip all this!"
+msgstr "Überspringe das ganze und auf zu meiner Brieftasche!"
+
+#: templates/wallet/partials/signup_3_oauth.html:47
+msgid "Done, take me to step 4"
+msgstr "Fertig, weiter zu Schritt 4"
+
+#: templates/wallet/partials/signup_3_oauth.html:48
+msgid "Processing..."
+msgstr "Bearbeite..."
+
+#: templates/wallet/partials/wallet_modal_logout.html:5
+msgid "Do you want to log out?"
+msgstr "Wollen Sie sich abmelden?"
+
+#: templates/wallet/partials/wallet_modal_fb_message.html:4
+msgid "Please send the Facebook message."
+msgstr "Bitte senden Sie die Facebook-Nachricht."
+
+#: templates/wallet/partials/wallet_modal_fb_message.html:6
+msgid "Send"
+msgstr "Senden"
+
+#: templates/wallet/partials/wallet_modal_fb_message.html:11
+msgid "Cancel - revert transaction"
+msgstr "Abbruch - Transaktion stornieren"
+
+#: templates/wallet/partials/wallet_modal_fb_message.html:12
+msgid "I have sent the message"
+msgstr "Ich habe die Nachricht versandt"
+
+#: templates/wallet/partials/signup_nfc_modal.html:2
+msgid "There was a problem writing to the NFC tag:"
+msgstr "Es gab ein Problem beim Schreiben des NFC-Tags:"
+
+#: templates/wallet/partials/signup_nfc_modal.html:5
+msgid "Initialising NFC tags listener..."
+msgstr "Initialisiere NFC Tags Listener..."
+
+#: templates/wallet/partials/signup_nfc_modal.html:8
+msgid "Please hold your tag(s) close to the device to write your wallet!"
+msgstr "Bitte halten Sie Ihr(e) Tag(s) nah an das Gerät um Ihre Brieftasche zu schreiben!"
+
+#: templates/wallet/partials/signup_nfc_modal.html:9
+msgid "Tags written:"
+msgstr "Tags geschrieben:"
+
+#: templates/wallet/partials/signup_nfc_modal.html:10
+msgid "Tags formatted:"
+msgstr "Tags formatiert:"
+
+#: templates/wallet/partials/signup_nfc_modal.html:13
+msgid "Your NFC is not enable or not available. If available, please enable it in settings"
+msgstr "Ihr NFC ist nicht aktiviert oder verfügbar. Wenn verfügbar, aktivieren Sie es bitte in Einstellungen"
+
+#: templates/wallet/partials/wallet_modal_custom_login.html:4
+msgid "Please provide username and password."
+msgstr "Bitte geben Sie Benutzername und Passwort an."
+
+#: templates/wallet/partials/wallet_modal_custom_login.html:8
+msgid "Enter your username"
+msgstr "Geben Sie Ihren Benutzernamen ein"
+
+#: templates/wallet/partials/wallet_modal_custom_login.html:14
+msgid "Enter your password"
+msgstr "Geben Sie das Passwort ein"
+
+#: templates/wallet/partials/wallet_modal_pin.html:4
+msgid "You can create a 4-digit personal identification number used to retrieve the password encrypting the mnemonic passphrase."
+msgstr "Sie können eine vierstellige persönliche Identifikationsnummer erstellen um das Passwort wiederherzustellen, mit dem die mnemonische Passphrase verschlüsselt wurde."
+
+#: templates/wallet/partials/wallet_modal_pin.html:8
+msgid "Enter your PIN"
+msgstr "Geben Sie Ihre PIN ein"
+
+#: templates/wallet/partials/wallet_modal_pin.html:14
+msgid "PIN must be a 4-digit number"
+msgstr "PIN muss eine vierstellige Zahl sein"
+
+#: templates/wallet/partials/wallet_modal_pin.html:23
+msgid "Confirm PIN number"
+msgstr "PIN Nummer bestätigen"
+
+#: templates/wallet/partials/wallet_modal_gauth_qr.html:2
+msgid "The QR code for Google Authenticator access to your wallet is:"
+msgstr "Der QR Code für Google Authenticator Zugriff auf Ihre Brieftasche ist:"
+
+#: templates/wallet/partials/wallet_modal_gauth_qr.html:4
+msgid "You can also copy the code manually:"
+msgstr "Sie können den Code auch manuell kopieren:"
+
+#: templates/wallet/partials/signup_2_pin.html:14
+msgid "Fast and secure access to your Wallet"
+msgstr "Schneller und sicherer Zugriff auf Ihre Brieftasche"
+
+#: templates/wallet/partials/signup_2_pin.html:14
+msgid "To have a secure but quick access from this device set your PIN"
+msgstr "Für sicheren aber schnellen Zugriff von diesem Gerät aus, stellen Sie Ihre PIN ein"
+
+#: templates/wallet/partials/signup_2_pin.html:18
+#: templates/wallet/partials/wallet_settings.html:375
+#: templates/wallet/partials/signuplogin/base.html:16
+msgid "PIN number"
+msgstr "PIN-Nummer"
+
+#: templates/wallet/partials/signup_2_pin.html:22
+msgid "Four digits number"
+msgstr "Vierstellige Zahl"
+
+#: templates/wallet/partials/signup_2_pin.html:29
+msgid "Access by PIN allows a quick login while keeping security to a high standard.                    The PIN secures a random AES 256 bit password which we will delete if 3 PIN attempts                    fail, forcing you to provide your full mnemonics once again. Easy, convenient and secure, so let's use it!"
+msgstr "Zugriff über PIN ermöglicht ein schnelles Anmelden bei hoher Sicherheit. Die PIN sichert ein zufälliges AES 256 Bit Passwort welches wir nach drei fehlgeschlagenen Eingabeversuchen löschen, so dass Sie gezwungen sind das volle Mnemonikum erneut einzugeben. Einfach, bequem und sicher, also benutzen wir es!"
+
+#: templates/wallet/partials/signup_2_pin.html:46
+msgid "PIN set, ready for step 3"
+msgstr "PIN eingerichtet, bereit für Schritt 3"
+
+#: templates/wallet/partials/signup_2_pin.html:47
+msgid "Setting PIN..."
+msgstr "Setze PIN..."
+
+#: templates/wallet/partials/signup_2_pin.html:50
+msgid "Skip PIN setup and continue"
+msgstr "PIN-Einrichtung überspringen und fortfahren"
+
+#: templates/wallet/partials/wallet_send.html:12
+#: templates/wallet/partials/wallet_send.html:75
+msgid "Recipient"
+msgstr "Empfänger"
+
+#: templates/wallet/partials/wallet_send.html:18
+msgid "Enter recipient's bitcoin address, email or  Facebook account name"
+msgstr "Geben Sie die Bitcoin-Adresse, Email-Adresse oder den Facebook-Account-Namen vom Empfänger ein"
+
+#: templates/wallet/partials/wallet_send.html:22
+#: templates/wallet/partials/wallet_send.html:104
+#: templates/wallet/partials/wallet_receive.html:73
+#: templates/wallet/partials/signuplogin/base.html:26
+msgid "Scan QR"
+msgstr "QR Scannen"
+
+#: templates/wallet/partials/wallet_send.html:36
+msgid "Encryption passphrase"
+msgstr "Verschlüsselungs-Passphrase"
+
+#: templates/wallet/partials/wallet_send.html:66
+msgid "will be paid by"
+msgstr "wird bezahlt von"
+
+#: templates/wallet/partials/wallet_send.html:71
+msgid "Me"
+msgstr "mir"
+
+#: templates/wallet/partials/wallet_send.html:95
+msgid "calculating"
+msgstr "berechne"
+
+#: templates/wallet/partials/wallet_modal_expiring_soon.html:2
+msgid "Outputs expiring soon"
+msgstr "Bald ablaufende Ausgänge"
+
+#: templates/wallet/partials/wallet_modal_expiring_soon.html:7
+msgid "No active nLockTime transactions found"
+msgstr "Keine aktiven nLockTime-Transaktionen gefunden"
+
+#: templates/wallet/partials/wallet_modal_expiring_soon.html:9
+msgid "Transaction hash, output number"
+msgstr "Transaktionshash, Ausgangsnummer"
+
+#: templates/wallet/partials/wallet_modal_expiring_soon.html:9
+#: templates/wallet/partials/wallet_settings.html:460
+msgid "nLockTime"
+msgstr "nLockTime"
+
+#: templates/wallet/partials/wallet_settings.html:7
+msgid "Change language to"
+msgstr "Sprache ändern zu"
+
+#: templates/wallet/partials/wallet_settings.html:24
+msgid "Currency"
+msgstr "Währung"
+
+#: templates/wallet/partials/wallet_settings.html:25
+msgid "Select your currency and pricing source."
+msgstr "Wählen Sie Ihre Währung und Preisquelle"
+
+#: templates/wallet/partials/wallet_settings.html:30
+msgid "Pricing source to use"
+msgstr "Preisangabe von"
+
+#: templates/wallet/partials/wallet_settings.html:41
+msgid "Show amounts in"
+msgstr "Zeige Guthaben in"
+
+#: templates/wallet/partials/wallet_settings.html:63
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: templates/wallet/partials/wallet_settings.html:64
+msgid "Notifications allow for improved security when configured for outgoing and for most up to date information when configured for incoming"
+msgstr "Benachrichtigungen bieten höhere Sicherheit für ausgehende Transaktionen, und aktuellste Informationen über eingehende Transaktionen"
+
+#: templates/wallet/partials/wallet_settings.html:70
+msgid "Send incoming transaction notification by"
+msgstr "Sende Benachrichtigungen über eingehende Transaktionen via"
+
+#: templates/wallet/partials/wallet_settings.html:76
+#: templates/wallet/partials/wallet_settings.html:96
+msgid "email"
+msgstr "Email"
+
+#: templates/wallet/partials/wallet_settings.html:83
+#: templates/wallet/partials/wallet_settings.html:103
+#: templates/wallet/partials/wallet_settings.html:194
+msgid "SMS"
+msgstr "SMS"
+
+#: templates/wallet/partials/wallet_settings.html:90
+msgid "Send outgoing transaction notification by"
+msgstr "Sende Benachrichtigungen über ausgehende Transaktionen via"
+
+#: templates/wallet/partials/wallet_settings.html:109
+#: templates/wallet/partials/wallet_settings.html:475
+msgid "NOTE"
+msgstr "HINWEIS"
+
+#: templates/wallet/partials/wallet_settings.html:109
+msgid "You need to have email Two Factor Authentication enabled for this feature to work."
+msgstr "Für diese Funktion muss Zwei-Faktor-Authentifizierung via Email aktiviert sein."
+
+#: templates/wallet/partials/wallet_settings.html:118
+msgid "Set any or all two factor: you can choose which one when needed!"
+msgstr "Eine oder alle Zwei-Faktor-Authentifikationen einrichten, diese können dann nach Bedarf gewählt werden!"
+
+#: templates/wallet/partials/wallet_settings.html:126
+msgid "Email"
+msgstr "Email"
+
+#: templates/wallet/partials/wallet_settings.html:144
+msgid "You need to provide one code from your email to set up the two factor authentication.<br>                    Please open your email and provide the code."
+msgstr "Sie müssen einen Code aus Ihrer Email eingeben um die Zwei-Faktor-Authentifizierung zu aktivieren.<br>Bitte öffnen Sie Ihre Email und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_settings.html:167
+msgid "Google Authenticator"
+msgstr "Aktiviere Google Authenticator"
+
+#: templates/wallet/partials/wallet_settings.html:170
+msgid "You need to provide one Google Authenticator code to set up the two factor authentication.<br>                    Please scan the QR code below, and provide the code."
+msgstr "Sie müssen einen Google Authenticator-Code angeben um die Zwei-Faktor-Authentifikation einzurichten.<br>Bitte scannen Sie den QR-Code mit Google Auth, und geben Sie den erhaltenen Code ein."
+
+#: templates/wallet/partials/wallet_settings.html:174
+msgid "Code"
+msgstr "Code"
+
+#: templates/wallet/partials/wallet_settings.html:211
+msgid "You need to provide one SMS code to set up the two factor authentication.<br>                    Please check your phone and provide the code."
+msgstr "Sie müssen einen SMS-Code eingeben um die Zwei-Faktor-Authentifizierung einzurichten.<br>Bitte prüfen Sie Ihr Telefon und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_settings.html:251
+msgid "You need to provide one phone code to set up the two factor authentication.<br>                    Please check your phone and provide the code."
+msgstr "Sie müssen einen Code bereit stellen um die Zwei-Faktor-Authentifikation einzurichten.<br>Bitte prüfen Sie Ihr Telefon und geben Sie den Code ein."
+
+#: templates/wallet/partials/wallet_settings.html:273
+msgid "Spending limits"
+msgstr "Ausgabegrenzen"
+
+#: templates/wallet/partials/wallet_settings.html:274
+msgid "Set some limits for which you won't be asked for two factor for super userfriendly payments."
+msgstr "Setzen Sie Grenzen unter denen Sie nicht nach Zwei-Faktor-Authentifikation gefragt werden, für super-nutzerfreundliche Zahlungen."
+
+#: templates/wallet/partials/wallet_settings.html:282
+#: templates/wallet/partials/wallet_settings.html:322
+msgid "Enable delayed payments"
+msgstr "Aktiviere verzögerte Zahlungen"
+
+#: templates/wallet/partials/wallet_settings.html:313
+msgid "Delayed payments"
+msgstr "Verzögerte Zahlungen"
+
+#: templates/wallet/partials/wallet_settings.html:314
+msgid "Delay transaction for super ease of mind: works best in conjuction with outgoing notifications."
+msgstr "Verzögere Transaktionen für zusätzliche Geistesruhe: Funktioniert am besten zusammen mit Benachrichtigungen über ausgehende Transaktionen."
+
+#: templates/wallet/partials/wallet_settings.html:329
+msgid "Delay payments of"
+msgstr "Verzögere Zahlungen über"
+
+#: templates/wallet/partials/wallet_settings.html:348
+msgid "Enable a simple PIN to quickly access your wallet from this device."
+msgstr "Einfache PIN einrichten, um schnell auf Ihre Brieftasche von diesem Gerät aus zuzugreifen."
+
+#: templates/wallet/partials/wallet_settings.html:356
+msgid "Enable quick login on this device"
+msgstr "Schnelle Anmeldung auf diesem Gerät aktivieren"
+
+#: templates/wallet/partials/wallet_settings.html:360
+msgid "Change PIN number"
+msgstr "PIN-Nummer ändern"
+
+#: templates/wallet/partials/wallet_settings.html:361
+msgid "Set PIN number"
+msgstr "PIN-Nummer setzen"
+
+#: templates/wallet/partials/wallet_settings.html:363
+msgid "Four digit number"
+msgstr "Vierstellige Zahl"
+
+#: templates/wallet/partials/wallet_settings.html:365
+#: templates/wallet/partials/wallet_settings.html:379
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: templates/wallet/partials/wallet_settings.html:369
+msgid "Disable quick login on all devices"
+msgstr "Deaktiviere schnelles Anmelden auf allen Geräten"
+
+#: templates/wallet/partials/wallet_settings.html:373
+msgid "set PIN to"
+msgstr "PIN setzen auf"
+
+#: templates/wallet/partials/wallet_settings.html:378
+msgid "Remove"
+msgstr "Entferne"
+
+#: templates/wallet/partials/wallet_settings.html:390
+msgid "Link your own third party accounts"
+msgstr "Verknüpfen Sie Ihre eigenen Konten von anderen Diensten"
+
+#: templates/wallet/partials/wallet_settings.html:391
+msgid "Allow social payments and watch-only login to your wallet via your own third party accounts."
+msgstr "Erlauben von Sozialen Zahlungen und Nur-Schauen-Anmeldungen auf Ihre Brieftasche über Ihre Konten bei anderen Diensten."
+
+#: templates/wallet/partials/wallet_settings.html:417
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/wallet/partials/wallet_settings.html:418
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/wallet/partials/wallet_settings.html:436
+msgid "Link handler"
+msgstr "Link handler"
+
+#: templates/wallet/partials/wallet_settings.html:437
+msgid "Use GreenAddress to handle bitcoin: links."
+msgstr "Use GreenAddress to handle bitcoin: links."
+
+#: templates/wallet/partials/wallet_settings.html:440
+msgid "Enable Handler"
+msgstr "Enable Handler"
+
+#: templates/wallet/partials/wallet_settings.html:447
+#: templates/wallet/partials/wallet_settings.html:451
+msgid "Show mnemonic"
+msgstr "Zeige Mnemonikum"
+
+#: templates/wallet/partials/wallet_settings.html:448
+msgid "Display your mnemonic for account recovery or cloning on another device."
+msgstr "Zeige Mnemonikum zur Kontowiederherstellung oder Klonen auf anderen Geräten."
+
+#: templates/wallet/partials/wallet_settings.html:461
+msgid "nLockTime transactions allow you to redeem your deposited funds without GreenAddress.it's signature after pre-defined number of blocks"
+msgstr "nLockTime-Transaktionen erlauben es Ihnen, Ihre Einlagen nach einer im Voraus festgelegten Zeit auch ohne GreenAddress.it's Signatur zurückzuerhalten"
+
+#: templates/wallet/partials/wallet_settings.html:467
+msgid "Allow redeeming funds without GreenAddress.it signature after"
+msgstr "Guthaben einlösbar ohne Signatur von GreenAddress.it nach"
+
+#: templates/wallet/partials/wallet_settings.html:469
+msgid "blocks"
+msgstr "Blöcken"
+
+#: templates/wallet/partials/wallet_settings.html:475
+msgid "Both outgoing and incoming transaction notifications must be enabled for this feature to work."
+msgstr "Für diese Funktion müssen Benachrichtigungen sowohl für ausgehende als auch eingehende Transaktionen aktiviert sein."
+
+#: templates/wallet/partials/wallet_settings.html:478
+msgid "Show outputs expiring soon"
+msgstr "Zeige bald ablaufende Ausgänge"
+
+#: templates/wallet/partials/wallet_receive.html:32
+msgid "Bitcoin URI"
+msgstr "Bitcoin URI"
+
+#: templates/wallet/partials/wallet_receive.html:38
+msgid "Show URI and address"
+msgstr "URI und Adresse anzeigen"
+
+#: templates/wallet/partials/wallet_receive.html:53
+msgid "Permanent Payment URL"
+msgstr "Permanente Bezahlungs-URL"
+
+#: templates/wallet/partials/wallet_receive.html:66
+msgid "Private key in WIF format"
+msgstr "Privater Schlüssel im WIF-Format"
+
+#: templates/wallet/partials/wallet_receive.html:70
+msgid "Enter a private key to sweep here"
+msgstr "Geben Sie einen privaten Schlüssel zum Leeren hier ein"
+
+#: templates/wallet/partials/wallet_receive.html:86
+msgid "Sweep"
+msgstr "Leeren"
+
+#: templates/wallet/partials/wallet_receive.html:93
+msgid "Show previously generated addresses"
+msgstr "Zeige bereits generierte Adressen"
+
+#: templates/wallet/partials/signuplogin/header_pay.html:1
+msgid "You're about to send "
+msgstr "Sie versenden "
+
+#: templates/wallet/partials/signuplogin/header_pay.html:4
+msgid "Please log in, create a new Wallet, or click below to show a bitcoin: URI:"
+msgstr "Bitte loggen Sie sich ein, erstellen Sie eine neue Brieftasche oder klicken Sie unten um eine Bitcoin-URI zu zeigen:"
+
+#: templates/wallet/partials/signuplogin/header_pay.html:6
+msgid "Please log in, create a new Wallet, or use the URI below:"
+msgstr "Bitte loggen Sie sich ein, erstellen Sie eine neue Brieftasche oder nutzen Sie die URI unten:"
+
+#: templates/wallet/partials/signuplogin/header_pay.html:11
+msgid "Show"
+msgstr "Zeige"
+
+#: templates/wallet/partials/signuplogin/header_wallet.html:1
+msgid "Welcome to GreenAddress.it!"
+msgstr "Willkommen bei GreenAddress.it!"
+
+#: templates/wallet/partials/signuplogin/header_wallet.html:1
+msgid "Please log in to use your Wallet"
+msgstr "Bitte loggen Sie sich ein um Ihre Brieftasche zu verwenden"
+
+#: templates/wallet/partials/signuplogin/redeem_password_modal.html:4
+msgid "Please provide the password received from sender."
+msgstr "Bitte geben Sie das Passwort ein, das Sie vom Sender erhalten haben."
+
+#: templates/wallet/partials/signuplogin/redeem_password_modal.html:8
+msgid "Enter the password"
+msgstr "Geben Sie das Passwort ein"
+
+#: templates/wallet/partials/signuplogin/redeem_password_modal.html:15
+msgid "Please wait, decrypting..."
+msgstr "Bitte warten Sie, entschlüsselt..."
+
+#: templates/wallet/partials/signuplogin/redeem_password_modal.html:24
+msgid "Redeem the payment"
+msgstr "Bezahlung einlösen"
+
+#: templates/wallet/partials/signuplogin/header_redeem.html:5
+msgid "If you do not have a GreenAddress.it wallet, please create one to reedem the payment"
+msgstr "Falls sie noch keine Greenaddress.it-Brieftasche haben, erstellen Sie bitte eine, um die Zahlung anzunehmen"
+
+#: templates/wallet/partials/signuplogin/header_redeem.html:6
+msgid "Otherwise, if you are a GreeenAddress.it user please login using form below"
+msgstr "Falls Sie bereits Greenaddress.it-Nutzer sind, loggen Sie sich bitte unten ein"
+
+#: templates/wallet/partials/signuplogin/base.html:6
+msgid "Haven't got an account yet?"
+msgstr "Sie haben noch kein Konto?"
+
+#: templates/wallet/partials/signuplogin/base.html:6
+msgid "Create new Wallet"
+msgstr "Neue Brieftasche erstellen"
+
+#: templates/wallet/partials/signuplogin/base.html:11
+msgid "Log in for full Wallet access"
+msgstr "Anmelden für vollen Zugriff auf die Brieftasche"
+
+#: templates/wallet/partials/signuplogin/base.html:19
+msgid "or"
+msgstr "oder"
+
+#: templates/wallet/partials/signuplogin/base.html:23
+msgid "Mnemonic passphrase"
+msgstr "Mnemomische Passphrase"
+
+#: templates/wallet/partials/signuplogin/base.html:37
+msgid "Invalid mnemonic"
+msgstr "Ungültiges Mnemonikum"
+
+#: templates/wallet/partials/signuplogin/base.html:43
+msgid "Log in to Watch-Only mode"
+msgstr "In \"Nur-Schauen-Modus\" anmelden"
+
+#: templates/wallet/partials/signuplogin/base.html:60
+msgid "Processing"
+msgstr "Bearbeite"
+
+#: templates/wallet/partials/signuplogin/base.html:61
+msgid "Error, try again"
+msgstr "Fehler, erneut versuchen"
 
 #: templates/base/base.html:4
 msgid "Welcome!"
@@ -1938,7 +1603,11 @@ msgstr "Die sicherere Bitcoin-Brieftasche, bei der Sie das Wort haben."
 msgid "Toggle navigation"
 msgstr "Navigation umschalten"
 
-#: templates/base/base.html:108
+#: templates/base/base.html:106
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/base/base.html:109
 msgid "Login"
 msgstr "Anmelden"
 
@@ -1956,45 +1625,3 @@ msgid_plural "plural %(num)d"
 msgstr[0] "singular %(num)d"
 msgstr[1] "plural %(num)d"
 
-#~ msgid "Please log in or create a new Wallet to redeem this payment"
-#~ msgstr ""
-#~ "Bitte loggen Sie sich ein oder erstellen Sie eine neue Brieftasche um "
-#~ "diese Bezahlung zu empfangen"
-
-#~ msgid "Please enter the code here"
-#~ msgstr "Bitte geben Sie den Code hier ein"
-
-#~ msgid "Please enter your Google Authenticator code"
-#~ msgstr "Bitte geben Sie Ihren Google Authenticator Code ein"
-
-#~ msgid "My addresses"
-#~ msgstr "Meine Addressen"
-
-#~ msgid "Primary address"
-#~ msgstr "Primäraddresse"
-
-#~ msgid "Fund"
-#~ msgstr "Einzahlen"
-
-#~ msgid "Mnemonic"
-#~ msgstr "Mnemonikum"
-
-#~ msgid "Disable"
-#~ msgstr "Abstellen"
-
-#~ msgid "Disable Google Authenticator"
-#~ msgstr "Deaktiviere Google Authenticator"
-
-#~ msgid "Disable email two factor authentication"
-#~ msgstr "Deaktiviere Email Zwei-Faktor-Authentifikation"
-
-#~ msgid "Disable SMS two factor authentication"
-#~ msgstr "Deaktiviere SMS Zwei-Faktor-Authentifikation"
-
-#~ msgid "You must provide 2 factor authentication code to disable it"
-#~ msgstr ""
-#~ "Sie müssen einen Zwei-Faktor-Authentifikations-Code angeben zum "
-#~ "Deaktivieren"
-
-#~ msgid "Scan QR Code"
-#~ msgstr "Scanne QR Code"

@@ -1,422 +1,296 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
-msgstr ""
-"Project-Id-Version: djangojs\n"
+msgstr "Project-Id-Version: greenaddress-wallet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-31 23:27+0200\n"
-"PO-Revision-Date: 2014-03-20 20:54-0300\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: es\n"
+"POT-Creation-Date: 2014-04-09 13:40+0000\n"
+"PO-Revision-Date: 2014-04-30 08:49-0400\n"
+"Last-Translator: GreenAddress <info@greenaddress.it>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.net\n"
 
-#: crx/dist/static/js/greenwallet/services.js.c:97
-#: crx/dist/static/js/greenwallet/services.js.c:106
-#: static/js/greenwallet/services.js.c:108
-#: static/js/greenwallet/services.js.c:117
-msgid "Login failed"
-msgstr "Error al iniciar sesión"
+#: static/wallet/signer.js.c:1233
+msgid "No balance to spend"
+msgstr "No hay balance disponible"
 
-#: crx/dist/static/js/greenwallet/services.js.c:252
-#: static/js/greenwallet/services.js.c:242
-msgid "Sent back from "
-msgstr "Re-enviado desde"
+#: static/wallet/wallet.js.c:2102
+msgid "Error Decrypting Wallet. Please check your password is correct."
+msgstr "Error decriptando Wallet. Por favor verifique su contraseña."
 
-#: crx/dist/static/js/greenwallet/services.js.c:254
-#: static/js/greenwallet/services.js.c:244
-msgid "Received from "
-msgstr "Recibido desde"
+#: static/js/signup.min.js.c:146 static/js/greenwallet/apps/signup.js.c:146
+#: static/js/greenwallet/settings/controllers.js.c:731
+msgid "Custom login enabled"
+msgstr "Sesión personalizada habilitada"
 
-#: crx/dist/static/js/greenwallet/services.js.c:300
-#: static/js/greenwallet/services.js.c:290
-msgid "Sent back to "
-msgstr "Re-enviar a"
+#: static/js/greenaddress.js.c:11 static/js/greenaddress.min.js.c:36
+msgid "Cookies help us deliver our services. By using our services, you agree to our use of cookies."
+msgstr "Las cookies nos permiten brindar nuestro servicio. Al usar nuestros servicios, usted acepta nuestro uso de cookies."
 
-#: crx/dist/static/js/greenwallet/services.js.c:303
-#: static/js/greenwallet/services.js.c:293
-msgid "Re-deposited"
-msgstr "Volver a depositar"
+#: static/js/greenaddress.js.c:12 static/js/greenaddress.min.js.c:36
+msgid "More information"
+msgstr "Más información"
 
-#: crx/dist/static/js/greenwallet/services.js.c:330
-#: static/js/greenwallet/services.js.c:320
-msgid "Time,Description,satoshis,"
-msgstr "Tiempo,Descripción,satoshis"
-
-#: crx/dist/static/js/greenwallet/services.js.c:365
-#: static/js/greenwallet/services.js.c:355
-msgid "Bitcoin transaction sent!"
-msgstr "Transacción de Bitcoin enviada!"
-
-#: crx/dist/static/js/greenwallet/services.js.c:369
-#: static/js/greenwallet/services.js.c:359
-msgid "Transaction failed: "
-msgstr "Error en la transacción:"
-
-#: crx/dist/static/js/greenwallet/services.js.c:491
-#: static/js/greenwallet/services.js.c:504
-msgid "Failed retrieving password."
-msgstr "Error al buscar contraseña."
-
-#: crx/dist/static/js/greenwallet/hdwallet.js.c:68
-#: crx/dist/static/js/greenwallet/hdwallet.js.c:95
-#: static/js/greenwallet/hdwallet.js.c:68
-#: static/js/greenwallet/hdwallet.js.c:95
-msgid "You can't sent funds in watch only mode"
-msgstr "No puede enviar fondos en modo Solo Lectura"
-
-#: crx/dist/static/js/greenwallet/controllers.js.c:175
-#: crx/dist/static/js/greenwallet/controllers.js.c:191
-#: static/js/greenwallet/controllers.js.c:230
-#: static/js/greenwallet/controllers.js.c:246
-msgid "Re-depositing successful!"
-msgstr "Nuevo depósito exitoso!"
-
-#: crx/dist/static/js/greenwallet/signup/nfc.js.c:56 static/js/nfc.min.js.c:56
-#: static/js/greenwallet/signup/nfc.js.c:56
+#: static/js/nfc.min.js.c:56 static/js/greenwallet/signup/nfc.js.c:56
 msgid "Failed removing NFC listener"
 msgstr "Error al eliminar el lector NFC"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:21
+#: static/js/greenwallet/hdwallet.js.c:68
+#: static/js/greenwallet/hdwallet.js.c:95
+msgid "You can't sent funds in watch only mode"
+msgstr "No puede enviar fondos en modo sólo lectura"
+
+#: static/js/greenwallet/services.js.c:111
+#: static/js/greenwallet/services.js.c:120
+msgid "Login failed"
+msgstr "Error al iniciar sesión"
+
+#: static/js/greenwallet/services.js.c:250
+msgid "Sent back from "
+msgstr "Re-enviado desde"
+
+#: static/js/greenwallet/services.js.c:252
+msgid "Received from "
+msgstr "Recibido de "
+
+#: static/js/greenwallet/services.js.c:274
+msgid "Sent to "
+msgstr "Enviado a "
+
+#: static/js/greenwallet/services.js.c:300
+msgid "Sent back to "
+msgstr "Re-enviar a"
+
+#: static/js/greenwallet/services.js.c:303
+msgid "Re-deposited"
+msgstr "Re-depositado"
+
+#: static/js/greenwallet/services.js.c:330
+msgid "Time,Description,satoshis,"
+msgstr "Tiempo,Descripción,satoshis"
+
+#: static/js/greenwallet/services.js.c:365
+msgid "Bitcoin transaction sent!"
+msgstr "Transacción de Bitcoin enviada!"
+
+#: static/js/greenwallet/services.js.c:369
+msgid "Transaction failed: "
+msgstr "Error en la transacción:"
+
+#: static/js/greenwallet/services.js.c:393
+msgid "Phone"
+msgstr "Teléfono"
+
+#: static/js/greenwallet/services.js.c:515
+msgid "Failed retrieving password."
+msgstr "Error al obtener contraseña."
+
+#: static/js/greenwallet/services.js.c:655
+msgid "An error has occured which forced us to log you out."
+msgstr "Ha ocurrido un error que nos forzó a cerrar tu sesión."
+
+#: static/js/greenwallet/services.js.c:1104
+msgid "Error reading address book: "
+msgstr "Error leyendo libreta de direcciones:"
+
+#: static/js/greenwallet/services.js.c:1136
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: static/js/greenwallet/services.js.c:1138
+msgid "Invalid format"
+msgstr "Formato inválido"
+
+#: static/js/greenwallet/services.js.c:1151
+msgid "Could not process the QR code, the image may be blurry. Please try again."
+msgstr "No se pudo procesar el código QR, la imágen puede estar borrosa. Por favor inténtelo nuevamente."
+
+#: static/js/greenwallet/services.js.c:1198
+msgid "Access denied. Retry to scan from file."
+msgstr "Acceso denegado. Reintente escanear desde archivo."
+
+#: static/js/greenwallet/services.js.c:1204
+msgid "You must provide only one image file."
+msgstr "Debe proporcionar sólo un archivo de imagen."
+
+#: static/js/greenwallet/controllers.js.c:11
+msgid "You need to log out to update cache."
+msgstr "Necesita cerrar la sesión para actualizar la caché."
+
+#: static/js/greenwallet/controllers.js.c:96
+msgid "Electrum setup failed"
+msgstr "Configuración de Electrum fallida"
+
+#: static/js/greenwallet/controllers.js.c:230
+#: static/js/greenwallet/controllers.js.c:249
+msgid "Re-depositing successful!"
+msgstr "Re-depósito exitoso!"
+
+#: static/js/greenwallet/signuplogin/controllers.js.c:122
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: static/js/greenwallet/signuplogin/controllers.js.c:214
+msgid "Wallet decryption failed"
+msgstr "Falló la decriptación de Wallet"
+
 #: static/js/greenwallet/send/controllers.js.c:21
 msgid "Checksum validation failed!"
 msgstr "Error al validar Checksum!"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:26
 #: static/js/greenwallet/send/controllers.js.c:26
 msgid "Version "
 msgstr "Versión"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:32
 #: static/js/greenwallet/send/controllers.js.c:32
 msgid "Invalid pubkey hash script length"
 msgstr "Hash script de llave pública inválido"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:33
 #: static/js/greenwallet/send/controllers.js.c:33
 msgid "OP_DUP missing"
-msgstr "Error: OP_DUP no existe"
+msgstr "OP_DUP no existe"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:34
 #: static/js/greenwallet/send/controllers.js.c:34
 msgid "OP_HASH160 missing"
-msgstr "Error: OP_HASH160 no existe"
+msgstr "OP_HASH160 no existe"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:35
 #: static/js/greenwallet/send/controllers.js.c:35
 msgid "Invalid pubkey hash"
 msgstr "Hash de clave pública inválido"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:36
 #: static/js/greenwallet/send/controllers.js.c:36
 msgid "OP_EQUALVERIFY missing"
-msgstr "Error: OP_EQUALVERIFY no existe"
+msgstr "OP_EQUALVERIFY no existe"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:37
 #: static/js/greenwallet/send/controllers.js.c:37
 msgid "OP_CHECKSIG missing"
-msgstr "Error: OP_CHECKSIG no existe"
+msgstr "OP_CHECKSIG no existe"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:39
 #: static/js/greenwallet/send/controllers.js.c:39
 msgid "Invalid out P2SH script length"
-msgstr "Largo de script de salida P2SH inválido"
+msgstr "Longitud de script de salida P2SH inválida"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:40
 #: static/js/greenwallet/send/controllers.js.c:40
 msgid "out OP_HASH160 missing"
-msgstr "Salida OP_HASH160 no existe"
+msgstr "Salida en OP_HASH160 faltante"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:41
 #: static/js/greenwallet/send/controllers.js.c:41
 msgid "Invalid out P2SH hash"
-msgstr "Hash de salida P2SH inválido"
+msgstr "Hash P2SH de salida inválido"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:42
 #: static/js/greenwallet/send/controllers.js.c:42
 msgid "out OP_EQUAL missing"
 msgstr "Salida OP_EQUAL no existe"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:58
 #: static/js/greenwallet/send/controllers.js.c:58
 msgid "Missing input"
-msgstr "Error: no existen Entradas"
+msgstr "No existen entradas"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:63
 #: static/js/greenwallet/send/controllers.js.c:63
 msgid "Inputs value is not larger than zero"
 msgstr "El valor no es mayor a cero"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:67
 #: static/js/greenwallet/send/controllers.js.c:67
 msgid " is not a valid number of outputs"
-msgstr " no es número de Salidas válido"
+msgstr " no es número válido de salidas"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:84
 #: static/js/greenwallet/send/controllers.js.c:85
 msgid "Invalid output value"
-msgstr "Valor de Salida inválido"
+msgstr "Valor de salida inválido"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:91
 #: static/js/greenwallet/send/controllers.js.c:92
 msgid "Fee is too large (%1, expected at most %2)"
 msgstr "Comisión muy alta (se recomienda 1% o 2% como mucho) "
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:95
 #: static/js/greenwallet/send/controllers.js.c:96
 msgid "Fee is too small (%1, expected at lest %2)"
 msgstr "Comisión muy baja (se recomienda 1% o 2% como mucho) "
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:122
 #: static/js/greenwallet/send/controllers.js.c:123
 msgid "Invalid change P2SH script length"
-msgstr "Largo de script de cambio P2SH inválido"
+msgstr "Cambio inválido de longitud de script P2SH"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:123
 #: static/js/greenwallet/send/controllers.js.c:124
 msgid "change OP_HASH160 missing"
-msgstr "OP_HASH160 de cambio no existe "
+msgstr "Cambio en OP_HASH160 faltante"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:124
 #: static/js/greenwallet/send/controllers.js.c:125
 msgid "Invalid change P2SH hash"
-msgstr "Hash de cambio de P2SH inválido"
+msgstr "Cambio inválido de hash P2SH"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:125
 #: static/js/greenwallet/send/controllers.js.c:126
 msgid "change OP_EQUAL missing"
-msgstr "OP_EQUAL de cambio no existe"
+msgstr "Cambio en OP_EQUAL faltante"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:186
-#: static/js/greenwallet/send/controllers.js.c:179
+#: static/js/greenwallet/send/controllers.js.c:174
 msgid "Facebook login failed"
 msgstr "Error al iniciar sesión vía Facebook"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:208
-#: static/js/greenwallet/send/controllers.js.c:201
+#: static/js/greenwallet/send/controllers.js.c:196
 msgid "Transaction reversed!"
 msgstr "Transacción revertida!"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:224
-#: static/js/greenwallet/send/controllers.js.c:217
+#: static/js/greenwallet/send/controllers.js.c:212
 msgid "Email sent"
 msgstr "El email ha sido enviado"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:228
-#: static/js/greenwallet/send/controllers.js.c:221
+#: static/js/greenwallet/send/controllers.js.c:216
 msgid "Failed sending email"
 msgstr "Error al enviar email"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:238
-#: static/js/greenwallet/send/controllers.js.c:231
+#: static/js/greenwallet/send/controllers.js.c:226
 msgid "Reddit message sent"
 msgstr "Mensaje de Reddit enviado"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:242
-#: static/js/greenwallet/send/controllers.js.c:235
+#: static/js/greenwallet/send/controllers.js.c:230
 msgid "Failed sending Reddit message"
 msgstr "Error enviando mensaje de Reddit"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:269
-#: static/js/greenwallet/send/controllers.js.c:266
+#: static/js/greenwallet/send/controllers.js.c:261
 msgid "You must provide encryption passphrase."
-msgstr "Debe ingresar una clave de encriptación"
+msgstr "Debe ingresar una clave de encriptación."
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:372
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:396
-#: static/js/greenwallet/send/controllers.js.c:369
-#: static/js/greenwallet/send/controllers.js.c:395
+#: static/js/greenwallet/send/controllers.js.c:364
+#: static/js/greenwallet/send/controllers.js.c:390
 msgid "Transaction verification failed: "
 msgstr "Error en la verificación de la transacción:"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:420
-#: static/js/greenwallet/send/controllers.js.c:419
+#: static/js/greenwallet/send/controllers.js.c:414
 msgid "Invalid amount"
 msgstr "Monto inválido"
 
-#: crx/dist/static/js/greenwallet/send/controllers.js.c:424
-#: static/js/greenwallet/send/controllers.js.c:423
+#: static/js/greenwallet/send/controllers.js.c:418
 msgid "Please provide a recipient"
 msgstr "Por favor ingrese un recipiente"
 
-#: crx/dist/static/js/greenwallet/info/controllers.js.c:87
-#: static/js/greenwallet/info/controllers.js.c:96
+#: static/js/greenwallet/info/controllers.js.c:68
+msgid "Not enough data to draw the graph"
+msgstr "No hay suficientes datos para dibujar el gráfico"
+
+#: static/js/greenwallet/info/controllers.js.c:93
 msgid "Not a valid encrypted private key"
 msgstr "La clave privada encriptada no es válida"
 
-#: crx/dist/static/js/greenwallet/info/controllers.js.c:88
-#: static/js/greenwallet/info/controllers.js.c:97
+#: static/js/greenwallet/info/controllers.js.c:94
 #: static/js/greenwallet/receive/controllers.js.c:28
 #: static/js/greenwallet/receive/controllers.js.c:35
 #: static/js/greenwallet/receive/controllers.js.c:46
 msgid "Not a valid private key"
 msgstr "La clave privada no es válida"
 
-#: crx/dist/static/js/greenwallet/info/controllers.js.c:89
-#: static/js/greenwallet/info/controllers.js.c:98
+#: static/js/greenwallet/info/controllers.js.c:95
 msgid "Invalid passphrase"
 msgstr "Clave inválida"
 
-#: crx/dist/static/js/greenwallet/info/controllers.js.c:100
-#: static/js/greenwallet/info/controllers.js.c:109
+#: static/js/greenwallet/info/controllers.js.c:106
 msgid "Funds redeemed"
 msgstr "Fondos redimidos"
 
-#: crx/dist/static/js/greenwallet/info/controllers.js.c:103
-#: static/js/greenwallet/info/controllers.js.c:112
+#: static/js/greenwallet/info/controllers.js.c:109
 msgid "Already redeemed"
 msgstr "Redimidos"
-
-#: crx/dist/static/js/greenwallet/settings/directives.js.c:51
-msgid "Delete"
-msgstr "Eliminar"
-
-#: crx/dist/static/js/greenwallet/settings/directives.js.c:52
-msgid "Rename"
-msgstr "Renombrar"
-
-#: crx/dist/static/js/greenwallet/settings/directives.js.c:54
-#: static/js/greenwallet/settings/controllers.js.c:799
-#: static/js/greenwallet/settings/controllers.js.c:832
-#: static/js/greenwallet/settings/controllers.js.c:840
-msgid "Save"
-msgstr "Guardar"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:195
-#: static/js/greenwallet/settings/controllers.js.c:280
-#, c-format
-msgid "(about %s days: 1 day ≈ 144 blocks)"
-msgstr "(%s días: 1 día ≈ 144 bloques)"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:211
-#: static/js/greenwallet/settings/controllers.js.c:298
-msgid "nLockTime settings updated successfully"
-msgstr "Configuración de nLockTime actualizada exitosamente"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:231
-#: static/js/greenwallet/settings/controllers.js.c:318
-msgid "Already expired"
-msgstr "Expiradas"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:232
-#: static/js/greenwallet/settings/controllers.js.c:319
-#, c-format
-msgid "in about %s days"
-msgstr "en alrededor de %s días"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:266
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:290
-#: static/js/greenwallet/settings/controllers.js.c:376
-#: static/js/greenwallet/settings/controllers.js.c:400
-msgid "{1} supports only the following currencies: {2}"
-msgstr "{1} soporta únicamente las siguientes monedas: {2}"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:396
-#: static/js/greenwallet/settings/controllers.js.c:521
-msgid "Error reading address book: "
-msgstr "Error leyendo libreta de direcciones:"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:457
-#: static/js/greenwallet/settings/controllers.js.c:582
-msgid "New item saved"
-msgstr "Nuevo item guardado"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:463
-#: static/js/greenwallet/settings/controllers.js.c:588
-msgid "Error saving item: "
-msgstr "Error guardando item:"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:502
-#: static/js/greenwallet/settings/controllers.js.c:627
-msgid "PIN removed"
-msgstr "PIN eliminado"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:535
-#: static/js/greenwallet/settings/controllers.js.c:660
-msgid "PIN changed"
-msgstr "PIN modificado"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:539
-#: static/js/greenwallet/settings/controllers.js.c:664
-msgid "PIN set"
-msgstr "PIN configurado"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:552
-#: static/js/greenwallet/settings/controllers.js.c:677
-msgid "All PINs removed"
-msgstr "Todas las claves PIN eliminadas"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:572
-#: static/js/greenwallet/settings/controllers.js.c:698
-msgid "Facebook integration disabled"
-msgstr "Integración con Facebook deshabilitada"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:585
-#: static/js/greenwallet/settings/controllers.js.c:711
-msgid "Facebook integration enabled"
-msgstr "Integración con Facebook habilitada"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:606
-#: static/js/greenwallet/settings/controllers.js.c:732
-msgid "Reddit integration disabled"
-msgstr "Integración con Reddit deshabilitada"
-
-#: crx/dist/static/js/greenwallet/settings/controllers.js.c:618
-#: static/js/greenwallet/settings/controllers.js.c:744
-msgid "Reddit integration enabled"
-msgstr "Integración con Reddit habilitada"
-
-#: crx/dist/static/js/greenwallet/signuplogin/controllers.js.c:191
-#: static/js/greenwallet/signuplogin/controllers.js.c:222
-msgid "Wallet decryption failed"
-msgstr "Fallo la decriptación de la Wallet"
-
-#: static/js/signup.min.js.c:144 static/js/greenwallet/apps/signup.js.c:144
-#: static/js/greenwallet/settings/controllers.js.c:782
-msgid "Custom login enabled"
-msgstr "Sesión Custom habilitada"
-
-#: static/js/greenaddress.min.js.c:36 static/js/greenaddress.js.c:4
-msgid ""
-"Cookies help us deliver our services. By using our services, you agree to "
-"our use of cookies."
-msgstr ""
-"Las cookies nos permiten dar servicio. Al usar nuestro servicio, Usted "
-"acepta nuestro uso de cookies."
-
-#: static/js/greenaddress.min.js.c:36 static/js/greenaddress.js.c:5
-msgid "More information"
-msgstr "Más información"
-
-#: static/js/greenwallet/services.js.c:265
-msgid "Sent to "
-msgstr "Enviado a "
-
-#: static/js/greenwallet/services.js.c:383
-msgid "Phone"
-msgstr "Número telefónico"
-
-#: static/js/greenwallet/services.js.c:643
-msgid "An error has occured which forced us to log you out."
-msgstr ""
-
-#: static/js/greenwallet/controllers.js.c:11
-msgid "You need to log out to update cache."
-msgstr ""
-
-#: static/js/greenwallet/controllers.js.c:96
-msgid "Electrum setup failed"
-msgstr ""
-
-#: static/js/greenwallet/info/controllers.js.c:71
-msgid "Not enough data to draw the graph"
-msgstr ""
 
 #: static/js/greenwallet/receive/controllers.js.c:63
 msgid "Funds swept"
@@ -426,37 +300,94 @@ msgstr "Fondos barridos"
 msgid "Already swept or no funds found"
 msgstr "Ya barrido o no posee fondos"
 
-#: static/js/greenwallet/settings/controllers.js.c:347
-msgid "You need to log out for language changes to be applied."
-msgstr ""
+#: static/js/greenwallet/settings/controllers.js.c:285
+#, c-format
+msgid "(about %s days: 1 day ≈ 144 blocks)"
+msgstr "(aprox. %s días: 1 día ≈ 144 bloques)"
 
-#: static/js/greenwallet/settings/controllers.js.c:355
-#, fuzzy
+#: static/js/greenwallet/settings/controllers.js.c:303
+msgid "nLockTime settings updated successfully"
+msgstr "Configuración de nLockTime actualizada exitosamente"
+
+#: static/js/greenwallet/settings/controllers.js.c:323
+msgid "Already expired"
+msgstr "Expiradas"
+
+#: static/js/greenwallet/settings/controllers.js.c:324
+#, c-format
+msgid "in about %s days"
+msgstr "en alrededor de %s días"
+
+#: static/js/greenwallet/settings/controllers.js.c:352
+msgid "You need to log out for language changes to be applied."
+msgstr "Necesita cerrar la sesión para que el cambio de idioma sea aplicado."
+
+#: static/js/greenwallet/settings/controllers.js.c:360
 msgid "Error changing language:"
+msgstr "Error cambiando el idioma:"
+
+#: static/js/greenwallet/settings/controllers.js.c:381
+#: static/js/greenwallet/settings/controllers.js.c:405
+msgid "{1} supports only the following currencies: {2}"
+msgstr "{1} soporta únicamente las siguientes monedas: {2}"
+
+#: static/js/greenwallet/settings/controllers.js.c:530
+msgid "New item saved"
+msgstr "Nuevo item guardado"
+
+#: static/js/greenwallet/settings/controllers.js.c:537
+msgid "Error saving item: "
 msgstr "Error guardando item:"
 
-#: static/js/greenwallet/settings/controllers.js.c:766
+#: static/js/greenwallet/settings/controllers.js.c:576
+msgid "PIN removed"
+msgstr "PIN eliminado"
+
+#: static/js/greenwallet/settings/controllers.js.c:609
+msgid "PIN changed"
+msgstr "PIN cambiado"
+
+#: static/js/greenwallet/settings/controllers.js.c:613
+msgid "PIN set"
+msgstr "PIN configurado"
+
+#: static/js/greenwallet/settings/controllers.js.c:626
+msgid "All PINs removed"
+msgstr "Todas las claves PIN eliminadas"
+
+#: static/js/greenwallet/settings/controllers.js.c:647
+msgid "Facebook integration disabled"
+msgstr "Integración con Facebook deshabilitada"
+
+#: static/js/greenwallet/settings/controllers.js.c:660
+msgid "Facebook integration enabled"
+msgstr "Integración con Facebook habilitada"
+
+#: static/js/greenwallet/settings/controllers.js.c:681
+msgid "Reddit integration disabled"
+msgstr "Integración con Reddit deshabilitada"
+
+#: static/js/greenwallet/settings/controllers.js.c:693
+msgid "Reddit integration enabled"
+msgstr "Integración con Reddit habilitada"
+
+#: static/js/greenwallet/settings/controllers.js.c:715
 msgid "Custom login disabled"
-msgstr "Sesión Custom deshabilitada"
+msgstr "Sesión Personalizada deshabilitada"
 
-#: static/js/greenwallet/settings/controllers.js.c:779
+#: static/js/greenwallet/settings/controllers.js.c:728
 msgid "Custom login changed"
-msgstr "Sesión Custom modificada"
+msgstr "Sesión personalizada modificada"
 
-#: static/js/greenwallet/settings/controllers.js.c:799
-#: static/js/greenwallet/settings/controllers.js.c:832
-#: static/js/greenwallet/settings/controllers.js.c:840
+#: static/js/greenwallet/settings/controllers.js.c:748
+#: static/js/greenwallet/settings/controllers.js.c:781
+#: static/js/greenwallet/settings/controllers.js.c:789
 msgid "Change"
-msgstr "Cambio"
+msgstr "Cambiar"
 
-#: static/js/greenwallet/signuplogin/controllers.js.c:122
-msgid "Unknown error"
-msgstr ""
+#: static/js/greenwallet/settings/controllers.js.c:748
+#: static/js/greenwallet/settings/controllers.js.c:781
+#: static/js/greenwallet/settings/controllers.js.c:789
+msgid "Save"
+msgstr "Guardar"
 
-#: static/wallet/signer.js.c:1233
-msgid "No balance to spend"
-msgstr "No hay balance disponible"
-
-#: static/wallet/wallet.js.c:2102
-msgid "Error Decrypting Wallet. Please check your password is correct."
-msgstr "Error decriptando Wallet. Por favor verifique tu contraseña."
