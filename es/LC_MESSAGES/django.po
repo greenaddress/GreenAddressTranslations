@@ -199,7 +199,7 @@ msgstr "Esto le asegura tranquilidad y paz mental aún en caso de que GreenAddre
 
 #: templates/website/faq.html:33
 msgid "It also means that every time the funds expire the user has to re-transfer them. This can be automated on login and notified in advance via email or manually done."
-msgstr "Asimismo, significa que cada vez que cada que los fondos expiren el usuario debe re-enviarlos. Este proceso puedes automatizarse al iniciar sesión y ser notificado por adelantado vía email, o realizado manualmente."
+msgstr "Asimismo, significa que cada vez que los fondos expiren el usuario debe re-enviarlos. Este proceso puedes automatizarse al iniciar sesión y ser notificado por adelantado vía email, o realizado manualmente."
 
 #: templates/website/faq.html:35
 msgid "For redeeming the funds after expiration, you can use a tool we've developed specifically for this purpose - see "
@@ -1541,7 +1541,7 @@ msgstr "Ingrese su contraseña"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:15
 msgid "Please wait, decrypting..."
-msgstr "Por favor espere, decriptando..."
+msgstr "Por favor espere, desencriptando..."
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:24
 msgid "Redeem the payment"
