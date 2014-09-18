@@ -3,61 +3,60 @@ msgstr ""
 "Project-Id-Version: greenaddress-wallet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-11 12:14+0000\n"
-"PO-Revision-Date: 2014-08-20 10:19-0400\n"
+"PO-Revision-Date: 2014-08-20 09:25-0400\n"
 "Last-Translator: GreenAddress <info@greenaddress.it>\n"
-"Language-Team: Russian\n"
-"Language: ru_RU\n"
+"Language-Team: Thai\n"
+"Language: th_TH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 
 #: utils/rate_limiter.py:40
 msgid "Request rate limit exceeded"
-msgstr "Превышен потолок количества переводов"
+msgstr "ถึงขีดจำกัดของเรทที่ร้องขอ"
 
 #: templates/website/pay.html:6
 msgid "Send funds"
-msgstr "Отправить средства"
+msgstr "ส่งกองทุน"
 
 #: templates/website/pay.html:9
 msgid "Please send"
-msgstr "Пожалуйста отправьте"
+msgstr "กรุณาส่ง"
 
 #: templates/website/faq.html:5
 msgid "FAQ for GreenAddress Bitcoin wallet"
-msgstr "ЧАВО по GreenAddress Bitcoin кошельку"
+msgstr "FAQ สำหรับ Wallet GreenAddress"
 
 #: templates/website/faq.html:6
 msgid ""
 "GreenAddress FAQ: how to get a Bitcoin wallet? How secure are my bitcoins? "
 "Can I do instant payment?"
 msgstr ""
-"GreenAddress ЧАВО: как получить Bitcoin кошелек? Насколько защищены мои "
-"биткоины? Можно ли проводить мгновенные платежы?"
+"GreenAddress FAQ: จะได้ wallet บิทคอยน์ได้อย่างไร บิทคอยน์จะปลอดภัยเพีงใด "
+"จะชำระแบบทันทีได้หรือไม่?"
 
 #: templates/website/faq.html:12
 msgid "Frequently Asked Questions"
-msgstr "Часто задаваемые вопросы"
+msgstr "คำถามที่พบบ่อย"
 
 #: templates/website/faq.html:14
 msgid "What currency exchange sources do you support?"
-msgstr "Какие источники обмена валют вы поддерживаете?"
+msgstr "คุณต้องการแหล่งแลกเปลี่ยนสกุลเงินใด?"
 
 #: templates/website/faq.html:15
 msgid " and "
-msgstr " и "
+msgstr " และ "
 
 #: templates/website/faq.html:16
 msgid ""
 "Can I migrate easily from another wallet (like blockchain.info)?  Can I "
 "sweep private keys funds into my wallet?"
 msgstr ""
-"Могу ли я легко мигрировать с другого кошелька (blockchain.info, например). "
-"Могу ли я перенести средства приватных ключей в мой кошелек?"
+"ฉันจะสามารถย้ายจาก wallet อื่นเช่น blockchain ได้หรือไม่ จะย้ายกองทุนคีย์ส่วนตัวมายัง "
+"Wallet ได้หรือไม่"
 
 #: templates/website/faq.html:17
 msgid ""
@@ -65,71 +64,61 @@ msgid ""
 "private key in the right field and client side the funds will be swept into "
 "your wallet. Voilà!"
 msgstr ""
-"Да! Очень просто!\n"
-"Кликните на закладку Получить Биткоины.\n"
-"В строке Секретный Ключ введите Ваш Секретный Ключ в формате WIF. https://en."
-"bitcoin.it/wiki/Wallet_import_format\n"
-"Кликните Ввести.\n"
-"Готово! Ваши Биткоины уже в кошельке GreenAddress!"
+"ใช่ คุณสามารถทำได้ ดูที่แทบเงินที่ได้รับ ใส่คีย์ส่วนตัวไปในช่องขวาและด้านลูกข่ายเพื่อให้ย้ายไปที่ "
+"Wallet ของคุณ"
 
 #: templates/website/faq.html:19
 msgid "Can I try your service?  Do you have a testnet/UAT version?"
-msgstr "Могу ли я попробовать ваш сервис в режиме тестирования?"
+msgstr "จะสามรถทดลองบริการได้หรือไม่ มีเวอร์ชั่น testnet/UAT หรือไม่"
 
 #: templates/website/faq.html:20
 msgid "Yes and yes, you can try our testnet version on "
-msgstr ""
-"Конечно! Вы можете попробовать нашу версию тестирования.\n"
-"https://test.greenaddress.it/"
+msgstr "สามารถทำได้ ไปทดลองเวอร์ชั่น testnet ได้ที่"
 
 #: templates/website/faq.html:20
 msgid " and you can find a testnet faucet on "
-msgstr ""
-"GreenAddress в режиме тестирования находится на\n"
-"https://test.greenaddress.it/"
+msgstr " และคุณสามารถหา testnet faucet ได้จาก  "
 
 #: templates/website/faq.html:21
 msgid ""
 " Don't forget to send the testnet coins back to the faucet when you are done!"
-msgstr ""
-" когда вы закончите с тестированием, пожалуйста, не забудьте вернуть тест-"
-"монеты ;)"
+msgstr " อย่าลืมส่งเหรียญ testnet กลับไปยัง faucet เมื่อเสร็จ"
 
 #: templates/website/faq.html:24
 msgid "Do you support other platforms than a web page?"
-msgstr "Поддерживаете ли вы другие платформы, кроме веб-страницы?"
+msgstr "สนับสนุนแพลตฟอร์มอื่น ๆ นอกจากเว็บเพจหรือไม่"
 
 #: templates/website/faq.html:25
 msgid "Yes! You can download an Android app"
-msgstr "Да! Вы можете установить программу на Андроид"
+msgstr "ได้ คุณสามารถดาวน์โหลด Android app"
 
 #: templates/website/faq.html:25
 msgid "from the Google Play store"
-msgstr "бесплатно в Google Play"
+msgstr "จาก Google Play store"
 
 #: templates/website/faq.html:25
 msgid ", an iOS App"
-msgstr ", iOS программы"
+msgstr "แอพของ iOS"
 
 #: templates/website/faq.html:25
 msgid "from the iTunes Store "
-msgstr "в iTunes Store "
+msgstr "จาก iTunes Store "
 
 #: templates/website/faq.html:25
 msgid "and a Chrome packaged app"
-msgstr "а также в пакет программ для поисковика Хром"
+msgstr "และแอพ Chrome packaged "
 
 #: templates/website/faq.html:25
 msgid "from the Chrome Web Store"
-msgstr "и в Интернет-Магазине Ghrome"
+msgstr "จาก Chrome Web Store"
 
 #: templates/website/faq.html:25
 msgid "All apps are open source and you can "
-msgstr "Все приложения с открытым исходным кодом, и вы можете "
+msgstr "ทุกแอพเป็นแบบเปิดและคุณสามารถ "
 
 #: templates/website/faq.html:25
 msgid "see the source code of each on GitHub"
-msgstr "смотрите исходный код каждого на GitHub"
+msgstr "ดู source code ได้บน GitHub"
 
 #: templates/website/faq.html:25
 msgid ""
@@ -137,13 +126,13 @@ msgid ""
 "additional transaction verification, so it should be safe to use even if our "
 "servers are compromised."
 msgstr ""
-"Они также использует <a href=\"http://electrum.org\"> Electrum</a> сервера "
-"для дополнительной верификации транзакций, поэтому их использование "
-"безопасно даже если наши серверы компрометированы."
+"นอกจากนี้ยังใช้ <a href=\"http://electrum.org\">Electrum</a> "
+"เซอร์เวอร์สำหรับการยืนยันธุรกรรมภายนอกเพิ่มเติม "
+"ดังนั้นจึงมีความปลอดภัยสูงแม้ในระหว่างที่เซอร์เวอร์เรามีปัญหา"
 
 #: templates/website/faq.html:28
 msgid "But what happens if your service goes away? Will I lose my coins?"
-msgstr "Но, что произойдет, если ваш сервис исчезнет? Я потеряю мои средства?"
+msgstr "แต่จะเกิดสิ่งใดขึ้นหากบริการของคุณหายไป จะสูญคอยน์หรือไม่?"
 
 #: templates/website/faq.html:30
 msgid ""
@@ -153,11 +142,11 @@ msgid ""
 "cannot control your funds without GreenAddress' signature, so you are right "
 "to worry that you can lose your coins."
 msgstr ""
-"GreenAddress подписывает каждую транзакцию собственным ключом в дополнение к "
-"ключу пользователя, и средства хранятся в 2-из-2 мульти-подписанных выходах "
-"требуя обе подписи для перевода средств. Недостатком этого является, что Вы "
-"не можете контролировать ваши средства без подписи GreenAddress.it, так что "
-"Вы вправе беспокоится, что Вы можете потерять Ваши средства."
+"GreenAddress ได้มีการรองรับธุรกรรมทุกอย่างด้วยคีย์ของตนเอง "
+"เพิ่มเติมจากการรองรับโดยคีย์ของผู้ใช้ และกองทุนถูกเก็บในแบบการเซ็นแบบรองรับหลายชั้นแบบ 2-2 "
+"โดยอาศัยการรองรับจาก 2 ฝั่งเพื่อใช้งานได้ "
+"จุดสังเกตคือจะไม่สามารถจัดการกองทุนได้ปราศจากลายเซ็น GreenAddress "
+"จึงอาจสร้างความกังวลให้คุณได้."
 
 #: templates/website/faq.html:32
 msgid ""
@@ -166,19 +155,16 @@ msgid ""
 "them without our intervention after this pre-set period of time. It is "
 "enabled by default when you have email notifications and two factor enabled."
 msgstr ""
-"Но! Мы решили эту проблему, используя nLockTime транзакции, которые по "
-"существу делают так, что строк вкладов «истекает» после некоторого времени, "
-"что позволяет Вам использовать их без нашего вмешательства после этого "
-"заранее установленного периода времени. Эта опция включена по умолчанию при "
-"активных email уведомлений  и двухфакторной аутентификации."
+"แต่เราได้แก้ไขปัญหาแล้วโดยการนำธุรกรรม nLockTime "
+"มาใช้เพื่อให้การฝากเงินบางรายการหมดอายุเมื่อผ่านไประยะหนึ่ง "
+"ที่อนุญาตให้คุณแลกคืนได้โดยปราศจากการแทรกแซงของเราหลังจากหมดเวลา "
+"ฟังก์ชั่นนี้ทำงานอัตโนมัติเมื่อเปิดการแจ้งเตือนอีเมล์หรือรหัสผ่าน 2 ขั้น"
 
 #: templates/website/faq.html:34
 msgid ""
 "This allows you to keep your ease of mind even in case GreenAddress "
 "disappears with its keys."
-msgstr ""
-"Это позволяет Вам сохранять спокойствие даже в том случае когда GreenAddress "
-"исчезнет со своими ключами."
+msgstr "ด้วยวิธีนี้จะทำให้คุณจดจำได้แม้กระทั่งเวลาที่ GreenAddress  สูญหายไปพร้อมคีย์."
 
 #: templates/website/faq.html:36
 msgid ""
@@ -186,90 +172,86 @@ msgid ""
 "them. This can be automated on login and notified in advance via email or "
 "manually done."
 msgstr ""
-"Это также означает, что каждый раз, когда срок действия средств пользователя "
-"заканчивается, пользователь должен повторно зачислить их. Это может быть "
-"автоматизировано при входе с уведомлением на электронную почту или сделано "
-"вручную."
+"นั่นหมายถึงว่าทุกครั้งที่กองทุนหมดอายุลูกค้าจะต้องทำการฝากใหม่ "
+"ซึ่งสามารถทำได้อัตโนมัติโดยการเข้าระบบและมีการแจ้งเตือนล่วงหน้าผ่านทางอีเมล์หรือทำด้วยตนเอง"
 
 #: templates/website/faq.html:38
 msgid ""
 "For redeeming the funds after expiration, you can use a tool we've developed "
 "specifically for this purpose - see "
 msgstr ""
-"Для получения доступа к средствам после истечения срока, можно использовать "
-"специально разработанный нами инструмент для этой цели - см. "
+"สำหรับการแลกคืนกองทุนที่หมดอายุ "
+"คุณสามารถใช้เครื่องมือที่เราพัฒนามาโดยเฉพาะซึ่งสามารถเข้าไปใช้งานได้ที่ "
 
 #: templates/website/faq.html:38
 msgid "and"
-msgstr "и"
+msgstr "และ"
 
 #: templates/website/faq.html:38
 msgid "its project on GitHub"
-msgstr "Это проект на GitHub"
+msgstr "โครงการใน GitHub"
 
 #: templates/website/faq.html:38
 msgid "It's open source!"
-msgstr "Это проект с открытым исходным кодом!"
+msgstr "เป็นแบบเปิด!"
 
 #: templates/website/faq.html:41
 msgid "How is your wallet better than the others out there?"
-msgstr "Чем ваш кошелек лучше чем другие?"
+msgstr "Wallet ของคุณดีกว่าที่อื่นอย่างไร?"
 
 #: templates/website/faq.html:43
 msgid ""
 "For a simple high level comparison with a couple of web wallets please see "
-msgstr "Для простого сравнения  нескольких  веб-кошельков смотрите"
+msgstr "สำหรับการเปรียบเทียบง่าย ๆ ในระดับสูง กับ Wallet ตัวอื่น ๆ คุณสามารถดูได้จาก "
 
 #: templates/website/faq.html:43
 msgid "this"
-msgstr "эту"
+msgstr "นี้"
 
 #: templates/website/faq.html:43
 msgid "table"
-msgstr "таблицу"
+msgstr "ตาราง"
 
 #: templates/website/faq.html:44
 msgid "We offer all the advantages of a web wallet:"
-msgstr "Мы предлагаем преимущества веб-кошелька:"
+msgstr "เรามีข้อได้เปรียบของ Wallet แบบ web:"
 
 #: templates/website/faq.html:46
 msgid "Ubiquitously available"
-msgstr "Повсеместно доступен"
+msgstr "ที่ใช้ได้ในทุกที่"
 
 #: templates/website/faq.html:47
 msgid "Social/email/SMS integration"
-msgstr "Социальные сети/email/SMS интеграция"
+msgstr "รวม Social/email/SMS"
 
 #: templates/website/faq.html:48
 #: templates/wallet/partials/wallet_settings.html:313
 msgid "Two factor authentication"
-msgstr "Двухфакторная проверка подлинности"
+msgstr "การตั้งรหัสผ่านสองขั้น"
 
 #: templates/website/faq.html:49
 msgid "Transaction limits/restrictions"
-msgstr "Лимиты/ограничения транзакций"
+msgstr "การจำกัดทางธุรกรรม/ข้อจำกัด"
 
 #: templates/website/faq.html:50
 msgid "Green address instant transaction confirmation"
-msgstr "Green address мгновенное подтверждение транзакции"
+msgstr "การยืนยันธุรกรรมแบบทันทีของ Green address"
 
 #: templates/website/faq.html:52
 msgid "And the advantages of a local software wallet like "
-msgstr "и преимущества локального приложения для кошелька как "
+msgstr "และข้อดีของซอฟต์แวร์ Wallet ที่ติดตั้งภายในเช่น  "
 
 #: templates/website/faq.html:54
 msgid "Mnemonic seed backup once and forget"
-msgstr "Резервная копия в виде мнемонической фразы - раз создать и забыть"
+msgstr "การสำรองรหัสช่วยจำครั้งเดียวและลืม"
 
 #: templates/website/faq.html:55
 msgid "Your private keys are never stored on our servers, not even encrypted"
-msgstr ""
-"Ваши приватные ключи никогда не хранятся на сервере, даже в шифрованном виде"
+msgstr "คีย์ส่วนตัวของคุณถูกเก็บไว้ในเซิร์ฟเวอร์ของเรา และไม่มีการเข้ารหัส"
 
 #: templates/website/faq.html:56
 msgid "No lost time synchronizing the client with the full Bitcoin blockchain"
-msgstr ""
-"Не надо ждать, чтобы синхронизировать толстый клиент с blockchain Bitcoin"
+msgstr "ไม่มีการสูญหายเวลาเมื่อเชื่อมเครื่องลูกข่ายกับ blockchain ของบิทคอยน์"
 
 #: templates/website/faq.html:58
 msgid ""
@@ -277,25 +259,22 @@ msgid ""
 "and security safeguards than the competition with a simple interface through "
 "your browser or phone."
 msgstr ""
-"Говоря проще, мы предлагаем наилучший веб-кошелек: больше возможностей и "
-"гарантий безопасности чем у конкурентов, с простым интерфейсом, доступным "
-"через браузер или телефон."
+"เพื่อให้ง่าย เรานำเสนอ web wallet "
+"ที่ดีที่สุดและมีฟังก์ชั่นการทำงานรวมถึงความปลอดภัยมากกว่าคู่แข่งด้วยการใชเ้งานที่เรียบง่ายผ่านเบราเซอร์โทรศัพท์ของคุณ"
 
 #: templates/website/faq.html:61
 msgid "Where are my Bitcoin keys stored?"
-msgstr "Где хранятся мои ключи Bitcoin?"
+msgstr "คีย์ของบิทคอยน์มีการเก็บไว้ที่ไหน"
 
 #: templates/website/faq.html:62
 msgid ""
 "Your keys are not stored. They are derived from your mnemonic passphrase and "
 "never sent to the server."
-msgstr ""
-"Ваши ключи нигде хранятся. Они являются производными от вашей мнемонической "
-"фразы-пароля и никогда не отправляются на сервер."
+msgstr "คีย์จะไม่มีการเก็บเอาไว้ มันแปลงมาจากรหัสผ่านช่วยจำและไม่มีการส่งไปยังเซอร์เวอร์"
 
 #: templates/website/faq.html:64
 msgid "How does the PIN work?"
-msgstr "Как работает PIN-код?"
+msgstr "PIN ทำงานอย่างไร"
 
 #: templates/website/faq.html:65
 msgid ""
@@ -307,22 +286,17 @@ msgid ""
 "your wallet. If the PIN is provided wrong for 3 times in a row the password "
 "is then deleted from our servers."
 msgstr ""
-"Случайный пароль (256 AES) создается и используется для шифрования ваших "
-"мнемоник и хранения их на вашем устройстве в шифрованном виде. Случайный "
-"пароль передается на сервер и уничтожается на клиентском компьютере. Когда "
-"во время входа в систему пользователь вводить правильный PIN-код, с сервера "
-"запрашивается правильный пароль, который используется для дешифровки "
-"мнемонической фразы-пароля, сохраненной на вашем устройстве, и вы получаете "
-"доступ к вашему кошельку. Если PIN-код введен 3 раза подряд неверно, то "
-"пароль удаляется из наших серверов."
+"รหัสผ่านแบบสุ่ม (256 AES) "
+"สร้างและใช้เพื่อเข้ารหัสรหัสผ่านช่วยจำและเก็บไว้บนอุปกรณ์ในรูปแบบการเข้ารหัส "
+"รหัสแบบสุ่มจะส่งไปยังเซอร์เวอร์และถูกทำลายเมื่อถึงเครื่องลูกข่าย ขณะที่ผู้ใช้งานเข้าระบบและแจ้ง "
+"PIN ที่ถูกต้อง กลไกจะถามไปยังเซอร์เวอร์ถึงรหัสที่ใช้ถอดรหัสจากอุปกรณ์ของคุณที่คุณใช้เข้าสู่ Wallet "
+"ถ้าใส่ PIN ผิด 3 คร้งติดกันรหัสผ่านจะถูกลบออกจากเซอร์เวอร์"
 
 #: templates/website/faq.html:68
 msgid ""
 "When are you going to offer feature XYZ? I would like to access my wallet in "
 "my language, can you add it?"
-msgstr ""
-"Когда вы собираетесь реализовать функционал XYZ? Я хотел бы иметь доступ к "
-"своему кошельку на моем родном языке, можете ли вы добавить его?"
+msgstr "เมื่อคุณต้องการใช้ฟังก์ชั่น XYZ? ฉันอยากใช้ Wallet ในภาษาของฉันเองจะทำได้หรือไม่"
 
 #: templates/website/faq.html:70
 msgid ""
@@ -330,10 +304,9 @@ msgid ""
 "provide some feedback or get involved feel free to PM on reddit (/u/BitFast) "
 "or send us an email at "
 msgstr ""
-"Мы все время заинтересованы в обратной связи от наших пользователей. Если вы "
-"хотите оставить нам отзывы или принять участие в нашем проекте, пожалуйста "
-"отправьте приватное сообщение на reddit (/u/BitFast) или отправьте нам email "
-"на "
+"เรากำลังรวบรวมเสียงตอบรับจากผู้ใช้งาน "
+"หากคุณมีข้อเสนอแนะหรือต้องการมีส่วนร่วมคุณสามารถส่งข้อความมาทาง reddit (/u/BitFast) "
+"หรืออีเมล์มาที่ "
 
 #: templates/website/faq.html:71
 msgid ""
@@ -341,9 +314,8 @@ msgid ""
 "pipeline, please check with us if you want to be kept up to date with "
 "development and please be patient :)"
 msgstr ""
-"Разработка нового функционала и поддержка многих языков в планах, пожалуйста "
-"свяжитесь с нами если вы хотите быть в курсе дел и пожалуйста запаситесь "
-"терпением :)"
+"เรามีฟังก์ชั่นมากมายและการสนับสนุนทางภาษาหลายภาษา "
+"กรุณาเข้ามาตรวจสอบหากคุณต้องการให้เราติดตามและพัฒนาการใช้งาน กรุณาอดทน "
 
 #: templates/website/faq.html:72
 msgid ""
@@ -351,23 +323,21 @@ msgid ""
 "\"http://translate.greenaddress.it\">here</a> and pull requests are welcome "
 "on <a href=\"https://github.com/greenaddress\" target=\"_blank\">GitHub</a>!"
 msgstr ""
-"Если Вы хотите помочь с переводом, смотрите <a target=\"_blank_\" href="
-"\"http://translate.greenaddress.it\">здесь</a> и пул-запросы приветствуются "
-"на <a href=\"https://github.com/greenaddress\" target=\"_blank\"> GitHub</a>!"
+"หากคุณต้องการช่วยแปลภาษาคุณสามารถดูได้ <a target=\"_blank_\" href=\"http://"
+"translate.greenaddress.it\">ที่นี่</a> และเสนอข้อเสนอแนะต่าง ๆ บน <a href="
+"\"https://github.com/greenaddress\" target=\"_blank\">GitHub</a>!"
 
 #: templates/website/faq.html:74
 msgid "Do you have a donate button for linking to users payment URLs?"
-msgstr ""
-"Есть ли у вас кнопка для пожертвований для предоставления пользователям URLs "
-"для оплаты?"
+msgstr "มีปุ่มบริจาคสำหรับเชื่อมโยงไปยัง Url ผู้ชำระเงินหรือไม่"
 
 #: templates/website/faq.html:76
 msgid "Sure have a look below (let us know if you have created one!)."
-msgstr "Обязательно посмотрите ниже (дайте нам знать, если вы создали одну!)."
+msgstr "แน่นอนว่ามีสามารถดูได้ด้านล่าง (โปรดแจ้งเราถ้าคุณได้สร้างมาแล้ว)"
 
 #: templates/website/faq.html:80
 msgid "What exactly is an 'instant greenaddress transaction'?"
-msgstr "Что же такое \"мгновенная сделка greenaddress\"?"
+msgstr "อะไรคือ ธุรกรรม greenaddress แบบทันที"
 
 #: templates/website/faq.html:81
 msgid ""
@@ -377,16 +347,13 @@ msgid ""
 "instantly as we provide a 'special' signature to your transaction when you "
 "require instant confirmation."
 msgstr ""
-"Ваши транзакции защищены как вашей подписью так и нашей, которую мы "
-"применяем когда получаем Ваше разрешение на двухфакторную проверку "
-"подлинности. Благодаря этой защите, пользователи получая биткоины от Вас, "
-"могут быть уверенны в сделке мгновенно так как мы подписываем Вашу "
-"транзакция специальной подписью, когда Вы хотите получить мгновенное "
-"подтверждение транзакции."
+"ธุรกรรมของคุณจะมีการปกป้องโดยลายเซ็นทางคุณและลายเซ็นทางเราที่มีการอนุญาตผ่านรหัสผ่าน 2 "
+"ขั้นมาให้ ด้วยการป้องกันแบบนี้ "
+"จะทำให้ผู้รับสามารถไว้วางใจได้ในขณะที่เราจะมีการออกแบบลายเซ็นแบบพิเศษสำหรับธุรกรรมของคุณที่ต้องการการยืนยันแบบทันที"
 
 #: templates/website/faq.html:84
 msgid "What about cookies?"
-msgstr "А как насчет куков?"
+msgstr "เกี่ยวกับคุกกี้"
 
 #: templates/website/faq.html:86
 msgid ""
@@ -397,45 +364,42 @@ msgid ""
 "forgery and display the site in the language you have selected or to not "
 "show you the EU cookie compliance info banner."
 msgstr ""
-"Чтобы разрешить GreenAddress распознавать Ваше устройство и обеспечить для "
-"Вас различную функциональность, мы используем куки. Куки - уникальные "
-"идентификаторы, которые мы передаем на устройство для того, чтобы наши "
-"сервисы могли распознать устройство и обеспечить такие функции, как защита "
-"от злонамеренного перекрестного запроса с другого сайта, отображение сайта "
-"на языке, который Вы выбрали, или не показывать Вам информационный баннер с "
-"ЕС соглашениями."
+"เพื่อทำให้ GreenAddress จดจำอุปกรณ์คุณได้และเริ่มฟังก์ชั่นให้คุณ เราได้ใช้คุกกี้ "
+"ซึ่งก็คือการระบุตัวตนแบบเฉพาะที่เราส่งไปยังอุปกรณ์ของคุณเพื่อเปิดใช้งานและจดจำอุปกรณ์ "
+"รวมถึงการใช้งานด้านความปลอดภัยจากการปลอมโดยไซด์อื่น ๆ "
+"และแสดงผลเว็บไซด์ในแบบภาษาที่คุณเลือกหรือการไม่แสดงข้อมูลป้ายโฆษณา."
 
 #: templates/website/faq.html:91
 msgid ""
 "Yes! You can see our <a href=\"http://api.greenaddress.it/\">API "
 "documentation at GitHub Pages</a>."
 msgstr ""
-"Да! Здесь наша <a href=\"http://api.greenaddress.it/\">API документация на "
-"GitHub страницах</a>."
+"Yes! You can see our <a href=\"http://api.greenaddress.it/\">API "
+"documentation at GitHub Pages</a>."
 
 #: templates/website/instant.html:7
 msgid "Verify instant transaction"
-msgstr "Проверить мгновенные транзакции"
+msgstr "ตรวจสอบธุรกรรมทันที"
 
 #: templates/website/instant.html:25
 msgid "Verify a GreenAddress instant confirmation!"
-msgstr "Проверяйте GreenAddress мгновенное подтверждение!"
+msgstr "ตรวจสอบการยืนยัน GreenAddress ทันที!"
 
 #: templates/website/instant.html:25
 msgid "Please provide transaction details below"
-msgstr "Пожалуйста, предоставьте детали транзакции ниже"
+msgstr "กรุณาใส่รายละเอียดธุรกรรมด้านล่าง"
 
 #: templates/website/instant.html:27 templates/website/instant.html:32
 msgid "Transaction hash"
-msgstr "Хеш транзакции"
+msgstr "ธุรกรรมแฮช"
 
 #: templates/website/instant.html:38
 msgid "Recipient verification signature"
-msgstr "Подпись верификации получателя"
+msgstr "ผู้รับการตรวจสอบลายเซ็น"
 
 #: templates/website/instant.html:39
 msgid "Please sign the following message"
-msgstr "Пожалуйста, подпишите следующее сообщение"
+msgstr "กรุณาเซ็นรับข้อความเหล่านี่้"
 
 #: templates/website/instant.html:39
 msgid ""
@@ -444,50 +408,49 @@ msgid ""
 "key in WIF format. The key will be used in your browser only to sign the "
 "message."
 msgstr ""
-"Вы можете либо предоставить подпись самостоятельно (рекомендовано), "
-"<strong>или</strong>, если Ваш клиент не поддерживает подпись сообщений, "
-"вставьте Ваш приватный ключ у WIF формате. Ключ будет использован Вашим "
-"браузером только для подписи сообщения."
+"คุณสามารถใช้ลายเซ็นของตนเอง (แนะนำ) <strong>หรือ</strong> "
+"ถ้าเครื่องลูกข่ายไม่รองรับการเซ็น ให้วางคีย์ส่วนตัวของคุณในรูปแบบ WIF. "
+"คีย์จะใช้ในเบราเซอร์เพื่อเซ็นรองรับข้อความ"
 
 #: templates/website/instant.html:43
 msgid "Signature"
-msgstr "Подпись"
+msgstr "ลายเซ็น"
 
 #: templates/website/instant.html:46
 msgid "or"
-msgstr "или"
+msgstr "หรือ"
 
 #: templates/website/instant.html:49
 msgid "WIF Private Key"
-msgstr "WIF закрытый ключ"
+msgstr "คีย์ส่วนตัว WIF"
 
 #: templates/website/instant.html:55
 msgid "Error"
-msgstr "Ошибка"
+msgstr "ข้อผิดพลาด"
 
 #: templates/website/instant.html:58
 msgid "Verify transaction"
-msgstr "Проверить транзакцию"
+msgstr "ตรวจสอบธุรกรรม"
 
 #: templates/website/instant.html:64
 msgid "Verification successful!"
-msgstr "Проверка завершилась успешно!"
+msgstr "การตรวจสอบสำเร็จแล้ว"
 
 #: templates/website/instant.html:64
 msgid "is covered by GreenAddress instant confirmation."
-msgstr "обеспечено мгновенным подтверждением GreenAddress."
+msgstr "ครอบคลุม โดยการยืนยันแบบทันทีของ GreenAddress "
 
 #: templates/website/instant.html:67
 msgid "Verification failed!"
-msgstr "Проверка не удалась!"
+msgstr "การตรวจสอบล้มเหลว!"
 
 #: templates/website/instant.html:67
 msgid "is not covered by GreenAddress instant confirmation."
-msgstr "не обеспечено мгновенным подтверждением GreenAddress."
+msgstr "ไม่ครอบคลุม โดยการยืนยันแบบทันทีของ GreenAddress."
 
 #: templates/website/instant.html:70
 msgid "Try again"
-msgstr "Попробуйте снова"
+msgstr "ลองอีกครั้ง"
 
 #: templates/website/tos.html:5
 #: templates/wallet/partials/signup_1_trezor.html:31
@@ -495,11 +458,11 @@ msgstr "Попробуйте снова"
 #: templates/wallet/partials/signup_1_init.html:46
 #: templates/wallet/partials/signup_1_init.html:48
 msgid "Terms of Service"
-msgstr "Условия предоставления услуг"
+msgstr "เงื่อนไขการใช้บริการ"
 
 #: templates/website/index.html:5
 msgid "GreenAddress - Free and secure online Bitcoin wallet"
-msgstr "GreenAddress.it - бесплатный и безопасный онлайн Bitcoin кошелек"
+msgstr "GreenAddress - Wallet สำหรับบิทคอยน์ที่ฟรีและปลอดภัย"
 
 #: templates/website/index.html:6
 msgid ""
@@ -507,74 +470,72 @@ msgid ""
 "to paper wallets to store your bitcoins online. Independent blockchain data "
 "verification via the Electrum network."
 msgstr ""
-"GreenAddress - бесплатный и безопасный Bitcoin кошелек, удобная альтернатива "
-"бумажным кошелькам для хранения Ваших биткоинов в онлайне. Независимая "
-"верификация блокчейн данных через сеть Electrum."
+"GreenAddress iเป็น Wallet นิทคอยน์ที่ฟรีและปลอดภัย "
+"ทางเลือกที่สะดวกสำหรับการเก็บบิทคอยน์ออนไลน์ การยืนยันข้อมูล Blockchain "
+"แบบอิสระผ่านทางเครือข่ายของ Electrum."
 
 #: templates/website/index.html:31 templates/website/index.html:42
 #: templates/wallet/partials/signuplogin/header_redeem.html:8
 msgid "Create your Wallet"
-msgstr "Создайте Ваш Кошелек"
+msgstr "สร้าง Wallet ของคุณ"
 
 #: templates/website/index.html:42
 msgid "The safer "
-msgstr "Безопасный "
+msgstr "ที่ปลอดภัยกว่า"
 
 #: templates/website/index.html:42
 msgid " wallet that puts "
-msgstr " кошелек, который дает "
+msgstr " wallet นำไปสู่ "
 
 #: templates/website/index.html:42
 msgid "you"
-msgstr "Вам"
+msgstr "คุณ"
 
 #: templates/website/index.html:42
 msgid " in control"
-msgstr " полный контроль"
+msgstr " ในการควบคุม"
 
 #: templates/website/index.html:44 templates/website/index.html:45
 #: templates/website/index.html:133 templates/website/index.html:195
 msgid "Improved security"
-msgstr "Улучшенная безопасность"
+msgstr "ความปลอดภัยที่พัฒนาขึ้น"
 
 #: templates/website/index.html:46
 msgid ""
 "Protect your bitcoins with both your key and ours, set spending limits, rate "
 "limited transactions and always be the only one in control"
 msgstr ""
-"Защитите ваши биткоины с обоими - Вашими и нашими ключами, задайте лимиты на "
-"максимальный расход, лимиты на количество транзакций за выбранный Вами "
-"период и будьте единственным кто контролирует Ваш кошелек"
+"ปกป้องบิทคอยน์ด้วคีย์ของคุณและของเรา ตั้งการจำกัดการใช้จ่าย "
+"เรทจำกัดการทำธุรกรรมและเป็นเพียงผู้เดียวที่สามารถควบคุมได้"
 
 #: templates/website/index.html:49 templates/website/index.html:50
 #: templates/wallet/partials/wallet_settings.html:148
 msgid "Quick login"
-msgstr "Быстрый вход"
+msgstr "เข้าสู่ระบบอย่างรวดเร็ว"
 
 #: templates/website/index.html:51
 msgid ""
 "You can easily login in 'watch-only mode' via Facebook/Twitter/custom login "
 "with no compromise on security and privacy"
 msgstr ""
-"Вы можете легко войти в режим 'Только-Наблюдения' через Facebook/Twitter/"
-"пользовательский логин без компромисов для Вашей безопасности и "
-"конфиденциальности"
+"คุณสามารถเข้าสู่ระบบแบบดูอย่างเดียวผ่านทาง Facebook/Twitter/ "
+"การเข้าระบบเฉพาะซึ่งจะไม่มีความยุ่งยากหรือปัญหาด้านความปลอดภัย"
 
 #: templates/website/index.html:54 templates/website/index.html:55
 msgid "Send money easily"
-msgstr "Отправляйте деньги легко"
+msgstr "ส่งเงินได้อย่างง่ายดาย"
 
 #: templates/website/index.html:56
 msgid ""
 "Send money to a friend on Facebook, a follower on Twitter or to a "
 "colleague's email or mobile number"
 msgstr ""
-"Отправляйте деньги другу на Facebook, фолловерам на Twitter, на email или "
-"мобильный номер коллеги"
+"ส่งเงินให้เพื่อนใน Facebook ผู้ติดตาม Twitter "
+"ผ่านอีเมล์ของเพื่อนร่วมงานหรือหมายเลขโทรศัพท์มือถือ"
 
 #: templates/website/index.html:63
 msgid "Scroll to read more"
-msgstr "Прокрутите вниз, чтобы прочитать больше"
+msgstr "เลื่อนไปอ่านเพิ่มเติม"
 
 #: templates/website/index.html:75
 msgid ""
@@ -588,15 +549,14 @@ msgid ""
 "your funds.</p>        <p>Take control of your future now, at GreenAddress.</"
 "p>        "
 msgstr ""
-"        <p><h4>Bitcoin — валюта будущего</h4></p> <p>Мы не заставляем Вас "
-"выбирать между безопасностью и удобством. И мы не идем на компромисс с вашей "
-"<strong>конфиденциальностю</strong>.</p> <p>Наши  двухфакторная проверка "
-"подлинности, мульти-подпись <strong>(для каждой транзакции!)</strong> и "
-"детерминированный кошелек позволяют вам беспрецедентный контроль над вашими "
-"средствами.</p> <p>Мы <strong>никогда не</strong> храним ваших приватных "
-"ключей, даже в шифрованном виде. В то же время мы обеспечиваем Вам "
-"возможность легко мониторить и перемещать Ваши средства.</p> <p>Возьмите "
-"Ваше будущее в Ваши руки сейчас с GreenAddress.it.</p>        "
+"        <p><h4>บิทคอยน์เป็นหน่วยดิจิตอลแห่งอนาคต</h4></p>        "
+"<p>คุณไม่ต้องเลือกระหว่างความปลอดภัยหรือความสะดวกสบาย "
+"และเราไม่ประนีประนอมกับ<strong>นโยบาย</strong></p>        <p>การทำ "
+"<strong>ธุรกรรมแต่ละครั้งผ่าน</strong> การตรวจสอบหลายขั้น หลายลายเซ็นและ wallet "
+"ที่กำหนดเองช่วยให้คุณสามารถตรวจสอบธุรกรรมของคุณ</p>        <p>และเรา <strong>ไม่เคย</"
+"strong> เก็บคีย์ส่วนตัวของคุณ หรือการเข้ารหัส "
+"และในขณะเดียวกันเราทำขั้นตอนให้ซับซ้อนสำหรับการดูและโอนย้ายกองทุนของคุณ</p>        "
+"<p>ควบคุมอนาคตของคุณได้ตอนนี้ที่ GreenAddress.</p>        "
 
 #: templates/website/index.html:94
 msgid ""
@@ -608,14 +568,14 @@ msgid ""
 "wallet.</p>        <p>Your <strong>keys</strong> are not loaded so no "
 "transaction are possible and settings can't be modified</p>        "
 msgstr ""
-"        <p><h4>Лучшая конфиденциальность ваших средств и безопасный вход в "
-"систему в режиме \"только наблюдения\"</h4></p> <p>Безопасно проверяйте ваш "
-"<strong>баланс</strong> и <strong>транзакции</strong> из публичных Wi-Fi, "
-"Starbucks и на ходу.</p> <p>С нашей уникальным режимом <strong>Только-"
-"Наблюдение</strong> можно быстро проверить свой баланс или получить средства "
-"без полного доступа к вашему кошелек.</p> <p>Ваши <strong>ключи</strong> не "
-"загружаются, поэтому проведение транзакций не возможно и никакие настройки "
-"не могут быть изменены </p>        "
+"        <p><h4>ความเป็นส่วนตัวที่มากขึ้นกับกองทุนของคุณและการเข้าระบบที่ปลอดภัยในโหมดดูอย่างเดียว</"
+"h4></p>        <p>สามารถตรวจสอบ <strong>ยอดคงเหลือ</strong>และ<strong>ธุรกรรม</"
+"strong> จากไวไฟสาธารณะ สตาร์บัคส์ หรือที่ใดก็ได้</p>        <p>ด้วยโหมด "
+"<strong>ดูอย่างเดียว</strong> "
+"อันเป็นเอกลักษณ์ทำให้คุณตรวจสอบยอดคงเหลือหรือรับกองทุนได้โดยไม่ต้องใช้ล็อคอินแบบเต็มเพื่อเข้า "
+"wallet</p>        <p>คีย์<strong>ของคุณ</strong> "
+"จะไม่มีการเรียกดังนั้นจะไม่สามารถทำธุรกรรมใด ๆ และไม่สามารถแก้ไขการตั้งค่าได้อีกด้วย</"
+"p>        "
 
 #: templates/website/index.html:112
 msgid ""
@@ -629,37 +589,35 @@ msgid ""
 "newly generated address each time making it harder for people you transact "
 "with to read your past and future transactions</p>        "
 msgstr ""
-"        <p><h4>Дополнительные функции, которые позволяют удобный и "
-"безопасный доступ к вашему кошельку</h4></p>        <p>Разрешить "
-"<strong>быстрый</strong> PIN-код для входа в ваш кошелек с любого из ваших "
-"устройств без необходимости использовать вашу парольную фразу</p>        "
-"<p>Даже если наша наша система перестанет работать или исчезнет, можете "
-"спать <strong>спокойно</strong> - наша автоматически подписанная транзакция "
-"(nLockTime) даст вам возможность просто подождать выбранное Вами время после "
-"которого Вы получите доступ к Вашим средствам!</p>        <p>Все переводы на "
-"Ваш кошелек (включая сдачи) будут каждый раз использовать  новый "
-"сгенерированный адрес, что делает трудней для людей с которыми вы проводите "
-"транзакции, видеть ваши прошлые и будущие операции</p>        "
+"        <p><h4>อีกหนึ่งคุณลักษณะที่อนุญาตให้เข้าถึงสะดวก และปลอดภัยกับ Wallet ของคุณ</h4></"
+"p>        <p>เปิดใช้งานการเข้าระบบ PIN <strong>แบบด่วน</strong>กับ Wallet "
+"ของคุณจากอุปกรณ์ของคุณโดยไม่ต้องใช้วลีรหัสผ่านของคุณ</p>        "
+"<p>และระบบของเราจะหยุดทำงาน หายไป หรือหยุดการทำงานชั่วคราว<strong>แบบปลอดภัย</"
+"strong>โดยอัตโนมัติด้วยระบบธุรฏรรมที่ตั้งค่าไว้ก่อน (nLockTime) "
+"ช่วยให้คุณสามารถรอธุรกรรมหมดอายุที่คุณเลือกและรับเงิน! </p>        <p>โอนย้ายทั้งหมดที่ "
+"wallet ของคุณ (รวมทั้งหมด) "
+"จะใช้ที่อยู่สร้างขึ้นใหม่แต่ละครั้งที่ทำให้มันยากสำหรับคนที่ประสงค์จะอ่านธุรกรรมที่ผ่านมา และในอนาคต</"
+"p>        "
 
 #: templates/website/index.html:129 templates/wallet/wallet.html:6
 msgid "Wallet"
-msgstr "Кошелек"
+msgstr "กระเป๋าสตางค์"
 
 #: templates/website/index.html:130 templates/website/index.html:177
 msgid "You are in control"
-msgstr "Вы контролируете"
+msgstr "คุณอยู่ในการควบคุม"
 
 #: templates/website/index.html:131 templates/website/index.html:183
 msgid "Instant confirmation"
-msgstr "Мгновенное подтверждение"
+msgstr "การยืนยันแบบทันที"
 
 #: templates/website/index.html:132 templates/website/index.html:189
 msgid "Social integration"
-msgstr "Социальная интеграция"
+msgstr "เชื่อมต่อรวมทางสังคม"
 
 #: templates/website/index.html:134 templates/website/index.html:201
 msgid "Improved privacy"
-msgstr "Улучшенная конфиденциальность"
+msgstr "ความเป็นส่วนตัวดีขึ้น"
 
 #: templates/website/index.html:210
 msgid ""
@@ -669,17 +627,14 @@ msgid ""
 "<br>          3) Access to user wallets requires that both the user and the "
 "service are compromised at the same time which reduces risks.          "
 msgstr ""
-"          1) Горячие кошельки могут быть опустошены, а холодные кошельки "
-"имеют задержки, ошибки или могут потеряться<br> 2) Если сервис был "
-"скромпрометирован и против Вашего кошелька применена брут-форс атака, для "
-"надежной защиты обязательно нужен сильный пароль шифрования кошелька. <br> "
-"3) Доступ к пользовательские кошелькам требует, чтобы одновременно были "
-"скромпрометированы как пользователь так и сервис, что сильно снижает "
-"риск.          "
+"          1) wallet แบบ hot สามารถว่างได้และ wallet แบบ cold อาจล่าช้า มีข้อผิดพลาด "
+"หรือสูญหาย<br>          2) หากการบริการถูกรบกวน หรือโจมตีอย่างรุนแรง "
+"อาขมีความพยามเข้ารหัส wallet ซึ่งแนะนำให้ใช้รหัสผ่านความปลอดภัยสูง<br>          3) "
+"การเข้าถึง wallet ผู้ใช้งานต้องใช้จากทั้งผู้ใช้งานและบริการพร้อมกันซึ่งสามารถช่วยลดความเสี่ยงได้ "
 
 #: templates/website/index.html:223
 msgid "Under the hood"
-msgstr "Под капотом"
+msgstr "ภายใต้การปกป้อง"
 
 #: templates/website/index.html:230
 msgid ""
@@ -688,10 +643,9 @@ msgid ""
 "change), which, together with coinjoin (coming soon) allows you to maintain "
 "your privacy at the highest standard."
 msgstr ""
-"<h3>Мы используем иерархические детерминированные кошельки</h3><br>(или "
-"BIP0032 HD Wallet) что означает, что мы используем новые адреса для каждой "
-"входящей транзакции (включая сдачи), что, вместе с coinjoin (скоро) "
-"позволяет поддерживать Вашу конфиденциальность на самом высоком уровне."
+"<h3>เราใช้ Wallet แบบมีขั้นกำหนด</h3>(หรือ แบบ BIP0032 HD) "
+"ซึ่งหมายถึงเราใช้ที่อยู่ใหม่ทุกครั้งสำหรับธุรกรรม (รวมทั้งที่เปลี่ยนแปลง), ซึ่งเราจะรวมเข้ากับ "
+"coinjoin (เร็ว ๆ นี้) ซึ่งทำให้คุณสามารถรักษานโยบายความเป็นส่วนตัวได้ในระดับสูงสุด."
 
 #: templates/website/index.html:236
 msgid ""
@@ -700,10 +654,9 @@ msgid ""
 "or to check your balance without exposing your wallet, indeed quite "
 "convenient when in a hurry and/or on a third party computer"
 msgstr ""
-"<h3> Быстро проверить свой баланс </h3><br>Вы можете использовать ряд "
-"сторонних сервисов (Facebook, например), чтобы быстро проверить получили ли "
-"вы платеж или посмотреть свой баланс, не подвергая свой кошелек опасности. "
-"Действительно, это весьма удобно, когда вы спешите и/или за чужим компьютером"
+"<h3>ตรวจสอบยอดคงเหลือ</h3>คุณสามารถใช้บริการบุคคลที่ 3 เช่น Facebook "
+"ในการตรวจสอบยอดคงเหลือถ้าคุณได้รับธุรกรรมโดยไม่ต้องไปดำเนินการใน Wallet ของคุณ "
+"นอกจากนี้มันยังง่ายและสะดวกขึ้นเพราะตรวจสอบจากคอมพิวเตอร์บุคคลที่ 3 ได้"
 
 #: templates/website/index.html:244
 msgid ""
@@ -713,22 +666,20 @@ msgid ""
 "time your wallet has updates we will forward to you a presigned transaction "
 "unlocking the funds at a date in the future of your choice."
 msgstr ""
-"<h3> Мы предоставляем заранее подписанные транзакции</h3><br> Для того чтобы "
-"обеспечить лимиты на транзакции,  двухфакторную проверку подлинности, Ваши "
-"средства защищены с использованием своих ключей - Вашего и нашего. Для "
-"Вашего спокойствия, заранее подписанные транзакции используются по умолчанию "
-"(через механизм nlocktime), что значит что каждый раз когда Ваш кошелек "
-"обновится мы предоставим Вам заранее подписанную транзакцию которая "
-"разблокирует Ваши средства в выбранную Вами дату в будущем."
+"<h3>เรานำเสนอธุรกรรมแบบ presigned</h3>เพื่อจะให้มีขีดจำกัดและรหัสผ่านสองขั้น "
+"กองทุนของคุณจะเก็บโดยอาศัยทั้งคีย์ของคุณและของเรา เพื่อให้ง่ายดายขึ้น, ธุรกรรมแบบ presigned "
+"จะเปิดใช้งานได้ (ใช้ nlocktime) ซึ่งหมายความว่าแต่ละครั้งที่ wallet "
+"มีการอัพเดทเราจะส่งธุรกรรมแบบ presifned "
+"ไปให้คุณเพื่อปลดล็อคกองทุนในวันที่คุณต้องการใช้ในอนาคต"
 
 #: templates/website/index.html:250
 msgid ""
 "<h3>We use P2SH to make this all easy</h3>P2SH allows people you interact "
 "with to handle transactions to and from GreenAddress' wallets transparently."
 msgstr ""
-"<h3>Мы используем P2SH, чтобы сделать все это простым </h3>P2SH разрешает "
-"людям, с которыми Вы взаимодействуете, прозрачно работать с входными и "
-"выходными транзакциями GreenAddress."
+"<h3>เราใช้ P2SH เพื่อให้ง่ายดายขึ้น</h3>P2SH "
+"ช่วยให้คนสามารถจัดการกับแต่ละธุรกรรมที่มาจากและไปยัง Wallet ของ GreenAddress "
+"ได้อย่างโปร่งใส."
 
 #: templates/website/index.html:258
 msgid ""
@@ -737,11 +688,10 @@ msgid ""
 "limiting your transactions per hour, day,  week and month and make your "
 "payment instant by providing a double spend checks with GreenAddress!"
 msgstr ""
-"<h3>Мы предлагаем нашу вторую подпись</h3>Что позволяет нам предложить и "
-"гарантировать двухфакторную проверку подлинности,  дневные, недельные и "
-"месячные лимиты расхода средств, лимиты на количество транзакций в час, "
-"сутки, неделю, месяц, а также сделать Ваши платежы мгновенными обеспечивая "
-"проверку против двойной траты средств с помощью GreenAddress!"
+"<h3>เรานำเสนอลายเซ็นที่สอง</"
+"h3>ซึ่งทำให้เราจัดเตรียมและทำให้มีการเข้ารหัสสองขั้นสำหรับการชำระและมีการจำกัดรายวัน "
+"รายสัปดาห์ และรายเดือน เรทการจำกัดธุรกรรมของคุณรายชั่วโมง รายวัน รายสัปดาห์และรายเดือน "
+"และทำให้การชำระของคุณมีผลโดยทันทีโดยอาศัยการตรวจสอบสองขั้นจาก GreenAddress!"
 
 #: templates/website/index.html:264
 msgid ""
@@ -753,173 +703,168 @@ msgid ""
 "notify them of via a second channel. The funds will always be in your "
 "control while not yet redeemed."
 msgstr ""
-"<h3>Отправляйте деньги кому угодно через SMS, Twitter, Facebook и т.д.</"
-"h3>Если пользователь имеет аккаунт на GreenAddress, они сразу же получат "
-"уведомление о переводеа и средства будут мгновенно зачислены на их балнс. "
-"Если аккаунта нет, они получат уведомление со ссылкой где они могут получить "
-"средства используя пароль (BIP0038) за Вашим выбором, который вы передадите "
-"им через другой канал связи. Средства всегда будут под Вашим контролем до "
-"момента их получения пользователем."
+"<h3>ส่งเงินให้ทุกคนได้ทาง SMS, Twitter, Facebook หรืออื่น ๆ </h3>ถ้าผู้ใช้งานมีบัญชีที่ "
+"GreenAddress พวกเขาจะได้รับการแจ้งเตือนและการโอนไปยังบัญชีทันทีหลังจากที่อัพเดทยอด. "
+"ถ้าไม่มีบัญชีผู้ใช้จะได้รับการแจ้งเตือนพร้อมกับลิงค์เพื่อแลกคืนไปยังกองทุนซึ่งจะต้องอาศัยรหัสผ่าน "
+"(BIP0038) ซึ่งคุณสามารถเลือกแจ้งเตือนผ่านทางช่องทางที่ 2 ด้วย "
+"กองทุนจะยังปลอดภัยและควบคุมได้เสมอตราบที่ยังไม่มีการแลกคืน."
 
 #: templates/website/about.html:5 templates/website/about.html:11
 #: templates/base/base.html:147
 msgid "About us"
-msgstr "О нас"
+msgstr "เกี่ยวกับเรา"
 
 #: templates/website/about.html:25 templates/website/support.html:34
 msgid "Check us out on"
-msgstr "Читайте о нас на"
+msgstr "ติดตามพวกเราได้ที่ "
 
 #: templates/website/about.html:43
 #, fuzzy
 msgid "Founder & CEO"
-msgstr "Основатель"
+msgstr "ผู้ก่อตั้ง"
 
 #: templates/website/about.html:53
 msgid "Full Stack Developer"
-msgstr "Разработчик полной инфраструктуры"
+msgstr "ผู้พัฒนาครบวงจร"
 
 #: templates/website/about.html:61
 msgid "Careers"
-msgstr "Вакансии"
+msgstr "ร่วมงานกับเรา"
 
 #: templates/website/support.html:5
 msgid "Support and contacts for GreenAddress Bitcoin wallet"
-msgstr "Поддержка и контакты GreenAddress Bitcoin кошелька"
+msgstr "ฝ่ายสนับสนุนหรือติดต่อ wallet ของ GreenAddress"
 
 #: templates/website/support.html:6
 msgid ""
 "GreenAddress contacts details. We are here to listen to your suggestions for "
 "a better and safer Bitcoin online wallet."
 msgstr ""
-"Детали контактов GreenAddress. Мы здесь для того, чтобы выслушать Ваши "
-"предложения для создания лучшего и более безопасного Bitcoin онлайн кошелька."
+"รายละเอียดติดต่อ GreenAddress เรายินดีรับฟังข้อเสนอแนะของคุณในการความปลอดภัยของ Wallet "
+"Bitcoin แบบออนไลน์."
 
 #: templates/website/support.html:22
 msgid "For any issue, you can email us at"
-msgstr "По любому вопросу, пожалуйста отправьте нам email на"
+msgstr "สำหรับปัญหาใด ๆ คุณสามารถอีเมล์ที่"
 
 #: templates/website/support.html:24
 msgid "Or call us on"
-msgstr "Или позвоните нам по телефону"
+msgstr "หรือโทรหาเราที่ "
 
 #: templates/website/support.html:26
 msgid "Nine to five (GMT + 1:00) Monday to Friday."
-msgstr "С 9 до 5 (GMT + 1:00) Понедельник - Пятница."
+msgstr "9.00-17.00 น (GMT + 1:00) วันจันทร์ถึงวันศุกร์"
 
 #: templates/website/support.html:27
 msgid ""
 "Please leave a message if in out of hours or if we are unable to take your "
 "call."
-msgstr ""
-"Пожалуйста, оставьте сообщение, если время не рабочее или не можем принять "
-"ваш звонок."
+msgstr "กรุณาฝากข้อความหาเราหากเป็นเวลานอกทำการหรือไม่สามารถติดต่อเราทางโทรศัพท์ได้"
 
 #: templates/website/redeem.html:6
 msgid "Redeem funds"
-msgstr "Активировать средств"
+msgstr "แลกคืนกองทุน"
 
 #: templates/website/redeem.html:9
 #: templates/wallet/partials/signuplogin/header_redeem.html:2
 msgid "You've received"
-msgstr "Вы получили"
+msgstr "คุณได้รับ"
 
 #: templates/website/privacy.html:5
 msgid "Privacy Policy"
-msgstr "Политика конфиденциальности"
+msgstr "Privacy Policy"
 
 #: templates/wallet/nav.html:4
 #: templates/wallet/partials/wallet_transactions.html:4
 msgid "Transactions"
-msgstr "Транзакции"
+msgstr "ธุรกรรม"
 
 #: templates/wallet/nav.html:5 templates/wallet/partials/wallet_send.html:4
 #: templates/wallet/partials/wallet_send.html:138
 msgid "Send Money"
-msgstr "Послать денежные средства"
+msgstr "ส่งเงิน"
 
 #: templates/wallet/nav.html:6 templates/wallet/partials/wallet_receive.html:4
 msgid "Receive Money"
-msgstr "Получить денежные средства"
+msgstr "รับเงิน"
 
 #: templates/wallet/nav.html:7
 #: templates/wallet/partials/wallet_address_book.html:4
 msgid "Address Book"
-msgstr "Aдресная книга"
+msgstr "สมุดบัญชี"
 
 #: templates/wallet/nav.html:8
 msgid "Settings"
-msgstr "Настройки"
+msgstr "การตั้งค่า"
 
 #: templates/wallet/nav.html:10
 #, fuzzy
 msgid "General"
-msgstr "General Settings"
+msgstr "ตั้งค่าทั่วไป"
 
 #: templates/wallet/nav.html:11
 #: templates/wallet/partials/wallet_settings.html:104
 msgid "Security"
-msgstr "Security"
+msgstr "ความปลอดภัย"
 
 #: templates/wallet/nav.html:12
 #: templates/wallet/partials/wallet_settings.html:581
 #, fuzzy
 msgid "Accounts"
-msgstr "Добавить аккаунт"
+msgstr "เพิ่มบัญชี"
 
 #: templates/wallet/nav.html:14
 msgid "Update now"
-msgstr "Обновит сейчас"
+msgstr "อัพเดท"
 
 #: templates/wallet/nav.html:15
 #: templates/wallet/partials/wallet_modal_logout_other_session.html:10
 #: templates/wallet/partials/wallet_modal_logout.html:11
 msgid "Logout"
-msgstr "Выход"
+msgstr "ออกจากระบบ"
 
 #: templates/wallet/nav.html:20 templates/base/base.html:110
 msgid "FAQ"
-msgstr "Часто задаваемые вопросы."
+msgstr "FAQ"
 
 #: templates/wallet/nav.html:20 templates/base/base.html:111
 msgid "Support"
-msgstr "Поддержка"
+msgstr "สนับสนุน"
 
 #: templates/wallet/nav.html:23
 msgid "Last login"
-msgstr "Последний вход"
+msgstr "เข้าระบบล่าสุด"
 
 #: templates/wallet/nav.html:26
 msgid "country"
-msgstr "страна"
+msgstr "ประเทศ"
 
 #: templates/wallet/nav.html:27
 msgid "unknown country"
-msgstr "страна не указана"
+msgstr "ประเทศที่ไม่รู้จัก"
 
 #: templates/wallet/wallet.html:47 templates/wallet/wallet.html:48
 msgid "WARNING"
-msgstr "ПРЕДУПРЕЖДЕНИЕ"
+msgstr "คำเตือน"
 
 #: templates/wallet/wallet.html:47
 msgid ""
 "You have no two factor authentication set up. Please set it up in <a href="
 "\"#/settings\">settings</a>."
 msgstr ""
-"У Вас не активирована двух-факторная проверки подлинности. Пожалуйста, "
-"активируйте ее в <a href=\"#/settings\">settings</a>."
+"คุณยังไม่มีการตั้งรหัสผ่านสองขั้น. กรุณา่เข้าไปตั้งค่าใน <a href=\"#/settings\">การตั้งค่า</a>."
 
 #: templates/wallet/wallet.html:49
 msgid "You have not verified that you have backed up your mnemonic."
-msgstr "Вы не подтвердили, что Вы сделали резервную копию Вашей мнемоники."
+msgstr "คุณไม่ได้ตรวจสอบว่า คุณได้สำรองข้อมูลที่ช่วยในการจำ"
 
 #: templates/wallet/wallet.html:50
 msgid "Please verify now by clicking here."
-msgstr "Пожалуйста, проверьте сейчас нажав здесь."
+msgstr "กรุณาตรวจสอบขณะนี้ โดยคลิกที่นี่"
 
 #: templates/wallet/partials/concurrent_login.html:6
 msgid "You were logged out."
-msgstr "Вы вышли из системы."
+msgstr "คุณเข้าสู่ระบบออก"
 
 #: templates/wallet/partials/concurrent_login.html:11
 msgid ""
@@ -937,12 +882,12 @@ msgstr "support"
 
 #: templates/wallet/partials/concurrent_login.html:24
 msgid "Go back to login"
-msgstr "Вернутся назад на страницу входа"
+msgstr "กลับเข้าสู่ระบบ"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:9
 #: templates/wallet/partials/wallet_settings.html:510
 msgid "(current currency)"
-msgstr "(current currency)"
+msgstr "(สกุลเงินปัจจุบัน)"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:11
 #: templates/wallet/partials/wallet_send.html:77
@@ -950,16 +895,14 @@ msgstr "(current currency)"
 #: templates/wallet/partials/wallet_settings.html:488
 #: templates/wallet/partials/wallet_settings.html:511
 msgid "NOTE"
-msgstr "Заметка"
+msgstr "บันทึก"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:11
 #: templates/wallet/partials/wallet_settings.html:511
 msgid ""
 "Using currency values for limits assumes you can trust your pricing source "
 "to provide correct values."
-msgstr ""
-"Using currency values for limits assumes you can trust your pricing source "
-"to provide correct values."
+msgstr "การใช้ค่าเงินเป็นขีดจำกัดหมายถึงคุณยอมรับความถูกต้องของการอ้างอิงราคาจากแหล่งที่มาแล้ว"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:18
 #: templates/wallet/partials/wallet_modal_tx_limits.html:20
@@ -973,16 +916,14 @@ msgstr ""
 #: templates/wallet/partials/wallet_settings.html:554
 #: templates/wallet/partials/wallet_receive.html:20
 msgid "Amount"
-msgstr "Количество"
+msgstr "จำนวน"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:33
 #: templates/wallet/partials/wallet_settings.html:524
 msgid ""
 "This limit will be decreased with each transaction and you will need to "
 "\"refill\" it manually by changing this value."
-msgstr ""
-"This limit will be decreased with each transaction and you will need to "
-"\"refill\" it manually by changing this value."
+msgstr "ขีดจำกัดนี้จะลดลงในแต่ละธุรกรรมและคุณต้องเติมเข้าไปใหม่เองเพื่อเพิ่มค่านี้"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:40
 #: templates/wallet/partials/wallet_modal_remove_account.html:6
@@ -1012,30 +953,28 @@ msgstr ""
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:23
 #: templates/wallet/partials/signuplogin/base.html:39
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "ยกเลิก"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:41
 #: templates/wallet/partials/wallet_settings.html:118
 #: templates/wallet/partials/wallet_settings.html:447
 #: templates/wallet/partials/wallet_settings.html:619
 msgid "Save"
-msgstr "Save"
+msgstr "บันทึก"
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:2
 msgid ""
 "Are you sure you want to permanently remove your wallet and all associated "
 "data from our servers?"
-msgstr ""
-"Are you sure you want to permanently remove your wallet and all associated "
-"data from our servers?"
+msgstr "คุณต้องการลบข้อมูลที่เกี่ยวข้องทั้งหมดและกระเป๋าสตางค์ของคุณจากเซิร์ฟเวอร์ของเราแน่ใจหรือไม่"
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:5
 msgid "Remove my account"
-msgstr "Remove my account"
+msgstr "ย้ายบัญชีของฉัน"
 
 #: templates/wallet/partials/wallet_modal_logout_other_session.html:4
 msgid "You are already logged in. Do you want to log out the other session?"
-msgstr "Вы уже зашли в систему. Хотите ли вы выйти из текущей сессии?"
+msgstr "คุณเข้าระบบแล้ว ต้องการออกระบบเพื่อไปส่วนอื่น?"
 
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:4
 msgid "Please enter BTChip PIN."
@@ -1045,7 +984,7 @@ msgstr "Please enter BTChip PIN."
 #: templates/wallet/partials/wallet_modal_pin.html:8
 #: templates/wallet/partials/signuplogin/base.html:18
 msgid "Enter your PIN"
-msgstr "Введите ваш PIN"
+msgstr "ใส่ PIN ของคุณ"
 
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:14
 msgid "PIN must be a 4-to-32-digit number"
@@ -1054,7 +993,7 @@ msgstr "PIN must be a 4-to-32-digit number"
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:23
 #: templates/wallet/partials/wallet_modal_pin.html:23
 msgid "Confirm PIN number"
-msgstr "Подтвердите номер PIN"
+msgstr "ยืนยันหมายเลข PIN"
 
 #: templates/wallet/partials/signup_2_2factor.html:7
 #: templates/wallet/partials/signup_1_trezor.html:13
@@ -1062,7 +1001,7 @@ msgstr "Подтвердите номер PIN"
 #: templates/wallet/partials/signup_4_oauth.html:7
 #: templates/wallet/partials/signup_3_pin.html:7
 msgid "Step"
-msgstr "шаг"
+msgstr "ขั้นตอน"
 
 #: templates/wallet/partials/signup_2_2factor.html:7
 #: templates/wallet/partials/signup_1_trezor.html:13
@@ -1070,15 +1009,15 @@ msgstr "шаг"
 #: templates/wallet/partials/signup_4_oauth.html:7
 #: templates/wallet/partials/signup_3_pin.html:7
 msgid "of"
-msgstr "из"
+msgstr "ของ"
 
 #: templates/wallet/partials/signup_2_2factor.html:14
 msgid "Don't compromise on security"
-msgstr "Не идите на компромисс в вопросах безопасности"
+msgstr "อย่ามองข้ามความปลอดภัย"
 
 #: templates/wallet/partials/signup_2_2factor.html:14
 msgid "Set up two factor authentication"
-msgstr "Настроить Двух-факторнаую аутентификацию"
+msgstr "การตั้งรหัสผ่านสองขั้น"
 
 #: templates/wallet/partials/signup_2_2factor.html:16
 msgid "Please wait while we log you into your new wallet..."
@@ -1108,12 +1047,12 @@ msgstr ""
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:14
 #: templates/wallet/partials/signup_3_pin.html:37
 msgid "Generating your wallet keys, please wait"
-msgstr "Генерирование ключей вашего кошелька, пожалуйста подождите"
+msgstr "กรุณารอสักครู่ สร้างคีย์ wallet ของคุณ "
 
 #: templates/wallet/partials/signup_2_2factor.html:27
 #: templates/wallet/partials/signup_3_pin.html:40
 msgid "Please wait, logging in..."
-msgstr "Пожалуйста, подождите, вход..."
+msgstr "รอสักครู่ กำลังเข้าสู่ระบบ..."
 
 #: templates/wallet/partials/signup_2_2factor.html:30
 #: templates/wallet/partials/signup_2_2factor.html:33
@@ -1121,46 +1060,46 @@ msgstr "Пожалуйста, подождите, вход..."
 #: templates/wallet/partials/signup_1_init.html:64
 #: templates/wallet/partials/wallet_modal_no_electrum.html:11
 msgid "Continue"
-msgstr "Продолжить"
+msgstr "ดำเนินการต่อ"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:2
 msgid "Transaction details"
-msgstr "Детали транзакции"
+msgstr "รายละเอียดของธุรกรรม"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:7
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:8
 msgid "Timestamp"
-msgstr "Временная ометка"
+msgstr "ระบุเวลา"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:10
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:11
 msgid "Hash"
-msgstr "Хеш"
+msgstr "แฮช"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:13
 #: templates/wallet/partials/wallet_send.html:113
 msgid "Fee"
-msgstr "Коммисия"
+msgstr "ค่าธรรมเนียม"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:16
 msgid "Raw transaction"
-msgstr "Raw transaction"
+msgstr "ธุรกรรมที่วัตถุดิบ"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:19
 msgid "Double spend by txhash"
-msgstr "Double spend by txhash"
+msgstr "ใช้คู่ โดย txhash"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:22
 msgid "Payment request"
-msgstr "Payment request"
+msgstr "คำขอชำระเงิน"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:24
 msgid "download"
-msgstr "download"
+msgstr "ดาวน์โหลด"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:30
 msgid "Inputs"
-msgstr "Входы"
+msgstr "ป้อนข้อมูล"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:33
 #: templates/wallet/partials/wallet_modal_tx_details.html:45
@@ -1168,11 +1107,11 @@ msgstr "Входы"
 #: templates/wallet/partials/wallet_address_book.html:22
 #: templates/wallet/partials/wallet_receive.html:65
 msgid "Address"
-msgstr "Адрес"
+msgstr "ที่อยู่"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:42
 msgid "Outputs"
-msgstr "Выходы"
+msgstr "ผลลัพธ์"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:55
 #: templates/wallet/partials/wallet_modal_mnemonic.html:11
@@ -1187,56 +1126,52 @@ msgstr "Выходы"
 #: templates/wallet/partials/wallet_modal_url_qr.html:6
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:20
 msgid "Close"
-msgstr "Закрыть"
+msgstr "ปิด"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:2
 #: templates/wallet/partials/signup_qr_modal.html:2
 msgid "The QR code containing the passphrase to access your wallet is:"
-msgstr "The QR code containing the passphrase to access your wallet is:"
+msgstr "QR code ที่มีรหัสช่วยจำในการเข้า wallet ของคุณคือ:"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:4
 msgid ""
 "This passphrase is encrypted, so your encryption password is required to use "
 "it."
-msgstr ""
-"This passphrase is encrypted, so your encryption password is required to use "
-"it."
+msgstr "รหัสผ่านมีการเข้ารหัส ดังนั้นต้องใช้รหัสผ่านเข้ารหัสเพื่อใช้งาน"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:5
 #: templates/wallet/partials/signup_qr_modal.html:4
 msgid "Remember to store it in a safe place!"
-msgstr "Хранить его в надежном месте!"
+msgstr "อย่าลืมเก็บไว้ในที่ปลอดภัย"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:7
 #: templates/wallet/partials/signup_1_init.html:24
 msgid "Your mnemonic passphrase"
-msgstr "Ваша мнемоническая фраза-пароль"
+msgstr "รหัสผ่านช่วยจำของคุณ"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:6
 msgid "You must provide 2 factor authentication code to perform this action"
-msgstr ""
-"Для выполнения этой операции вы должны указать код двухфакторной проверки "
-"подлинности"
+msgstr "คุณต้องใส่รหัสผ่านสองขั้นเพื่อดำเนินการขั้นตอนต่อ"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:9
 msgid "Please select authentication method"
-msgstr "Пожалуйста, выберите метод проверки подлинности"
+msgstr "กรุณาเลือกขั้นตอนการยืนยัน"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:15
 msgid "Please enter your "
-msgstr "Пожалуйста, введите Ваш "
+msgstr "กรุณาป้อน "
 
 #: templates/wallet/partials/wallet_modal_2fa.html:15
 msgid " authentication code which we have just sent to you."
-msgstr " код проверки подлинности, который мы только что вам выслали."
+msgstr " รหัสการยืนยันที่เราส่งให้คุณเมื่อครู่"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:18
 msgid "Please enter the "
-msgstr "Пожалуйста, введите "
+msgstr "กรุณาป้อน "
 
 #: templates/wallet/partials/wallet_modal_2fa.html:18
 msgid " code"
-msgstr " код"
+msgstr " รหัส"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:32
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:9
@@ -1244,26 +1179,26 @@ msgstr " код"
 #: templates/wallet/partials/wallet_modal_custom_login.html:26
 #: templates/wallet/partials/wallet_modal_trezor_word.html:24
 msgid "OK"
-msgstr "OK"
+msgstr "ตกลง"
 
 #: templates/wallet/partials/wallet_transactions.html:14
 #: templates/wallet/partials/wallet_transactions.html:27
 msgid "Year"
-msgstr "Года"
+msgstr "ปี"
 
 #: templates/wallet/partials/wallet_transactions.html:15
 #: templates/wallet/partials/wallet_transactions.html:28
 msgid "Month"
-msgstr "месяц"
+msgstr "เดือน"
 
 #: templates/wallet/partials/wallet_transactions.html:16
 #: templates/wallet/partials/wallet_transactions.html:29
 msgid "Week"
-msgstr "Неделя"
+msgstr "สัปดาห์"
 
 #: templates/wallet/partials/wallet_transactions.html:39
 msgid "Your last transactions"
-msgstr "Ваши последние транзакции"
+msgstr "ธุรกรรมล่าสุดของคุณ"
 
 #: templates/wallet/partials/wallet_transactions.html:41
 #: templates/wallet/partials/wallet_send.html:14
@@ -1286,7 +1221,7 @@ msgstr "Search"
 #: templates/wallet/partials/browser_unsupported.html:6
 #: templates/wallet/partials/browser_unsupported.html:10
 msgid "We are sorry, but your browser is not supported."
-msgstr "Извините, но ваш браузер не поддерживается."
+msgstr "ขออภัย แต่เบราว์เซอร์ของคุณไม่ได้รับการชับพอท"
 
 #: templates/wallet/partials/browser_unsupported.html:11
 msgid ""
@@ -1298,16 +1233,16 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:3
 msgid "No addresses found"
-msgstr "Адрес не найден"
+msgstr "ไม่พบที่อยู่"
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:5
 msgid "number of transactions"
-msgstr "количество транзакций"
+msgstr "จำนวนธุรกรรม"
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:12
 #, fuzzy
 msgid "Show more addresses"
-msgstr "Показать ранее созданные адреса"
+msgstr "แสดงที่อยู่สร้างก่อนหน้านี้"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:4
 msgid "Please re-deposit your funds"
@@ -1318,8 +1253,8 @@ msgid ""
 "You have some expired deposits. Unless you re-deposit or redeem them, no "
 "transactions will be allowed"
 msgstr ""
-"У вас есть некоторые депозиты, срок которых истек. Если вы не сделаете "
-"повторный депозит или не активируете их, транзакции будут запрещены"
+"การฝากบางรายการของคุณหมดอายุ คุณสามารถฝากใหม่ได้อีกครั้งหรือแลกคืน "
+"จะไม่มีการอนุญาตด้านธุรกรรมใด ๆ"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:10
 msgid ""
@@ -1329,22 +1264,21 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:11
 msgid "Redeposit as single transaction (cheaper)"
-msgstr "Сделать депозит как одну транзакцию (дешевле)"
+msgstr "ฝากใหม่อีกครั้งเป็นรายการเดียว (ถูกกว่า)"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:12
 #: templates/wallet/partials/wallet_modal_redeposit.html:15
 #: templates/wallet/partials/wallet_modal_redeposit.html:21
 msgid "estimated fee"
-msgstr "предполагаемая коммисия"
+msgstr "ประเมินค่าธรรมเนียม"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:14
 msgid "Redeposit as one transaction per output (better privacy)"
-msgstr ""
-"Повторный депозит как одна транзакция на выход (лучшая конфиденциальность)"
+msgstr "ฝากอีกครั้งเป็นหนึ่งธุรกรรมต่อผลลัพธ์ (ส่วนตัวกว่า)"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:16
 msgid "transactions"
-msgstr "транзакции"
+msgstr "ธุรกรรม"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:20
 msgid "Redeposit"
@@ -1357,7 +1291,7 @@ msgstr "transaction"
 #: templates/wallet/partials/signup_1_trezor.html:7
 #: templates/wallet/partials/signup_1_init.html:7
 msgid "Already got an account?"
-msgstr "У Вас уже есть аккаунт?"
+msgstr "มีบัญชีแล้วหรือไม่"
 
 #: templates/wallet/partials/signup_1_trezor.html:9
 #: templates/wallet/partials/signup_1_trezor.html:11
@@ -1365,68 +1299,68 @@ msgstr "У Вас уже есть аккаунт?"
 #: templates/wallet/partials/signup_1_init.html:11
 #: templates/wallet/partials/signuplogin/trezor.html:18
 msgid "Login to your Wallet"
-msgstr "Вход в ваш кошелёк"
+msgstr "เข้าสู่กระเป๋าของคุณ"
 
 #: templates/wallet/partials/signup_1_trezor.html:20
 msgid "Connect Trezor to create a GreenAddress wallet"
-msgstr "Connect Trezor to create a GreenAddress wallet"
+msgstr "เชื่อมต่อ Trezor การสร้าง GreenAddress wallet"
 
 #: templates/wallet/partials/signup_1_trezor.html:21
 msgid "This 3-step account setup will fully secure it against intruders"
-msgstr "This 3-step account setup will fully secure it against intruders"
+msgstr "ตั้งค่าบัญชีด้วย 3 ขั้นตอนนี้ทำให้ปลอดภัยจากการบุกรุก"
 
 #: templates/wallet/partials/signup_1_trezor.html:24
 #: templates/wallet/partials/signuplogin/trezor.html:12
 msgid "Please connect your Trezor device"
-msgstr "Please connect your Trezor device"
+msgstr "กรุณาเชื่อมต่ออุปกรณ์ Trezor ของคุณ "
 
 #: templates/wallet/partials/signup_1_trezor.html:25
 #: templates/wallet/partials/signuplogin/trezor.html:13
 msgid "Trezor detected."
-msgstr "Trezor detected."
+msgstr "Trezor ที่ตรวจพบ"
 
 #: templates/wallet/partials/signup_1_trezor.html:26
 #: templates/wallet/partials/signuplogin/trezor.html:14
 msgid "Please confirm the signature on your Trezor device."
-msgstr "Please confirm the signature on your Trezor device."
+msgstr "กรุณายืนยันลายเซ็นบนอุปกรณ์ Trezor ของคุณ "
 
 #: templates/wallet/partials/signup_1_trezor.html:31
 msgid "I agree with the "
-msgstr "I agree with the "
+msgstr "ฉันยอมรับ "
 
 #: templates/wallet/partials/signup_1_trezor.html:39
 #: templates/wallet/partials/signup_1_init.html:69
 msgid "Error: "
-msgstr "Ошибка:"
+msgstr "ข้อผิดพลาด: "
 
 #: templates/wallet/partials/signup_1_trezor.html:39
 #: templates/wallet/partials/signup_1_init.html:69
 msgid " Click to try again"
-msgstr " Кликнете чтобы повторит заново"
+msgstr " คลิกที่นี่เพื่อลองอีกครั้ง"
 
 #: templates/wallet/partials/signup_1_trezor.html:51
 #: templates/wallet/partials/signup_1_init.html:81
 msgid "The passphrase to access your wallet is:"
-msgstr "Фраза доступа к вашему кошельку:"
+msgstr "รหัสผ่านถึงกระเป๋าสตางค์ของคุณคือ:"
 
 #: templates/wallet/partials/signup_1_trezor.html:54
 #: templates/wallet/partials/signup_1_init.html:85
 msgid "Store this page in a safe place"
-msgstr "Храните эту страницу в защищенном месте"
+msgstr "เก็บหน้านี้ไว้ในสถานที่ปลอดภัย"
 
 #: templates/wallet/partials/wallet_address_book.html:12
 msgid "Add new entry"
-msgstr "Добавить новую запись"
+msgstr "ใส่ค่าใหม่"
 
 #: templates/wallet/partials/wallet_address_book.html:21
 #: templates/wallet/partials/wallet_settings.html:605
 msgid "Name"
-msgstr "Имя"
+msgstr "ชื่อ"
 
 #: templates/wallet/partials/wallet_address_book.html:29
 #: templates/wallet/partials/wallet_transactions_table.html:18
 msgid "Export to CSV"
-msgstr "Экспортировать в формат CSV"
+msgstr "นำออกเป็น CSV"
 
 #: templates/wallet/partials/wallet_address_book.html:45
 #: templates/wallet/partials/wallet_send.html:49
@@ -1434,26 +1368,24 @@ msgstr "Экспортировать в формат CSV"
 #: templates/wallet/partials/wallet_receive.html:97
 #: templates/wallet/partials/signuplogin/base.html:36
 msgid "Scan QR"
-msgstr "Cканировать QR код"
+msgstr "สแกน QR"
 
 #: templates/wallet/partials/wallet_address_book.html:62
 msgid "Your address book is empty"
-msgstr "Адресная книга пуста"
+msgstr "สมุดบันทึกที่อยู่ว่างเปล่า"
 
 #: templates/wallet/partials/signup_1_init.html:20
 msgid "You are now the proud owner of a bitcoin wallet"
-msgstr "Теперь вы гордый владелец bitcoin кошелька"
+msgstr "ขณะนี้คุณเป็นเจ้าของกระเป๋าบิทคอยน์แล้ว"
 
 #: templates/wallet/partials/signup_1_init.html:21
 msgid ""
 "Please finish this 4-step account setup to fully secure it against intruders"
-msgstr ""
-"Пожалуйста, завершите эту 4-этапную настройку аккаунта для полной защиты от "
-"злоумышленников"
+msgstr "กรุณาทำตามขั้นตอน 4 ขั้นตอนนี้เพื่อป้องกันบัญชีจากการบุกรุก"
 
 #: templates/wallet/partials/signup_1_init.html:25
 msgid "Your <strong>encrypted</strong> mnemonic passphrase"
-msgstr "Your <strong>encrypted</strong> mnemonic passphrase"
+msgstr "รหัสผ่าน <strong>เข้ารหัส</strong> ในการช่วยจำของคุณ"
 
 #: templates/wallet/partials/signup_1_init.html:29
 #, fuzzy
@@ -1462,29 +1394,23 @@ msgstr "Write to a hardware wallet"
 
 #: templates/wallet/partials/signup_1_init.html:32
 msgid "Generating mnemonic, please wait..."
-msgstr "Генерируем мнемонику, пожалуйста подождите"
+msgstr "กำลังสร้างรหัสช่วยจำ รอสักครู่..."
 
 #: templates/wallet/partials/signup_1_init.html:37
 msgid ""
 "Please write down these words and store them in a safe place as they can't "
 "be recovered."
-msgstr ""
-"Пожалуйста запишите эти слова и храните их в надежном месте, поскольку они "
-"не могут быть восстановлены."
+msgstr "กรุณาจดรหัสและนำเก็บไว้ในสถานที่ปลอดภัยเพราะไม่สามารถกู้คืนได้"
 
 #: templates/wallet/partials/signup_1_init.html:37
 msgid ""
 "We do not store the above information anywhere, we can't help you recover it!"
-msgstr ""
-"Мы нигде не храним вышеуказанную информацию, мы не сможем помочь вам "
-"восстановить ее!"
+msgstr "เราไม่มีการเก็บข้อมูลใด ๆ และไม่สามารถช่วยคุณกู้คืนได้"
 
 #: templates/wallet/partials/signup_1_init.html:42
 msgid ""
 "I confirm that my passphrase is saved &amp; secured and I agree with the "
-msgstr ""
-"Я подтверждаю, что моя фраза-пароль сохранена в безопасном месте, и я "
-"согласен (согласна) с "
+msgstr "ฉันยืนยันว่ารหัสนั้นได้มีการเก็บรักษา &amp; อย่างปลอดภัยและฉันยอมรับเงื่อนไข "
 
 #: templates/wallet/partials/signup_1_init.html:52
 #: templates/wallet/partials/wallet_2fa.html:33
@@ -1493,12 +1419,12 @@ msgstr ""
 #: templates/wallet/partials/wallet_receive.html:83
 #: templates/wallet/partials/signuplogin/header_pay.html:32
 msgid "Show QR Code"
-msgstr "Показать QR код"
+msgstr "แสดง QR code"
 
 #: templates/wallet/partials/signup_1_init.html:55
 #: templates/wallet/partials/wallet_settings.html:462
 msgid "Write to NFC tag"
-msgstr "Записать на тег NFC"
+msgstr "เขียน NFC tag "
 
 #: templates/wallet/partials/signup_1_init.html:58
 #: templates/wallet/partials/wallet_settings.html:466
@@ -1509,21 +1435,17 @@ msgstr "Write to a hardware wallet"
 msgid ""
 "Warning: some printers store printed documents internally, so it can be "
 "insecure to print your mnemonic."
-msgstr ""
-"Внимание: некоторые принтеры хранят документы внутри, поэтому печать Вашей "
-"мнемоники может быть небезопасной."
+msgstr "คำเตือน: เครื่องพิมพ์บางรุ่นมีการจัดเก็บเอกสาร ดังนั้นอาจไม่ปลอดภัยที่จะพิมพ์รหัสช่วยจำ"
 
 #: templates/wallet/partials/signup_1_init.html:61
 msgid "Print passphrase"
-msgstr "Напечатать фразу доступа"
+msgstr "พิมพ์วลีรหัสผ่าน"
 
 #: templates/wallet/partials/signup_1_init.html:83
 msgid ""
 "This passphrase is encrypted, so<br/> your encryption password is required "
 "to use it."
-msgstr ""
-"This passphrase is encrypted, so<br/> your encryption password is required "
-"to use it."
+msgstr "ชัอความนี้ถูกเข้ารหัสลับ เพื่อ <br/> รหัสผ่านการเข้ารหัสลับของคุณจะต้องใช้"
 
 #: templates/wallet/partials/wallet_modal_usb_device.html:2
 msgid "Please connect/reconnect your wallet USB device to proceed."
@@ -1532,52 +1454,47 @@ msgstr "Please connect/reconnect your wallet USB device to proceed."
 #: templates/wallet/partials/wallet_2fa.html:13
 #: templates/wallet/partials/wallet_settings.html:399
 msgid "Phone"
-msgstr "Телефон"
+msgstr "โทรศัพท์"
 
 #: templates/wallet/partials/wallet_2fa.html:19
 msgid "Google Authenticator is enabled."
-msgstr "Google Authenticator включен."
+msgstr "เปิดใช้ Google Authenticator"
 
 #: templates/wallet/partials/wallet_2fa.html:24
 msgid "Install app"
-msgstr "Установите приложение"
+msgstr "ติดตั้ง แอพ"
 
 #: templates/wallet/partials/wallet_2fa.html:26
 msgid "Install the app on your device. For Android at "
-msgstr "Установите приложение на ваше устройство. Для Android с "
+msgstr "ติดตั้งบนอุปกรณ์คุณ สำหรับแอนดรอยด์ที่ "
 
 #: templates/wallet/partials/wallet_2fa.html:26
 msgid " while for iOS at "
-msgstr " в то время как для iOS с "
+msgstr " ขณะที่ iOS ไปที่ "
 
 #: templates/wallet/partials/wallet_2fa.html:30
 msgid "Add account"
-msgstr "Добавить аккаунт"
+msgstr "เพิ่มบัญชี"
 
 #: templates/wallet/partials/wallet_2fa.html:32
 msgid ""
 "Add an account to the Google Authenticator App and scan the QR code or "
 "manually enter exact code."
-msgstr ""
-"Добавьте учетную запись в приложение Google Authenticator и сканируйте QR-"
-"код или вручную введите точный код."
+msgstr "เพิ่มบัญชีไปยัง Google Authenticator และสแกน QR code หรือใส่รหัสที่ถูกต้องด้วยตนเอง"
 
 #: templates/wallet/partials/wallet_2fa.html:37
 msgid "Confirm code"
-msgstr "Подтвердите код"
+msgstr "ยืนยันรหัสผ่าน"
 
 #: templates/wallet/partials/wallet_2fa.html:39
 msgid ""
 "Google Authenticator will now show a number which in order to complete the "
 "two factor setup you need to enter below."
-msgstr ""
-"Google Authenticator теперь отобразит номер, который для того, чтобы "
-"завершить установку двухфакторной проверки подлинности, необходимо ввести "
-"ниже."
+msgstr "Google Authenticator จะแสดงรหัส กรุณากรอกรหัสเพื่อให้รหัสผ่านสองขั้นทำงานได้สมบูรณ์"
 
 #: templates/wallet/partials/wallet_2fa.html:48
 msgid "Authenticator code"
-msgstr "Код проверки подлинности"
+msgstr "โค้ด Authenticator"
 
 #: templates/wallet/partials/wallet_2fa.html:53
 #: templates/wallet/partials/wallet_2fa.html:100
@@ -1588,7 +1505,7 @@ msgstr "Код проверки подлинности"
 #: templates/wallet/partials/wallet_settings.html:384
 #: templates/wallet/partials/wallet_settings.html:424
 msgid "Please enter received code"
-msgstr "Пожалуйста введите полученный код"
+msgstr "ใส่รหัสที่ได้รับ"
 
 #: templates/wallet/partials/wallet_2fa.html:55
 #: templates/wallet/partials/wallet_2fa.html:81
@@ -1603,19 +1520,19 @@ msgstr "Пожалуйста введите полученный код"
 #: templates/wallet/partials/wallet_settings.html:410
 #: templates/wallet/partials/wallet_settings.html:426
 msgid "Enable"
-msgstr "Включить"
+msgstr "เปิดใช้งาน"
 
 #: templates/wallet/partials/wallet_2fa.html:68
 msgid "Email two factor authentication is enabled."
-msgstr "кода проверки подлинности через Email включен."
+msgstr "การใช้งานรหัสผ่านสองขั้นโดยอีเมล์เปิดใช้งาน"
 
 #: templates/wallet/partials/wallet_2fa.html:74
 msgid "Your email address"
-msgstr "Ваш емаил адрес"
+msgstr "อีเมล์แอดเดรสของคุณ"
 
 #: templates/wallet/partials/wallet_2fa.html:79
 msgid "Please enter your email"
-msgstr "Пожалуйста введите ваш емаил"
+msgstr "กรุณาใส่อีเมล์ของคุณ"
 
 #: templates/wallet/partials/wallet_2fa.html:90
 msgid ""
@@ -1623,109 +1540,105 @@ msgid ""
 "authentication.<br>                Please open your email and provide the "
 "code."
 msgstr ""
-"Вам нужно предоставить один код с вашей электронной почты, чтобы настроить "
-"двухфакторную проверку подлинности.<br>Пожалуйста откройте вашу электронную "
-"почту и введите код."
+"คุณต้องใช้รหัสที่ได้ทางอีเมล์เพื่อตั้งรหัสผ่านสองขั้น.<br>                "
+"กรุณาเปิดอีเมล์และใส่รหัสที่ได้"
 
 #: templates/wallet/partials/wallet_2fa.html:95
 #: templates/wallet/partials/wallet_settings.html:127
 msgid "Email code"
-msgstr "Послать код в по емаилу"
+msgstr "รหัสจากอีเมล์"
 
 #: templates/wallet/partials/wallet_2fa.html:113
 msgid "SMS two factor authentication is enabled."
-msgstr "Включена SMS двухфакторная проверка подлинности."
+msgstr "รหัสผ่านสองขั้นโดยข้อความเปิดใช้งาน"
 
 #: templates/wallet/partials/wallet_2fa.html:118
 #: templates/wallet/partials/wallet_2fa.html:160
 #: templates/wallet/partials/wallet_settings.html:363
 #: templates/wallet/partials/wallet_settings.html:403
 msgid "Your phone number"
-msgstr "Ваш телефонный номер"
+msgstr "หมายเลขโทรศัพท์ของคุณ"
 
 #: templates/wallet/partials/wallet_2fa.html:122
 #: templates/wallet/partials/wallet_2fa.html:164
 #: templates/wallet/partials/wallet_settings.html:368
 #: templates/wallet/partials/wallet_settings.html:408
 msgid "+NN... Please enter your phone"
-msgstr "Пожалуйста введите ваш телефон"
+msgstr "+NN... กรุณาป้อนหมายเลขโทรศัพท์"
 
 #: templates/wallet/partials/wallet_2fa.html:132
 msgid ""
 "You need to provide one SMS code to set up the two factor authentication."
 "<br>                Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один SMS код для установки двухфакторной "
-"проверки подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"คุณต้องป้อนรหัสจากข้อความเพื่อตั้งค่ารหัสผ่านสองขั้น.<br>                "
+"กรุณาตรวจสอบโทรศัพท์และป้อนรหัส"
 
 #: templates/wallet/partials/wallet_2fa.html:137
 #: templates/wallet/partials/wallet_settings.html:379
 msgid "SMS code"
-msgstr "Код SMS"
+msgstr "รหัสจากข้อความ"
 
 #: templates/wallet/partials/wallet_2fa.html:155
 msgid "Phone call two factor authentication is enabled."
-msgstr "Двух-факторная аутентификация через телефонный звонок включена."
+msgstr "การใช้งานรหัสผ่านสองขั้นผ่านโทรศัพท์เปิดใช้งาน"
 
 #: templates/wallet/partials/wallet_2fa.html:174
 msgid ""
 "You need to provide one code to set up the two factor authentication."
 "<br>                Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один код для установки двухфакторной проверки "
-"подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"กรุณาใส่รหัสผ่านเพื่อตั้งค่ารหัสผ่านสองขั้น<br>                กรุณาตรวจสอบโทรศัพท์และใส่รหัส"
 
 #: templates/wallet/partials/wallet_2fa.html:179
 #: templates/wallet/partials/wallet_settings.html:419
 msgid "Phone code"
-msgstr "Телефонный код"
+msgstr "รหัสโทรศัพท์"
 
 #: templates/wallet/partials/wallet_transactions_table.html:1
 msgid "New transactions! Sort by descending date to see them."
-msgstr "Новый транзакции! Сортируйте за датой по убыванию чтобы, увидеть их."
+msgstr "New transactions! Sort by descending date to see them."
 
 #: templates/wallet/partials/wallet_transactions_table.html:2
 msgid "Newly confirmed transactions! Sort by descending date to see them."
-msgstr ""
-"Новые подтвержденные транзакции! Сортируйте за датой по убыванию, чтобы "
-"увидеть их."
+msgstr "Newly confirmed transactions! Sort by descending date to see them."
 
 #: templates/wallet/partials/wallet_transactions_table.html:8
 msgid "Date"
-msgstr "Дата"
+msgstr "วัน"
 
 #: templates/wallet/partials/wallet_transactions_table.html:9
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:14
 msgid "Description"
-msgstr "Описание"
+msgstr "คำอธิบาย"
 
 #: templates/wallet/partials/wallet_transactions_table.html:32
 msgid "instant GreenAddress confirmation"
-msgstr "Мгновенное GreenAddress подтверждение"
+msgstr "ยืนยัน GreenAddress แบบทันที"
 
 #: templates/wallet/partials/wallet_transactions_table.html:33
 msgid "double spend"
-msgstr "двойная трата"
+msgstr "ใช้คู่กับการจ่ายเงิน"
 
 #: templates/wallet/partials/wallet_transactions_table.html:34
 msgid "unconfirmed"
-msgstr "Неподтверждено"
+msgstr "ยังไม่ได้ยืนยัน"
 
 #: templates/wallet/partials/wallet_transactions_table.html:35
 msgid "confirmations"
-msgstr "Подтверждения"
+msgstr "การยืนยัน"
 
 #: templates/wallet/partials/wallet_transactions_table.html:38
 msgid "take funds back"
-msgstr "вернуть средства"
+msgstr "นำกองทุนกลับมา"
 
 #: templates/wallet/partials/wallet_transactions_table.html:41
 msgid "Regenerate voucher"
-msgstr "Регенерировать ваучер"
+msgstr "Regenerate voucher"
 
 #: templates/wallet/partials/wallet_transactions_table.html:44
 msgid "Regenerate encrypted voucher"
-msgstr "Регенерировать зашифрованный ваучер"
+msgstr "Regenerate encrypted voucher"
 
 #: templates/wallet/partials/wallet_transactions_table.html:58
 #, fuzzy
@@ -1734,92 +1647,91 @@ msgstr "Logging in, please wait..."
 
 #: templates/wallet/partials/wallet_transactions_table.html:61
 msgid "No transactions found..."
-msgstr "Транзакции не найдены..."
+msgstr "ไม่พบธุรกรรม"
 
 #: templates/wallet/partials/wallet_transactions_table.html:64
 msgid "Show more transactions..."
-msgstr "Показать больше транзакций..."
+msgstr "Show more transactions..."
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:2
 msgid "Confirm changing the pricing source"
-msgstr "Confirm changing the pricing source"
+msgstr "ยืนยันการเปลี่ยนแปลงแหล่งราคา"
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:5
 msgid ""
 "Changing the pricing source while using it for transaction limits will "
 "result in resetting the limits to 0. Do you want to proceed?"
 msgstr ""
-"Changing the pricing source while using it for transaction limits will "
-"result in resetting the limits to 0. Do you want to proceed?"
+"เปลี่ยนแหล่งที่มาของราคาขณะใช้งานธุรกรรมแบบจำกัดจะทำให้การตั้งค่าการจำกัดกลับไปที่ 0 "
+"คุณต้องการดำเนินการต่อหรือไม่"
 
 #: templates/wallet/partials/wallet_modal_logout.html:5
 msgid "Do you want to log out?"
-msgstr "Вы хотите выйти?"
+msgstr "ต้องการออกระบบหรือไม่?"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:4
 msgid "Please send the Facebook message."
-msgstr "Пожалуйста отправьте сообщение через Facebook"
+msgstr "กรุณาส่งข้อความ Facebook"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:6
 #: templates/wallet/partials/wallet_settings.html:620
 msgid "Send"
-msgstr "Отправить"
+msgstr "ส่ง"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:11
 msgid "Cancel - revert transaction"
-msgstr "Отменить - аннулировать транзакцию"
+msgstr "ยกเลิก - เปลี่ยนธุรกรรม"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:12
 msgid "I have sent the message"
-msgstr "Я послал/а сообщение"
+msgstr "ฉันได้ส่งข้อความ"
 
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:2
 msgid "Take funds back"
-msgstr "Take funds back"
+msgstr "นำเงินกลับ"
 
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:6
 msgid "Do you want to take funds back from the following transaction?"
-msgstr "Do you want to take funds back from the following transaction?"
+msgstr "คุณต้องการใช้เงินจากธุรกรรมต่อไปนี้หรือไม่?"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:4
 msgid "Voucher created successfully!"
-msgstr "Voucher created successfully!"
+msgstr "คูปองสร้างได้เรียบร้อย"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:7
 msgid ""
 "Warning: some printers store printed documents internally, so it can be "
 "insecure to print the voucher."
 msgstr ""
-"Warning: some printers store printed documents internally, so it can be "
-"insecure to print the voucher."
+"คำเตือน: เรื่องพิมพ์บางรุ่นมีการเก็บเอกสารพิมพ์ไว้ภายใน จึงอาจไม่ปลอดภัยที่จะพิมพ์คูปองออกมา"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:7
 msgid "Print the voucher"
-msgstr "Print the voucher"
+msgstr "พิมพ์คูปอง"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:21
 msgid "This is a GreenAddress voucher for "
-msgstr "This is a GreenAddress voucher for "
+msgstr "นี่คือคูปอง GreenAddress สำหรับ "
 
 #: templates/wallet/partials/wallet_modal_voucher.html:23
 msgid "The QR code below contains a URL for redeeming the funds:"
-msgstr "The QR code below contains a URL for redeeming the funds:"
+msgstr "QR Code ด้านล่างมี url สำหรับการขอแลกกองทุน"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:25
 msgid ""
 "Alternatively, you can sweep funds to a wallet supporting Wallet Import "
 "Format using the following QR code:"
 msgstr ""
-"Alternatively, you can sweep funds to a wallet supporting Wallet Import "
-"Format using the following QR code:"
+"อีกทางเลือกหนึ่ง คุณสามารถย้ายกองทุนไปยัง wallet ที่รองรับฟังก์ชั่นการนำเข้าผ่าน QR Code "
+"ต่อไปนี้ :"
 
 #: templates/wallet/partials/wallet_modal_voucher.html:26
 msgid ""
 "Alternatively, you can sweep funds to a wallet supporting BIP38 using the "
 "following QR code:"
 msgstr ""
-"Alternatively, you can sweep funds to a wallet supporting BIP38 using the "
-"following QR code:"
+"อีกทางเลือกหนึ่ง คุณสามารถย้ายกองทุนไปยัง wallet ได้ด้วยการรองรับ BIP38 โดยการใช้ QR "
+"Code ต่อไปนี้:"
 
 #: templates/wallet/partials/wallet_modal_verify_mnemonic.html:4
 msgid ""
@@ -1831,25 +1743,25 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_verify_mnemonic.html:8
 msgid "Word #"
-msgstr "Word #"
+msgstr "คำ#"
 
 #: templates/wallet/partials/wallet_modal_verify_mnemonic.html:19
 msgid "Verify"
-msgstr "Verify"
+msgstr "ยืนยัน"
 
 #: templates/wallet/partials/signup_4_oauth.html:14
 msgid "Pay or get paid by social networks"
-msgstr "Платите или получайте платежы через социальные сети"
+msgstr "จ่าย หรือได้รับจากเครือข่ายทางสังคม"
 
 #: templates/wallet/partials/signup_4_oauth.html:14
 msgid "Grant access to your wallet in watch-only mode"
-msgstr "Предоставить доступ к вашему кошельку в режиме \"только наблюдение\""
+msgstr "ให้การเข้าถึง Wallet ของคุณในโหมดดูอย่างเดียว"
 
 #: templates/wallet/partials/signup_4_oauth.html:23
 #: templates/wallet/partials/wallet_settings.html:212
 #: templates/wallet/partials/signuplogin/base.html:73
 msgid "Custom Login"
-msgstr "Персонализированный вход"
+msgstr "เข้าระบบเอง"
 
 #: templates/wallet/partials/signup_4_oauth.html:26
 msgid ""
@@ -1857,11 +1769,9 @@ msgid ""
 "When you login in this way you access a completely separate \"area\" of your "
 "wallet, in no way it can be compromised and payments cannot be made"
 msgstr ""
-"Если Вы хотите, Вы можете получить доступ к своему кошельку в режиме только "
-"для наблюдения используя простой вход. Когда вы входите таким образом, вы "
-"получаете доступ к совершенно отдельный «области» вашего кошелька, и таким "
-"образом он не может быть скомпрометирован и никакие платежи не могут быть "
-"проведены"
+"หากคุณต้องการคุณสามารถเข้าถึง Wallet ในโหมดดูอย่างเดียวได้เพียงแค่เข้าระบบ "
+"เมื่อเข้าระบบคุณจะเข้าถึงพื้นที่ที่แยกออกมาของ Wallet "
+"ซึ่งจะไม่สามารถดำเนินธุรกรรมหรือชำระเงินอื่น ๆ ได้"
 
 #: templates/wallet/partials/signup_4_oauth.html:29
 msgid ""
@@ -1870,86 +1780,79 @@ msgid ""
 "can easily login in 'watch-only mode' safely from any wi-fi, on the go or "
 "even at Starbucks!"
 msgstr ""
-"Плюс, используйте Ваш адрес электронной почты или имя Facebook для получения "
-"платежей! Больше не нужно помнить длинных и сложных адресов. Это значит, что "
-"вы можете легко войти режиме 'только наблюдения' безопасно в любой wi-fi "
-"сети, на ходу или даже в Starbucks!"
+"นอกจากนี้ใช้อีเมล์หรือบัญชี Facebook เพื่อรับการชำระเงิน ไม่ต้องจำที่อยู่ที่ซับซ้อนยุ่งยากในการสื่อสาร "
+"เพราะคุณสามารถเข้าถึง \"โหมดดูอย่างเดียว\" ได้อย่างปลอดภัยจาก wifi ที่ใดก็ได้ ไม่เว้นแม้แต่ "
+"Starbucks!"
 
 #: templates/wallet/partials/signup_4_oauth.html:35
 msgid "Take me to my wallet!"
-msgstr "Веди меня к кошельку"
+msgstr "พาฉันไปยัง Wallet!"
 
 #: templates/wallet/partials/signup_4_oauth.html:36
 msgid "Processing..."
-msgstr "Обрабатывается..."
+msgstr "กำลังประมวลผล..."
 
 #: templates/wallet/partials/signup_nfc_modal.html:2
 msgid "There was a problem writing to the NFC tag:"
-msgstr "Возникла проблема при записи к метке NFC:"
+msgstr "มีปัญหาในการเขียนไปยัง NFC tag:"
 
 #: templates/wallet/partials/signup_nfc_modal.html:5
 msgid "Initialising NFC tags listener..."
-msgstr "Инициализация слушателя NFC меток..."
+msgstr "เริ่มต้นการรับ NFC tag"
 
 #: templates/wallet/partials/signup_nfc_modal.html:8
 msgid "Please hold your tag(s) close to the device to write your wallet!"
-msgstr ""
-"Пожалуйста, держите ваши метки (метку) рядом с устройством для записи вашего "
-"кошелька!"
+msgstr "วาง tags ของคุณติดกับอุปกรณ์เพื่อที่จะเขียน Wallet"
 
 #: templates/wallet/partials/signup_nfc_modal.html:9
 msgid "Tags written:"
-msgstr "Записанные теги:"
+msgstr "Tag เขียนแล้ว"
 
 #: templates/wallet/partials/signup_nfc_modal.html:10
 msgid "Tags formatted:"
-msgstr "Форматированные теги:"
+msgstr "รูปแบบ Tag:"
 
 #: templates/wallet/partials/signup_nfc_modal.html:13
 msgid ""
 "Your NFC is not enabled or not available. If available, please enable it in "
 "settings"
-msgstr ""
-"Ваш NFC не включен или не доступен. Если возможно, пожалуйста, включите его "
-"в настройках"
+msgstr "NFC ของคุณไม่ได้เปิดใช้งานหรือใช้ไม่ได้ หากใช้งานได้ กรุณาไปเปิดการทำงานที่ตั้งค่า"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:4
 msgid "Please provide username and password."
-msgstr "Пожалуйста, введите логин и пароль."
+msgstr "กรุณาป้อนข้อมูลผู้ใช้งานและรหัสผ่าน"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:8
 msgid "Enter your username"
-msgstr "Введите пользовательское имя"
+msgstr "ป้อนชื่อผู้ใช้งาน"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:14
 msgid "Enter your password"
-msgstr "Введите пароль"
+msgstr "ใส่รหัสผ่าน"
 
 #: templates/wallet/partials/wallet_modal_pin.html:4
 msgid ""
 "You can create a 4-digit personal identification number used to retrieve the "
 "password encrypting the mnemonic passphrase."
-msgstr ""
-"Вы можете создать 4-значный персональный идентификационный номер, "
-"используемый для извлечения пароля шифрования мнемонической парольной фразы."
+msgstr "คุณสามารถสร้างรหัส 4 หลักในการใช้รับรหัสผ่านที่เข้ารหัสของรหัสในการช่วยจำ"
 
 #: templates/wallet/partials/wallet_modal_pin.html:14
 msgid "PIN must be a 4-digit number"
-msgstr "PIN-код должен быть 4-значный номер"
+msgstr "PIN ต้องเป็นตัวเลข 4 หลัก"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:2
 msgid "The QR code for Google Authenticator access to your wallet is:"
-msgstr "QR-код для Google Authenticator доступа на ваш кошелек является:"
+msgstr "QR Code สำหรับการเข้า Wallet ทาง Google Authenticator คือ"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:4
 msgid "You can also copy the code manually:"
-msgstr "Вы можете также скопировать код вручную:"
+msgstr "คุณยังสามารถคัดลอกรหัสด้วยตนเอง:"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:9
 #: templates/wallet/partials/wallet_receive.html:58
 #: templates/wallet/partials/wallet_receive.html:81
 msgid "Copy to clipboard"
-msgstr "Copy to clipboard"
+msgstr "คัด​ลอก​ไป​ยัง​คลิ​ป​บอร์ด"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:3
 msgid ""
@@ -1958,10 +1861,10 @@ msgid ""
 "entering wrong PIN 3 times in a row. <strong>You will lose your keys "
 "currently stored on the device.</strong>"
 msgstr ""
-"Ваш BTChip уже настроен. Чтобы использовать его с GreenAddress, необходимо "
-"его перегрузить. Вы хотите перегрузить Ваш BTChip? Это будет сделано после "
-"ввода неправильного PIN-кода 3 раза подряд. <strong>Вы  потеряете Ваши "
-"ключи, которые в данный момент хранятся на устройстве.</strong>"
+"Your BTChip is already set up. To use it with GreenAddress, you need to "
+"reset it. Do you want to reset your BTChip? This will be performed by "
+"entering wrong PIN 3 times in a row. <strong>You will lose your keys "
+"currently stored on the device.</strong>"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:4
 msgid "Reset my BTChip"
@@ -2024,56 +1927,54 @@ msgstr ""
 #: templates/wallet/partials/wallet_send.html:12
 #, fuzzy
 msgid "From account"
-msgstr "Добавить аккаунт"
+msgstr "เพิ่มบัญชี"
 
 #: templates/wallet/partials/wallet_send.html:20
 msgid "Voucher Text (optional)"
-msgstr "Voucher Text (optional)"
+msgstr "ข้อความคูปอง (ตัวเลือก)"
 
 #: templates/wallet/partials/wallet_send.html:21
 msgid "Recipient"
-msgstr "Получатель"
+msgstr "ผู้รับ"
 
 #: templates/wallet/partials/wallet_send.html:24
 msgid "Enter any clear text message that will appear on the voucher"
-msgstr "Enter any clear text message that will appear on the voucher"
+msgstr "ใส่ข้อความที่เห็นได้ชัดบนคูปองส่วนลด"
 
 #: templates/wallet/partials/wallet_send.html:35
 msgid "Enter recipient's bitcoin address, email or  Facebook account name"
-msgstr ""
-"Введите Bitcoin-адрес получателя, email или имя Facebook/Twitter аккаунта"
+msgstr "ป้อนที่อยู่ Bitcoin ผู้รับ อีเมล์ หรือบัญชีผู้ใช้ Facebook"
 
 #: templates/wallet/partials/wallet_send.html:41
 msgid "Paste"
-msgstr "Paste"
+msgstr "วาง"
 
 #: templates/wallet/partials/wallet_send.html:68
 msgid "Create a voucher instead of sending to a recipient"
-msgstr "Create a voucher instead of sending to a recipient"
+msgstr "สร้างคูปองแทนการส่งไปยังผู้รับ"
 
 #: templates/wallet/partials/wallet_send.html:74
 msgid "Encryption passphrase"
-msgstr "Фраза шифровки"
+msgstr "รหัสผ่านการเข้ารหัสลับ"
 
 #: templates/wallet/partials/wallet_send.html:77
 msgid ""
 "The receiving private key will not be encrypted unless you provide a "
 "passphrase. Unencrypted private keys are prone to eavesdropping!"
 msgstr ""
-"The receiving private key will not be encrypted unless you provide a "
-"passphrase. Unencrypted private keys are prone to eavesdropping!"
+"รหัสส่วนตัวที่ได้รับจะไม่เข้ารหัสจนกว่าจะใส่รหัสช่วยจำ รหัสส่วนตัวที่ไม่เข้ารหัสมีโอกาสรั่วไหลสูง"
 
 #: templates/wallet/partials/wallet_send.html:113
 msgid "will be added to the amount"
-msgstr "will be added to the amount"
+msgstr "จะถูกเพิ่มรวมเข้าไปในยอด"
 
 #: templates/wallet/partials/wallet_send.html:119
 msgid "Requires recipient to trust GreenAdress instant confirmations"
-msgstr "Requires recipient to trust GreenAdress instant confirmations"
+msgstr "ต้องการให้ผู้รับรองรับการยืนยันแบบยืนยัน Greenadress"
 
 #: templates/wallet/partials/wallet_send.html:121
 msgid "Instant Confirmation"
-msgstr "Instant Confirmation"
+msgstr "การยืนยันแบบทันที"
 
 #: templates/wallet/partials/wallet_send.html:127
 msgid "Memo"
@@ -2093,23 +1994,23 @@ msgstr "Signing"
 
 #: templates/wallet/partials/wallet_send.html:142
 msgid "Create a Voucher"
-msgstr "Create a Voucher"
+msgstr "การสร้างคูปอง"
 
 #: templates/wallet/partials/wallet_send.html:157
 msgid "calculating"
-msgstr "Вычисляю ..."
+msgstr "กำลังคำนวณ"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:2
 msgid "Outputs expiring soon"
-msgstr "Выходы, срок действия которых скоро заканчивается"
+msgstr "ผลลัพธ์ใกล้หมดอายุ"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:7
 msgid "No active nLockTime transactions found"
-msgstr "Активных nLockTime транзакций не найдено"
+msgstr "ไม่พบการทำธุรกรรม nLockTime มีผลอยู่"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:9
 msgid "Transaction hash, output number"
-msgstr "Хеш транзакции, номер выхода"
+msgstr "แฮชธุรกรรม หมายเลขผลลัพธ์"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:9
 #: templates/wallet/partials/wallet_settings.html:473
@@ -2118,189 +2019,180 @@ msgstr "nLockTime"
 
 #: templates/wallet/partials/wallet_settings.html:5
 msgid "General Settings"
-msgstr "General Settings"
+msgstr "ตั้งค่าทั่วไป"
 
 #: templates/wallet/partials/wallet_settings.html:11
 msgid "Currency"
-msgstr "Валюта"
+msgstr "สกุลเงิน"
 
 #: templates/wallet/partials/wallet_settings.html:12
 msgid "Select your currency and pricing source."
-msgstr "Выберете валюту и источник цен"
+msgstr "เลือกสกุลเงินของคุณและราคาต้นทาง"
 
 #: templates/wallet/partials/wallet_settings.html:17
 msgid "Pricing source to use"
-msgstr "Обмен использовать"
+msgstr "แหล่งที่มาการกำหนดราคาที่จะใข้"
 
 #: templates/wallet/partials/wallet_settings.html:31
 msgid "Show amounts in"
-msgstr "Показать суммы в БТД"
+msgstr "แสดงยอดเงิน"
 
 #: templates/wallet/partials/wallet_settings.html:44
 msgid "Sound"
-msgstr "Sound"
+msgstr "เสียง"
 
 #: templates/wallet/partials/wallet_settings.html:45
 msgid "Enable or disable sounds"
-msgstr "Enable or disable sounds"
+msgstr "เปิด หรือปิดเสียง"
 
 #: templates/wallet/partials/wallet_settings.html:53
 msgid "Enable sounds"
-msgstr "Enable sounds"
+msgstr "เปิดใช้งานเสียง"
 
 #: templates/wallet/partials/wallet_settings.html:62
 msgid "Language"
-msgstr "Language"
+msgstr "ภาษา"
 
 #: templates/wallet/partials/wallet_settings.html:63
 msgid "Change language to"
-msgstr "Поменять язык на"
+msgstr "เปลี่ยนภาษา"
 
 #: templates/wallet/partials/wallet_settings.html:92
 msgid "Link handler"
-msgstr "Обработчик ссылки"
+msgstr "ตัวจัดการการเชื่อมโยง"
 
 #: templates/wallet/partials/wallet_settings.html:93
 msgid "Use GreenAddress to handle bitcoin: links."
-msgstr "Использовать GreenAddress для обработки bitcoin: ссылки."
+msgstr "ใช้ GreenAddress เพื่อจัดการกับ bitcoin: เชื่อมโยง"
 
 #: templates/wallet/partials/wallet_settings.html:96
 msgid "Enable Handler"
-msgstr "Включить обработчик"
+msgstr "ช่วยการจัดการ"
 
 #: templates/wallet/partials/wallet_settings.html:108
 #: templates/wallet/partials/wallet_settings.html:322
 msgid "Email"
-msgstr "Эл. почта"
+msgstr "อีเมล"
 
 #: templates/wallet/partials/wallet_settings.html:109
 msgid ""
 "Set your email address for transactions notifications, two factor "
 "authentication, and nLockTime transactions."
 msgstr ""
-"Set your email address for transactions notifications, two factor "
-"authentication, and nLockTime transactions."
+"ตั้งค่าของคุณที่อยู่อีเมล์สำหรับการแจ้งเตือนธุรกรรม ปัจจัยสองรับรองความถูกต้อง และธุรกรรม "
+"nLockTime"
 
 #: templates/wallet/partials/wallet_settings.html:114
 msgid "Change email address"
-msgstr "Change email address"
+msgstr "เปลี่ยนอีเมล์"
 
 #: templates/wallet/partials/wallet_settings.html:115
 msgid "Set email address"
-msgstr "Set email address"
+msgstr "การตั้งค่าอีเมล์"
 
 #: templates/wallet/partials/wallet_settings.html:117
 msgid "Your email adddress"
-msgstr "Your email adddress"
+msgstr "อีเมล์ของคุณ"
 
 #: templates/wallet/partials/wallet_settings.html:123
 msgid ""
 "You need to provide confirmation code from your email to allow using it."
 "<br>              Please check your email and provide the code."
-msgstr ""
-"You need to provide confirmation code from your email to allow using it."
-"<br>              Please check your email and provide the code."
+msgstr "คุณต้องระบุรหัสยืนยันจากอีเมล์ของคุณให้ใช้<br>โปรดตรวจสอบอีเมล์ของคุณ และให้รหัส"
 
 #: templates/wallet/partials/wallet_settings.html:134
 #: templates/wallet/partials/wallet_settings.html:166
 #: templates/wallet/partials/wallet_settings.html:180
 msgid "Confirm"
-msgstr "Подтвердить"
+msgstr "ยืน​ยัน"
 
 #: templates/wallet/partials/wallet_settings.html:140
 msgid ""
 "The code is valid only for 5 minutes, so you can request another one if "
 "necessary."
-msgstr ""
-"The code is valid only for 5 minutes, so you can request another one if "
-"necessary."
+msgstr "รหัสถูกต้องสำหรับ 5 นาที เพื่อให้คุณสามารถร้องขออย่างอื่นถ้าจำเป็น"
 
 #: templates/wallet/partials/wallet_settings.html:140
 msgid "Request another code"
-msgstr "Request another code"
+msgstr "ขอรหัสอื่น"
 
 #: templates/wallet/partials/wallet_settings.html:149
 msgid "Enable a simple PIN to quickly access your wallet from this device."
-msgstr ""
-"Включить простой PIN-код для быстрого доступа к вашему кошельку c этого "
-"устройства."
+msgstr "เปิดใช้งาน PIN อย่างรวดเร็วเข้าถึง Wallet ของคุณจากอุปกรณ์นี้"
 
 #: templates/wallet/partials/wallet_settings.html:157
 msgid "Enable quick login on this device"
-msgstr "Разрешает быстрый вход на этом устройстве"
+msgstr "เปิดใช้งานการเข้าสู่ระบบอย่างรวดเร็วบนอุปกรณ์นี้"
 
 #: templates/wallet/partials/wallet_settings.html:161
 msgid "Change PIN number"
-msgstr "Изменить PIN-код"
+msgstr "เปลี่ยนหมายเลข PIN"
 
 #: templates/wallet/partials/wallet_settings.html:162
 msgid "Set PIN number"
-msgstr "Установить PIN-код"
+msgstr "กำหนดหมายเลข PIN"
 
 #: templates/wallet/partials/wallet_settings.html:164
 #: templates/wallet/partials/signup_3_pin.html:22
 msgid "4-15 digits number"
-msgstr "4-15 digits number"
+msgstr "จำนวนตัวเลข 4-15"
 
 #: templates/wallet/partials/wallet_settings.html:170
 msgid "Disable quick login on all devices"
-msgstr "Запретить быстрый вход на всех устройствах"
+msgstr "ปิดใช้งานการเข้าสู่ระบบอย่างรวดเร็วบนอุปกรณ์ทั้งหมด"
 
 #: templates/wallet/partials/wallet_settings.html:174
 msgid "set PIN to"
-msgstr "поменять ПИН номер на"
+msgstr "ตั้งค่า PIN"
 
 #: templates/wallet/partials/wallet_settings.html:176
 #: templates/wallet/partials/signup_3_pin.html:18
 msgid "PIN number"
-msgstr "ПИН номер"
+msgstr "หมายเลข PIN"
 
 #: templates/wallet/partials/wallet_settings.html:179
 msgid "Remove"
-msgstr "Удалить"
+msgstr "เอาออก"
 
 #: templates/wallet/partials/wallet_settings.html:191
 msgid "Link your own third party accounts"
-msgstr "Привязать Ваши другие аккаунты"
+msgstr "เชื่อมโยงบัญชีของบุคคลที่สาม"
 
 #: templates/wallet/partials/wallet_settings.html:192
 msgid ""
 "Allow social payments and watch-only login to your wallet via your own third "
 "party accounts."
 msgstr ""
-"Разрешить платежы аккаунты социальных сетей и Только-Наблюдение вход в Ваш "
-"кошелек через Ваши другие аккаунты."
+"อนุญาตจ่ายด้วยโซเชียลและการใช้งานแบบดูอย่างเดียวสำหรับ Wallet ผ่านทางบัญชีผู้ใช้งานแอพภายนอก"
 
 #: templates/wallet/partials/wallet_settings.html:218
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr "ผู้ใช้"
 
 #: templates/wallet/partials/wallet_settings.html:219
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:10
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:8
 msgid "Password"
-msgstr "Пароль"
+msgstr "รหัสผ่าน"
 
 #: templates/wallet/partials/wallet_settings.html:228
 msgid "Notifications"
-msgstr "Уведомления"
+msgstr "แจ้งเตือน"
 
 #: templates/wallet/partials/wallet_settings.html:229
 msgid ""
 "Notifications allow for improved security when configured for outgoing and "
 "for most up to date information when configured for incoming"
-msgstr ""
-"Уведомления позволяют повысить уровень безопасности при настройке исходящих "
-"и для большинства актуальную информацию, когда настроен для входящих"
+msgstr "การแจ้งเตือนอนุญาตให้พัฒนาความปลอดภัยเมื่อตั้งค่าขาออกและดึงข้อมูลล่าสุดเมื่อมีการตั้งค่าสำหรับขาเข้า"
 
 #: templates/wallet/partials/wallet_settings.html:235
 msgid "Send incoming transaction notification by"
-msgstr "Отправить уведомление о входящей транзакции через"
+msgstr "ส่งการแจ้งเตือนธุรกรรมขาเข้าโดย"
 
 #: templates/wallet/partials/wallet_settings.html:241
 #: templates/wallet/partials/wallet_settings.html:261
 msgid "email"
-msgstr "Эл. почта"
+msgstr "อีเมล์"
 
 #: templates/wallet/partials/wallet_settings.html:248
 #: templates/wallet/partials/wallet_settings.html:268
@@ -2310,27 +2202,27 @@ msgstr "SMS"
 
 #: templates/wallet/partials/wallet_settings.html:255
 msgid "Send outgoing transaction notification by"
-msgstr "Отправить уведомление о исходящей транзакции"
+msgstr "ส่งการเตือนธุรกรรมขาออกโดย"
 
 #: templates/wallet/partials/wallet_settings.html:274
 msgid "You need to have a confirmed email enabled for this feature to work."
-msgstr "You need to have a confirmed email enabled for this feature to work."
+msgstr "คุณต้องเปิดการยืนยันผ่านอีดมล์เพื่อให้ใช้งานฟังก์ชันนี้ได้"
 
 #: templates/wallet/partials/wallet_settings.html:282
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "ส่วนตัว"
 
 #: templates/wallet/partials/wallet_settings.html:283
 msgid ""
 "Decide who can send you money directly to your GreenAddress wallet, and who "
 "can see your name when receiving money from you"
 msgstr ""
-"Decide who can send you money directly to your GreenAddress wallet, and who "
-"can see your name when receiving money from you"
+"ตัดสินใจเลือกบุคคลที่สามารถส่งเงินเข้า GreenAddress "
+"ได้และเลือกบุคคลที่เห็นชื่อคุณเมื่อมีการส่งเงินให้"
 
 #: templates/wallet/partials/wallet_settings.html:288
 msgid "Allow sending to my wallet via email/Reddit"
-msgstr "Allow sending to my wallet via email/Reddit"
+msgstr "อนุญาตให้ส่งมาที่ wallet ผ่าน email/Reddit"
 
 #: templates/wallet/partials/wallet_settings.html:289
 msgid ""
@@ -2338,27 +2230,26 @@ msgid ""
 "choosing 'Addressbook contacts' will disallow sending to you wallet directly "
 "using your Reddit handle)"
 msgstr ""
-"(NOTE: at this moment addressbook is not supported for Reddit contacts, so "
-"choosing 'Addressbook contacts' will disallow sending to you wallet directly "
-"using your Reddit handle)"
+"(หมายเหตุ: ขณะนี้สมุดบันทึกที่อยู่ไม่รองรับที่อยู่จาก reddit ดังนั้นการเลือก Addressbook "
+"contacts จะปิดการอนุญาตสำหรับการใช้ Reddit ส่งเข้าบัญชีคุณโดยตรง)"
 
 #: templates/wallet/partials/wallet_settings.html:291
 #: templates/wallet/partials/wallet_settings.html:302
 msgid "Everyone"
-msgstr "Everyone"
+msgstr "ทุกท่าน"
 
 #: templates/wallet/partials/wallet_settings.html:292
 msgid "Addressbook contacts"
-msgstr "Addressbook contacts"
+msgstr "สมุดรายชื่อที่อยู่"
 
 #: templates/wallet/partials/wallet_settings.html:293
 #: templates/wallet/partials/wallet_settings.html:304
 msgid "No one"
-msgstr "No one"
+msgstr "ไม่มีใคร"
 
 #: templates/wallet/partials/wallet_settings.html:299
 msgid "Show my email/Reddit handle as sender to "
-msgstr "Show my email/Reddit handle as sender to "
+msgstr "แสดงอีเมล์/reddit เป็นผู้ส่งไปยัง"
 
 #: templates/wallet/partials/wallet_settings.html:300
 msgid ""
@@ -2366,23 +2257,20 @@ msgid ""
 "choosing 'Mutually added in addressbook' will cause you to be never visible "
 "as sender when using Reddit handle for sending)"
 msgstr ""
-"(NOTE: at this moment addressbook is not supported for Reddit contacts, so "
-"choosing 'Mutually added in addressbook' will cause you to be never visible "
-"as sender when using Reddit handle for sending)"
+"(หมายเหตุ: ขณะนี้สมุดบันทึกที่อยู่ไม่รองรับที่อยู่จาก reddit ดังนั้นการเลือก Addressbook "
+"contacts จะทำให้คุณไม่เห็นผู้ส่งในชื่อ Reddit ขณะใช้งาน)"
 
 #: templates/wallet/partials/wallet_settings.html:303
 msgid "Mutually added in addressbook"
-msgstr "Mutually added in addressbook"
+msgstr "เพิ่มความร่วมกันใน Facebook"
 
 #: templates/wallet/partials/wallet_settings.html:314
 msgid "Set any or all two factor: you can choose which one when needed!"
-msgstr ""
-"Установите двух-фактор выборочно или для всего: Вы можете выбрать, что Вам "
-"необходимо!"
+msgstr "ตั้งค่าตัวแปรหรือตั้งค่าทั้งหมด: คุณสามารถเลือกอันที่ต้องการได้"
 
 #: templates/wallet/partials/wallet_settings.html:332
 msgid "Google Authenticator"
-msgstr "Aвтентикатор Google "
+msgstr "Google Authenticator"
 
 #: templates/wallet/partials/wallet_settings.html:335
 msgid ""
@@ -2390,65 +2278,62 @@ msgid ""
 "authentication.<br>                    Please scan the QR code below, and "
 "provide the code."
 msgstr ""
-"Вам нужно предоставить один Google Authenticator код для установки "
-"двухфакторной проверки подлинности.<br>Пожалуйста отсканируйте QR код ниже и "
-"предоставьте код."
+"คุณต้องป้อนรหัส Google Authenticator เพื่อตั้งค่ารหัสสองขั้น.<br>                    "
+"กรุณาสแกน QR code ด้านล่างและป้อนรหัส"
 
 #: templates/wallet/partials/wallet_settings.html:339
 msgid "Code"
-msgstr "Код"
+msgstr "รหัส"
 
 #: templates/wallet/partials/wallet_settings.html:376
 msgid ""
 "You need to provide one SMS code to set up the two factor authentication."
 "<br>                    Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один SMS код для установки двухфакторной "
-"проверки подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"คุณต้องป้อนรหัสจากข้อความเพื่อตั้งค่ารหัสผ่านสองขั้น.<br>                "
+"กรุณาตรวจสอบโทรศัพท์และป้อนรหัส."
 
 #: templates/wallet/partials/wallet_settings.html:416
 msgid ""
 "You need to provide one phone code to set up the two factor authentication."
 "<br>                    Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один код для установки двухфакторной проверки "
-"подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"คุณต้องป้อนรหัสจากโทรศัพท์เพื่อตั้งค่ารหัสผ่านสองขั้น.<br>                "
+"กรุณาตรวจสอบโทรศัพท์และป้อนรหัส."
 
 #: templates/wallet/partials/wallet_settings.html:438
 msgid "Auto logout"
-msgstr "Auto logout"
+msgstr "ออกจากระบบอัตโนมัติ"
 
 #: templates/wallet/partials/wallet_settings.html:439
 msgid "Configure auto logout after some inactivity timeout"
-msgstr "Configure auto logout after some inactivity timeout"
+msgstr "กำหนดค่าออกจากระบบโดยอัตโนมัติหลังจากไม่มีความเคลื่อนไหว"
 
 #: templates/wallet/partials/wallet_settings.html:443
 msgid "Minutes"
-msgstr "Minutes"
+msgstr "นาที"
 
 #: templates/wallet/partials/wallet_settings.html:445
 msgid "Timeout minutes"
-msgstr "Timeout minutes"
+msgstr "นาที ออกจากระบบ"
 
 #: templates/wallet/partials/wallet_settings.html:455
 #: templates/wallet/partials/wallet_settings.html:459
 msgid "Show mnemonic"
-msgstr "Показать мнемонику"
+msgstr "แสดงการช่วยจำ"
 
 #: templates/wallet/partials/wallet_settings.html:456
 msgid ""
 "Display your mnemonic for account recovery or cloning on another device."
-msgstr ""
-"Покажите ваше мнемонику для восстановления счета или клонирования на другом "
-"устройстве."
+msgstr "แสดงรหัสช่วยจำของการกู้บัญชีหรือนำไปใช้บนอุปกรณ์อื่น"
 
 #: templates/wallet/partials/wallet_settings.html:460
 msgid "Show encrypted mnemonic"
-msgstr "Show encrypted mnemonic"
+msgstr "แสดงรหัสช่วยจำเข้ารหัส"
 
 #: templates/wallet/partials/wallet_settings.html:463
 msgid "Write encrypted to NFC tag"
-msgstr "Write encrypted to NFC tag"
+msgstr "เขียนการเข้ารหัสไปยัง NFC Tag"
 
 #: templates/wallet/partials/wallet_settings.html:474
 msgid ""
@@ -2464,85 +2349,81 @@ msgstr "Allow redeeming funds without GreenAddress' signature after"
 
 #: templates/wallet/partials/wallet_settings.html:482
 msgid "blocks"
-msgstr "блоков"
+msgstr "บล็อค"
 
 #: templates/wallet/partials/wallet_settings.html:488
 msgid ""
 "Both outgoing and incoming transaction notifications must be enabled for "
 "this feature to work."
-msgstr ""
-"Уведомления для входящих так и исходящих транзакций должны быть включены для "
-"работы этой функции."
+msgstr "ทั้งการแจ้งเตือนธุรกรรมขาเข้าและขาออกต้องเปิดใช้งานเพื่อให้ฟังก์ชั่นนี้ใช้งานได้"
 
 #: templates/wallet/partials/wallet_settings.html:491
 msgid "Show outputs expiring soon"
-msgstr "Показать выходы, срок которых скоро заканчивается"
+msgstr "แสดงผลลัพธ์ที่จะหมดอายุเร็ว ๆ นี้"
 
 #: templates/wallet/partials/wallet_settings.html:492
 msgid "Send all nLockTime transactions by email"
-msgstr "Send all nLockTime transactions by email"
+msgstr "ส่งธุรกรรม nLockTime ทั้งหมดทางอีเมล์"
 
 #: templates/wallet/partials/wallet_settings.html:500
 msgid "Spending limits"
-msgstr "Потолок траты"
+msgstr "การจำกัดการใช้จ่าย"
 
 #: templates/wallet/partials/wallet_settings.html:501
 msgid ""
 "Set some limits for which you won't be asked for two factor for super "
 "userfriendly payments."
-msgstr ""
-"Установите лимиты для которых не нужен код двухфакторной проверки "
-"подлинности для полного удобства."
+msgstr "ตั้งขีดจำกัดที่คุณจะไม่ถูกถามรหัสผ่าน 2 ขั้นสำหรับการชำระเงินที่สามารถทำได้อย่างง่ายดาย"
 
 #: templates/wallet/partials/wallet_settings.html:504
 msgid ""
 "You can provide amount (BTC or fiat) limits of transactions that you can "
 "make without using two factor authentication"
 msgstr ""
-"You can provide amount (BTC or fiat) limits of transactions that you can "
-"make without using two factor authentication"
+"คุณสามารถตั้งขีดจำกัด (บีทีซีหรือเฟียต) "
+"ของยอดธุรกรรมที่คุณสามารถทำได้โดยไม่ต้องใช้การตรวจสอบรหัสผ่านขั้นที่ 2"
 
 #: templates/wallet/partials/wallet_settings.html:529
 msgid "Change limits"
-msgstr "Change limits"
+msgstr "เปลี่ยนข้อจำกัด"
 
 #: templates/wallet/partials/wallet_settings.html:537
 msgid "Delayed payments"
-msgstr "Отсроченные платежи"
+msgstr "ชำระเงินล่าช้า"
 
 #: templates/wallet/partials/wallet_settings.html:538
 msgid ""
 "Delay transaction for super ease of mind: works best in conjuction with "
 "outgoing notifications."
 msgstr ""
-"Отстрочивайте транзакции для Вашего спокойствия: лучше работает вместе с "
-"исходящими уведомлениями."
+"ธุรกรรมหน่วงเวลาเป็นเรื่องง่ายดาย: ทำงานดีที่สุดใช้พร้อม conjunction "
+"และระบบแจ้งเตือนเปิดใช้งาน"
 
 #: templates/wallet/partials/wallet_settings.html:546
 msgid "Enable delayed payments"
-msgstr "Включить платежи с отстрочкой"
+msgstr "ใช้งานชำระเงินล่าช้า"
 
 #: templates/wallet/partials/wallet_settings.html:547
 msgid "Coming soon"
-msgstr "Скоро будет"
+msgstr "เร็วๆนี้"
 
 #: templates/wallet/partials/wallet_settings.html:552
 msgid "Delay payments of"
-msgstr "Задержать платеж"
+msgstr "ชำระเงินล่าช้าของ"
 
 #: templates/wallet/partials/wallet_settings.html:570
 #: templates/wallet/partials/wallet_settings.html:574
 msgid "Remove account"
-msgstr "Remove account"
+msgstr "ย้ายบัญชีออก"
 
 #: templates/wallet/partials/wallet_settings.html:571
 msgid "You can remove your account with all associated data here."
-msgstr "You can remove your account with all associated data here."
+msgstr "คุณสามารถย้ายบัญชีและข้อมูลที่เกี่ยวข้องออกได้ที่นี่"
 
 #: templates/wallet/partials/wallet_settings.html:585
 #, fuzzy
 msgid "Simple accounts"
-msgstr "Remove account"
+msgstr "ย้ายบัญชีออก"
 
 #: templates/wallet/partials/wallet_settings.html:586
 msgid ""
@@ -2565,70 +2446,67 @@ msgstr ""
 #: templates/wallet/partials/wallet_settings.html:602
 #, fuzzy
 msgid "Your accounts:"
-msgstr "Remove account"
+msgstr "ย้ายบัญชีออก"
 
 #: templates/wallet/partials/wallet_settings.html:606
 #, fuzzy
 msgid "Actions"
-msgstr "Транзакции"
+msgstr "ธุรกรรม"
 
 #: templates/wallet/partials/wallet_settings.html:618
 #, fuzzy
 msgid "Rename"
-msgstr "Имя пользователя"
+msgstr "ผู้ใช้"
 
 #: templates/wallet/partials/wallet_settings.html:621
 #, fuzzy
 msgid "Receive"
-msgstr "Получить денежные средства"
+msgstr "รับเงิน"
 
 #: templates/wallet/partials/signup_0_warning.html:8
 msgid ""
 "For improved security continue the registration via our desktop or mobile "
 "apps"
 msgstr ""
-"Для повышенной безопасности, продолжите регистрацию через наше настольное "
-"или мобильное приложение"
+"สำหรับปรับปรุงความปลอดภัยต่อการลงทะเบียนผ่านปพลิเคชันเดสก์ท็อป หรือโทรศัพท์มือถือของเรา"
 
 #: templates/wallet/partials/signup_0_warning.html:9
 msgid "Locally installed apps are generally more secure than websites"
-msgstr "Локально установленные приложения более безопасны веб-сайтов"
+msgstr "แอพพลิเคชั่นที่ติดตั้งในเครื่องมีความปลอดภัยกว่าการใช้งานเว็บ"
 
 #: templates/wallet/partials/signup_0_warning.html:12
 msgid ""
 "These apps are designed to protect you and your coins even in case the "
 "service is compromised and should be preferred over using the browser."
 msgstr ""
-"Эти приложения предназначены для защиты Ваших средств даже в случае если наш "
-"сервис скомпрометирован, предпочитайте пользоваться ими нежели браузером."
+"แอพเหล่านี้ออกแบบมาเพื่อปกป้องคุณและคอยน์ของคุณแม้ในกรณีที่มีการละเมิดบริการ "
+"และแนะนำให้ใช้มากกว่าการใช้ผ่านเว็บไซด์"
 
 #: templates/wallet/partials/signup_0_warning.html:13
 msgid ""
 "Web access is intended to be used for watch only mode or if you have no "
 "alternative, like on the Windows Mobile platform."
 msgstr ""
-"Веб-доступ предназначен только для режима только наблюдения или если у Вас "
-"нет другой альтернативы, как на Windows мобильной платформе."
+"Web access is intended to be used for watch only mode or if you have no "
+"alternative, like on the Windows Mobile platform."
 
 #: templates/wallet/partials/signup_0_warning.html:16
 msgid ""
 "Please see the link to Google Play store, Chrome Web Store or AppStore below"
 msgstr ""
-"Пожалуйста, ссылки на Google Play store, Chrome Web Store или AppStore ниже"
+"Please see the link to Google Play store, Chrome Web Store or AppStore below"
 
 #: templates/wallet/partials/signup_0_warning.html:26
 msgid "Continue using web page"
-msgstr "Продолжить использование веб-страницы"
+msgstr "ใช้เว็บเพจต่อไป"
 
 #: templates/wallet/partials/signup_3_pin.html:14
 msgid "Fast and secure access to your Wallet"
-msgstr "Быстрый и безопасный доступ к Wallet"
+msgstr "ทางที่เร็วและปลอดภัยในการเข้า Wallet"
 
 #: templates/wallet/partials/signup_3_pin.html:14
 msgid "To have a secure but quick access from this device set your PIN"
-msgstr ""
-"Для того чтобы иметь безопасный но быстрый доступ с этого устройства, "
-"установите PIN-код"
+msgstr "เพื่อให้เข้าถึงได้เร็วและปลอดภัยตั้ง PIN จากอุปกรณ์นี้"
 
 #: templates/wallet/partials/signup_3_pin.html:29
 msgid ""
@@ -2638,43 +2516,39 @@ msgid ""
 "to provide your full mnemonics once again. Easy, convenient and secure, so "
 "let's use it!"
 msgstr ""
-"Доступ через PIN-код разрешает быстрый вход в Ваш кошелек сохраняя при этом "
-"безопасность на высоком уровне. PIN-код защищает случайный AES 256-битный "
-"пароль, который будет удален в случае 3 не успешных попыток ввода PIN-кода и "
-"тогда Ваша мнемоника должна будет предоставлена полностью. Легко, удобно и "
-"безопасно. Пользуйтесь!"
+"การเข้าใช้งานโดย PIN ทำให้คุณเข้าระบบได้ง่ายและปลอดภัย โดย PIN จะสุ่มรหัสแบบ AES 256 "
+"bit และจะถูกลบทิ้งหากผิด 3 ครั้งเป็นต้นไป และให้คุณใส่รหัสช่วยจำอีกครั้ง มันง่าย สะดวก "
+"และปลอดภัย ดังนั้นโปรดใช้มัน!"
 
 #: templates/wallet/partials/signup_3_pin.html:43
 msgid "Take me to my wallet and skip all this!"
-msgstr "Я хочу видеть свой кошелек и пропустить все это!"
+msgstr "นำฉันไปที่ Wallet และข้ามขั้นตอนนี้!"
 
 #: templates/wallet/partials/signup_3_pin.html:46
 msgid "PIN set, ready for step 3"
-msgstr "PIN-код установлен, все готово для шага 3"
+msgstr "ตั้งค่า PIN ไปยังขั้นที่ 3"
 
 #: templates/wallet/partials/signup_3_pin.html:47
 msgid "Setting PIN..."
-msgstr "Установка PIN-кода..."
+msgstr "กำลังตั้ง PIN"
 
 #: templates/wallet/partials/signup_3_pin.html:50
 msgid "Skip PIN setup and continue"
-msgstr "Пропустить настройку PIN-кода и продолжить"
+msgstr "ข้ามการตั้ง PIN และไปต่อ"
 
 #: templates/wallet/partials/wallet_modal_no_electrum.html:4
 msgid ""
 "No Electrum servers are reachable. They are used to verify that our servers "
 "don't attempt misleading your client into spending wrong amount of money."
 msgstr ""
-"No Electrum servers are reachable. They are used to verify that our servers "
-"don't attempt misleading your client into spending wrong amount of money."
+"ไม่สามารถเข้าถึงเซอร์เวอร์ Electrum "
+"ใช้เพื่อตรวจสอบว่าเซอร์เวอร์เราไม่พยายามนำลูกค้าไปยังการใช้เงินที่ผิดพลาด"
 
 #: templates/wallet/partials/wallet_modal_no_electrum.html:5
 msgid ""
 "Do you want to continue sending the transaction without Electrum network "
 "verification?"
-msgstr ""
-"Do you want to continue sending the transaction without Electrum network "
-"verification?"
+msgstr "คุณต้องการส่งธุรกรรมต่อไปโดยไม่ผ่านการยืนยันของเครือข่าย Electrum"
 
 #: templates/wallet/partials/wallet_modal_trezor_word.html:4
 msgid ""
@@ -2685,7 +2559,7 @@ msgstr ""
 #: templates/wallet/partials/wallet_modal_trezor_word.html:8
 #, fuzzy
 msgid "Enter word:"
-msgstr "Введите пароль"
+msgstr "ใส่รหัสผ่าน"
 
 #: templates/wallet/partials/wallet_modal_trezor_word.html:15
 msgid "Or click word number to automatically send to TREZOR:"
@@ -2694,7 +2568,7 @@ msgstr ""
 #: templates/wallet/partials/wallet_receive.html:13
 #, fuzzy
 msgid "Account"
-msgstr "Добавить аккаунт"
+msgstr "เพิ่มบัญชี"
 
 #: templates/wallet/partials/wallet_receive.html:50
 msgid "Bitcoin URI"
@@ -2702,27 +2576,27 @@ msgstr "Bitcoin URI"
 
 #: templates/wallet/partials/wallet_receive.html:56
 msgid "Show URI and address"
-msgstr "Показать URI и адрес"
+msgstr "แสดง URI และที่อยู่"
 
 #: templates/wallet/partials/wallet_receive.html:74
 msgid "Permanent Payment URL"
-msgstr "Постоянный URL Оплаты"
+msgstr "URL ชำระเงินถาวร"
 
 #: templates/wallet/partials/wallet_receive.html:90
 msgid "Private key in WIF or BIP38 format"
-msgstr "Private key in WIF or BIP38 format"
+msgstr "คีย์ส่วนตัวในรูปแบบWIFหรือ BIP38"
 
 #: templates/wallet/partials/wallet_receive.html:94
 msgid "Enter a private key to sweep here"
-msgstr "Введите приватный ключ, чтобы смести с него средства сюда"
+msgstr "ใส่รหัสส่วนตัวเพื่อย้ายที่นี่"
 
 #: templates/wallet/partials/wallet_receive.html:111
 msgid "Sweep"
-msgstr "Смести"
+msgstr "กวาด"
 
 #: templates/wallet/partials/wallet_receive.html:118
 msgid "Show previously generated addresses"
-msgstr "Показать ранее созданные адреса"
+msgstr "แสดงที่อยู่สร้างก่อนหน้านี้"
 
 #: templates/wallet/partials/wallet_receive.html:121
 msgid "Show advanced options"
@@ -2730,7 +2604,7 @@ msgstr ""
 
 #: templates/wallet/partials/signuplogin/header_pay.html:1
 msgid "You're about to send "
-msgstr "Вы собираетесь отправить "
+msgstr "คุณกำลังจะส่ง "
 
 #: templates/wallet/partials/signuplogin/header_pay.html:18
 msgid "Click below to show a bitcoin: URI:"
@@ -2742,25 +2616,25 @@ msgstr "Use the URI below:"
 
 #: templates/wallet/partials/signuplogin/header_pay.html:31
 msgid "Show"
-msgstr "Показать"
+msgstr "แสดง"
 
 #: templates/wallet/partials/signuplogin/trezor.html:6
 #: templates/wallet/partials/signuplogin/base.html:6
 msgid "Haven't got an account yet?"
-msgstr "У вас еще нет аккаунта?"
+msgstr "ยังไม่มีบัญชีใช่ไหม?"
 
 #: templates/wallet/partials/signuplogin/trezor.html:7
 #: templates/wallet/partials/signuplogin/base.html:7
 msgid "Create new Wallet"
-msgstr "Создать новый кошелёк"
+msgstr "สร้าง Wallet ใหม่"
 
 #: templates/wallet/partials/signuplogin/trezor.html:19
 msgid "Processing"
-msgstr "Обрабатывается"
+msgstr "กำลังประมวลผล"
 
 #: templates/wallet/partials/signuplogin/trezor.html:20
 msgid "Error, try again"
-msgstr "Ошибка, попробуйте еще раз"
+msgstr "ผิดพลาด ลองอีกครั้ง"
 
 #: templates/wallet/partials/signuplogin/header_wallet.html:2
 msgid "Welcome to GreenAddress!"
@@ -2768,11 +2642,11 @@ msgstr "Welcome to GreenAddress!"
 
 #: templates/wallet/partials/signuplogin/header_wallet.html:2
 msgid "Please log in to use your Wallet"
-msgstr "Пожалуйста, войдите, чтобы использовать ваш кошелек"
+msgstr "โปรดเข้าสู่ระบบ Wallet ของคุณ"
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:4
 msgid "Please provide a password to encrypt your mnemonic"
-msgstr "Please provide a password to encrypt your mnemonic"
+msgstr "กรุณาตั้งรหัสผ่านสำหรับการตั้งรหัสช่วยจำ"
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:5
 msgid "Please provide a password to encrypt the voucher"
@@ -2790,40 +2664,40 @@ msgstr ""
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:18
 msgid "Repeat password"
-msgstr "Repeat password"
+msgstr "ใส่รหัสอีกครั้ง"
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:25
 msgid "Please wait, encrypting..."
-msgstr "Please wait, encrypting..."
+msgstr "กรุณารอ กำลังเข้ารหัส..."
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:34
 msgid "Encrypt"
-msgstr "Encrypt"
+msgstr "เข้ารหัสแล้ว"
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:4
 msgid "Please provide a password to decrypt your mnemonic"
-msgstr "Please provide a password to decrypt your mnemonic"
+msgstr "กรุณาตั้งรหัสผ่านสำหรับการตั้งรหัสช่วยจำ"
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:15
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:15
 msgid "Please wait, decrypting..."
-msgstr "Пожалуйста, подождите, дешифрирование..."
+msgstr "กรุณารอ กำลังถอดรหัส..."
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:24
 msgid "Decrypt"
-msgstr "Decrypt"
+msgstr "ถอดรหัส"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:4
 msgid "Please provide the password received from sender."
-msgstr "Пожалуйста, укажите пароль, полученный от отправителя."
+msgstr "กรุณาป้อนรหัสผ่านที่ได้รับ"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:8
 msgid "Enter the password"
-msgstr "Введите пароль"
+msgstr "ใส่รหัสผ่าน"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:24
 msgid "Redeem the payment"
-msgstr "Получить платеж"
+msgstr "แลกการชำระเงิน"
 
 #: templates/wallet/partials/signuplogin/header_redeem.html:6
 msgid ""
@@ -2850,13 +2724,11 @@ msgstr ""
 #: templates/wallet/partials/signuplogin/header_redeem.html:9
 msgid ""
 "Otherwise, if you are a GreeenAddress.it user please login using form below"
-msgstr ""
-"В противном случае, если вы являетесь пользователем GreeenAddress.it, "
-"пожалуйста войдите, используя форму ниже"
+msgstr "อนึ่ง ถ้าเป็นผู้ใช้งานจาก GreeenAddress.it เข้าระบบโดยใช้แบบฟอร์มด้านล่าง"
 
 #: templates/wallet/partials/signuplogin/base.html:12
 msgid "Log in for full Wallet access"
-msgstr "Войти для полного доступа Wallet"
+msgstr "เข้าระบบเพื่อเข้าถึง Wallet"
 
 #: templates/wallet/partials/signuplogin/base.html:15
 msgid "PIN Number"
@@ -2873,15 +2745,15 @@ msgstr "Enter your Mnemonic passphrase"
 
 #: templates/wallet/partials/signuplogin/base.html:53
 msgid "Invalid mnemonic"
-msgstr "Недопустимая мнемоника"
+msgstr "รหัสช่วยจำใช้งานไม่ได้"
 
 #: templates/wallet/partials/signuplogin/base.html:58
 msgid "Show mnemonics"
-msgstr "Show mnemonics"
+msgstr "แสดงรหัสช่วยจำ"
 
 #: templates/wallet/partials/signuplogin/base.html:66
 msgid "Log in to Watch-Only mode"
-msgstr "Войти в режиме Только-Наблюдать"
+msgstr "เข้าระบบแบบดูอย่างเดียว"
 
 #: templates/wallet/partials/signuplogin/base.html:78
 msgid "Log in via hardware wallet"
@@ -2901,89 +2773,87 @@ msgstr "Show other logins"
 
 #: templates/base/base.html:4
 msgid "Welcome!"
-msgstr "Добро пожаловать!"
+msgstr "ยินดีต้อนรับ!"
 
 #: templates/base/base.html:6
 msgid "The safer Bitcoin wallet that puts you in control."
-msgstr "Безопасный Bitcoin кошелек, который ставит вас в управлении."
+msgstr "กระเป๋าบิทคอยน์ที่ปลอดภัยขึ้นทำให้ควบคุมง่ายขึ้น"
 
 #: templates/base/base.html:100
 msgid "Toggle navigation"
-msgstr "Переключить навигацию"
+msgstr "ปิด/เปิดการนำทาง"
 
 #: templates/base/base.html:109
 msgid "Blog"
-msgstr "Блог"
+msgstr "บล็อก"
 
 #: templates/base/base.html:112
 msgid "Login"
-msgstr "Логин"
+msgstr "เข้าสู่ระบบ"
 
 #: templates/tests/jinja.html:20
 msgid "phone number"
-msgstr "телефоный номер"
+msgstr "หมายเลขโทรศัพท์"
 
 #: templates/tests/jinja.html:21
 msgid "phone number: %(abc)s"
-msgstr "телефоный номер : %(abc)s"
+msgstr "หมายเลขโทรศัพท์: %(abc)s"
 
 #: templates/tests/jinja.html:22
 msgid "singular %(num)d"
 msgid_plural "plural %(num)d"
-msgstr[0] "единственном% (число) г"
-msgstr[1] "единственном% (число) г"
-msgstr[2] "plural %(num)d"
+msgstr[0] "พหูพจน์ %(num)d"
 
 #~ msgid "alias of :class:`%s`"
-#~ msgstr "псевдоним для класса: «%s»"
+#~ msgstr "alias of :class:`%s`"
 
 #~ msgid "%s() (built-in function)"
-#~ msgstr "%s() (встроенная функция)"
+#~ msgstr "%s() (built-in function)"
 
 #~ msgid "%s() (in module %s)"
-#~ msgstr "%s() (в модуле %s)"
+#~ msgstr "%s() (in module %s)"
 
 #~ msgid "%s (built-in variable)"
-#~ msgstr "%s (встроенная переменная)"
+#~ msgstr "%s (built-in variable)"
 
 #~ msgid "%s (in module %s)"
-#~ msgstr "%s (в модуле %s)"
+#~ msgstr "%s (in module %s)"
 
 #~ msgid "%s (built-in class)"
-#~ msgstr "%s (встроенный класс)"
+#~ msgstr "%s (built-in class)"
 
 #~ msgid "%s (class in %s)"
-#~ msgstr "%s (класс в %s)"
+#~ msgstr "%s (class in %s)"
 
 #~ msgid "%s() (%s.%s method)"
-#~ msgstr "%s() (%s.%s метод)"
+#~ msgstr "%s() (%s.%s method)"
 
 #~ msgid "%s() (%s method)"
-#~ msgstr "%s() (%s метод)"
+#~ msgstr "%s() (%s method)"
 
 #~ msgid "%s() (%s.%s static method)"
-#~ msgstr "%s() (%s.%s статический метод)"
+#~ msgstr "%s() (%s.%s static method)"
 
 #~ msgid "%s() (%s static method)"
-#~ msgstr "%s() (%s статический метод)"
+#~ msgstr "%s() (%s static method)"
 
 #~ msgid "%s() (%s.%s class method)"
-#~ msgstr "%s() (%s.%s метод класса)"
+#~ msgstr "%s() (%s.%s class method)"
 
 #~ msgid "%s() (%s class method)"
-#~ msgstr "%s() (метод класса %s)"
+#~ msgstr "%s() (%s class method)"
 
 #~ msgid "%s (%s.%s attribute)"
-#~ msgstr "%s (%s.%s атрибут)"
+#~ msgstr "%s (%s.%s attribute)"
 
 #~ msgid "%s (%s attribute)"
-#~ msgstr "%s (%s атрибут)"
+#~ msgstr "%s (%s attribute)"
 
 #~ msgid "%s (module)"
-#~ msgstr "%s (модуль)"
+#~ msgstr "%s (module)"
 
 #~ msgid "Deprecated"
-#~ msgstr "Устарело"
+#~ msgstr "ไม่ใช้งาน"
 
 #~ msgid " (deprecated)"
-#~ msgstr " (устарело)"
+#~ msgstr " (ไม่ใช้งาน)"

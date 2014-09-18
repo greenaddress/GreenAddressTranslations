@@ -3,61 +3,61 @@ msgstr ""
 "Project-Id-Version: greenaddress-wallet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-11 12:14+0000\n"
-"PO-Revision-Date: 2014-08-20 10:19-0400\n"
+"PO-Revision-Date: 2014-08-24 12:04-0400\n"
 "Last-Translator: GreenAddress <info@greenaddress.it>\n"
-"Language-Team: Russian\n"
-"Language: ru_RU\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 
 #: utils/rate_limiter.py:40
 msgid "Request rate limit exceeded"
-msgstr "Превышен потолок количества переводов"
+msgstr "Túllépted a lekérdezési sebesség limitet"
 
 #: templates/website/pay.html:6
 msgid "Send funds"
-msgstr "Отправить средства"
+msgstr "Pénz küldése"
 
 #: templates/website/pay.html:9
 msgid "Please send"
-msgstr "Пожалуйста отправьте"
+msgstr "Please send"
 
 #: templates/website/faq.html:5
 msgid "FAQ for GreenAddress Bitcoin wallet"
-msgstr "ЧАВО по GreenAddress Bitcoin кошельку"
+msgstr "Gyakori kérdések a GreenAddress Bitcoin pénztárcával kapcsolatban"
 
 #: templates/website/faq.html:6
 msgid ""
 "GreenAddress FAQ: how to get a Bitcoin wallet? How secure are my bitcoins? "
 "Can I do instant payment?"
 msgstr ""
-"GreenAddress ЧАВО: как получить Bitcoin кошелек? Насколько защищены мои "
-"биткоины? Можно ли проводить мгновенные платежы?"
+"GreenAddress GYIK: hogy kaphatok egy Bitcoin pénztárcát? Mennyire vannak "
+"biztonságban a bitcoin-jaim? Tudok azonnali fizetést végrehajtani?"
 
 #: templates/website/faq.html:12
 msgid "Frequently Asked Questions"
-msgstr "Часто задаваемые вопросы"
+msgstr "Gyakran ismételt kérdések"
 
 #: templates/website/faq.html:14
 msgid "What currency exchange sources do you support?"
-msgstr "Какие источники обмена валют вы поддерживаете?"
+msgstr "Milyen devizapiaci árfolyam forrásokat támogattok?"
 
 #: templates/website/faq.html:15
 msgid " and "
-msgstr " и "
+msgstr " és "
 
 #: templates/website/faq.html:16
 msgid ""
 "Can I migrate easily from another wallet (like blockchain.info)?  Can I "
 "sweep private keys funds into my wallet?"
 msgstr ""
-"Могу ли я легко мигрировать с другого кошелька (blockchain.info, например). "
-"Могу ли я перенести средства приватных ключей в мой кошелек?"
+"Át tudom könnyen hozni a pénzemet egy másik pénztárcából (pl. blockchain."
+"info)? Ki tudom üríteni (sweep) egy privát kulcsomon lévő pénzemet a "
+"pénztárcámba?"
 
 #: templates/website/faq.html:17
 msgid ""
@@ -65,71 +65,62 @@ msgid ""
 "private key in the right field and client side the funds will be swept into "
 "your wallet. Voilà!"
 msgstr ""
-"Да! Очень просто!\n"
-"Кликните на закладку Получить Биткоины.\n"
-"В строке Секретный Ключ введите Ваш Секретный Ключ в формате WIF. https://en."
-"bitcoin.it/wiki/Wallet_import_format\n"
-"Кликните Ввести.\n"
-"Готово! Ваши Биткоины уже в кошельке GreenAddress!"
+"Igen, és igen lehet, csak vess egy pillantást a Pénz Fogadása fülre, helyezd "
+"a privát kulcsod a jobb oldali mezőbe és a pénz már besöprésre is került a "
+"pénztárcádba, mindez a kliens oldalon. Ennyi!"
 
 #: templates/website/faq.html:19
 msgid "Can I try your service?  Do you have a testnet/UAT version?"
-msgstr "Могу ли я попробовать ваш сервис в режиме тестирования?"
+msgstr "Kipróbálhatom a szolgáltatásotokat? Van testnet/UAT verziótok?"
 
 #: templates/website/faq.html:20
 msgid "Yes and yes, you can try our testnet version on "
-msgstr ""
-"Конечно! Вы можете попробовать нашу версию тестирования.\n"
-"https://test.greenaddress.it/"
+msgstr "Igen, és igen kipróbálhatod a testnet verziót a "
 
 #: templates/website/faq.html:20
 msgid " and you can find a testnet faucet on "
-msgstr ""
-"GreenAddress в режиме тестирования находится на\n"
-"https://test.greenaddress.it/"
+msgstr " és megtalálhatod a testnet faucet-et a "
 
 #: templates/website/faq.html:21
 msgid ""
 " Don't forget to send the testnet coins back to the faucet when you are done!"
-msgstr ""
-" когда вы закончите с тестированием, пожалуйста, не забудьте вернуть тест-"
-"монеты ;)"
+msgstr " Ne felejtsd el visszaküldeni az testnet coin-okat miután végeztél!"
 
 #: templates/website/faq.html:24
 msgid "Do you support other platforms than a web page?"
-msgstr "Поддерживаете ли вы другие платформы, кроме веб-страницы?"
+msgstr "Támogattok más platformokat, mint egy weboldal?"
 
 #: templates/website/faq.html:25
 msgid "Yes! You can download an Android app"
-msgstr "Да! Вы можете установить программу на Андроид"
+msgstr "Igen! Letölthető egy Android app"
 
 #: templates/website/faq.html:25
 msgid "from the Google Play store"
-msgstr "бесплатно в Google Play"
+msgstr "a Google Play bolt-ból"
 
 #: templates/website/faq.html:25
 msgid ", an iOS App"
-msgstr ", iOS программы"
+msgstr ", egy iOS App"
 
 #: templates/website/faq.html:25
 msgid "from the iTunes Store "
-msgstr "в iTunes Store "
+msgstr "az iTunes Store-ból "
 
 #: templates/website/faq.html:25
 msgid "and a Chrome packaged app"
-msgstr "а также в пакет программ для поисковика Хром"
+msgstr "és egy Chrome csomagolt app"
 
 #: templates/website/faq.html:25
 msgid "from the Chrome Web Store"
-msgstr "и в Интернет-Магазине Ghrome"
+msgstr "a Chrome Web áruházból"
 
 #: templates/website/faq.html:25
 msgid "All apps are open source and you can "
-msgstr "Все приложения с открытым исходным кодом, и вы можете "
+msgstr "Minden app nyílt forráskódú és "
 
 #: templates/website/faq.html:25
 msgid "see the source code of each on GitHub"
-msgstr "смотрите исходный код каждого на GitHub"
+msgstr "mindegyik forráskódját megnézheted a GitHub-on"
 
 #: templates/website/faq.html:25
 msgid ""
@@ -137,13 +128,13 @@ msgid ""
 "additional transaction verification, so it should be safe to use even if our "
 "servers are compromised."
 msgstr ""
-"Они также использует <a href=\"http://electrum.org\"> Electrum</a> сервера "
-"для дополнительной верификации транзакций, поэтому их использование "
-"безопасно даже если наши серверы компрометированы."
+"<a href=\"http://electrum.org\"> Elektrum</a> szervereket is használ a "
+"tranzakciók további ellenőrzéshez, így még akkor is biztonságos a "
+"használata, ha a mi szervereinket feltörték."
 
 #: templates/website/faq.html:28
 msgid "But what happens if your service goes away? Will I lose my coins?"
-msgstr "Но, что произойдет, если ваш сервис исчезнет? Я потеряю мои средства?"
+msgstr "De mi történik, ha a szolgáltatás eltűnik? Elveszítem az coin-jaimat?"
 
 #: templates/website/faq.html:30
 msgid ""
@@ -153,11 +144,12 @@ msgid ""
 "cannot control your funds without GreenAddress' signature, so you are right "
 "to worry that you can lose your coins."
 msgstr ""
-"GreenAddress подписывает каждую транзакцию собственным ключом в дополнение к "
-"ключу пользователя, и средства хранятся в 2-из-2 мульти-подписанных выходах "
-"требуя обе подписи для перевода средств. Недостатком этого является, что Вы "
-"не можете контролировать ваши средства без подписи GreenAddress.it, так что "
-"Вы вправе беспокоится, что Вы можете потерять Ваши средства."
+"A kliens oldali, felhasználó privát kulcsával történő aláíráson túl a "
+"GreenAddress minden egyes tranzakciót a saját kulcsával is aláír és a pénzek "
+"2-ből-2 többszörös aláírással (2-of-2 multisig) vannak tárolva, ami mindkét "
+"fél aláírását igényli az elköltéshez.  Ennek a hátulütője, hogy nem "
+"rendelkezhetsz a pénzed felett a GreenAddress aláírása nélkül. Emiatt jogos "
+"az aggodalmad, hogy elvesztheted a coin-jaidat."
 
 #: templates/website/faq.html:32
 msgid ""
@@ -166,19 +158,19 @@ msgid ""
 "them without our intervention after this pre-set period of time. It is "
 "enabled by default when you have email notifications and two factor enabled."
 msgstr ""
-"Но! Мы решили эту проблему, используя nLockTime транзакции, которые по "
-"существу делают так, что строк вкладов «истекает» после некоторого времени, "
-"что позволяет Вам использовать их без нашего вмешательства после этого "
-"заранее установленного периода времени. Эта опция включена по умолчанию при "
-"активных email уведомлений  и двухфакторной аутентификации."
+"De! Megoldottuk a problémát egy nLockTime tranzakció segítségével, ami "
+"tulajdonképpen lejáratja a betéteket egy idő után. Ez lehetővé teszi, hogy "
+"hozzáférj a betétedhez egy előre definiált idő után, a mi közbeavatkozásunk "
+"nélkül is. Ez alapértelmezésben be van kapcsolva, ha engedélyezted az email "
+"értesítéseket és a két tényezős autentikációt."
 
 #: templates/website/faq.html:34
 msgid ""
 "This allows you to keep your ease of mind even in case GreenAddress "
 "disappears with its keys."
 msgstr ""
-"Это позволяет Вам сохранять спокойствие даже в том случае когда GreenAddress "
-"исчезнет со своими ключами."
+"Ez lehetővé teszi, hogy nyugodtan aludhass, még abban az esetben is, ha a "
+"GreenAddress eltűnne a saját kulcsaival."
 
 #: templates/website/faq.html:36
 msgid ""
@@ -186,90 +178,93 @@ msgid ""
 "them. This can be automated on login and notified in advance via email or "
 "manually done."
 msgstr ""
-"Это также означает, что каждый раз, когда срок действия средств пользователя "
-"заканчивается, пользователь должен повторно зачислить их. Это может быть "
-"автоматизировано при входе с уведомлением на электронную почту или сделано "
-"вручную."
+"Ez azt is jelenti, hogy minden alkalommal, amikor a betéted lejár, újra át "
+"kell utalni őket. Ez lehet automatikus a belépéskor és előzetesen e-mail "
+"értesítés alapján vagy kézzel is végezhető."
 
 #: templates/website/faq.html:38
 msgid ""
 "For redeeming the funds after expiration, you can use a tool we've developed "
 "specifically for this purpose - see "
 msgstr ""
-"Для получения доступа к средствам после истечения срока, можно использовать "
-"специально разработанный нами инструмент для этой цели - см. "
+"A pénzed felszabadításához a lejáratot követően használhatsz egy eszközt is. "
+"Fejlesztettünk egy alkalmazást, kifejezetten erre a célra. Lásd "
 
 #: templates/website/faq.html:38
 msgid "and"
-msgstr "и"
+msgstr "és"
 
 #: templates/website/faq.html:38
 msgid "its project on GitHub"
-msgstr "Это проект на GitHub"
+msgstr "a projektje megtalálható a GitHub-on"
 
 #: templates/website/faq.html:38
 msgid "It's open source!"
-msgstr "Это проект с открытым исходным кодом!"
+msgstr "És nyílt forráskódú!"
 
 #: templates/website/faq.html:41
 msgid "How is your wallet better than the others out there?"
-msgstr "Чем ваш кошелек лучше чем другие?"
+msgstr "Mennyiben jobb a pénztárcátok, mint másoké?"
 
 #: templates/website/faq.html:43
 msgid ""
 "For a simple high level comparison with a couple of web wallets please see "
-msgstr "Для простого сравнения  нескольких  веб-кошельков смотрите"
+msgstr ""
+"Egy egyszerű, magas szintű összehasonlítás néhány más internetes "
+"pénztárcával: "
 
 #: templates/website/faq.html:43
 msgid "this"
-msgstr "эту"
+msgstr "ez"
 
 #: templates/website/faq.html:43
 msgid "table"
-msgstr "таблицу"
+msgstr "táblázat"
 
 #: templates/website/faq.html:44
 msgid "We offer all the advantages of a web wallet:"
-msgstr "Мы предлагаем преимущества веб-кошелька:"
+msgstr "Egy webes pénztárca minden előnyével rendelkezünk:"
 
 #: templates/website/faq.html:46
 msgid "Ubiquitously available"
-msgstr "Повсеместно доступен"
+msgstr "Mindenütt kapható"
 
 #: templates/website/faq.html:47
 msgid "Social/email/SMS integration"
-msgstr "Социальные сети/email/SMS интеграция"
+msgstr "Közösségi integráció/e-mail/SMS"
 
 #: templates/website/faq.html:48
 #: templates/wallet/partials/wallet_settings.html:313
 msgid "Two factor authentication"
-msgstr "Двухфакторная проверка подлинности"
+msgstr "Két faktoros azonosítást"
 
 #: templates/website/faq.html:49
 msgid "Transaction limits/restrictions"
-msgstr "Лимиты/ограничения транзакций"
+msgstr "Tranzakció korlátok/korlátozások"
 
 #: templates/website/faq.html:50
 msgid "Green address instant transaction confirmation"
-msgstr "Green address мгновенное подтверждение транзакции"
+msgstr "Zöld-cím azonnali ügylet-visszaigazolás"
 
 #: templates/website/faq.html:52
 msgid "And the advantages of a local software wallet like "
-msgstr "и преимущества локального приложения для кошелька как "
+msgstr "És egy helyi alkalmazás az előnyei mint "
 
 #: templates/website/faq.html:54
 msgid "Mnemonic seed backup once and forget"
-msgstr "Резервная копия в виде мнемонической фразы - раз создать и забыть"
+msgstr "Elég csak a mnemonikod elmentened"
 
 #: templates/website/faq.html:55
 msgid "Your private keys are never stored on our servers, not even encrypted"
 msgstr ""
-"Ваши приватные ключи никогда не хранятся на сервере, даже в шифрованном виде"
+"A privát kulcsaid soha nem kerülnek tárolásra a szervereinken, még "
+"titkosítva sem"
 
 #: templates/website/faq.html:56
 msgid "No lost time synchronizing the client with the full Bitcoin blockchain"
 msgstr ""
-"Не надо ждать, чтобы синхронизировать толстый клиент с blockchain Bitcoin"
+"Nincs elvesztegetett idő a kliens szinkronilázásával a teljes Bitcoin "
+"blockchain-nel"
 
 #: templates/website/faq.html:58
 msgid ""
@@ -277,25 +272,25 @@ msgid ""
 "and security safeguards than the competition with a simple interface through "
 "your browser or phone."
 msgstr ""
-"Говоря проще, мы предлагаем наилучший веб-кошелек: больше возможностей и "
-"гарантий безопасности чем у конкурентов, с простым интерфейсом, доступным "
-"через браузер или телефон."
+"Simply put, we offer the best web wallet available: We include more features "
+"and security safeguards than the competition with a simple interface through "
+"your browser or phone."
 
 #: templates/website/faq.html:61
 msgid "Where are my Bitcoin keys stored?"
-msgstr "Где хранятся мои ключи Bitcoin?"
+msgstr "Hol vannak a Bitcoin kulcsaim tárolva?"
 
 #: templates/website/faq.html:62
 msgid ""
 "Your keys are not stored. They are derived from your mnemonic passphrase and "
 "never sent to the server."
 msgstr ""
-"Ваши ключи нигде хранятся. Они являются производными от вашей мнемонической "
-"фразы-пароля и никогда не отправляются на сервер."
+"Your keys are not stored. They are derived from your mnemonic passphrase and "
+"never sent to the server."
 
 #: templates/website/faq.html:64
 msgid "How does the PIN work?"
-msgstr "Как работает PIN-код?"
+msgstr "Hogyan működik a PIN-kód?"
 
 #: templates/website/faq.html:65
 msgid ""
@@ -307,22 +302,21 @@ msgid ""
 "your wallet. If the PIN is provided wrong for 3 times in a row the password "
 "is then deleted from our servers."
 msgstr ""
-"Случайный пароль (256 AES) создается и используется для шифрования ваших "
-"мнемоник и хранения их на вашем устройстве в шифрованном виде. Случайный "
-"пароль передается на сервер и уничтожается на клиентском компьютере. Когда "
-"во время входа в систему пользователь вводить правильный PIN-код, с сервера "
-"запрашивается правильный пароль, который используется для дешифровки "
-"мнемонической фразы-пароля, сохраненной на вашем устройстве, и вы получаете "
-"доступ к вашему кошельку. Если PIN-код введен 3 раза подряд неверно, то "
-"пароль удаляется из наших серверов."
+"A random password (256 AES) is created and used to encrypt your mnemonics "
+"and store them on your device in encrypted form. The random password is sent "
+"server side and destroyed on the client. When during login the user provides "
+"the right PIN a mechanism will ask the server for the password which is used "
+"to decrypt the mnemnonic passphrase stored on your device and get you in "
+"your wallet. If the PIN is provided wrong for 3 times in a row the password "
+"is then deleted from our servers."
 
 #: templates/website/faq.html:68
 msgid ""
 "When are you going to offer feature XYZ? I would like to access my wallet in "
 "my language, can you add it?"
 msgstr ""
-"Когда вы собираетесь реализовать функционал XYZ? Я хотел бы иметь доступ к "
-"своему кошельку на моем родном языке, можете ли вы добавить его?"
+"When are you going to offer feature XYZ? I would like to access my wallet in "
+"my language, can you add it?"
 
 #: templates/website/faq.html:70
 msgid ""
@@ -330,10 +324,9 @@ msgid ""
 "provide some feedback or get involved feel free to PM on reddit (/u/BitFast) "
 "or send us an email at "
 msgstr ""
-"Мы все время заинтересованы в обратной связи от наших пользователей. Если вы "
-"хотите оставить нам отзывы или принять участие в нашем проекте, пожалуйста "
-"отправьте приватное сообщение на reddit (/u/BitFast) или отправьте нам email "
-"на "
+"We are constantly looking for feedback from our users, if you want to "
+"provide some feedback or get involved feel free to PM on reddit (/u/BitFast) "
+"or send us an email at "
 
 #: templates/website/faq.html:71
 msgid ""
@@ -341,9 +334,9 @@ msgid ""
 "pipeline, please check with us if you want to be kept up to date with "
 "development and please be patient :)"
 msgstr ""
-"Разработка нового функционала и поддержка многих языков в планах, пожалуйста "
-"свяжитесь с нами если вы хотите быть в курсе дел и пожалуйста запаситесь "
-"терпением :)"
+"We have many features and language support for many languages in the "
+"pipeline, please check with us if you want to be kept up to date with "
+"development and please be patient :)"
 
 #: templates/website/faq.html:72
 msgid ""
@@ -351,23 +344,21 @@ msgid ""
 "\"http://translate.greenaddress.it\">here</a> and pull requests are welcome "
 "on <a href=\"https://github.com/greenaddress\" target=\"_blank\">GitHub</a>!"
 msgstr ""
-"Если Вы хотите помочь с переводом, смотрите <a target=\"_blank_\" href="
-"\"http://translate.greenaddress.it\">здесь</a> и пул-запросы приветствуются "
-"на <a href=\"https://github.com/greenaddress\" target=\"_blank\"> GitHub</a>!"
+"If you want to help with translation see them <a target=\"_blank_\" href="
+"\"http://translate.greenaddress.it\">here</a> and pull requests are welcome "
+"on <a href=\"https://github.com/greenaddress\" target=\"_blank\">GitHub</a>!"
 
 #: templates/website/faq.html:74
 msgid "Do you have a donate button for linking to users payment URLs?"
-msgstr ""
-"Есть ли у вас кнопка для пожертвований для предоставления пользователям URLs "
-"для оплаты?"
+msgstr "Do you have a donate button for linking to users payment URLs?"
 
 #: templates/website/faq.html:76
 msgid "Sure have a look below (let us know if you have created one!)."
-msgstr "Обязательно посмотрите ниже (дайте нам знать, если вы создали одну!)."
+msgstr "Sure have a look below (let us know if you have created one!)."
 
 #: templates/website/faq.html:80
 msgid "What exactly is an 'instant greenaddress transaction'?"
-msgstr "Что же такое \"мгновенная сделка greenaddress\"?"
+msgstr "What exactly is an 'instant greenaddress transaction'?"
 
 #: templates/website/faq.html:81
 msgid ""
@@ -377,16 +368,15 @@ msgid ""
 "instantly as we provide a 'special' signature to your transaction when you "
 "require instant confirmation."
 msgstr ""
-"Ваши транзакции защищены как вашей подписью так и нашей, которую мы "
-"применяем когда получаем Ваше разрешение на двухфакторную проверку "
-"подлинности. Благодаря этой защите, пользователи получая биткоины от Вас, "
-"могут быть уверенны в сделке мгновенно так как мы подписываем Вашу "
-"транзакция специальной подписью, когда Вы хотите получить мгновенное "
-"подтверждение транзакции."
+"Your transactions are protected by both your signature and by a signature we "
+"apply when we get your permission via two factor. With this protection, "
+"comes the fact that people receiving Bitcoin from you can trust the funds "
+"instantly as we provide a 'special' signature to your transaction when you "
+"require instant confirmation."
 
 #: templates/website/faq.html:84
 msgid "What about cookies?"
-msgstr "А как насчет куков?"
+msgstr "Mi a helyzet a cookie-kal?"
 
 #: templates/website/faq.html:86
 msgid ""
@@ -397,45 +387,44 @@ msgid ""
 "forgery and display the site in the language you have selected or to not "
 "show you the EU cookie compliance info banner."
 msgstr ""
-"Чтобы разрешить GreenAddress распознавать Ваше устройство и обеспечить для "
-"Вас различную функциональность, мы используем куки. Куки - уникальные "
-"идентификаторы, которые мы передаем на устройство для того, чтобы наши "
-"сервисы могли распознать устройство и обеспечить такие функции, как защита "
-"от злонамеренного перекрестного запроса с другого сайта, отображение сайта "
-"на языке, который Вы выбрали, или не показывать Вам информационный баннер с "
-"ЕС соглашениями."
+"To enable GreenAddress to recognize your device and to provide features to "
+"you, we use cookies. Cookies are unique identifiers that we transfer to your "
+"device to enable our services to recognize your device and to provide "
+"features such as providing you with protection from Cross-site request "
+"forgery and display the site in the language you have selected or to not "
+"show you the EU cookie compliance info banner."
 
 #: templates/website/faq.html:91
 msgid ""
 "Yes! You can see our <a href=\"http://api.greenaddress.it/\">API "
 "documentation at GitHub Pages</a>."
 msgstr ""
-"Да! Здесь наша <a href=\"http://api.greenaddress.it/\">API документация на "
-"GitHub страницах</a>."
+"Yes! You can see our <a href=\"http://api.greenaddress.it/\">API "
+"documentation at GitHub Pages</a>."
 
 #: templates/website/instant.html:7
 msgid "Verify instant transaction"
-msgstr "Проверить мгновенные транзакции"
+msgstr "Verify instant transaction"
 
 #: templates/website/instant.html:25
 msgid "Verify a GreenAddress instant confirmation!"
-msgstr "Проверяйте GreenAddress мгновенное подтверждение!"
+msgstr "Verify a GreenAddress instant confirmation!"
 
 #: templates/website/instant.html:25
 msgid "Please provide transaction details below"
-msgstr "Пожалуйста, предоставьте детали транзакции ниже"
+msgstr "Please provide transaction details below"
 
 #: templates/website/instant.html:27 templates/website/instant.html:32
 msgid "Transaction hash"
-msgstr "Хеш транзакции"
+msgstr "Transaction hash"
 
 #: templates/website/instant.html:38
 msgid "Recipient verification signature"
-msgstr "Подпись верификации получателя"
+msgstr "Recipient verification signature"
 
 #: templates/website/instant.html:39
 msgid "Please sign the following message"
-msgstr "Пожалуйста, подпишите следующее сообщение"
+msgstr "Please sign the following message"
 
 #: templates/website/instant.html:39
 msgid ""
@@ -444,50 +433,50 @@ msgid ""
 "key in WIF format. The key will be used in your browser only to sign the "
 "message."
 msgstr ""
-"Вы можете либо предоставить подпись самостоятельно (рекомендовано), "
-"<strong>или</strong>, если Ваш клиент не поддерживает подпись сообщений, "
-"вставьте Ваш приватный ключ у WIF формате. Ключ будет использован Вашим "
-"браузером только для подписи сообщения."
+"You can either provide the signature yourself (recommended), <strong>or</"
+"strong>, if your client doesn't support signing messages, paste your private "
+"key in WIF format. The key will be used in your browser only to sign the "
+"message."
 
 #: templates/website/instant.html:43
 msgid "Signature"
-msgstr "Подпись"
+msgstr "Aláírás"
 
 #: templates/website/instant.html:46
 msgid "or"
-msgstr "или"
+msgstr "vagy"
 
 #: templates/website/instant.html:49
 msgid "WIF Private Key"
-msgstr "WIF закрытый ключ"
+msgstr "WIF Private Key"
 
 #: templates/website/instant.html:55
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Hiba"
 
 #: templates/website/instant.html:58
 msgid "Verify transaction"
-msgstr "Проверить транзакцию"
+msgstr "Verify transaction"
 
 #: templates/website/instant.html:64
 msgid "Verification successful!"
-msgstr "Проверка завершилась успешно!"
+msgstr "Sikeres ellenőrzés!"
 
 #: templates/website/instant.html:64
 msgid "is covered by GreenAddress instant confirmation."
-msgstr "обеспечено мгновенным подтверждением GreenAddress."
+msgstr "is covered by GreenAddress instant confirmation."
 
 #: templates/website/instant.html:67
 msgid "Verification failed!"
-msgstr "Проверка не удалась!"
+msgstr "Verification failed!"
 
 #: templates/website/instant.html:67
 msgid "is not covered by GreenAddress instant confirmation."
-msgstr "не обеспечено мгновенным подтверждением GreenAddress."
+msgstr "is not covered by GreenAddress instant confirmation."
 
 #: templates/website/instant.html:70
 msgid "Try again"
-msgstr "Попробуйте снова"
+msgstr "Try again"
 
 #: templates/website/tos.html:5
 #: templates/wallet/partials/signup_1_trezor.html:31
@@ -495,11 +484,11 @@ msgstr "Попробуйте снова"
 #: templates/wallet/partials/signup_1_init.html:46
 #: templates/wallet/partials/signup_1_init.html:48
 msgid "Terms of Service"
-msgstr "Условия предоставления услуг"
+msgstr "Felhasználási Feltételek"
 
 #: templates/website/index.html:5
 msgid "GreenAddress - Free and secure online Bitcoin wallet"
-msgstr "GreenAddress.it - бесплатный и безопасный онлайн Bitcoin кошелек"
+msgstr "GreenAddress - ingyenes és biztonságos online Bitcoin pénztárca"
 
 #: templates/website/index.html:6
 msgid ""
@@ -507,74 +496,73 @@ msgid ""
 "to paper wallets to store your bitcoins online. Independent blockchain data "
 "verification via the Electrum network."
 msgstr ""
-"GreenAddress - бесплатный и безопасный Bitcoin кошелек, удобная альтернатива "
-"бумажным кошелькам для хранения Ваших биткоинов в онлайне. Независимая "
-"верификация блокчейн данных через сеть Electrum."
+"A GreenAddress egy ingyenes és biztonságos Bitcoin pénztárca, egy kényelmes "
+"alternatívája a papír pénztárcáknak a bitcoinjaid online tárolására. "
+"Független blockchain adatellenőrzés ay Electrum hálózaton keresztül."
 
 #: templates/website/index.html:31 templates/website/index.html:42
 #: templates/wallet/partials/signuplogin/header_redeem.html:8
 msgid "Create your Wallet"
-msgstr "Создайте Ваш Кошелек"
+msgstr "Hozz létre egy pénztárcát"
 
 #: templates/website/index.html:42
 msgid "The safer "
-msgstr "Безопасный "
+msgstr "A biztonságosabb "
 
 #: templates/website/index.html:42
 msgid " wallet that puts "
-msgstr " кошелек, который дает "
+msgstr " pénztárca, ami "
 
 #: templates/website/index.html:42
 msgid "you"
-msgstr "Вам"
+msgstr "kezedbe"
 
 #: templates/website/index.html:42
 msgid " in control"
-msgstr " полный контроль"
+msgstr " adja az irányítást"
 
 #: templates/website/index.html:44 templates/website/index.html:45
 #: templates/website/index.html:133 templates/website/index.html:195
 msgid "Improved security"
-msgstr "Улучшенная безопасность"
+msgstr "Továbbfejlesztett biztonság"
 
 #: templates/website/index.html:46
 msgid ""
 "Protect your bitcoins with both your key and ours, set spending limits, rate "
 "limited transactions and always be the only one in control"
 msgstr ""
-"Защитите ваши биткоины с обоими - Вашими и нашими ключами, задайте лимиты на "
-"максимальный расход, лимиты на количество транзакций за выбранный Вами "
-"период и будьте единственным кто контролирует Ваш кошелек"
+"Védd meg a bitcoinjaidat a saját és a mi kulcsunkat kombinálva, állíts be "
+"költési limiteket és mindig maradjon a kezedben az irányítás"
 
 #: templates/website/index.html:49 templates/website/index.html:50
 #: templates/wallet/partials/wallet_settings.html:148
 msgid "Quick login"
-msgstr "Быстрый вход"
+msgstr "Gyors belépés"
 
 #: templates/website/index.html:51
 msgid ""
 "You can easily login in 'watch-only mode' via Facebook/Twitter/custom login "
 "with no compromise on security and privacy"
 msgstr ""
-"Вы можете легко войти в режим 'Только-Наблюдения' через Facebook/Twitter/"
-"пользовательский логин без компромисов для Вашей безопасности и "
-"конфиденциальности"
+"Bármikor beléphetsz megfigyelő módban Facebook/Twitter/egyedi "
+"bejelentkezéssel, anélkül hogy bármit feladnál a biztonságból és "
+"adatvédelemből"
 
 #: templates/website/index.html:54 templates/website/index.html:55
 msgid "Send money easily"
-msgstr "Отправляйте деньги легко"
+msgstr "Küldj pénzt egyszerűen"
 
 #: templates/website/index.html:56
 msgid ""
 "Send money to a friend on Facebook, a follower on Twitter or to a "
 "colleague's email or mobile number"
 msgstr ""
-"Отправляйте деньги другу на Facebook, фолловерам на Twitter, на email или "
-"мобильный номер коллеги"
+"Küldj pénzt egy barátodnak a Facebook-on, egy követődnek a Twitteren vagy "
+"egy kollegád email címére vagy mobil számára"
 
 #: templates/website/index.html:63
 msgid "Scroll to read more"
-msgstr "Прокрутите вниз, чтобы прочитать больше"
+msgstr "Görgess tovább"
 
 #: templates/website/index.html:75
 msgid ""
@@ -588,15 +576,14 @@ msgid ""
 "your funds.</p>        <p>Take control of your future now, at GreenAddress.</"
 "p>        "
 msgstr ""
-"        <p><h4>Bitcoin — валюта будущего</h4></p> <p>Мы не заставляем Вас "
-"выбирать между безопасностью и удобством. И мы не идем на компромисс с вашей "
-"<strong>конфиденциальностю</strong>.</p> <p>Наши  двухфакторная проверка "
-"подлинности, мульти-подпись <strong>(для каждой транзакции!)</strong> и "
-"детерминированный кошелек позволяют вам беспрецедентный контроль над вашими "
-"средствами.</p> <p>Мы <strong>никогда не</strong> храним ваших приватных "
-"ключей, даже в шифрованном виде. В то же время мы обеспечиваем Вам "
-"возможность легко мониторить и перемещать Ваши средства.</p> <p>Возьмите "
-"Ваше будущее в Ваши руки сейчас с GreenAddress.it.</p>        "
+"<p><h4>A Bitcoin a jövő pénzneme</h4></p> <p>Velünk nem kell a biztonság és "
+"a kényelem között választanod. Mi nem veszélyeztetjük a <strong>személyes "
+"adataidat</strong>.</p> <p>A mi <strong>tranzakciónkénti</strong> két "
+"lépéses hitelesítésünk, több aláírásos és determinisztikus pénztárcánk  "
+"egyedülálló felügyeletet biztosít számodra a tranzakcióid felett.</p> <p>És "
+"mi <strong>soha</strong> nem tároljuk a privát kulcsaidat, még titkosítva "
+"sem. Ugyanakkor egyszerűn megnézheted és átutalhatod a pénzed.</p> <p>Vedd "
+"át az irányítást a jövőd felett most, a GreenAddress-szel.</p>"
 
 #: templates/website/index.html:94
 msgid ""
@@ -608,14 +595,14 @@ msgid ""
 "wallet.</p>        <p>Your <strong>keys</strong> are not loaded so no "
 "transaction are possible and settings can't be modified</p>        "
 msgstr ""
-"        <p><h4>Лучшая конфиденциальность ваших средств и безопасный вход в "
-"систему в режиме \"только наблюдения\"</h4></p> <p>Безопасно проверяйте ваш "
-"<strong>баланс</strong> и <strong>транзакции</strong> из публичных Wi-Fi, "
-"Starbucks и на ходу.</p> <p>С нашей уникальным режимом <strong>Только-"
-"Наблюдение</strong> можно быстро проверить свой баланс или получить средства "
-"без полного доступа к вашему кошелек.</p> <p>Ваши <strong>ключи</strong> не "
-"загружаются, поэтому проведение транзакций не возможно и никакие настройки "
-"не могут быть изменены </p>        "
+"        <p><h4>Jobb személyes adatvédelem és biztonságosabb belépés a csak-"
+"néző móddal</h4></p>        <p>Ellenőrizd <strong>egyenleged</strong> és "
+"<strong>tranzakcióid</strong> biztonságosan nyilvános Wi-Fi-ről, Starbucks-"
+"ból és útközben.</p>        <p>Az egyedi <strong>csak-nézőh</strong> "
+"módunkkal gyorsan ellenőrizheted egyenleged vagy fogadhatsz pénzt, anélkül "
+"hogy teljes hozzáférést kérnél pénztárcádhoz</p>        <p>A "
+"<strong>kulcsaid</strong> nem töltődnek be, így nem lehetséges tranzakciót "
+"indítani vagy beállításokat változtatni.</p>        "
 
 #: templates/website/index.html:112
 msgid ""
@@ -629,37 +616,36 @@ msgid ""
 "newly generated address each time making it harder for people you transact "
 "with to read your past and future transactions</p>        "
 msgstr ""
-"        <p><h4>Дополнительные функции, которые позволяют удобный и "
-"безопасный доступ к вашему кошельку</h4></p>        <p>Разрешить "
-"<strong>быстрый</strong> PIN-код для входа в ваш кошелек с любого из ваших "
-"устройств без необходимости использовать вашу парольную фразу</p>        "
-"<p>Даже если наша наша система перестанет работать или исчезнет, можете "
-"спать <strong>спокойно</strong> - наша автоматически подписанная транзакция "
-"(nLockTime) даст вам возможность просто подождать выбранное Вами время после "
-"которого Вы получите доступ к Вашим средствам!</p>        <p>Все переводы на "
-"Ваш кошелек (включая сдачи) будут каждый раз использовать  новый "
-"сгенерированный адрес, что делает трудней для людей с которыми вы проводите "
-"транзакции, видеть ваши прошлые и будущие операции</p>        "
+"<p><h4>További funkciók, amik kényelmes és biztonságos hozzáférést "
+"biztosítanak a pénztárcádhoz</h4></p> <p><strong>Gyors</strong> PIN belépés "
+"a pénztárcádba bármelyik eszközödről anélkül, hogy a jelszavad kéne "
+"használnod.  </p> <p>Ha a rendszerünk leállna vagy eltűnne, "
+"<strong>nyugodtan</strong> aludhatsz az automatikus előre aláírt "
+"tranzakciónk segítségével (nLockTime), ami lehetővé teszi hogy egyszerűen "
+"kivárd az általad beállított lejárati időt, hogy hozzájuss pénzedhez!</p> "
+"<p>Minden átutalás a pénztárcádra (a váltást is beleértve) egy újonnan "
+"generált címet használ, ezzel megnehezítve a múlt és jövőbeli tranzakcióid "
+"megtekintését azok által, akikkel tranzakciót bonyolítasz</p>"
 
 #: templates/website/index.html:129 templates/wallet/wallet.html:6
 msgid "Wallet"
-msgstr "Кошелек"
+msgstr "Pénztárca"
 
 #: templates/website/index.html:130 templates/website/index.html:177
 msgid "You are in control"
-msgstr "Вы контролируете"
+msgstr "Kezedben az irányítás"
 
 #: templates/website/index.html:131 templates/website/index.html:183
 msgid "Instant confirmation"
-msgstr "Мгновенное подтверждение"
+msgstr "Azonnali visszaigazolás"
 
 #: templates/website/index.html:132 templates/website/index.html:189
 msgid "Social integration"
-msgstr "Социальная интеграция"
+msgstr "Közösségi integráció"
 
 #: templates/website/index.html:134 templates/website/index.html:201
 msgid "Improved privacy"
-msgstr "Улучшенная конфиденциальность"
+msgstr "Továbbfejlesztett személyes adatvédelem"
 
 #: templates/website/index.html:210
 msgid ""
@@ -669,17 +655,17 @@ msgid ""
 "<br>          3) Access to user wallets requires that both the user and the "
 "service are compromised at the same time which reduces risks.          "
 msgstr ""
-"          1) Горячие кошельки могут быть опустошены, а холодные кошельки "
-"имеют задержки, ошибки или могут потеряться<br> 2) Если сервис был "
-"скромпрометирован и против Вашего кошелька применена брут-форс атака, для "
-"надежной защиты обязательно нужен сильный пароль шифрования кошелька. <br> "
-"3) Доступ к пользовательские кошелькам требует, чтобы одновременно были "
-"скромпрометированы как пользователь так и сервис, что сильно снижает "
-"риск.          "
+"1) Online pénztárcák kiürülhetnek és az offline pénztárcáknál "
+"előfordulhatnak késések, hibák vagy elveszhetnek<br> 2) Használj erős "
+"jelszót a pénztárcád titkosítására, arra az esetre, ha a szolgáltatást "
+"feltörnék és brute force támadással próbálkoznának. <br> 3) A felhasználó "
+"pénztárcájához való hozzáféréshez a felhasználó és a szolgáltatás is "
+"ugyanabban az időben kell, hogy feltörésre kerüljön, ami csökkenti a "
+"kockázatokat."
 
 #: templates/website/index.html:223
 msgid "Under the hood"
-msgstr "Под капотом"
+msgstr "A motorháztető alatt"
 
 #: templates/website/index.html:230
 msgid ""
@@ -688,10 +674,11 @@ msgid ""
 "change), which, together with coinjoin (coming soon) allows you to maintain "
 "your privacy at the highest standard."
 msgstr ""
-"<h3>Мы используем иерархические детерминированные кошельки</h3><br>(или "
-"BIP0032 HD Wallet) что означает, что мы используем новые адреса для каждой "
-"входящей транзакции (включая сдачи), что, вместе с coinjoin (скоро) "
-"позволяет поддерживать Вашу конфиденциальность на самом высоком уровне."
+"<h3>Hierarchikus determinisztikus pénztárcákat használunk</h3>(BIP0032 HD "
+"pénztárca), ami azt jelenti, hogy új címet használunk minden bejövő "
+"tranzakcióhoz (beleértve a váltást is), ami coinjoin-nal (hamarosan "
+"elérhető) együtt lehetővé teszi, hogy a legmagasabb színvonalon megőrizd a "
+"névtelenséged ."
 
 #: templates/website/index.html:236
 msgid ""
@@ -700,10 +687,10 @@ msgid ""
 "or to check your balance without exposing your wallet, indeed quite "
 "convenient when in a hurry and/or on a third party computer"
 msgstr ""
-"<h3> Быстро проверить свой баланс </h3><br>Вы можете использовать ряд "
-"сторонних сервисов (Facebook, например), чтобы быстро проверить получили ли "
-"вы платеж или посмотреть свой баланс, не подвергая свой кошелек опасности. "
-"Действительно, это весьма удобно, когда вы спешите и/или за чужим компьютером"
+"<h3>Gyors egyenleg ellenőrzés</h3>Számos harmadik fél szolgáltatását "
+"használhatod (például Facebook), hogy gyorsan ellenőrízd, hogy megkaptál-e "
+"egy utalást vagy megnézd az egyenleged anélkül, hogy fel kéne fedned a "
+"pénztárcádat. Kényelmes, ha sietsz vagy másnak a gépét használod"
 
 #: templates/website/index.html:244
 msgid ""
@@ -713,22 +700,22 @@ msgid ""
 "time your wallet has updates we will forward to you a presigned transaction "
 "unlocking the funds at a date in the future of your choice."
 msgstr ""
-"<h3> Мы предоставляем заранее подписанные транзакции</h3><br> Для того чтобы "
-"обеспечить лимиты на транзакции,  двухфакторную проверку подлинности, Ваши "
-"средства защищены с использованием своих ключей - Вашего и нашего. Для "
-"Вашего спокойствия, заранее подписанные транзакции используются по умолчанию "
-"(через механизм nlocktime), что значит что каждый раз когда Ваш кошелек "
-"обновится мы предоставим Вам заранее подписанную транзакцию которая "
-"разблокирует Ваши средства в выбранную Вами дату в будущем."
+"<h3>Előre létrehozott tranzakciók</h3>Pénzed a te és mi kulcsunkkal is "
+"biztosítva van, lehetővé téve a tranzakciós limiteket és a két tényezős "
+"hozzáférést. A nyugalmad érdekében az előre létrehozott tranzakció "
+"engedélyezve van (nlocktime használatával). Ez azt jelenti, hogy minden "
+"alkalommal, amikor a pénztárcád módosul, mi továbbítunk neked egy előre "
+"létrehozott tranzakciót a pénzed felszabadítására, egy általad választott "
+"jövőbeli időpontban. "
 
 #: templates/website/index.html:250
 msgid ""
 "<h3>We use P2SH to make this all easy</h3>P2SH allows people you interact "
 "with to handle transactions to and from GreenAddress' wallets transparently."
 msgstr ""
-"<h3>Мы используем P2SH, чтобы сделать все это простым </h3>P2SH разрешает "
-"людям, с которыми Вы взаимодействуете, прозрачно работать с входными и "
-"выходными транзакциями GreenAddress."
+"<h3>P2SH használunk, hogy mindez könnyű legyen</h3>A P2SH lehetővé teszi a "
+"GreenAddress pénztárcákba és pénztárcákból érkező tranzakciók átlátható "
+"kezelését azok számára,  akikkel kapcsolatban vagy."
 
 #: templates/website/index.html:258
 msgid ""
@@ -737,11 +724,11 @@ msgid ""
 "limiting your transactions per hour, day,  week and month and make your "
 "payment instant by providing a double spend checks with GreenAddress!"
 msgstr ""
-"<h3>Мы предлагаем нашу вторую подпись</h3>Что позволяет нам предложить и "
-"гарантировать двухфакторную проверку подлинности,  дневные, недельные и "
-"месячные лимиты расхода средств, лимиты на количество транзакций в час, "
-"сутки, неделю, месяц, а также сделать Ваши платежы мгновенными обеспечивая "
-"проверку против двойной траты средств с помощью GreenAddress!"
+"<h3>Felkínáljuk a második aláírásunkat</h3>Amely lehetővé teszi számunkra, "
+"hogy 2 tényezős azonosítású fizetési tranzakciókat nyújtsunk és "
+"érvényesítsünk. Ezenfelül ennek segítségével napi, heti és havi limiteket "
+"állíthatsz be pénztárcádra illetve lehetővé teszi a GreenAddress azonnali "
+"fizetést a dupla költés ellenőrzés segítségével!"
 
 #: templates/website/index.html:264
 msgid ""
@@ -753,108 +740,108 @@ msgid ""
 "notify them of via a second channel. The funds will always be in your "
 "control while not yet redeemed."
 msgstr ""
-"<h3>Отправляйте деньги кому угодно через SMS, Twitter, Facebook и т.д.</"
-"h3>Если пользователь имеет аккаунт на GreenAddress, они сразу же получат "
-"уведомление о переводеа и средства будут мгновенно зачислены на их балнс. "
-"Если аккаунта нет, они получат уведомление со ссылкой где они могут получить "
-"средства используя пароль (BIP0038) за Вашим выбором, который вы передадите "
-"им через другой канал связи. Средства всегда будут под Вашим контролем до "
-"момента их получения пользователем."
+"<h3>Küldj pénzt bárkinek SMS-ben, Twitter-en, Facebook-on, stb.</h3>Ha a "
+"felhasználó rendelkezik GreenAddress fiókkal, akkor az összeg azonnal "
+"hozzáadásra kerül az egyenlegéhez és egy azonnali értesítést is kap az "
+"átutalásról. Ha a címzett nem rendelkezik GreenAddress fiókkal, akkor egy "
+"értesítést kap egy linkkel, amivel beválthatja az utalványod egy általad "
+"választott jelszó segítségével (BIP0038). Az általad választott jelszót "
+"másik csatornán kell eljuttatnod a címzettnek. A pénzről mindaddig te "
+"rendelkezel, amíg az utalványod beváltásra nem kerül."
 
 #: templates/website/about.html:5 templates/website/about.html:11
 #: templates/base/base.html:147
 msgid "About us"
-msgstr "О нас"
+msgstr "Rólunk"
 
 #: templates/website/about.html:25 templates/website/support.html:34
 msgid "Check us out on"
-msgstr "Читайте о нас на"
+msgstr "Check us out on"
 
 #: templates/website/about.html:43
-#, fuzzy
 msgid "Founder & CEO"
-msgstr "Основатель"
+msgstr "Alapító & vezérigazgató"
 
 #: templates/website/about.html:53
 msgid "Full Stack Developer"
-msgstr "Разработчик полной инфраструктуры"
+msgstr "Teljes Stack-fejlesztő"
 
 #: templates/website/about.html:61
 msgid "Careers"
-msgstr "Вакансии"
+msgstr "Karrierek"
 
 #: templates/website/support.html:5
 msgid "Support and contacts for GreenAddress Bitcoin wallet"
-msgstr "Поддержка и контакты GreenAddress Bitcoin кошелька"
+msgstr "Support and contacts for GreenAddress Bitcoin wallet"
 
 #: templates/website/support.html:6
 msgid ""
 "GreenAddress contacts details. We are here to listen to your suggestions for "
 "a better and safer Bitcoin online wallet."
 msgstr ""
-"Детали контактов GreenAddress. Мы здесь для того, чтобы выслушать Ваши "
-"предложения для создания лучшего и более безопасного Bitcoin онлайн кошелька."
+"GreenAddress contacts details. We are here to listen to your suggestions for "
+"a better and safer Bitcoin online wallet."
 
 #: templates/website/support.html:22
 msgid "For any issue, you can email us at"
-msgstr "По любому вопросу, пожалуйста отправьте нам email на"
+msgstr "For any issue, you can email us at"
 
 #: templates/website/support.html:24
 msgid "Or call us on"
-msgstr "Или позвоните нам по телефону"
+msgstr "Or call us on"
 
 #: templates/website/support.html:26
 msgid "Nine to five (GMT + 1:00) Monday to Friday."
-msgstr "С 9 до 5 (GMT + 1:00) Понедельник - Пятница."
+msgstr "Nine to five (GMT + 1:00) Monday to Friday."
 
 #: templates/website/support.html:27
 msgid ""
 "Please leave a message if in out of hours or if we are unable to take your "
 "call."
 msgstr ""
-"Пожалуйста, оставьте сообщение, если время не рабочее или не можем принять "
-"ваш звонок."
+"Please leave a message if in out of hours or if we are unable to take your "
+"call."
 
 #: templates/website/redeem.html:6
 msgid "Redeem funds"
-msgstr "Активировать средств"
+msgstr "Redeem funds"
 
 #: templates/website/redeem.html:9
 #: templates/wallet/partials/signuplogin/header_redeem.html:2
 msgid "You've received"
-msgstr "Вы получили"
+msgstr "You've received"
 
 #: templates/website/privacy.html:5
 msgid "Privacy Policy"
-msgstr "Политика конфиденциальности"
+msgstr "Privacy Policy"
 
 #: templates/wallet/nav.html:4
 #: templates/wallet/partials/wallet_transactions.html:4
 msgid "Transactions"
-msgstr "Транзакции"
+msgstr "Tranzakció"
 
 #: templates/wallet/nav.html:5 templates/wallet/partials/wallet_send.html:4
 #: templates/wallet/partials/wallet_send.html:138
 msgid "Send Money"
-msgstr "Послать денежные средства"
+msgstr "Pénz Küldés"
 
 #: templates/wallet/nav.html:6 templates/wallet/partials/wallet_receive.html:4
 msgid "Receive Money"
-msgstr "Получить денежные средства"
+msgstr "Pénz fogadás"
 
 #: templates/wallet/nav.html:7
 #: templates/wallet/partials/wallet_address_book.html:4
 msgid "Address Book"
-msgstr "Aдресная книга"
+msgstr "Címjegyzék"
 
 #: templates/wallet/nav.html:8
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Beállítások"
 
 #: templates/wallet/nav.html:10
 #, fuzzy
 msgid "General"
-msgstr "General Settings"
+msgstr "Általános beállítások"
 
 #: templates/wallet/nav.html:11
 #: templates/wallet/partials/wallet_settings.html:104
@@ -865,61 +852,61 @@ msgstr "Security"
 #: templates/wallet/partials/wallet_settings.html:581
 #, fuzzy
 msgid "Accounts"
-msgstr "Добавить аккаунт"
+msgstr "Fiók hozzáadása"
 
 #: templates/wallet/nav.html:14
 msgid "Update now"
-msgstr "Обновит сейчас"
+msgstr "Frissíts most"
 
 #: templates/wallet/nav.html:15
 #: templates/wallet/partials/wallet_modal_logout_other_session.html:10
 #: templates/wallet/partials/wallet_modal_logout.html:11
 msgid "Logout"
-msgstr "Выход"
+msgstr "Kijelentkezés"
 
 #: templates/wallet/nav.html:20 templates/base/base.html:110
 msgid "FAQ"
-msgstr "Часто задаваемые вопросы."
+msgstr "GYIK"
 
 #: templates/wallet/nav.html:20 templates/base/base.html:111
 msgid "Support"
-msgstr "Поддержка"
+msgstr "Támogatás"
 
 #: templates/wallet/nav.html:23
 msgid "Last login"
-msgstr "Последний вход"
+msgstr "Utolsó bejelentkezés"
 
 #: templates/wallet/nav.html:26
 msgid "country"
-msgstr "страна"
+msgstr "ország"
 
 #: templates/wallet/nav.html:27
 msgid "unknown country"
-msgstr "страна не указана"
+msgstr "ismeretlen ország"
 
 #: templates/wallet/wallet.html:47 templates/wallet/wallet.html:48
 msgid "WARNING"
-msgstr "ПРЕДУПРЕЖДЕНИЕ"
+msgstr "FIGYELMEZTETÉS"
 
 #: templates/wallet/wallet.html:47
 msgid ""
 "You have no two factor authentication set up. Please set it up in <a href="
 "\"#/settings\">settings</a>."
 msgstr ""
-"У Вас не активирована двух-факторная проверки подлинности. Пожалуйста, "
-"активируйте ее в <a href=\"#/settings\">settings</a>."
+"Nem állítottál be két tényezős hitelesítést. Kérjük állítsd be a <a href=\"#/"
+"settings\"> beállításoknál</a>."
 
 #: templates/wallet/wallet.html:49
 msgid "You have not verified that you have backed up your mnemonic."
-msgstr "Вы не подтвердили, что Вы сделали резервную копию Вашей мнемоники."
+msgstr "Még nem ellenőrizted, hogy elmentetted-e mnemonikus jelszavad."
 
 #: templates/wallet/wallet.html:50
 msgid "Please verify now by clicking here."
-msgstr "Пожалуйста, проверьте сейчас нажав здесь."
+msgstr "Ellenőrizd most, erre kattintva."
 
 #: templates/wallet/partials/concurrent_login.html:6
 msgid "You were logged out."
-msgstr "Вы вышли из системы."
+msgstr "Ki lett jelentkeztettve."
 
 #: templates/wallet/partials/concurrent_login.html:11
 msgid ""
@@ -937,12 +924,12 @@ msgstr "support"
 
 #: templates/wallet/partials/concurrent_login.html:24
 msgid "Go back to login"
-msgstr "Вернутся назад на страницу входа"
+msgstr "Vissza a bejelentkezőhöz"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:9
 #: templates/wallet/partials/wallet_settings.html:510
 msgid "(current currency)"
-msgstr "(current currency)"
+msgstr "(jelenlegi pénznem)"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:11
 #: templates/wallet/partials/wallet_send.html:77
@@ -950,7 +937,7 @@ msgstr "(current currency)"
 #: templates/wallet/partials/wallet_settings.html:488
 #: templates/wallet/partials/wallet_settings.html:511
 msgid "NOTE"
-msgstr "Заметка"
+msgstr "MEGJEGYZÉS"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:11
 #: templates/wallet/partials/wallet_settings.html:511
@@ -973,7 +960,7 @@ msgstr ""
 #: templates/wallet/partials/wallet_settings.html:554
 #: templates/wallet/partials/wallet_receive.html:20
 msgid "Amount"
-msgstr "Количество"
+msgstr "Összeg"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:33
 #: templates/wallet/partials/wallet_settings.html:524
@@ -1012,14 +999,14 @@ msgstr ""
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:23
 #: templates/wallet/partials/signuplogin/base.html:39
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Mégse"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:41
 #: templates/wallet/partials/wallet_settings.html:118
 #: templates/wallet/partials/wallet_settings.html:447
 #: templates/wallet/partials/wallet_settings.html:619
 msgid "Save"
-msgstr "Save"
+msgstr "Mentés"
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:2
 msgid ""
@@ -1031,11 +1018,11 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:5
 msgid "Remove my account"
-msgstr "Remove my account"
+msgstr "Fiókom törlése"
 
 #: templates/wallet/partials/wallet_modal_logout_other_session.html:4
 msgid "You are already logged in. Do you want to log out the other session?"
-msgstr "Вы уже зашли в систему. Хотите ли вы выйти из текущей сессии?"
+msgstr "Már bejelentkeztél. Szeretnéd, hogy kijelentkez a többi session-ból?"
 
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:4
 msgid "Please enter BTChip PIN."
@@ -1045,7 +1032,7 @@ msgstr "Please enter BTChip PIN."
 #: templates/wallet/partials/wallet_modal_pin.html:8
 #: templates/wallet/partials/signuplogin/base.html:18
 msgid "Enter your PIN"
-msgstr "Введите ваш PIN"
+msgstr "Enter your PIN"
 
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:14
 msgid "PIN must be a 4-to-32-digit number"
@@ -1054,7 +1041,7 @@ msgstr "PIN must be a 4-to-32-digit number"
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:23
 #: templates/wallet/partials/wallet_modal_pin.html:23
 msgid "Confirm PIN number"
-msgstr "Подтвердите номер PIN"
+msgstr "Erősítsd meg a PIN-kódot"
 
 #: templates/wallet/partials/signup_2_2factor.html:7
 #: templates/wallet/partials/signup_1_trezor.html:13
@@ -1062,7 +1049,7 @@ msgstr "Подтвердите номер PIN"
 #: templates/wallet/partials/signup_4_oauth.html:7
 #: templates/wallet/partials/signup_3_pin.html:7
 msgid "Step"
-msgstr "шаг"
+msgstr "Lépés"
 
 #: templates/wallet/partials/signup_2_2factor.html:7
 #: templates/wallet/partials/signup_1_trezor.html:13
@@ -1070,15 +1057,15 @@ msgstr "шаг"
 #: templates/wallet/partials/signup_4_oauth.html:7
 #: templates/wallet/partials/signup_3_pin.html:7
 msgid "of"
-msgstr "из"
+msgstr "a"
 
 #: templates/wallet/partials/signup_2_2factor.html:14
 msgid "Don't compromise on security"
-msgstr "Не идите на компромисс в вопросах безопасности"
+msgstr "Ne köss kompromisszumot a biztonságban"
 
 #: templates/wallet/partials/signup_2_2factor.html:14
 msgid "Set up two factor authentication"
-msgstr "Настроить Двух-факторнаую аутентификацию"
+msgstr "Két faktoros hitelesítés beállítása"
 
 #: templates/wallet/partials/signup_2_2factor.html:16
 msgid "Please wait while we log you into your new wallet..."
@@ -1108,12 +1095,12 @@ msgstr ""
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:14
 #: templates/wallet/partials/signup_3_pin.html:37
 msgid "Generating your wallet keys, please wait"
-msgstr "Генерирование ключей вашего кошелька, пожалуйста подождите"
+msgstr "A tárca kulcsokat generáljuk, várj egy picit"
 
 #: templates/wallet/partials/signup_2_2factor.html:27
 #: templates/wallet/partials/signup_3_pin.html:40
 msgid "Please wait, logging in..."
-msgstr "Пожалуйста, подождите, вход..."
+msgstr "Belépés folyamatban..."
 
 #: templates/wallet/partials/signup_2_2factor.html:30
 #: templates/wallet/partials/signup_2_2factor.html:33
@@ -1121,26 +1108,26 @@ msgstr "Пожалуйста, подождите, вход..."
 #: templates/wallet/partials/signup_1_init.html:64
 #: templates/wallet/partials/wallet_modal_no_electrum.html:11
 msgid "Continue"
-msgstr "Продолжить"
+msgstr "Tovább"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:2
 msgid "Transaction details"
-msgstr "Детали транзакции"
+msgstr "Tranzakció részletek"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:7
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:8
 msgid "Timestamp"
-msgstr "Временная ометка"
+msgstr "Időbélyeg"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:10
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:11
 msgid "Hash"
-msgstr "Хеш"
+msgstr "Hash"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:13
 #: templates/wallet/partials/wallet_send.html:113
 msgid "Fee"
-msgstr "Коммисия"
+msgstr "Tranzakciós díj"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:16
 msgid "Raw transaction"
@@ -1152,15 +1139,15 @@ msgstr "Double spend by txhash"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:22
 msgid "Payment request"
-msgstr "Payment request"
+msgstr "Kifizetési kérelem"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:24
 msgid "download"
-msgstr "download"
+msgstr "Letöltés"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:30
 msgid "Inputs"
-msgstr "Входы"
+msgstr "Bevitelek"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:33
 #: templates/wallet/partials/wallet_modal_tx_details.html:45
@@ -1168,11 +1155,11 @@ msgstr "Входы"
 #: templates/wallet/partials/wallet_address_book.html:22
 #: templates/wallet/partials/wallet_receive.html:65
 msgid "Address"
-msgstr "Адрес"
+msgstr "Cím"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:42
 msgid "Outputs"
-msgstr "Выходы"
+msgstr "Kimenetek"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:55
 #: templates/wallet/partials/wallet_modal_mnemonic.html:11
@@ -1187,56 +1174,55 @@ msgstr "Выходы"
 #: templates/wallet/partials/wallet_modal_url_qr.html:6
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:20
 msgid "Close"
-msgstr "Закрыть"
+msgstr "Bezárás"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:2
 #: templates/wallet/partials/signup_qr_modal.html:2
 msgid "The QR code containing the passphrase to access your wallet is:"
-msgstr "The QR code containing the passphrase to access your wallet is:"
+msgstr "A pénztárcád eléréséhez szükséges jelszót tartalmazó QR kód:"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:4
 msgid ""
 "This passphrase is encrypted, so your encryption password is required to use "
 "it."
 msgstr ""
-"This passphrase is encrypted, so your encryption password is required to use "
-"it."
+"Ez a tárcavisszaállító-kód titkosítva van, így a jelszavad szükséges a "
+"használatához."
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:5
 #: templates/wallet/partials/signup_qr_modal.html:4
 msgid "Remember to store it in a safe place!"
-msgstr "Хранить его в надежном месте!"
+msgstr "Ne feledje, hogy tárolja biztonságos helyen!"
 
 #: templates/wallet/partials/wallet_modal_mnemonic.html:7
 #: templates/wallet/partials/signup_1_init.html:24
 msgid "Your mnemonic passphrase"
-msgstr "Ваша мнемоническая фраза-пароль"
+msgstr "A jelszavad mnemonic-ja"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:6
 msgid "You must provide 2 factor authentication code to perform this action"
 msgstr ""
-"Для выполнения этой операции вы должны указать код двухфакторной проверки "
-"подлинности"
+"Meg kell adnod a 2 faktoros hitelesítési kódot a művelet végrehajtásához"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:9
 msgid "Please select authentication method"
-msgstr "Пожалуйста, выберите метод проверки подлинности"
+msgstr "Válassz hitelesítési módszert"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:15
 msgid "Please enter your "
-msgstr "Пожалуйста, введите Ваш "
+msgstr "Légyszives, írd be a "
 
 #: templates/wallet/partials/wallet_modal_2fa.html:15
 msgid " authentication code which we have just sent to you."
-msgstr " код проверки подлинности, который мы только что вам выслали."
+msgstr " hitelesítési kódot, amit éppen most küldtünk neked."
 
 #: templates/wallet/partials/wallet_modal_2fa.html:18
 msgid "Please enter the "
-msgstr "Пожалуйста, введите "
+msgstr "Légyszives, írd be a "
 
 #: templates/wallet/partials/wallet_modal_2fa.html:18
 msgid " code"
-msgstr " код"
+msgstr " kód"
 
 #: templates/wallet/partials/wallet_modal_2fa.html:32
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:9
@@ -1249,21 +1235,21 @@ msgstr "OK"
 #: templates/wallet/partials/wallet_transactions.html:14
 #: templates/wallet/partials/wallet_transactions.html:27
 msgid "Year"
-msgstr "Года"
+msgstr "Év"
 
 #: templates/wallet/partials/wallet_transactions.html:15
 #: templates/wallet/partials/wallet_transactions.html:28
 msgid "Month"
-msgstr "месяц"
+msgstr "Hónap"
 
 #: templates/wallet/partials/wallet_transactions.html:16
 #: templates/wallet/partials/wallet_transactions.html:29
 msgid "Week"
-msgstr "Неделя"
+msgstr "Hét"
 
 #: templates/wallet/partials/wallet_transactions.html:39
 msgid "Your last transactions"
-msgstr "Ваши последние транзакции"
+msgstr "Az utolsó tranzakciód"
 
 #: templates/wallet/partials/wallet_transactions.html:41
 #: templates/wallet/partials/wallet_send.html:14
@@ -1286,7 +1272,7 @@ msgstr "Search"
 #: templates/wallet/partials/browser_unsupported.html:6
 #: templates/wallet/partials/browser_unsupported.html:10
 msgid "We are sorry, but your browser is not supported."
-msgstr "Извините, но ваш браузер не поддерживается."
+msgstr "Sajnáljuk, de a böngésződ nem támogatott."
 
 #: templates/wallet/partials/browser_unsupported.html:11
 msgid ""
@@ -1298,16 +1284,16 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:3
 msgid "No addresses found"
-msgstr "Адрес не найден"
+msgstr "Nem talált címeket"
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:5
 msgid "number of transactions"
-msgstr "количество транзакций"
+msgstr "tranzakciók száma"
 
 #: templates/wallet/partials/wallet_modal_my_addresses.html:12
 #, fuzzy
 msgid "Show more addresses"
-msgstr "Показать ранее созданные адреса"
+msgstr "Show previously generated addresses"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:4
 msgid "Please re-deposit your funds"
@@ -1318,8 +1304,8 @@ msgid ""
 "You have some expired deposits. Unless you re-deposit or redeem them, no "
 "transactions will be allowed"
 msgstr ""
-"У вас есть некоторые депозиты, срок которых истек. Если вы не сделаете "
-"повторный депозит или не активируете их, транзакции будут запрещены"
+"You have some expired deposits. Unless you re-deposit or redeem them, no "
+"transactions will be allowed"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:10
 msgid ""
@@ -1329,22 +1315,21 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:11
 msgid "Redeposit as single transaction (cheaper)"
-msgstr "Сделать депозит как одну транзакцию (дешевле)"
+msgstr "Redeposit as single transaction (cheaper)"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:12
 #: templates/wallet/partials/wallet_modal_redeposit.html:15
 #: templates/wallet/partials/wallet_modal_redeposit.html:21
 msgid "estimated fee"
-msgstr "предполагаемая коммисия"
+msgstr "becsült díj"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:14
 msgid "Redeposit as one transaction per output (better privacy)"
-msgstr ""
-"Повторный депозит как одна транзакция на выход (лучшая конфиденциальность)"
+msgstr "Redeposit as one transaction per output (better privacy)"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:16
 msgid "transactions"
-msgstr "транзакции"
+msgstr "Tranzakciók"
 
 #: templates/wallet/partials/wallet_modal_redeposit.html:20
 msgid "Redeposit"
@@ -1357,7 +1342,7 @@ msgstr "transaction"
 #: templates/wallet/partials/signup_1_trezor.html:7
 #: templates/wallet/partials/signup_1_init.html:7
 msgid "Already got an account?"
-msgstr "У Вас уже есть аккаунт?"
+msgstr "Már van fiókod?"
 
 #: templates/wallet/partials/signup_1_trezor.html:9
 #: templates/wallet/partials/signup_1_trezor.html:11
@@ -1365,68 +1350,69 @@ msgstr "У Вас уже есть аккаунт?"
 #: templates/wallet/partials/signup_1_init.html:11
 #: templates/wallet/partials/signuplogin/trezor.html:18
 msgid "Login to your Wallet"
-msgstr "Вход в ваш кошелёк"
+msgstr "Belépés a tárcájához"
 
 #: templates/wallet/partials/signup_1_trezor.html:20
 msgid "Connect Trezor to create a GreenAddress wallet"
-msgstr "Connect Trezor to create a GreenAddress wallet"
+msgstr "Csatlakoztassa a Trezor-t, hogy létrehozz egy GreenAddress tárcát"
 
 #: templates/wallet/partials/signup_1_trezor.html:21
 msgid "This 3-step account setup will fully secure it against intruders"
-msgstr "This 3-step account setup will fully secure it against intruders"
+msgstr ""
+"Ez 3 lépéses fiókbeállítás teljes védelmet fog biztosítani betolakodók ellen"
 
 #: templates/wallet/partials/signup_1_trezor.html:24
 #: templates/wallet/partials/signuplogin/trezor.html:12
 msgid "Please connect your Trezor device"
-msgstr "Please connect your Trezor device"
+msgstr "Csatlakoztasd a Trezor készüléked"
 
 #: templates/wallet/partials/signup_1_trezor.html:25
 #: templates/wallet/partials/signuplogin/trezor.html:13
 msgid "Trezor detected."
-msgstr "Trezor detected."
+msgstr "Trezor észlelt."
 
 #: templates/wallet/partials/signup_1_trezor.html:26
 #: templates/wallet/partials/signuplogin/trezor.html:14
 msgid "Please confirm the signature on your Trezor device."
-msgstr "Please confirm the signature on your Trezor device."
+msgstr "Légyszives, erősítsd meg az aláírásod a Trezor készülékeden."
 
 #: templates/wallet/partials/signup_1_trezor.html:31
 msgid "I agree with the "
-msgstr "I agree with the "
+msgstr "Egyetértek a "
 
 #: templates/wallet/partials/signup_1_trezor.html:39
 #: templates/wallet/partials/signup_1_init.html:69
 msgid "Error: "
-msgstr "Ошибка:"
+msgstr "Hiba: "
 
 #: templates/wallet/partials/signup_1_trezor.html:39
 #: templates/wallet/partials/signup_1_init.html:69
 msgid " Click to try again"
-msgstr " Кликнете чтобы повторит заново"
+msgstr " Kattints ide az újrapróbálkozáshoz"
 
 #: templates/wallet/partials/signup_1_trezor.html:51
 #: templates/wallet/partials/signup_1_init.html:81
 msgid "The passphrase to access your wallet is:"
-msgstr "Фраза доступа к вашему кошельку:"
+msgstr "A tárcádhoz a következő jelszóval tudsz hozzáférni:"
 
 #: templates/wallet/partials/signup_1_trezor.html:54
 #: templates/wallet/partials/signup_1_init.html:85
 msgid "Store this page in a safe place"
-msgstr "Храните эту страницу в защищенном месте"
+msgstr "Ezt az oldalt tárold biztonságos helyen"
 
 #: templates/wallet/partials/wallet_address_book.html:12
 msgid "Add new entry"
-msgstr "Добавить новую запись"
+msgstr "Új bejegyzés hozzáadása"
 
 #: templates/wallet/partials/wallet_address_book.html:21
 #: templates/wallet/partials/wallet_settings.html:605
 msgid "Name"
-msgstr "Имя"
+msgstr "Név"
 
 #: templates/wallet/partials/wallet_address_book.html:29
 #: templates/wallet/partials/wallet_transactions_table.html:18
 msgid "Export to CSV"
-msgstr "Экспортировать в формат CSV"
+msgstr "Exportálás CSV fáljba"
 
 #: templates/wallet/partials/wallet_address_book.html:45
 #: templates/wallet/partials/wallet_send.html:49
@@ -1434,26 +1420,26 @@ msgstr "Экспортировать в формат CSV"
 #: templates/wallet/partials/wallet_receive.html:97
 #: templates/wallet/partials/signuplogin/base.html:36
 msgid "Scan QR"
-msgstr "Cканировать QR код"
+msgstr "QR kód beolvasása"
 
 #: templates/wallet/partials/wallet_address_book.html:62
 msgid "Your address book is empty"
-msgstr "Адресная книга пуста"
+msgstr "A címjegyzéked üres"
 
 #: templates/wallet/partials/signup_1_init.html:20
 msgid "You are now the proud owner of a bitcoin wallet"
-msgstr "Теперь вы гордый владелец bitcoin кошелька"
+msgstr "Ön jelenleg büszke tulajdonosa egy bitcoin pénztárcának"
 
 #: templates/wallet/partials/signup_1_init.html:21
 msgid ""
 "Please finish this 4-step account setup to fully secure it against intruders"
 msgstr ""
-"Пожалуйста, завершите эту 4-этапную настройку аккаунта для полной защиты от "
-"злоумышленников"
+"Csináld végig ezt a 4-lépésből álló fiókbeállítást, hogy biztonságos legyen "
+"a tárcád betolakodókkal szemben"
 
 #: templates/wallet/partials/signup_1_init.html:25
 msgid "Your <strong>encrypted</strong> mnemonic passphrase"
-msgstr "Your <strong>encrypted</strong> mnemonic passphrase"
+msgstr "A <strong>titkosított</strong> mnemonikus jelszavad"
 
 #: templates/wallet/partials/signup_1_init.html:29
 #, fuzzy
@@ -1462,29 +1448,29 @@ msgstr "Write to a hardware wallet"
 
 #: templates/wallet/partials/signup_1_init.html:32
 msgid "Generating mnemonic, please wait..."
-msgstr "Генерируем мнемонику, пожалуйста подождите"
+msgstr "Mnemonikus jelszó generálás,  kis türelmet..."
 
 #: templates/wallet/partials/signup_1_init.html:37
 msgid ""
 "Please write down these words and store them in a safe place as they can't "
 "be recovered."
 msgstr ""
-"Пожалуйста запишите эти слова и храните их в надежном месте, поскольку они "
-"не могут быть восстановлены."
+"Írd le ezeket a szavakat és tárold őket biztonságosan, mivel későbbi "
+"elvesztésük esetén nem lehet őket visszaállítani."
 
 #: templates/wallet/partials/signup_1_init.html:37
 msgid ""
 "We do not store the above information anywhere, we can't help you recover it!"
 msgstr ""
-"Мы нигде не храним вышеуказанную информацию, мы не сможем помочь вам "
-"восстановить ее!"
+"Nem tároljuk a fenti információkat sehol, nem tudunk segíteni visszaszerezni "
+"őket!"
 
 #: templates/wallet/partials/signup_1_init.html:42
 msgid ""
 "I confirm that my passphrase is saved &amp; secured and I agree with the "
 msgstr ""
-"Я подтверждаю, что моя фраза-пароль сохранена в безопасном месте, и я "
-"согласен (согласна) с "
+"Biztosítom, hogy jelszavam mentettem és biztonságosan tároltam, ezzel "
+"egyetértek a "
 
 #: templates/wallet/partials/signup_1_init.html:52
 #: templates/wallet/partials/wallet_2fa.html:33
@@ -1493,12 +1479,12 @@ msgstr ""
 #: templates/wallet/partials/wallet_receive.html:83
 #: templates/wallet/partials/signuplogin/header_pay.html:32
 msgid "Show QR Code"
-msgstr "Показать QR код"
+msgstr "QR kód megjelenítése"
 
 #: templates/wallet/partials/signup_1_init.html:55
 #: templates/wallet/partials/wallet_settings.html:462
 msgid "Write to NFC tag"
-msgstr "Записать на тег NFC"
+msgstr "NFC tag írása"
 
 #: templates/wallet/partials/signup_1_init.html:58
 #: templates/wallet/partials/wallet_settings.html:466
@@ -1510,20 +1496,20 @@ msgid ""
 "Warning: some printers store printed documents internally, so it can be "
 "insecure to print your mnemonic."
 msgstr ""
-"Внимание: некоторые принтеры хранят документы внутри, поэтому печать Вашей "
-"мнемоники может быть небезопасной."
+"Warning: some printers store printed documents internally, so it can be "
+"insecure to print your mnemonic."
 
 #: templates/wallet/partials/signup_1_init.html:61
 msgid "Print passphrase"
-msgstr "Напечатать фразу доступа"
+msgstr "Jelszó nyomtatása"
 
 #: templates/wallet/partials/signup_1_init.html:83
 msgid ""
 "This passphrase is encrypted, so<br/> your encryption password is required "
 "to use it."
 msgstr ""
-"This passphrase is encrypted, so<br/> your encryption password is required "
-"to use it."
+"Ez a tárcavisszaállító-kód titkosítva van,<br/> így a jelszavad szükséges a "
+"használatához."
 
 #: templates/wallet/partials/wallet_modal_usb_device.html:2
 msgid "Please connect/reconnect your wallet USB device to proceed."
@@ -1532,52 +1518,51 @@ msgstr "Please connect/reconnect your wallet USB device to proceed."
 #: templates/wallet/partials/wallet_2fa.html:13
 #: templates/wallet/partials/wallet_settings.html:399
 msgid "Phone"
-msgstr "Телефон"
+msgstr "Telefon"
 
 #: templates/wallet/partials/wallet_2fa.html:19
 msgid "Google Authenticator is enabled."
-msgstr "Google Authenticator включен."
+msgstr "A Google Authentikátor engedélyezve van."
 
 #: templates/wallet/partials/wallet_2fa.html:24
 msgid "Install app"
-msgstr "Установите приложение"
+msgstr "App telepítése"
 
 #: templates/wallet/partials/wallet_2fa.html:26
 msgid "Install the app on your device. For Android at "
-msgstr "Установите приложение на ваше устройство. Для Android с "
+msgstr "Telepítsd az alkalmazást az Android készülékedre itt: "
 
 #: templates/wallet/partials/wallet_2fa.html:26
 msgid " while for iOS at "
-msgstr " в то время как для iOS с "
+msgstr " míg a iOS-re itt: "
 
 #: templates/wallet/partials/wallet_2fa.html:30
 msgid "Add account"
-msgstr "Добавить аккаунт"
+msgstr "Fiók hozzáadása"
 
 #: templates/wallet/partials/wallet_2fa.html:32
 msgid ""
 "Add an account to the Google Authenticator App and scan the QR code or "
 "manually enter exact code."
 msgstr ""
-"Добавьте учетную запись в приложение Google Authenticator и сканируйте QR-"
-"код или вручную введите точный код."
+"Add an account to the Google Authenticator App and scan the QR code or "
+"manually enter exact code."
 
 #: templates/wallet/partials/wallet_2fa.html:37
 msgid "Confirm code"
-msgstr "Подтвердите код"
+msgstr "Kód megerősítése"
 
 #: templates/wallet/partials/wallet_2fa.html:39
 msgid ""
 "Google Authenticator will now show a number which in order to complete the "
 "two factor setup you need to enter below."
 msgstr ""
-"Google Authenticator теперь отобразит номер, который для того, чтобы "
-"завершить установку двухфакторной проверки подлинности, необходимо ввести "
-"ниже."
+"Google Authenticator will now show a number which in order to complete the "
+"two factor setup you need to enter below."
 
 #: templates/wallet/partials/wallet_2fa.html:48
 msgid "Authenticator code"
-msgstr "Код проверки подлинности"
+msgstr "Authentikator kód"
 
 #: templates/wallet/partials/wallet_2fa.html:53
 #: templates/wallet/partials/wallet_2fa.html:100
@@ -1588,7 +1573,7 @@ msgstr "Код проверки подлинности"
 #: templates/wallet/partials/wallet_settings.html:384
 #: templates/wallet/partials/wallet_settings.html:424
 msgid "Please enter received code"
-msgstr "Пожалуйста введите полученный код"
+msgstr "Légyszives írd be a kapott kódot"
 
 #: templates/wallet/partials/wallet_2fa.html:55
 #: templates/wallet/partials/wallet_2fa.html:81
@@ -1603,19 +1588,19 @@ msgstr "Пожалуйста введите полученный код"
 #: templates/wallet/partials/wallet_settings.html:410
 #: templates/wallet/partials/wallet_settings.html:426
 msgid "Enable"
-msgstr "Включить"
+msgstr "Engedélyezés"
 
 #: templates/wallet/partials/wallet_2fa.html:68
 msgid "Email two factor authentication is enabled."
-msgstr "кода проверки подлинности через Email включен."
+msgstr "Email two factor authentication is enabled."
 
 #: templates/wallet/partials/wallet_2fa.html:74
 msgid "Your email address"
-msgstr "Ваш емаил адрес"
+msgstr "E-mail címed"
 
 #: templates/wallet/partials/wallet_2fa.html:79
 msgid "Please enter your email"
-msgstr "Пожалуйста введите ваш емаил"
+msgstr "Add meg az email címed"
 
 #: templates/wallet/partials/wallet_2fa.html:90
 msgid ""
@@ -1623,109 +1608,109 @@ msgid ""
 "authentication.<br>                Please open your email and provide the "
 "code."
 msgstr ""
-"Вам нужно предоставить один код с вашей электронной почты, чтобы настроить "
-"двухфакторную проверку подлинности.<br>Пожалуйста откройте вашу электронную "
-"почту и введите код."
+"Meg kell adnod az e-mailedre küldött kódot, hogy létre hozzhassuk a két "
+"faktoros azonosítást.<br>Légy szíves nézd meg az email fiókod, és ad meg a "
+"kódot."
 
 #: templates/wallet/partials/wallet_2fa.html:95
 #: templates/wallet/partials/wallet_settings.html:127
 msgid "Email code"
-msgstr "Послать код в по емаилу"
+msgstr "Email kód"
 
 #: templates/wallet/partials/wallet_2fa.html:113
 msgid "SMS two factor authentication is enabled."
-msgstr "Включена SMS двухфакторная проверка подлинности."
+msgstr "A két faktoros SMS hitelesítés engedélyezve van."
 
 #: templates/wallet/partials/wallet_2fa.html:118
 #: templates/wallet/partials/wallet_2fa.html:160
 #: templates/wallet/partials/wallet_settings.html:363
 #: templates/wallet/partials/wallet_settings.html:403
 msgid "Your phone number"
-msgstr "Ваш телефонный номер"
+msgstr "A telefonszámod"
 
 #: templates/wallet/partials/wallet_2fa.html:122
 #: templates/wallet/partials/wallet_2fa.html:164
 #: templates/wallet/partials/wallet_settings.html:368
 #: templates/wallet/partials/wallet_settings.html:408
 msgid "+NN... Please enter your phone"
-msgstr "Пожалуйста введите ваш телефон"
+msgstr "+ NN... Légyszíves, ad meg a telefonszámod"
 
 #: templates/wallet/partials/wallet_2fa.html:132
 msgid ""
 "You need to provide one SMS code to set up the two factor authentication."
 "<br>                Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один SMS код для установки двухфакторной "
-"проверки подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"Meg kell adnod az SMS-ben kapott kódot a két faktoros azonosítást "
+"beállításához<br>Légyszives nézd meg a telefonodban, és írd be a kódot."
 
 #: templates/wallet/partials/wallet_2fa.html:137
 #: templates/wallet/partials/wallet_settings.html:379
 msgid "SMS code"
-msgstr "Код SMS"
+msgstr "SMS-kód"
 
 #: templates/wallet/partials/wallet_2fa.html:155
 msgid "Phone call two factor authentication is enabled."
-msgstr "Двух-факторная аутентификация через телефонный звонок включена."
+msgstr "Telefonhívásos két faktoros hitelesítés engedélyezve van."
 
 #: templates/wallet/partials/wallet_2fa.html:174
 msgid ""
 "You need to provide one code to set up the two factor authentication."
 "<br>                Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один код для установки двухфакторной проверки "
-"подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"Meg kell adnod az SMS-ben kapott kódot a két faktoros azonosítást "
+"beállításához<br>Légyszives nézd meg a telefonodban, és írd be a kódot."
 
 #: templates/wallet/partials/wallet_2fa.html:179
 #: templates/wallet/partials/wallet_settings.html:419
 msgid "Phone code"
-msgstr "Телефонный код"
+msgstr "Telefon kód"
 
 #: templates/wallet/partials/wallet_transactions_table.html:1
 msgid "New transactions! Sort by descending date to see them."
-msgstr "Новый транзакции! Сортируйте за датой по убыванию чтобы, увидеть их."
+msgstr "Új tranzakciók! Rendezd dátum szerint csökkenően, hogy láthasd őket."
 
 #: templates/wallet/partials/wallet_transactions_table.html:2
 msgid "Newly confirmed transactions! Sort by descending date to see them."
 msgstr ""
-"Новые подтвержденные транзакции! Сортируйте за датой по убыванию, чтобы "
-"увидеть их."
+"Újonnan megerősített tranzakciók! Rendezd dátum szerint csökkenően, hogy "
+"láthasd őket."
 
 #: templates/wallet/partials/wallet_transactions_table.html:8
 msgid "Date"
-msgstr "Дата"
+msgstr "Dátum"
 
 #: templates/wallet/partials/wallet_transactions_table.html:9
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:14
 msgid "Description"
-msgstr "Описание"
+msgstr "Leírás"
 
 #: templates/wallet/partials/wallet_transactions_table.html:32
 msgid "instant GreenAddress confirmation"
-msgstr "Мгновенное GreenAddress подтверждение"
+msgstr "azonnali GreenAddress megerősítés"
 
 #: templates/wallet/partials/wallet_transactions_table.html:33
 msgid "double spend"
-msgstr "двойная трата"
+msgstr "dupla költés"
 
 #: templates/wallet/partials/wallet_transactions_table.html:34
 msgid "unconfirmed"
-msgstr "Неподтверждено"
+msgstr "meg nem erősített"
 
 #: templates/wallet/partials/wallet_transactions_table.html:35
 msgid "confirmations"
-msgstr "Подтверждения"
+msgstr "megerősítések"
 
 #: templates/wallet/partials/wallet_transactions_table.html:38
 msgid "take funds back"
-msgstr "вернуть средства"
+msgstr "pénz visszavétele"
 
 #: templates/wallet/partials/wallet_transactions_table.html:41
 msgid "Regenerate voucher"
-msgstr "Регенерировать ваучер"
+msgstr "Utalvány újragenerálása"
 
 #: templates/wallet/partials/wallet_transactions_table.html:44
 msgid "Regenerate encrypted voucher"
-msgstr "Регенерировать зашифрованный ваучер"
+msgstr "Regenerate encrypted voucher"
 
 #: templates/wallet/partials/wallet_transactions_table.html:58
 #, fuzzy
@@ -1734,11 +1719,11 @@ msgstr "Logging in, please wait..."
 
 #: templates/wallet/partials/wallet_transactions_table.html:61
 msgid "No transactions found..."
-msgstr "Транзакции не найдены..."
+msgstr "Nem található tranzakció..."
 
 #: templates/wallet/partials/wallet_transactions_table.html:64
 msgid "Show more transactions..."
-msgstr "Показать больше транзакций..."
+msgstr "További tranzakciók megjelenítése..."
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:2
 msgid "Confirm changing the pricing source"
@@ -1754,24 +1739,24 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_modal_logout.html:5
 msgid "Do you want to log out?"
-msgstr "Вы хотите выйти?"
+msgstr "Szeretnél kijelentkezni?"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:4
 msgid "Please send the Facebook message."
-msgstr "Пожалуйста отправьте сообщение через Facebook"
+msgstr "Légyszives küld a Facebook üzenetet."
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:6
 #: templates/wallet/partials/wallet_settings.html:620
 msgid "Send"
-msgstr "Отправить"
+msgstr "Küldés"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:11
 msgid "Cancel - revert transaction"
-msgstr "Отменить - аннулировать транзакцию"
+msgstr "Mégse - tranzakció visszaállítása"
 
 #: templates/wallet/partials/wallet_modal_fb_message.html:12
 msgid "I have sent the message"
-msgstr "Я послал/а сообщение"
+msgstr "Küldtem az üzenetet"
 
 #: templates/wallet/partials/wallet_modal_tx_redeem.html:2
 msgid "Take funds back"
@@ -1839,17 +1824,17 @@ msgstr "Verify"
 
 #: templates/wallet/partials/signup_4_oauth.html:14
 msgid "Pay or get paid by social networks"
-msgstr "Платите или получайте платежы через социальные сети"
+msgstr "Fizess vagy kapj fizetést szociális hálózatokról"
 
 #: templates/wallet/partials/signup_4_oauth.html:14
 msgid "Grant access to your wallet in watch-only mode"
-msgstr "Предоставить доступ к вашему кошельку в режиме \"только наблюдение\""
+msgstr "Engedélyez hozzáférést tárcádhoz, csak cím-követő módban"
 
 #: templates/wallet/partials/signup_4_oauth.html:23
 #: templates/wallet/partials/wallet_settings.html:212
 #: templates/wallet/partials/signuplogin/base.html:73
 msgid "Custom Login"
-msgstr "Персонализированный вход"
+msgstr "Egyéni bejelentkezés"
 
 #: templates/wallet/partials/signup_4_oauth.html:26
 msgid ""
@@ -1857,11 +1842,9 @@ msgid ""
 "When you login in this way you access a completely separate \"area\" of your "
 "wallet, in no way it can be compromised and payments cannot be made"
 msgstr ""
-"Если Вы хотите, Вы можете получить доступ к своему кошельку в режиме только "
-"для наблюдения используя простой вход. Когда вы входите таким образом, вы "
-"получаете доступ к совершенно отдельный «области» вашего кошелька, и таким "
-"образом он не может быть скомпрометирован и никакие платежи не могут быть "
-"проведены"
+"Egy egyszerű belépéssel csak-néző módban is elérheted a pénztárcád. Ha így "
+"lépsz be, akkor egy külön részét éred el a pénztárcádnak, nem veszélyeztetve "
+"azt és fizetés sem lehetséges róla"
 
 #: templates/wallet/partials/signup_4_oauth.html:29
 msgid ""
@@ -1870,86 +1853,84 @@ msgid ""
 "can easily login in 'watch-only mode' safely from any wi-fi, on the go or "
 "even at Starbucks!"
 msgstr ""
-"Плюс, используйте Ваш адрес электронной почты или имя Facebook для получения "
-"платежей! Больше не нужно помнить длинных и сложных адресов. Это значит, что "
-"вы можете легко войти режиме 'только наблюдения' безопасно в любой wi-fi "
-"сети, на ходу или даже в Starbucks!"
+"Ezenfelül használd az email-ed vagy a Facebook neved pénz fogadására. Nem "
+"kell többé hosszú és bonyolult címekre emlékezned és elküldened. Ez azt "
+"jelenti, hogy egyszerűen beléphetsz csak néző módban bármilyen wi-fi "
+"hálózaton, akár útközben a Starbucks-ban is!"
 
 #: templates/wallet/partials/signup_4_oauth.html:35
 msgid "Take me to my wallet!"
-msgstr "Веди меня к кошельку"
+msgstr "Mutassd a tárcám!"
 
 #: templates/wallet/partials/signup_4_oauth.html:36
 msgid "Processing..."
-msgstr "Обрабатывается..."
+msgstr "Feldolgozás..."
 
 #: templates/wallet/partials/signup_nfc_modal.html:2
 msgid "There was a problem writing to the NFC tag:"
-msgstr "Возникла проблема при записи к метке NFC:"
+msgstr "Volt egy probléma a NFC-címke írásával :"
 
 #: templates/wallet/partials/signup_nfc_modal.html:5
 msgid "Initialising NFC tags listener..."
-msgstr "Инициализация слушателя NFC меток..."
+msgstr "NFC-címkék hallgató inicializálása..."
 
 #: templates/wallet/partials/signup_nfc_modal.html:8
 msgid "Please hold your tag(s) close to the device to write your wallet!"
-msgstr ""
-"Пожалуйста, держите ваши метки (метку) рядом с устройством для записи вашего "
-"кошелька!"
+msgstr "Please hold your tag(s) close to the device to write your wallet!"
 
 #: templates/wallet/partials/signup_nfc_modal.html:9
 msgid "Tags written:"
-msgstr "Записанные теги:"
+msgstr "Címkék megírva:"
 
 #: templates/wallet/partials/signup_nfc_modal.html:10
 msgid "Tags formatted:"
-msgstr "Форматированные теги:"
+msgstr "Címkék megformázva:"
 
 #: templates/wallet/partials/signup_nfc_modal.html:13
 msgid ""
 "Your NFC is not enabled or not available. If available, please enable it in "
 "settings"
 msgstr ""
-"Ваш NFC не включен или не доступен. Если возможно, пожалуйста, включите его "
-"в настройках"
+"Your NFC is not enabled or not available. If available, please enable it in "
+"settings"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:4
 msgid "Please provide username and password."
-msgstr "Пожалуйста, введите логин и пароль."
+msgstr "Kérjük, add meg felhasználóneved és jelszavad."
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:8
 msgid "Enter your username"
-msgstr "Введите пользовательское имя"
+msgstr "Írd be felhasználóneved"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:14
 msgid "Enter your password"
-msgstr "Введите пароль"
+msgstr "Add meg a jelszavad"
 
 #: templates/wallet/partials/wallet_modal_pin.html:4
 msgid ""
 "You can create a 4-digit personal identification number used to retrieve the "
 "password encrypting the mnemonic passphrase."
 msgstr ""
-"Вы можете создать 4-значный персональный идентификационный номер, "
-"используемый для извлечения пароля шифрования мнемонической парольной фразы."
+"You can create a 4-digit personal identification number used to retrieve the "
+"password encrypting the mnemonic passphrase."
 
 #: templates/wallet/partials/wallet_modal_pin.html:14
 msgid "PIN must be a 4-digit number"
-msgstr "PIN-код должен быть 4-значный номер"
+msgstr "PIN must be a 4-digit number"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:2
 msgid "The QR code for Google Authenticator access to your wallet is:"
-msgstr "QR-код для Google Authenticator доступа на ваш кошелек является:"
+msgstr "A tárcád eléréséhez kötelező Google Authentikator QR-kód:"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:4
 msgid "You can also copy the code manually:"
-msgstr "Вы можете также скопировать код вручную:"
+msgstr "A kódot kézzel is másolhatod:"
 
 #: templates/wallet/partials/wallet_modal_gauth_qr.html:9
 #: templates/wallet/partials/wallet_receive.html:58
 #: templates/wallet/partials/wallet_receive.html:81
 msgid "Copy to clipboard"
-msgstr "Copy to clipboard"
+msgstr "Másolás a vágólapra"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:3
 msgid ""
@@ -1958,10 +1939,10 @@ msgid ""
 "entering wrong PIN 3 times in a row. <strong>You will lose your keys "
 "currently stored on the device.</strong>"
 msgstr ""
-"Ваш BTChip уже настроен. Чтобы использовать его с GreenAddress, необходимо "
-"его перегрузить. Вы хотите перегрузить Ваш BTChip? Это будет сделано после "
-"ввода неправильного PIN-кода 3 раза подряд. <strong>Вы  потеряете Ваши "
-"ключи, которые в данный момент хранятся на устройстве.</strong>"
+"Your BTChip is already set up. To use it with GreenAddress, you need to "
+"reset it. Do you want to reset your BTChip? This will be performed by "
+"entering wrong PIN 3 times in a row. <strong>You will lose your keys "
+"currently stored on the device.</strong>"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:4
 msgid "Reset my BTChip"
@@ -2024,92 +2005,93 @@ msgstr ""
 #: templates/wallet/partials/wallet_send.html:12
 #, fuzzy
 msgid "From account"
-msgstr "Добавить аккаунт"
+msgstr "Fiók hozzáadása"
 
 #: templates/wallet/partials/wallet_send.html:20
 msgid "Voucher Text (optional)"
-msgstr "Voucher Text (optional)"
+msgstr "Utalvány szövege (opcionális)"
 
 #: templates/wallet/partials/wallet_send.html:21
 msgid "Recipient"
-msgstr "Получатель"
+msgstr "Címzett"
 
 #: templates/wallet/partials/wallet_send.html:24
 msgid "Enter any clear text message that will appear on the voucher"
-msgstr "Enter any clear text message that will appear on the voucher"
+msgstr "Adj meg bármilyen, az utalványon megjelenítendő szöveget"
 
 #: templates/wallet/partials/wallet_send.html:35
 msgid "Enter recipient's bitcoin address, email or  Facebook account name"
 msgstr ""
-"Введите Bitcoin-адрес получателя, email или имя Facebook/Twitter аккаунта"
+"Add meg a címzett bitcoin címét, email címét vagy Facebook fiókjának nevét"
 
 #: templates/wallet/partials/wallet_send.html:41
 msgid "Paste"
-msgstr "Paste"
+msgstr "Beillesztés"
 
 #: templates/wallet/partials/wallet_send.html:68
 msgid "Create a voucher instead of sending to a recipient"
-msgstr "Create a voucher instead of sending to a recipient"
+msgstr "Utalvány létrehozása címzettnek küldés helyett"
 
 #: templates/wallet/partials/wallet_send.html:74
 msgid "Encryption passphrase"
-msgstr "Фраза шифровки"
+msgstr "Titkosítási jelszó"
 
 #: templates/wallet/partials/wallet_send.html:77
 msgid ""
 "The receiving private key will not be encrypted unless you provide a "
 "passphrase. Unencrypted private keys are prone to eavesdropping!"
 msgstr ""
-"The receiving private key will not be encrypted unless you provide a "
-"passphrase. Unencrypted private keys are prone to eavesdropping!"
+"A fogadó személyes kulcs nem lesz titkosítva, hacsak nem adsz meg egy "
+"jelszót. A pénz könnyen ellopható, ha a személyes kulcs titkosítatlan!"
 
 #: templates/wallet/partials/wallet_send.html:113
 msgid "will be added to the amount"
-msgstr "will be added to the amount"
+msgstr "hozzá lesz adva az összeghez"
 
 #: templates/wallet/partials/wallet_send.html:119
 msgid "Requires recipient to trust GreenAdress instant confirmations"
-msgstr "Requires recipient to trust GreenAdress instant confirmations"
+msgstr ""
+"A címzettnek meg kell bíznia a GreenAddress azonnali visszaigazolásokban"
 
 #: templates/wallet/partials/wallet_send.html:121
 msgid "Instant Confirmation"
-msgstr "Instant Confirmation"
+msgstr "Azonnali visszaigazolással"
 
 #: templates/wallet/partials/wallet_send.html:127
 msgid "Memo"
-msgstr ""
+msgstr "Megjegyzés"
 
 #: templates/wallet/partials/wallet_send.html:131
 msgid "You can enter a memo to store in your transactions list"
-msgstr ""
+msgstr "You can enter a memo to store in your transactions list"
 
 #: templates/wallet/partials/wallet_send.html:140
 msgid "Verifying"
-msgstr "Verifying"
+msgstr "Ellenőrzés"
 
 #: templates/wallet/partials/wallet_send.html:141
 msgid "Signing"
-msgstr "Signing"
+msgstr "Aláírás"
 
 #: templates/wallet/partials/wallet_send.html:142
 msgid "Create a Voucher"
-msgstr "Create a Voucher"
+msgstr "Utalvány létrehozása"
 
 #: templates/wallet/partials/wallet_send.html:157
 msgid "calculating"
-msgstr "Вычисляю ..."
+msgstr "Számolás"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:2
 msgid "Outputs expiring soon"
-msgstr "Выходы, срок действия которых скоро заканчивается"
+msgstr "Kimenetek hamarosan lejárnak"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:7
 msgid "No active nLockTime transactions found"
-msgstr "Активных nLockTime транзакций не найдено"
+msgstr "Nem található aktív nLockTime tranzakció"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:9
 msgid "Transaction hash, output number"
-msgstr "Хеш транзакции, номер выхода"
+msgstr "Tranzakció hash, kimeneti szám"
 
 #: templates/wallet/partials/wallet_modal_expiring_soon.html:9
 #: templates/wallet/partials/wallet_settings.html:473
@@ -2118,60 +2100,60 @@ msgstr "nLockTime"
 
 #: templates/wallet/partials/wallet_settings.html:5
 msgid "General Settings"
-msgstr "General Settings"
+msgstr "Általános beállítások"
 
 #: templates/wallet/partials/wallet_settings.html:11
 msgid "Currency"
-msgstr "Валюта"
+msgstr "pénznem"
 
 #: templates/wallet/partials/wallet_settings.html:12
 msgid "Select your currency and pricing source."
-msgstr "Выберете валюту и источник цен"
+msgstr "Select your currency and pricing source."
 
 #: templates/wallet/partials/wallet_settings.html:17
 msgid "Pricing source to use"
-msgstr "Обмен использовать"
+msgstr "Pricing source to use"
 
 #: templates/wallet/partials/wallet_settings.html:31
 msgid "Show amounts in"
-msgstr "Показать суммы в БТД"
+msgstr "Összegek megjelenítése"
 
 #: templates/wallet/partials/wallet_settings.html:44
 msgid "Sound"
-msgstr "Sound"
+msgstr "Hang"
 
 #: templates/wallet/partials/wallet_settings.html:45
 msgid "Enable or disable sounds"
-msgstr "Enable or disable sounds"
+msgstr "Engedélyezi vagy letiltja a hangokat"
 
 #: templates/wallet/partials/wallet_settings.html:53
 msgid "Enable sounds"
-msgstr "Enable sounds"
+msgstr "Engedélyezi a hangok"
 
 #: templates/wallet/partials/wallet_settings.html:62
 msgid "Language"
-msgstr "Language"
+msgstr "Nyelv"
 
 #: templates/wallet/partials/wallet_settings.html:63
 msgid "Change language to"
-msgstr "Поменять язык на"
+msgstr "Change language to"
 
 #: templates/wallet/partials/wallet_settings.html:92
 msgid "Link handler"
-msgstr "Обработчик ссылки"
+msgstr "Link handler"
 
 #: templates/wallet/partials/wallet_settings.html:93
 msgid "Use GreenAddress to handle bitcoin: links."
-msgstr "Использовать GreenAddress для обработки bitcoin: ссылки."
+msgstr "Use GreenAddress to handle bitcoin: links."
 
 #: templates/wallet/partials/wallet_settings.html:96
 msgid "Enable Handler"
-msgstr "Включить обработчик"
+msgstr "Enable Handler"
 
 #: templates/wallet/partials/wallet_settings.html:108
 #: templates/wallet/partials/wallet_settings.html:322
 msgid "Email"
-msgstr "Эл. почта"
+msgstr "E-mail"
 
 #: templates/wallet/partials/wallet_settings.html:109
 msgid ""
@@ -2183,7 +2165,7 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_settings.html:114
 msgid "Change email address"
-msgstr "Change email address"
+msgstr "E-mail-cím megváltoztatása"
 
 #: templates/wallet/partials/wallet_settings.html:115
 msgid "Set email address"
@@ -2191,7 +2173,7 @@ msgstr "Set email address"
 
 #: templates/wallet/partials/wallet_settings.html:117
 msgid "Your email adddress"
-msgstr "Your email adddress"
+msgstr "E-mail címed"
 
 #: templates/wallet/partials/wallet_settings.html:123
 msgid ""
@@ -2205,7 +2187,7 @@ msgstr ""
 #: templates/wallet/partials/wallet_settings.html:166
 #: templates/wallet/partials/wallet_settings.html:180
 msgid "Confirm"
-msgstr "Подтвердить"
+msgstr "Megerősít"
 
 #: templates/wallet/partials/wallet_settings.html:140
 msgid ""
@@ -2217,90 +2199,88 @@ msgstr ""
 
 #: templates/wallet/partials/wallet_settings.html:140
 msgid "Request another code"
-msgstr "Request another code"
+msgstr "Kérj egy másik kódot"
 
 #: templates/wallet/partials/wallet_settings.html:149
 msgid "Enable a simple PIN to quickly access your wallet from this device."
-msgstr ""
-"Включить простой PIN-код для быстрого доступа к вашему кошельку c этого "
-"устройства."
+msgstr "Enable a simple PIN to quickly access your wallet from this device."
 
 #: templates/wallet/partials/wallet_settings.html:157
 msgid "Enable quick login on this device"
-msgstr "Разрешает быстрый вход на этом устройстве"
+msgstr "Enable quick login on this device"
 
 #: templates/wallet/partials/wallet_settings.html:161
 msgid "Change PIN number"
-msgstr "Изменить PIN-код"
+msgstr "Change PIN number"
 
 #: templates/wallet/partials/wallet_settings.html:162
 msgid "Set PIN number"
-msgstr "Установить PIN-код"
+msgstr "Set PIN number"
 
 #: templates/wallet/partials/wallet_settings.html:164
 #: templates/wallet/partials/signup_3_pin.html:22
 msgid "4-15 digits number"
-msgstr "4-15 digits number"
+msgstr "4-től 15 hosszú számjegy"
 
 #: templates/wallet/partials/wallet_settings.html:170
 msgid "Disable quick login on all devices"
-msgstr "Запретить быстрый вход на всех устройствах"
+msgstr "Disable quick login on all devices"
 
 #: templates/wallet/partials/wallet_settings.html:174
 msgid "set PIN to"
-msgstr "поменять ПИН номер на"
+msgstr "set PIN to"
 
 #: templates/wallet/partials/wallet_settings.html:176
 #: templates/wallet/partials/signup_3_pin.html:18
 msgid "PIN number"
-msgstr "ПИН номер"
+msgstr "PIN kód"
 
 #: templates/wallet/partials/wallet_settings.html:179
 msgid "Remove"
-msgstr "Удалить"
+msgstr "Eltávolít"
 
 #: templates/wallet/partials/wallet_settings.html:191
 msgid "Link your own third party accounts"
-msgstr "Привязать Ваши другие аккаунты"
+msgstr "Link your own third party accounts"
 
 #: templates/wallet/partials/wallet_settings.html:192
 msgid ""
 "Allow social payments and watch-only login to your wallet via your own third "
 "party accounts."
 msgstr ""
-"Разрешить платежы аккаунты социальных сетей и Только-Наблюдение вход в Ваш "
-"кошелек через Ваши другие аккаунты."
+"Allow social payments and watch-only login to your wallet via your own third "
+"party accounts."
 
 #: templates/wallet/partials/wallet_settings.html:218
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr "Username"
 
 #: templates/wallet/partials/wallet_settings.html:219
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:10
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:8
 msgid "Password"
-msgstr "Пароль"
+msgstr "Jelszó"
 
 #: templates/wallet/partials/wallet_settings.html:228
 msgid "Notifications"
-msgstr "Уведомления"
+msgstr "Értesítések"
 
 #: templates/wallet/partials/wallet_settings.html:229
 msgid ""
 "Notifications allow for improved security when configured for outgoing and "
 "for most up to date information when configured for incoming"
 msgstr ""
-"Уведомления позволяют повысить уровень безопасности при настройке исходящих "
-"и для большинства актуальную информацию, когда настроен для входящих"
+"Notifications allow for improved security when configured for outgoing and "
+"for most up to date information when configured for incoming"
 
 #: templates/wallet/partials/wallet_settings.html:235
 msgid "Send incoming transaction notification by"
-msgstr "Отправить уведомление о входящей транзакции через"
+msgstr "Send incoming transaction notification by"
 
 #: templates/wallet/partials/wallet_settings.html:241
 #: templates/wallet/partials/wallet_settings.html:261
 msgid "email"
-msgstr "Эл. почта"
+msgstr "e-mail"
 
 #: templates/wallet/partials/wallet_settings.html:248
 #: templates/wallet/partials/wallet_settings.html:268
@@ -2310,7 +2290,7 @@ msgstr "SMS"
 
 #: templates/wallet/partials/wallet_settings.html:255
 msgid "Send outgoing transaction notification by"
-msgstr "Отправить уведомление о исходящей транзакции"
+msgstr "Send outgoing transaction notification by"
 
 #: templates/wallet/partials/wallet_settings.html:274
 msgid "You need to have a confirmed email enabled for this feature to work."
@@ -2318,7 +2298,7 @@ msgstr "You need to have a confirmed email enabled for this feature to work."
 
 #: templates/wallet/partials/wallet_settings.html:282
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "Adatvédelem"
 
 #: templates/wallet/partials/wallet_settings.html:283
 msgid ""
@@ -2345,16 +2325,16 @@ msgstr ""
 #: templates/wallet/partials/wallet_settings.html:291
 #: templates/wallet/partials/wallet_settings.html:302
 msgid "Everyone"
-msgstr "Everyone"
+msgstr "Mindenki"
 
 #: templates/wallet/partials/wallet_settings.html:292
 msgid "Addressbook contacts"
-msgstr "Addressbook contacts"
+msgstr "Címjegyzék kapcsolatok"
 
 #: templates/wallet/partials/wallet_settings.html:293
 #: templates/wallet/partials/wallet_settings.html:304
 msgid "No one"
-msgstr "No one"
+msgstr "Senki sem"
 
 #: templates/wallet/partials/wallet_settings.html:299
 msgid "Show my email/Reddit handle as sender to "
@@ -2376,13 +2356,11 @@ msgstr "Mutually added in addressbook"
 
 #: templates/wallet/partials/wallet_settings.html:314
 msgid "Set any or all two factor: you can choose which one when needed!"
-msgstr ""
-"Установите двух-фактор выборочно или для всего: Вы можете выбрать, что Вам "
-"необходимо!"
+msgstr "Set any or all two factor: you can choose which one when needed!"
 
 #: templates/wallet/partials/wallet_settings.html:332
 msgid "Google Authenticator"
-msgstr "Aвтентикатор Google "
+msgstr "A Google Authentikátor"
 
 #: templates/wallet/partials/wallet_settings.html:335
 msgid ""
@@ -2390,33 +2368,33 @@ msgid ""
 "authentication.<br>                    Please scan the QR code below, and "
 "provide the code."
 msgstr ""
-"Вам нужно предоставить один Google Authenticator код для установки "
-"двухфакторной проверки подлинности.<br>Пожалуйста отсканируйте QR код ниже и "
-"предоставьте код."
+"You need to provide one Google Authenticator code to set up the two factor "
+"authentication.<br>                    Please scan the QR code below, and "
+"provide the code."
 
 #: templates/wallet/partials/wallet_settings.html:339
 msgid "Code"
-msgstr "Код"
+msgstr "Kód"
 
 #: templates/wallet/partials/wallet_settings.html:376
 msgid ""
 "You need to provide one SMS code to set up the two factor authentication."
 "<br>                    Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один SMS код для установки двухфакторной "
-"проверки подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"You need to provide one SMS code to set up the two factor authentication."
+"<br>                    Please check your phone and provide the code."
 
 #: templates/wallet/partials/wallet_settings.html:416
 msgid ""
 "You need to provide one phone code to set up the two factor authentication."
 "<br>                    Please check your phone and provide the code."
 msgstr ""
-"Вам необходимо предоставить один код для установки двухфакторной проверки "
-"подлинности.<br>Пожалуйста проверьте ваш телефон и введите код."
+"You need to provide one phone code to set up the two factor authentication."
+"<br>                    Please check your phone and provide the code."
 
 #: templates/wallet/partials/wallet_settings.html:438
 msgid "Auto logout"
-msgstr "Auto logout"
+msgstr "Automatikus kilépés"
 
 #: templates/wallet/partials/wallet_settings.html:439
 msgid "Configure auto logout after some inactivity timeout"
@@ -2424,23 +2402,22 @@ msgstr "Configure auto logout after some inactivity timeout"
 
 #: templates/wallet/partials/wallet_settings.html:443
 msgid "Minutes"
-msgstr "Minutes"
+msgstr "Perc"
 
 #: templates/wallet/partials/wallet_settings.html:445
 msgid "Timeout minutes"
-msgstr "Timeout minutes"
+msgstr "Timeout perc"
 
 #: templates/wallet/partials/wallet_settings.html:455
 #: templates/wallet/partials/wallet_settings.html:459
 msgid "Show mnemonic"
-msgstr "Показать мнемонику"
+msgstr "Show mnemonic"
 
 #: templates/wallet/partials/wallet_settings.html:456
 msgid ""
 "Display your mnemonic for account recovery or cloning on another device."
 msgstr ""
-"Покажите ваше мнемонику для восстановления счета или клонирования на другом "
-"устройстве."
+"Display your mnemonic for account recovery or cloning on another device."
 
 #: templates/wallet/partials/wallet_settings.html:460
 msgid "Show encrypted mnemonic"
@@ -2464,19 +2441,19 @@ msgstr "Allow redeeming funds without GreenAddress' signature after"
 
 #: templates/wallet/partials/wallet_settings.html:482
 msgid "blocks"
-msgstr "блоков"
+msgstr "blocks"
 
 #: templates/wallet/partials/wallet_settings.html:488
 msgid ""
 "Both outgoing and incoming transaction notifications must be enabled for "
 "this feature to work."
 msgstr ""
-"Уведомления для входящих так и исходящих транзакций должны быть включены для "
-"работы этой функции."
+"Both outgoing and incoming transaction notifications must be enabled for "
+"this feature to work."
 
 #: templates/wallet/partials/wallet_settings.html:491
 msgid "Show outputs expiring soon"
-msgstr "Показать выходы, срок которых скоро заканчивается"
+msgstr "Show outputs expiring soon"
 
 #: templates/wallet/partials/wallet_settings.html:492
 msgid "Send all nLockTime transactions by email"
@@ -2484,15 +2461,15 @@ msgstr "Send all nLockTime transactions by email"
 
 #: templates/wallet/partials/wallet_settings.html:500
 msgid "Spending limits"
-msgstr "Потолок траты"
+msgstr "Spending limits"
 
 #: templates/wallet/partials/wallet_settings.html:501
 msgid ""
 "Set some limits for which you won't be asked for two factor for super "
 "userfriendly payments."
 msgstr ""
-"Установите лимиты для которых не нужен код двухфакторной проверки "
-"подлинности для полного удобства."
+"Set some limits for which you won't be asked for two factor for super "
+"userfriendly payments."
 
 #: templates/wallet/partials/wallet_settings.html:504
 msgid ""
@@ -2508,27 +2485,27 @@ msgstr "Change limits"
 
 #: templates/wallet/partials/wallet_settings.html:537
 msgid "Delayed payments"
-msgstr "Отсроченные платежи"
+msgstr "Delayed payments"
 
 #: templates/wallet/partials/wallet_settings.html:538
 msgid ""
 "Delay transaction for super ease of mind: works best in conjuction with "
 "outgoing notifications."
 msgstr ""
-"Отстрочивайте транзакции для Вашего спокойствия: лучше работает вместе с "
-"исходящими уведомлениями."
+"Delay transaction for super ease of mind: works best in conjuction with "
+"outgoing notifications."
 
 #: templates/wallet/partials/wallet_settings.html:546
 msgid "Enable delayed payments"
-msgstr "Включить платежи с отстрочкой"
+msgstr "Enable delayed payments"
 
 #: templates/wallet/partials/wallet_settings.html:547
 msgid "Coming soon"
-msgstr "Скоро будет"
+msgstr "Hamarosan"
 
 #: templates/wallet/partials/wallet_settings.html:552
 msgid "Delay payments of"
-msgstr "Задержать платеж"
+msgstr "Delay payments of"
 
 #: templates/wallet/partials/wallet_settings.html:570
 #: templates/wallet/partials/wallet_settings.html:574
@@ -2570,65 +2547,66 @@ msgstr "Remove account"
 #: templates/wallet/partials/wallet_settings.html:606
 #, fuzzy
 msgid "Actions"
-msgstr "Транзакции"
+msgstr "Tranzakció"
 
 #: templates/wallet/partials/wallet_settings.html:618
 #, fuzzy
 msgid "Rename"
-msgstr "Имя пользователя"
+msgstr "Username"
 
 #: templates/wallet/partials/wallet_settings.html:621
 #, fuzzy
 msgid "Receive"
-msgstr "Получить денежные средства"
+msgstr "Pénz fogadás"
 
 #: templates/wallet/partials/signup_0_warning.html:8
 msgid ""
 "For improved security continue the registration via our desktop or mobile "
 "apps"
 msgstr ""
-"Для повышенной безопасности, продолжите регистрацию через наше настольное "
-"или мобильное приложение"
+"A nagyobb biztonság érdekeben regisztráljon az asztali vagy mobil "
+"alkalmazásunkon keresztül"
 
 #: templates/wallet/partials/signup_0_warning.html:9
 msgid "Locally installed apps are generally more secure than websites"
-msgstr "Локально установленные приложения более безопасны веб-сайтов"
+msgstr ""
+"Helyileg telepített alkalmazások általában sokkal biztonságosabb, mint a "
+"weboldalak"
 
 #: templates/wallet/partials/signup_0_warning.html:12
 msgid ""
 "These apps are designed to protect you and your coins even in case the "
 "service is compromised and should be preferred over using the browser."
 msgstr ""
-"Эти приложения предназначены для защиты Ваших средств даже в случае если наш "
-"сервис скомпрометирован, предпочитайте пользоваться ими нежели браузером."
+"Ezek az alkalmazások célja, hogy megvédje Önt és pénzéet akkor is, ha a "
+"szolgáltatásunk megsérül, ezért használják őket a böngésző helyett, ha lehet."
 
 #: templates/wallet/partials/signup_0_warning.html:13
 msgid ""
 "Web access is intended to be used for watch only mode or if you have no "
 "alternative, like on the Windows Mobile platform."
 msgstr ""
-"Веб-доступ предназначен только для режима только наблюдения или если у Вас "
-"нет другой альтернативы, как на Windows мобильной платформе."
+"Web access is intended to be used for watch only mode or if you have no "
+"alternative, like on the Windows Mobile platform."
 
 #: templates/wallet/partials/signup_0_warning.html:16
 msgid ""
 "Please see the link to Google Play store, Chrome Web Store or AppStore below"
 msgstr ""
-"Пожалуйста, ссылки на Google Play store, Chrome Web Store или AppStore ниже"
+"Please see the link to Google Play store, Chrome Web Store or AppStore below"
 
 #: templates/wallet/partials/signup_0_warning.html:26
 msgid "Continue using web page"
-msgstr "Продолжить использование веб-страницы"
+msgstr "Használja tovább a weboldalt"
 
 #: templates/wallet/partials/signup_3_pin.html:14
 msgid "Fast and secure access to your Wallet"
-msgstr "Быстрый и безопасный доступ к Wallet"
+msgstr "Gyors és biztonságos hozzáférés a Tárcádhoz"
 
 #: templates/wallet/partials/signup_3_pin.html:14
 msgid "To have a secure but quick access from this device set your PIN"
 msgstr ""
-"Для того чтобы иметь безопасный но быстрый доступ с этого устройства, "
-"установите PIN-код"
+"A biztonságos, de a gyors hozzáféréshez készíts egy hozzáférési PIN-kódot"
 
 #: templates/wallet/partials/signup_3_pin.html:29
 msgid ""
@@ -2638,27 +2616,27 @@ msgid ""
 "to provide your full mnemonics once again. Easy, convenient and secure, so "
 "let's use it!"
 msgstr ""
-"Доступ через PIN-код разрешает быстрый вход в Ваш кошелек сохраняя при этом "
-"безопасность на высоком уровне. PIN-код защищает случайный AES 256-битный "
-"пароль, который будет удален в случае 3 не успешных попыток ввода PIN-кода и "
-"тогда Ваша мнемоника должна будет предоставлена полностью. Легко, удобно и "
-"безопасно. Пользуйтесь!"
+"Access by PIN allows a quick login while keeping security to a high "
+"standard.                    The PIN secures a random AES 256 bit password "
+"which we will delete if 3 PIN attempts                    fail, forcing you "
+"to provide your full mnemonics once again. Easy, convenient and secure, so "
+"let's use it!"
 
 #: templates/wallet/partials/signup_3_pin.html:43
 msgid "Take me to my wallet and skip all this!"
-msgstr "Я хочу видеть свой кошелек и пропустить все это!"
+msgstr "Take me to my wallet and skip all this!"
 
 #: templates/wallet/partials/signup_3_pin.html:46
 msgid "PIN set, ready for step 3"
-msgstr "PIN-код установлен, все готово для шага 3"
+msgstr "PIN kész, jöhet a 3. lépés"
 
 #: templates/wallet/partials/signup_3_pin.html:47
 msgid "Setting PIN..."
-msgstr "Установка PIN-кода..."
+msgstr "PIN kód beállítása..."
 
 #: templates/wallet/partials/signup_3_pin.html:50
 msgid "Skip PIN setup and continue"
-msgstr "Пропустить настройку PIN-кода и продолжить"
+msgstr "Átugrom PIN-kód beállítását és folytatom"
 
 #: templates/wallet/partials/wallet_modal_no_electrum.html:4
 msgid ""
@@ -2673,28 +2651,29 @@ msgid ""
 "Do you want to continue sending the transaction without Electrum network "
 "verification?"
 msgstr ""
-"Do you want to continue sending the transaction without Electrum network "
-"verification?"
+"Szeretnéd folytatni a tranzakció küldését az Elektrum hálózat ellenőrzése/"
+"visszajelzése nélkül?"
 
 #: templates/wallet/partials/wallet_modal_trezor_word.html:4
 msgid ""
 "TREZOR requires manual passing of words from computer to the device. Please "
 "enter a word provided, or choose mnemonic word index requested by TREZOR:"
 msgstr ""
+"TREZOR requires manual passing of words from computer to the device. Please "
+"enter a word provided, or choose mnemonic word index requested by TREZOR:"
 
 #: templates/wallet/partials/wallet_modal_trezor_word.html:8
-#, fuzzy
 msgid "Enter word:"
-msgstr "Введите пароль"
+msgstr "Enter word:"
 
 #: templates/wallet/partials/wallet_modal_trezor_word.html:15
 msgid "Or click word number to automatically send to TREZOR:"
-msgstr ""
+msgstr "Or click word number to automatically send to TREZOR:"
 
 #: templates/wallet/partials/wallet_receive.html:13
 #, fuzzy
 msgid "Account"
-msgstr "Добавить аккаунт"
+msgstr "Fiók hozzáadása"
 
 #: templates/wallet/partials/wallet_receive.html:50
 msgid "Bitcoin URI"
@@ -2702,11 +2681,11 @@ msgstr "Bitcoin URI"
 
 #: templates/wallet/partials/wallet_receive.html:56
 msgid "Show URI and address"
-msgstr "Показать URI и адрес"
+msgstr "Show URI and address"
 
 #: templates/wallet/partials/wallet_receive.html:74
 msgid "Permanent Payment URL"
-msgstr "Постоянный URL Оплаты"
+msgstr "Permanent Payment URL"
 
 #: templates/wallet/partials/wallet_receive.html:90
 msgid "Private key in WIF or BIP38 format"
@@ -2714,15 +2693,15 @@ msgstr "Private key in WIF or BIP38 format"
 
 #: templates/wallet/partials/wallet_receive.html:94
 msgid "Enter a private key to sweep here"
-msgstr "Введите приватный ключ, чтобы смести с него средства сюда"
+msgstr "Enter a private key to sweep here"
 
 #: templates/wallet/partials/wallet_receive.html:111
 msgid "Sweep"
-msgstr "Смести"
+msgstr "Sweep"
 
 #: templates/wallet/partials/wallet_receive.html:118
 msgid "Show previously generated addresses"
-msgstr "Показать ранее созданные адреса"
+msgstr "Show previously generated addresses"
 
 #: templates/wallet/partials/wallet_receive.html:121
 msgid "Show advanced options"
@@ -2730,7 +2709,7 @@ msgstr ""
 
 #: templates/wallet/partials/signuplogin/header_pay.html:1
 msgid "You're about to send "
-msgstr "Вы собираетесь отправить "
+msgstr "You're about to send "
 
 #: templates/wallet/partials/signuplogin/header_pay.html:18
 msgid "Click below to show a bitcoin: URI:"
@@ -2742,25 +2721,25 @@ msgstr "Use the URI below:"
 
 #: templates/wallet/partials/signuplogin/header_pay.html:31
 msgid "Show"
-msgstr "Показать"
+msgstr "Show"
 
 #: templates/wallet/partials/signuplogin/trezor.html:6
 #: templates/wallet/partials/signuplogin/base.html:6
 msgid "Haven't got an account yet?"
-msgstr "У вас еще нет аккаунта?"
+msgstr "Nincs még fiókod?"
 
 #: templates/wallet/partials/signuplogin/trezor.html:7
 #: templates/wallet/partials/signuplogin/base.html:7
 msgid "Create new Wallet"
-msgstr "Создать новый кошелёк"
+msgstr "Új tárca létrehozása"
 
 #: templates/wallet/partials/signuplogin/trezor.html:19
 msgid "Processing"
-msgstr "Обрабатывается"
+msgstr "Feldolgozás"
 
 #: templates/wallet/partials/signuplogin/trezor.html:20
 msgid "Error, try again"
-msgstr "Ошибка, попробуйте еще раз"
+msgstr "Hiba, próbáld újra"
 
 #: templates/wallet/partials/signuplogin/header_wallet.html:2
 msgid "Welcome to GreenAddress!"
@@ -2768,7 +2747,7 @@ msgstr "Welcome to GreenAddress!"
 
 #: templates/wallet/partials/signuplogin/header_wallet.html:2
 msgid "Please log in to use your Wallet"
-msgstr "Пожалуйста, войдите, чтобы использовать ваш кошелек"
+msgstr "Jelentkezz be, hogy kinyisd a tárcád"
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:4
 msgid "Please provide a password to encrypt your mnemonic"
@@ -2790,7 +2769,7 @@ msgstr ""
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:18
 msgid "Repeat password"
-msgstr "Repeat password"
+msgstr "Ismételd meg a jelszót"
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:25
 msgid "Please wait, encrypting..."
@@ -2798,32 +2777,32 @@ msgstr "Please wait, encrypting..."
 
 #: templates/wallet/partials/signuplogin/modal_encryption_password.html:34
 msgid "Encrypt"
-msgstr "Encrypt"
+msgstr "Titkosítás"
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:4
 msgid "Please provide a password to decrypt your mnemonic"
-msgstr "Please provide a password to decrypt your mnemonic"
+msgstr "Kérlek adj meg egy jelszót a mnemonikus jelszavad visszafejtéséhez"
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:15
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:15
 msgid "Please wait, decrypting..."
-msgstr "Пожалуйста, подождите, дешифрирование..."
+msgstr "Please wait, decrypting..."
 
 #: templates/wallet/partials/signuplogin/modal_decryption_password.html:24
 msgid "Decrypt"
-msgstr "Decrypt"
+msgstr "Dekódolás"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:4
 msgid "Please provide the password received from sender."
-msgstr "Пожалуйста, укажите пароль, полученный от отправителя."
+msgstr "Please provide the password received from sender."
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:8
 msgid "Enter the password"
-msgstr "Введите пароль"
+msgstr "Add meg a jelszavad"
 
 #: templates/wallet/partials/signuplogin/redeem_password_modal.html:24
 msgid "Redeem the payment"
-msgstr "Получить платеж"
+msgstr "Redeem the payment"
 
 #: templates/wallet/partials/signuplogin/header_redeem.html:6
 msgid ""
@@ -2851,12 +2830,11 @@ msgstr ""
 msgid ""
 "Otherwise, if you are a GreeenAddress.it user please login using form below"
 msgstr ""
-"В противном случае, если вы являетесь пользователем GreeenAddress.it, "
-"пожалуйста войдите, используя форму ниже"
+"Otherwise, if you are a GreeenAddress.it user please login using form below"
 
 #: templates/wallet/partials/signuplogin/base.html:12
 msgid "Log in for full Wallet access"
-msgstr "Войти для полного доступа Wallet"
+msgstr "Log in for full Wallet access"
 
 #: templates/wallet/partials/signuplogin/base.html:15
 msgid "PIN Number"
@@ -2873,15 +2851,15 @@ msgstr "Enter your Mnemonic passphrase"
 
 #: templates/wallet/partials/signuplogin/base.html:53
 msgid "Invalid mnemonic"
-msgstr "Недопустимая мнемоника"
+msgstr "Érvénytelen mnemonikus jelszó"
 
 #: templates/wallet/partials/signuplogin/base.html:58
 msgid "Show mnemonics"
-msgstr "Show mnemonics"
+msgstr "Mnemonikus jelszó megtekintése"
 
 #: templates/wallet/partials/signuplogin/base.html:66
 msgid "Log in to Watch-Only mode"
-msgstr "Войти в режиме Только-Наблюдать"
+msgstr "Log in to Watch-Only mode"
 
 #: templates/wallet/partials/signuplogin/base.html:78
 msgid "Log in via hardware wallet"
@@ -2901,89 +2879,35 @@ msgstr "Show other logins"
 
 #: templates/base/base.html:4
 msgid "Welcome!"
-msgstr "Добро пожаловать!"
+msgstr "Üdvözlünk!"
 
 #: templates/base/base.html:6
 msgid "The safer Bitcoin wallet that puts you in control."
-msgstr "Безопасный Bitcoin кошелек, который ставит вас в управлении."
+msgstr ""
+"A biztonságosabb Bitcoin pénztárca, amivel kézben tarthatod az irányítást."
 
 #: templates/base/base.html:100
 msgid "Toggle navigation"
-msgstr "Переключить навигацию"
+msgstr "Navigáció kapcsoló"
 
 #: templates/base/base.html:109
 msgid "Blog"
-msgstr "Блог"
+msgstr "Blog"
 
 #: templates/base/base.html:112
 msgid "Login"
-msgstr "Логин"
+msgstr "Bejelentkezés"
 
 #: templates/tests/jinja.html:20
 msgid "phone number"
-msgstr "телефоный номер"
+msgstr "telefonszám"
 
 #: templates/tests/jinja.html:21
 msgid "phone number: %(abc)s"
-msgstr "телефоный номер : %(abc)s"
+msgstr "telefonszám: %(abc)s"
 
 #: templates/tests/jinja.html:22
 msgid "singular %(num)d"
 msgid_plural "plural %(num)d"
-msgstr[0] "единственном% (число) г"
-msgstr[1] "единственном% (число) г"
-msgstr[2] "plural %(num)d"
-
-#~ msgid "alias of :class:`%s`"
-#~ msgstr "псевдоним для класса: «%s»"
-
-#~ msgid "%s() (built-in function)"
-#~ msgstr "%s() (встроенная функция)"
-
-#~ msgid "%s() (in module %s)"
-#~ msgstr "%s() (в модуле %s)"
-
-#~ msgid "%s (built-in variable)"
-#~ msgstr "%s (встроенная переменная)"
-
-#~ msgid "%s (in module %s)"
-#~ msgstr "%s (в модуле %s)"
-
-#~ msgid "%s (built-in class)"
-#~ msgstr "%s (встроенный класс)"
-
-#~ msgid "%s (class in %s)"
-#~ msgstr "%s (класс в %s)"
-
-#~ msgid "%s() (%s.%s method)"
-#~ msgstr "%s() (%s.%s метод)"
-
-#~ msgid "%s() (%s method)"
-#~ msgstr "%s() (%s метод)"
-
-#~ msgid "%s() (%s.%s static method)"
-#~ msgstr "%s() (%s.%s статический метод)"
-
-#~ msgid "%s() (%s static method)"
-#~ msgstr "%s() (%s статический метод)"
-
-#~ msgid "%s() (%s.%s class method)"
-#~ msgstr "%s() (%s.%s метод класса)"
-
-#~ msgid "%s() (%s class method)"
-#~ msgstr "%s() (метод класса %s)"
-
-#~ msgid "%s (%s.%s attribute)"
-#~ msgstr "%s (%s.%s атрибут)"
-
-#~ msgid "%s (%s attribute)"
-#~ msgstr "%s (%s атрибут)"
-
-#~ msgid "%s (module)"
-#~ msgstr "%s (модуль)"
-
-#~ msgid "Deprecated"
-#~ msgstr "Устарело"
-
-#~ msgid " (deprecated)"
-#~ msgstr " (устарело)"
+msgstr[0] "singular %(num)d"
+msgstr[1] "többes számú %(num)d"

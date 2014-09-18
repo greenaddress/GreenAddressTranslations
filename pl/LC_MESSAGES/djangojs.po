@@ -1,21 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: greenaddress-wallet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09 12:03+0000\n"
-"PO-Revision-Date: 2014-03-18 00:31+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-09-11 12:14+0000\n"
+"PO-Revision-Date: 2014-08-20 10:15-0400\n"
+"Last-Translator: GreenAddress <info@greenaddress.it>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
 
 #: static/wallet/signer.js.c:1233
 msgid "No balance to spend"
@@ -27,10 +25,33 @@ msgstr ""
 "Błąd podczas odszyfrowywania portfela. Proszę sprawdź czy Twoje hasło jest "
 "prawidłowe."
 
-#: static/js/signup.min.js.c:146 static/js/greenwallet/apps/signup.js.c:146
-#: static/js/greenwallet/settings/controllers.js.c:731
+#: static/js/signup.min.js.c:104 static/js/greenwallet/services.js.c:2259
+#: static/js/greenwallet/signuplogin/controllers.js.c:300
+#: static/js/greenwallet/apps/signup.js.c:104
+msgid "Invalid PIN"
+msgstr "Invalid PIN"
+
+#: static/js/signup.min.js.c:106 static/js/greenwallet/services.js.c:2261
+#: static/js/greenwallet/services.js.c:2271
+#: static/js/greenwallet/signuplogin/controllers.js.c:302
+#: static/js/greenwallet/apps/signup.js.c:106
+msgid "Dongle is not set up"
+msgstr "Dongle is not set up"
+
+#: static/js/signup.min.js.c:108 static/js/greenwallet/services.js.c:2263
+#: static/js/greenwallet/signuplogin/controllers.js.c:304
+#: static/js/greenwallet/apps/signup.js.c:108
+msgid "Dongle is locked - reconnect the dongle and retry"
+msgstr "Dongle is locked - reconnect the dongle and retry"
+
+#: static/js/signup.min.js.c:252 static/js/greenwallet/apps/signup.js.c:252
+#: static/js/greenwallet/settings/controllers.js.c:1019
 msgid "Custom login enabled"
 msgstr "Własny login włączony"
+
+#: static/js/signup.min.js.c:337 static/js/greenwallet/apps/signup.js.c:337
+msgid "Mnemonic not available when using BTChip seed"
+msgstr ""
 
 #: static/js/greenaddress.js.c:11 static/js/greenaddress.min.js.c:36
 msgid ""
@@ -44,370 +65,487 @@ msgstr ""
 msgid "More information"
 msgstr "Więcej informacji"
 
-#: static/js/nfc.min.js.c:56 static/js/greenwallet/signup/nfc.js.c:56
-msgid "Failed removing NFC listener"
-msgstr "Usuwanie detektora NFC nie powiodło się"
+#: static/js/instant.js.c:54
+msgid "Invalid WIF key"
+msgstr "Invalid WIF key"
 
-#: static/js/greenwallet/hdwallet.js.c:68
-#: static/js/greenwallet/hdwallet.js.c:95
-msgid "You can't sent funds in watch only mode"
-msgstr "Nie możesz wysyłać środków w trybie tylko do odczytu"
+#: static/js/greenwallet/services.js.c:211
+msgid "Logged in!"
+msgstr "Logged in!"
 
-#: static/js/greenwallet/services.js.c:111
-#: static/js/greenwallet/services.js.c:120
+#: static/js/greenwallet/services.js.c:258
+#: static/js/greenwallet/services.js.c:1186
+#: static/js/greenwallet/services.js.c:1264
+#: static/js/greenwallet/services.js.c:1292
 msgid "Login failed"
 msgstr "Logowanie nie powiodło się"
 
-#: static/js/greenwallet/services.js.c:250
-msgid "Sent back from "
-msgstr "Odesłano z "
+#: static/js/greenwallet/services.js.c:359
+msgid "Voucher"
+msgstr "Voucher"
 
-#: static/js/greenwallet/services.js.c:252
-msgid "Received from "
-msgstr "Otrzymano od "
+#: static/js/greenwallet/services.js.c:437
+msgid "Back from "
+msgstr "Back from "
 
-#: static/js/greenwallet/services.js.c:274
-msgid "Sent to "
-msgstr "Wysłano do "
+#: static/js/greenwallet/services.js.c:439
+msgid "From "
+msgstr "From "
 
-#: static/js/greenwallet/services.js.c:300
+#: static/js/greenwallet/services.js.c:464
+msgid "To "
+msgstr "To "
+
+#: static/js/greenwallet/services.js.c:500
 msgid "Sent back to "
 msgstr "Wysłano z powrotem do"
 
-#: static/js/greenwallet/services.js.c:303
+#: static/js/greenwallet/services.js.c:503
 msgid "Re-deposited"
 msgstr "Ponownie zdeponowano"
 
-#: static/js/greenwallet/services.js.c:330
+#: static/js/greenwallet/services.js.c:532
 msgid "Time,Description,satoshis,"
 msgstr "Czas,Opis,satoshi,"
 
-#: static/js/greenwallet/services.js.c:365
+#: static/js/greenwallet/services.js.c:681
 msgid "Bitcoin transaction sent!"
 msgstr "Transakcja Bitcoin wysłana!"
 
-#: static/js/greenwallet/services.js.c:369
+#: static/js/greenwallet/services.js.c:685
 msgid "Transaction failed: "
 msgstr "Transakcja nie powiodła się: "
 
-#: static/js/greenwallet/services.js.c:393
+#: static/js/greenwallet/services.js.c:712
 msgid "Phone"
 msgstr "Telefon"
 
-#: static/js/greenwallet/services.js.c:515
+#: static/js/greenwallet/services.js.c:855
+msgid "Internal error"
+msgstr "Internal error"
+
+#: static/js/greenwallet/services.js.c:868
 msgid "Failed retrieving password."
 msgstr "Odzyskiwanie hasła nie powiodło się"
 
-#: static/js/greenwallet/services.js.c:655
-msgid "An error has occured which forced us to log you out."
+#: static/js/greenwallet/services.js.c:972
+#, c-format
+msgid "Request timed out (%s)"
 msgstr ""
 
-#: static/js/greenwallet/services.js.c:1104
+#: static/js/greenwallet/services.js.c:980
+msgid "Problem with Internet connection detected. Please try again."
+msgstr "Problem with Internet connection detected. Please try again."
+
+#: static/js/greenwallet/services.js.c:1046
+msgid "An error has occured which forced us to log you out."
+msgstr "An error has occured which forced us to log you out."
+
+#: static/js/greenwallet/services.js.c:1782
 msgid "Error reading address book: "
 msgstr "Błąd podczas wczytywania książki adresowej: "
 
-#: static/js/greenwallet/services.js.c:1136
+#: static/js/greenwallet/services.js.c:1798
+msgid "Copied"
+msgstr "Copied"
+
+#: static/js/greenwallet/services.js.c:1800
+msgid "Error copying"
+msgstr "Error copying"
+
+#: static/js/greenwallet/services.js.c:1857
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelled"
 
-#: static/js/greenwallet/services.js.c:1138
-#, fuzzy
+#: static/js/greenwallet/services.js.c:1859
 msgid "Invalid format"
-msgstr "Nieprawidłowa kwota"
+msgstr "Invalid format"
 
-#: static/js/greenwallet/services.js.c:1151
+#: static/js/greenwallet/services.js.c:1870
 msgid ""
 "Could not process the QR code, the image may be blurry. Please try again."
 msgstr ""
+"Could not process the QR code, the image may be blurry. Please try again."
 
-#: static/js/greenwallet/services.js.c:1198
+#: static/js/greenwallet/services.js.c:1917
 msgid "Access denied. Retry to scan from file."
-msgstr ""
+msgstr "Access denied. Retry to scan from file."
 
-#: static/js/greenwallet/services.js.c:1204
-#, fuzzy
+#: static/js/greenwallet/services.js.c:1923
 msgid "You must provide only one image file."
-msgstr "Musisz podać hasło szyfrowania."
+msgstr "You must provide only one image file."
 
-#: static/js/greenwallet/controllers.js.c:11
+#: static/js/greenwallet/services.js.c:2057
+#, fuzzy
+msgid "TREZOR initialisation failed"
+msgstr "Transakcja nie powiodła się: "
+
+#: static/js/greenwallet/services.js.c:2233
+#, fuzzy
+msgid "BTChip communication failed"
+msgstr "Sprawdzanie poprawności sumy kontrolnej nie powiodło się!"
+
+#: static/js/greenwallet/services.js.c:2274
+msgid "Dongle is locked - remove the dongle and retry"
+msgstr "Dongle is locked - remove the dongle and retry"
+
+#: static/js/greenwallet/services.js.c:2393
+#, c-format
+msgid "Old BTChip firmware version detected. Please upgrade to at least %s."
+msgstr "Old BTChip firmware version detected. Please upgrade to at least %s."
+
+#: static/js/greenwallet/services.js.c:2597
+#: static/js/greenwallet/signuplogin/controllers.js.c:61
+#: static/js/greenwallet/transactions/controllers.js.c:130
+msgid "Please provide a password."
+msgstr "Please provide a password."
+
+#: static/js/greenwallet/services.js.c:2601
+#: static/js/greenwallet/transactions/controllers.js.c:134
+msgid "Passwords do not match."
+msgstr "Passwords do not match."
+
+#: static/js/greenwallet/controllers.js.c:14
 msgid "You need to log out to update cache."
 msgstr "Musisz się wylogować aby zaktualizować cache."
 
-#: static/js/greenwallet/controllers.js.c:96
-msgid "Electrum setup failed"
-msgstr ""
+#: static/js/greenwallet/controllers.js.c:107
+#: static/js/greenwallet/send/controllers.js.c:667
+msgid "Failed processing payment protocol request:"
+msgstr "Failed processing payment protocol request:"
 
-#: static/js/greenwallet/controllers.js.c:230
-#: static/js/greenwallet/controllers.js.c:249
+#: static/js/greenwallet/controllers.js.c:148
+msgid "Electrum setup failed"
+msgstr "Electrum setup failed"
+
+#: static/js/greenwallet/controllers.js.c:170
+msgid "Bitcoin transaction received!"
+msgstr "Bitcoin transaction received!"
+
+#: static/js/greenwallet/controllers.js.c:231
+msgid "Please provide this word"
+msgstr "Please provide this word"
+
+#: static/js/greenwallet/controllers.js.c:234
+msgid "Incorrect word"
+msgstr "Incorrect word"
+
+#: static/js/greenwallet/controllers.js.c:307
+#: static/js/greenwallet/controllers.js.c:329
 msgid "Re-depositing successful!"
 msgstr "Ponowne zdeponowanie zakończone sukcesem!"
 
-#: static/js/greenwallet/signuplogin/controllers.js.c:122
+#: static/js/greenwallet/signuplogin/controllers.js.c:223
 msgid "Unknown error"
-msgstr ""
+msgstr "Unknown error"
 
-#: static/js/greenwallet/signuplogin/controllers.js.c:214
+#: static/js/greenwallet/signuplogin/controllers.js.c:374
 msgid "Wallet decryption failed"
 msgstr "Odszyfrowanie portfela nie powiodło się"
 
-#: static/js/greenwallet/send/controllers.js.c:21
+#: static/js/greenwallet/signuplogin/controllers.js.c:383
+#, c-format
+msgid "%s attempts left."
+msgstr ""
+
+#: static/js/greenwallet/signuplogin/controllers.js.c:385
+msgid "0 attempts left - PIN removed."
+msgstr ""
+
+#: static/js/greenwallet/send/controllers.js.c:24
 msgid "Checksum validation failed!"
 msgstr "Sprawdzanie poprawności sumy kontrolnej nie powiodło się!"
 
-#: static/js/greenwallet/send/controllers.js.c:26
+#: static/js/greenwallet/send/controllers.js.c:32
 msgid "Version "
 msgstr "Wersja "
 
-#: static/js/greenwallet/send/controllers.js.c:32
-msgid "Invalid pubkey hash script length"
-msgstr "Skrypt pkhash ma nieprawidłową długość"
-
-#: static/js/greenwallet/send/controllers.js.c:33
-msgid "OP_DUP missing"
-msgstr "brak OP_DUP"
-
-#: static/js/greenwallet/send/controllers.js.c:34
-msgid "OP_HASH160 missing"
-msgstr "brak OP_HASH160"
-
-#: static/js/greenwallet/send/controllers.js.c:35
-msgid "Invalid pubkey hash"
-msgstr "Nieprawidłowy pkhash"
-
-#: static/js/greenwallet/send/controllers.js.c:36
-msgid "OP_EQUALVERIFY missing"
-msgstr "brak OP_EQUALVERIFY"
-
 #: static/js/greenwallet/send/controllers.js.c:37
-msgid "OP_CHECKSIG missing"
-msgstr "brak OP_CHECKSIG"
-
-#: static/js/greenwallet/send/controllers.js.c:39
-msgid "Invalid out P2SH script length"
-msgstr "Nieprawidłowa długość skryptu wyjściowego P2SH"
-
-#: static/js/greenwallet/send/controllers.js.c:40
-msgid "out OP_HASH160 missing"
-msgstr "brak wyjściowego OP_HASH160"
-
-#: static/js/greenwallet/send/controllers.js.c:41
-msgid "Invalid out P2SH hash"
-msgstr "Nieprawidłowy hash wyjściowego P2SH"
-
-#: static/js/greenwallet/send/controllers.js.c:42
-msgid "out OP_EQUAL missing"
-msgstr "brak wyjściowego OP_EQUAL"
-
-#: static/js/greenwallet/send/controllers.js.c:58
-msgid "Missing input"
-msgstr "Brakujące wejście"
-
-#: static/js/greenwallet/send/controllers.js.c:63
-msgid "Inputs value is not larger than zero"
-msgstr "Wartość wejść nie jest większa niż zero"
-
-#: static/js/greenwallet/send/controllers.js.c:67
 msgid " is not a valid number of outputs"
 msgstr " to nieprawidłowa liczba wyjść"
 
-#: static/js/greenwallet/send/controllers.js.c:85
-msgid "Invalid output value"
-msgstr "Nieprawidłowa wartość wyjściowa"
-
-#: static/js/greenwallet/send/controllers.js.c:92
-msgid "Fee is too large (%1, expected at most %2)"
-msgstr "Opłata jest zbyt duża (%1, oczekiwana najwyżej %2)"
-
-#: static/js/greenwallet/send/controllers.js.c:96
-msgid "Fee is too small (%1, expected at lest %2)"
-msgstr "Opłata jest zbyt niska (%1, oczekiwana co najmniej %2)"
-
-#: static/js/greenwallet/send/controllers.js.c:123
-msgid "Invalid change P2SH script length"
-msgstr "Nieprawidłowa długość skryptu P2SH reszty"
-
-#: static/js/greenwallet/send/controllers.js.c:124
-msgid "change OP_HASH160 missing"
-msgstr "brakuje OP_HASH160 reszty"
+#: static/js/greenwallet/send/controllers.js.c:122
+msgid "Missing change P2SH script"
+msgstr "Missing change P2SH script"
 
 #: static/js/greenwallet/send/controllers.js.c:125
-msgid "Invalid change P2SH hash"
-msgstr "Nieprawidłowy hash P2SH reszty"
+msgid "change OP_HASH160 missing"
+msgstr "brakuje OP_HASH160 reszty"
 
 #: static/js/greenwallet/send/controllers.js.c:126
 msgid "change OP_EQUAL missing"
 msgstr "brakuje OP_EQUAL reszty"
 
-#: static/js/greenwallet/send/controllers.js.c:174
+#: static/js/greenwallet/send/controllers.js.c:143
+msgid "Invalid pubkey hash script length"
+msgstr "Skrypt pkhash ma nieprawidłową długość"
+
+#: static/js/greenwallet/send/controllers.js.c:144
+msgid "OP_DUP missing"
+msgstr "brak OP_DUP"
+
+#: static/js/greenwallet/send/controllers.js.c:145
+msgid "OP_HASH160 missing"
+msgstr "brak OP_HASH160"
+
+#: static/js/greenwallet/send/controllers.js.c:146
+msgid "Invalid pubkey hash"
+msgstr "Nieprawidłowy pkhash"
+
+#: static/js/greenwallet/send/controllers.js.c:147
+msgid "OP_EQUALVERIFY missing"
+msgstr "brak OP_EQUALVERIFY"
+
+#: static/js/greenwallet/send/controllers.js.c:148
+msgid "OP_CHECKSIG missing"
+msgstr "brak OP_CHECKSIG"
+
+#: static/js/greenwallet/send/controllers.js.c:150
+msgid "Invalid out P2SH script length"
+msgstr "Nieprawidłowa długość skryptu wyjściowego P2SH"
+
+#: static/js/greenwallet/send/controllers.js.c:151
+msgid "out OP_HASH160 missing"
+msgstr "brak wyjściowego OP_HASH160"
+
+#: static/js/greenwallet/send/controllers.js.c:152
+msgid "Invalid out P2SH hash"
+msgstr "Nieprawidłowy hash wyjściowego P2SH"
+
+#: static/js/greenwallet/send/controllers.js.c:153
+msgid "out OP_EQUAL missing"
+msgstr "brak wyjściowego OP_EQUAL"
+
+#: static/js/greenwallet/send/controllers.js.c:160
+#: static/js/greenwallet/send/controllers.js.c:211
+msgid "Invalid output value"
+msgstr "Nieprawidłowa wartość wyjściowa"
+
+#: static/js/greenwallet/send/controllers.js.c:189
+msgid "Missing input"
+msgstr "Brakujące wejście"
+
+#: static/js/greenwallet/send/controllers.js.c:194
+msgid "Inputs value is not larger than zero"
+msgstr "Wartość wejść nie jest większa niż zero"
+
+#: static/js/greenwallet/send/controllers.js.c:218
+msgid "Fee is too large (%1, expected at most %2)"
+msgstr "Opłata jest zbyt duża (%1, oczekiwana najwyżej %2)"
+
+#: static/js/greenwallet/send/controllers.js.c:222
+msgid "Fee is too small (%1, expected at least %2)"
+msgstr "Fee is too small (%1, expected at least %2)"
+
+#: static/js/greenwallet/send/controllers.js.c:249
+#: static/js/greenwallet/send/controllers.js.c:262
+msgid "No Electrum servers reachable"
+msgstr "No Electrum servers reachable"
+
+#: static/js/greenwallet/send/controllers.js.c:314
 msgid "Facebook login failed"
 msgstr "Logowanie do Facebooka nie powiodło się"
 
-#: static/js/greenwallet/send/controllers.js.c:196
+#: static/js/greenwallet/send/controllers.js.c:337
 msgid "Transaction reversed!"
 msgstr "Transakcja odwrócona!"
 
-#: static/js/greenwallet/send/controllers.js.c:212
+#: static/js/greenwallet/send/controllers.js.c:353
+#: static/js/greenwallet/settings/controllers.js.c:404
+#: static/js/greenwallet/settings/controllers.js.c:644
 msgid "Email sent"
 msgstr "Email wysłany"
 
-#: static/js/greenwallet/send/controllers.js.c:216
+#: static/js/greenwallet/send/controllers.js.c:357
 msgid "Failed sending email"
 msgstr "Wysłanie emaila nie powiodło się"
 
-#: static/js/greenwallet/send/controllers.js.c:226
+#: static/js/greenwallet/send/controllers.js.c:381
 msgid "Reddit message sent"
 msgstr "Wiadomość Reddit wysłana"
 
-#: static/js/greenwallet/send/controllers.js.c:230
+#: static/js/greenwallet/send/controllers.js.c:386
 msgid "Failed sending Reddit message"
 msgstr "Wysłanie wiadomości Reddit nie powiodło się"
 
-#: static/js/greenwallet/send/controllers.js.c:261
-msgid "You must provide encryption passphrase."
-msgstr "Musisz podać hasło szyfrowania."
+#: static/js/greenwallet/send/controllers.js.c:425
+msgid "Transaction amount must be at least 0.1543mBTC to allow redemption fee"
+msgstr "Transaction amount must be at least 0.1543mBTC to allow redemption fee"
 
-#: static/js/greenwallet/send/controllers.js.c:364
-#: static/js/greenwallet/send/controllers.js.c:390
+#: static/js/greenwallet/send/controllers.js.c:460
+#: static/js/greenwallet/send/controllers.js.c:511
 msgid "Transaction verification failed: "
 msgstr "Weryfikacja transakcji nie powiodła się: "
 
-#: static/js/greenwallet/send/controllers.js.c:414
+#: static/js/greenwallet/send/controllers.js.c:541
+msgid ""
+"Sorry, vouchers and social transactions are not supported with hardware "
+"wallets."
+msgstr ""
+"Sorry, vouchers and social transactions are not supported with hardware "
+"wallets."
+
+#: static/js/greenwallet/send/controllers.js.c:584
 msgid "Invalid amount"
 msgstr "Nieprawidłowa kwota"
 
-#: static/js/greenwallet/send/controllers.js.c:418
+#: static/js/greenwallet/send/controllers.js.c:593
 msgid "Please provide a recipient"
 msgstr "Proszę wprowadzić odbiorcę"
 
-#: static/js/greenwallet/info/controllers.js.c:68
+#: static/js/greenwallet/info/controllers.js.c:77
 msgid "Not enough data to draw the graph"
-msgstr ""
+msgstr "Not enough data to draw the graph"
 
-#: static/js/greenwallet/info/controllers.js.c:93
+#: static/js/greenwallet/info/controllers.js.c:168
+#: static/js/greenwallet/receive/controllers.js.c:70
 msgid "Not a valid encrypted private key"
 msgstr "Zaszyfrowany klucz prywatny jest nieprawidłowy"
 
-#: static/js/greenwallet/info/controllers.js.c:94
-#: static/js/greenwallet/receive/controllers.js.c:28
-#: static/js/greenwallet/receive/controllers.js.c:35
-#: static/js/greenwallet/receive/controllers.js.c:46
+#: static/js/greenwallet/info/controllers.js.c:169
+#: static/js/greenwallet/receive/controllers.js.c:131
+#: static/js/greenwallet/receive/controllers.js.c:140
+#: static/js/greenwallet/receive/controllers.js.c:152
 msgid "Not a valid private key"
 msgstr "Klucz prywatny nie jest prawidłowy"
 
-#: static/js/greenwallet/info/controllers.js.c:95
+#: static/js/greenwallet/info/controllers.js.c:170
+#: static/js/greenwallet/receive/controllers.js.c:71
 msgid "Invalid passphrase"
 msgstr "Nieprawidłowe hasło"
 
-#: static/js/greenwallet/info/controllers.js.c:106
+#: static/js/greenwallet/info/controllers.js.c:181
 msgid "Funds redeemed"
 msgstr "Środki przyjęte"
 
-#: static/js/greenwallet/info/controllers.js.c:109
+#: static/js/greenwallet/info/controllers.js.c:184
 msgid "Already redeemed"
 msgstr "Środki już zostały wcześniej przyjęte"
 
-#: static/js/greenwallet/receive/controllers.js.c:63
+#: static/js/greenwallet/receive/controllers.js.c:49
 msgid "Funds swept"
 msgstr "Fundusze odebrane"
 
-#: static/js/greenwallet/receive/controllers.js.c:71
+#: static/js/greenwallet/receive/controllers.js.c:57
 msgid "Already swept or no funds found"
 msgstr "Już odebrano wcześniej lub brak funduszy"
 
-#: static/js/greenwallet/settings/controllers.js.c:285
+#: static/js/greenwallet/settings/controllers.js.c:321
 #, c-format
 msgid "(about %s days: 1 day ≈ 144 blocks)"
 msgstr "(około %s dni: 1 dzień ≈ 144 bloki)"
 
-#: static/js/greenwallet/settings/controllers.js.c:303
+#: static/js/greenwallet/settings/controllers.js.c:339
 msgid "nLockTime settings updated successfully"
 msgstr "Ustawienia nLockTime zaktualizowane pomyślnie"
 
-#: static/js/greenwallet/settings/controllers.js.c:323
+#: static/js/greenwallet/settings/controllers.js.c:388
 msgid "Already expired"
 msgstr "Już wygasło"
 
-#: static/js/greenwallet/settings/controllers.js.c:324
+#: static/js/greenwallet/settings/controllers.js.c:389
 #, c-format
 msgid "in about %s days"
 msgstr "w ciągu ok. %s dni"
 
-#: static/js/greenwallet/settings/controllers.js.c:352
+#: static/js/greenwallet/settings/controllers.js.c:440
 msgid "You need to log out for language changes to be applied."
 msgstr "Musisz się wylogować aby zmienić język."
 
-#: static/js/greenwallet/settings/controllers.js.c:360
-#, fuzzy
+#: static/js/greenwallet/settings/controllers.js.c:448
 msgid "Error changing language:"
 msgstr "Błąd podczas zapisywania obiektu: "
 
-#: static/js/greenwallet/settings/controllers.js.c:381
-#: static/js/greenwallet/settings/controllers.js.c:405
+#: static/js/greenwallet/settings/controllers.js.c:480
+#: static/js/greenwallet/settings/controllers.js.c:514
+#: static/js/greenwallet/settings/controllers.js.c:538
 msgid "{1} supports only the following currencies: {2}"
 msgstr "{1} obsługuje tylko następujące waluty: {2}"
 
-#: static/js/greenwallet/settings/controllers.js.c:530
+#: static/js/greenwallet/settings/controllers.js.c:588
+msgid "Sent handler registration request"
+msgstr "Sent handler registration request"
+
+#: static/js/greenwallet/settings/controllers.js.c:616
+msgid "Cannot remove an account with non-zero balance"
+msgstr "Cannot remove an account with non-zero balance"
+
+#: static/js/greenwallet/settings/controllers.js.c:637
+msgid "You can't change your email address while you have email 2FA enabled"
+msgstr "You can't change your email address while you have email 2FA enabled"
+
+#: static/js/greenwallet/settings/controllers.js.c:654
+msgid "Email confirmed"
+msgstr "Email confirmed"
+
+#: static/js/greenwallet/settings/controllers.js.c:768
 msgid "New item saved"
 msgstr "Nowy obiekt został zapisany"
 
-#: static/js/greenwallet/settings/controllers.js.c:537
+#: static/js/greenwallet/settings/controllers.js.c:774
 msgid "Error saving item: "
 msgstr "Błąd podczas zapisywania obiektu: "
 
-#: static/js/greenwallet/settings/controllers.js.c:576
+#: static/js/greenwallet/settings/controllers.js.c:864
 msgid "PIN removed"
 msgstr "Kod PIN usunięty"
 
-#: static/js/greenwallet/settings/controllers.js.c:609
+#: static/js/greenwallet/settings/controllers.js.c:897
 msgid "PIN changed"
 msgstr "Kod PIN zmieniony"
 
-#: static/js/greenwallet/settings/controllers.js.c:613
+#: static/js/greenwallet/settings/controllers.js.c:901
 msgid "PIN set"
 msgstr "Kod PIN ustawiony"
 
-#: static/js/greenwallet/settings/controllers.js.c:626
+#: static/js/greenwallet/settings/controllers.js.c:914
 msgid "All PINs removed"
 msgstr "Wszystkie kody PIN usunięte"
 
-#: static/js/greenwallet/settings/controllers.js.c:647
+#: static/js/greenwallet/settings/controllers.js.c:935
 msgid "Facebook integration disabled"
 msgstr "Integracja z Facebookiem wyłączona"
 
-#: static/js/greenwallet/settings/controllers.js.c:660
+#: static/js/greenwallet/settings/controllers.js.c:948
 msgid "Facebook integration enabled"
 msgstr "Integracja z Facebookiem włączona"
 
-#: static/js/greenwallet/settings/controllers.js.c:681
+#: static/js/greenwallet/settings/controllers.js.c:969
 msgid "Reddit integration disabled"
 msgstr "Integracja z Reddit wyłączona"
 
-#: static/js/greenwallet/settings/controllers.js.c:693
+#: static/js/greenwallet/settings/controllers.js.c:981
 msgid "Reddit integration enabled"
 msgstr "Integracja z Reddit włączona"
 
-#: static/js/greenwallet/settings/controllers.js.c:715
+#: static/js/greenwallet/settings/controllers.js.c:1003
 msgid "Custom login disabled"
 msgstr "Własny login wyłączony"
 
-#: static/js/greenwallet/settings/controllers.js.c:728
+#: static/js/greenwallet/settings/controllers.js.c:1016
 msgid "Custom login changed"
 msgstr "Własny login zmieniony"
 
-#: static/js/greenwallet/settings/controllers.js.c:748
-#: static/js/greenwallet/settings/controllers.js.c:781
-#: static/js/greenwallet/settings/controllers.js.c:789
+#: static/js/greenwallet/settings/controllers.js.c:1036
+#: static/js/greenwallet/settings/controllers.js.c:1069
+#: static/js/greenwallet/settings/controllers.js.c:1077
 msgid "Change"
 msgstr "Zmień"
 
-#: static/js/greenwallet/settings/controllers.js.c:748
-#: static/js/greenwallet/settings/controllers.js.c:781
-#: static/js/greenwallet/settings/controllers.js.c:789
+#: static/js/greenwallet/settings/controllers.js.c:1036
+#: static/js/greenwallet/settings/controllers.js.c:1069
+#: static/js/greenwallet/settings/controllers.js.c:1077
 msgid "Save"
 msgstr "Zapisz"
 
-#~ msgid "Delete"
-#~ msgstr "Usuń"
+#: static/js/greenwallet/settings/controllers.js.c:1144
+msgid "Limits updated successfully"
+msgstr "Limits updated successfully"
 
-#~ msgid "Rename"
-#~ msgstr "Zmień nazwę"
+#: static/js/greenwallet/settings/controllers.js.c:1223
+#, fuzzy
+msgid "Renamed successfully"
+msgstr "Limits updated successfully"
+
+#~ msgid "PIN correct"
+#~ msgstr "PIN correct"
